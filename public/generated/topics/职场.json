@@ -12,7 +12,7 @@
     "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
     "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
     "language": "bilingual",
-    "published_at": "2026-03-06T02:57:59.320Z",
+    "published_at": "2026-03-06T15:11:26.208Z",
     "content_type": "directory",
     "topics": [
       "学习困难",
@@ -31,7 +31,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T02:57:59.320Z",
+    "ingested_at": "2026-03-06T15:11:26.208Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -53,7 +53,7 @@
     "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
     "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
     "language": "bilingual",
-    "published_at": "2026-03-06T02:57:58.217Z",
+    "published_at": "2026-03-06T15:11:25.168Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -74,7 +74,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T02:57:58.217Z",
+    "ingested_at": "2026-03-06T15:11:25.168Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -96,7 +96,7 @@
     "summary_zh": "ADHD 教育、家庭支持、学校与职场资源。适合通过 CHADD 进一步进入该主题的权威信息。",
     "excerpt": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
     "language": "bilingual",
-    "published_at": "2026-03-06T02:57:57.736Z",
+    "published_at": "2026-03-06T15:11:24.266Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -117,7 +117,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T02:57:57.737Z",
+    "ingested_at": "2026-03-06T15:11:24.266Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -139,7 +139,7 @@
     "summary_zh": "ADHD 教育、倡导、学校与职场工具。适合通过 CADDAC 进一步进入该主题的权威信息。",
     "excerpt": "CADDAC: Canadian ADHD Awareness, Education, Advocacy",
     "language": "bilingual",
-    "published_at": "2026-03-06T02:57:57.657Z",
+    "published_at": "2026-03-06T15:11:24.119Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -158,7 +158,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T02:57:57.657Z",
+    "ingested_at": "2026-03-06T15:11:24.119Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -200,7 +200,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T02:58:00.712Z",
+    "ingested_at": "2026-03-06T15:11:27.211Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -242,7 +242,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T02:58:00.713Z",
+    "ingested_at": "2026-03-06T15:11:27.212Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -284,7 +284,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T02:58:01.776Z",
+    "ingested_at": "2026-03-06T15:11:28.362Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -326,7 +326,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T02:58:01.777Z",
+    "ingested_at": "2026-03-06T15:11:28.362Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -364,53 +364,11 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：官方来源。",
-    "ingested_at": "2026-03-06T02:57:55.783Z",
+    "ingested_at": "2026-03-06T15:11:20.692Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "workplace adjustments"
-      ]
-    }
-  },
-  {
-    "id": "feed-caddac-feed-0f746743e58a",
-    "source_name": "CADDAC",
-    "source_type": "official",
-    "source_region": "加拿大",
-    "source_url": "https://caddac.ca/death-by-a-thousand-tiny-cuts-by-dawn/",
-    "canonical_url": "https://caddac.ca/death-by-a-thousand-tiny-cuts-by-dawn/",
-    "title_original": "Death By a Thousand Tiny Cuts by Dawn",
-    "title_zh": "CADDAC：Death By a Thousand Tiny Cuts by Dawn",
-    "summary_original": "Shaming has been the name of the game for kids with ADHD for a long time. I expect it became a problem at about the time mankind stopped living in the world and started trying to control it instead. There was no need for children to behave like little adults until we started making them [&#8230;]",
-    "summary_zh": "CADDAC 最新条目：Shaming has been the name of the game for kids with ADHD for a long time. I expect it bec…",
-    "excerpt": "Shaming has been the name of the game for kids with ADHD for a long time. I expect it became a problem at about the time mankind stopped living in the world and started trying to control it instead. There was no need for children to behave like little adults until we started mak…",
-    "language": "en",
-    "published_at": "2025-11-14T14:30:28.000Z",
-    "content_type": "news",
-    "topics": [
-      "ADHD",
-      "教育",
-      "职场",
-      "家庭支持",
-      "神经多样性"
-    ],
-    "audiences": [
-      "family",
-      "educator",
-      "employer",
-      "self-advocate"
-    ],
-    "conditions": [
-      "adhd"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T02:58:01.777Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "rss-harvest",
-        "caddac-feed"
       ]
     }
   },
@@ -447,7 +405,49 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T02:58:01.777Z",
+    "ingested_at": "2026-03-06T15:11:28.362Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "caddac-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-caddac-feed-0f746743e58a",
+    "source_name": "CADDAC",
+    "source_type": "official",
+    "source_region": "加拿大",
+    "source_url": "https://caddac.ca/death-by-a-thousand-tiny-cuts-by-dawn/",
+    "canonical_url": "https://caddac.ca/death-by-a-thousand-tiny-cuts-by-dawn/",
+    "title_original": "Death By a Thousand Tiny Cuts by Dawn",
+    "title_zh": "CADDAC：Death By a Thousand Tiny Cuts by Dawn",
+    "summary_original": "Shaming has been the name of the game for kids with ADHD for a long time. I expect it became a problem at about the time mankind stopped living in the world and started trying to control it instead. There was no need for children to behave like little adults until we started making them [&#8230;]",
+    "summary_zh": "CADDAC 最新条目：Shaming has been the name of the game for kids with ADHD for a long time. I expect it bec…",
+    "excerpt": "Shaming has been the name of the game for kids with ADHD for a long time. I expect it became a problem at about the time mankind stopped living in the world and started trying to control it instead. There was no need for children to behave like little adults until we started mak…",
+    "language": "en",
+    "published_at": "2025-11-14T14:30:28.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "职场",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "employer",
+      "self-advocate"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T15:11:28.362Z",
     "metadata": {
       "credibility": "high",
       "tags": [

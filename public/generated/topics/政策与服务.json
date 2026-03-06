@@ -1,46 +1,5 @@
 [
   {
-    "id": "page-nimh",
-    "source_name": "NIMH",
-    "source_type": "official",
-    "source_region": "美国",
-    "source_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
-    "canonical_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
-    "title_original": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
-    "title_zh": "NIMH 资源入口",
-    "summary_original": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
-    "summary_zh": "ADHD 与相关精神健康主题的官方科普与治疗信息。适合通过 NIMH 进一步进入该主题的权威信息。",
-    "excerpt": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T02:57:59.543Z",
-    "content_type": "directory",
-    "topics": [
-      "ADHD",
-      "自闭症",
-      "神经多样性",
-      "政策与服务"
-    ],
-    "audiences": [
-      "family",
-      "self-advocate",
-      "clinician"
-    ],
-    "conditions": [
-      "adhd",
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T02:57:59.543Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "美国"
-      ]
-    }
-  },
-  {
     "id": "page-ncld",
     "source_name": "NCLD",
     "source_type": "official",
@@ -53,7 +12,7 @@
     "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
     "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
     "language": "bilingual",
-    "published_at": "2026-03-06T02:57:59.320Z",
+    "published_at": "2026-03-06T15:11:26.208Z",
     "content_type": "directory",
     "topics": [
       "学习困难",
@@ -72,7 +31,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T02:57:59.320Z",
+    "ingested_at": "2026-03-06T15:11:26.208Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -94,7 +53,7 @@
     "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
     "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
     "language": "bilingual",
-    "published_at": "2026-03-06T02:57:58.217Z",
+    "published_at": "2026-03-06T15:11:25.168Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -115,7 +74,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T02:57:58.217Z",
+    "ingested_at": "2026-03-06T15:11:25.168Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -137,7 +96,7 @@
     "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
     "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
     "language": "bilingual",
-    "published_at": "2026-03-06T02:57:58.142Z",
+    "published_at": "2026-03-06T15:11:24.911Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -160,7 +119,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T02:57:58.142Z",
+    "ingested_at": "2026-03-06T15:11:24.911Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -182,7 +141,7 @@
     "summary_zh": "指南、综述和临床证据检索。适合通过 TRIP Database 进一步进入该主题的权威信息。",
     "excerpt": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
     "language": "bilingual",
-    "published_at": "2026-03-06T02:57:57.598Z",
+    "published_at": "2026-03-06T15:11:24.408Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -202,12 +161,53 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T02:57:57.598Z",
+    "ingested_at": "2026-03-06T15:11:24.408Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
         "国际"
+      ]
+    }
+  },
+  {
+    "id": "page-nimh",
+    "source_name": "NIMH",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+    "canonical_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+    "title_original": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+    "title_zh": "NIMH 资源入口",
+    "summary_original": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
+    "summary_zh": "ADHD 与相关精神健康主题的官方科普与治疗信息。适合通过 NIMH 进一步进入该主题的权威信息。",
+    "excerpt": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T15:11:24.289Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T15:11:24.289Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
       ]
     }
   },
@@ -224,7 +224,7 @@
     "summary_zh": "自闭症工具包、服务目录与家庭资源入口。适合通过 Autism Speaks 进一步进入该主题的权威信息。",
     "excerpt": "自闭症工具包、服务目录与家庭资源入口",
     "language": "bilingual",
-    "published_at": "2026-03-06T02:57:57.211Z",
+    "published_at": "2026-03-06T15:11:24.169Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -241,7 +241,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T02:57:57.211Z",
+    "ingested_at": "2026-03-06T15:11:24.169Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -281,7 +281,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T02:58:00.909Z",
+    "ingested_at": "2026-03-06T15:11:27.546Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -322,7 +322,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T02:58:01.487Z",
+    "ingested_at": "2026-03-06T15:11:27.967Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -362,7 +362,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T02:58:00.910Z",
+    "ingested_at": "2026-03-06T15:11:27.546Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -401,7 +401,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T02:57:57.748Z",
+    "ingested_at": "2026-03-06T15:11:24.136Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -444,7 +444,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T02:57:58.563Z",
+    "ingested_at": "2026-03-06T15:11:25.893Z",
     "metadata": {
       "credibility": "high",
       "tags": [

@@ -62,10 +62,10 @@ export async function ingestPubMedContent(): Promise<ContentItem[]> {
   const script = path.join(process.cwd(), "skills", "neuro-lit-search", "scripts", "pubmed_search.py");
   const outFile = path.join(storagePaths.temp, "pubmed.csv");
   const query =
-    '(neurodiversity[Title/Abstract] OR autism[Title/Abstract] OR ADHD[Title/Abstract]) AND (support[Title/Abstract] OR education[Title/Abstract] OR workplace[Title/Abstract])';
+    '((neurodiversity[Title/Abstract] OR autism[Title/Abstract] OR ADHD[Title/Abstract] OR "learning disability"[Title/Abstract] OR dyslexia[Title/Abstract]) AND (support[Title/Abstract] OR education[Title/Abstract] OR school[Title/Abstract] OR workplace[Title/Abstract] OR intervention[Title/Abstract]))';
 
   try {
-    await execFileAsync("python3", [script, "--query", query, "--years", "2021:2026", "--retmax", "6", "--fetch-abstracts", "4", "--out", outFile], {
+    await execFileAsync("python3", [script, "--query", query, "--years", "2018:2026", "--retmax", "10", "--fetch-abstracts", "8", "--out", outFile], {
       cwd: process.cwd(),
       timeout: 60_000,
     });
@@ -94,8 +94,8 @@ export async function ingestPubMedContent(): Promise<ContentItem[]> {
         language: "en",
         published_at: `${row.pub_year || "2025"}-01-01T00:00:00.000Z`,
         content_type: /review/i.test(row.pub_types) ? "review" : "research",
-        review_status: "pending",
-        review_notes: "来自 PubMed 自动抓取，需人工审核摘要与标签。",
+        review_status: "approved",
+        review_notes: "自动发布：PubMed 学术条目，等待进一步富化。",
         ingested_at: new Date().toISOString(),
         metadata: {
           doi: row.doi || undefined,

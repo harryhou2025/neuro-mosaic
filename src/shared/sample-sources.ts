@@ -3,6 +3,8 @@ import type { ContentItem } from "./content";
 const now = new Date().toISOString();
 type SeedItem = Omit<ContentItem, "source_region"> & { source_region?: string };
 
+export const retiredSeedItemIds = ["incoming-neurodiversity-review", "seed-pubmed-review", "seed-sld-review"] as const;
+
 export const curatedSeedItems: SeedItem[] = [
   {
     id: "seed-cdc-autism",
@@ -214,33 +216,6 @@ export const curatedSeedItems: SeedItem[] = [
       tags: ["employment", "adults"],
     },
   },
-  {
-    id: "seed-pubmed-review",
-    source_name: "PubMed",
-    source_type: "academic",
-    source_url: "https://pubmed.ncbi.nlm.nih.gov/39123456/",
-    canonical_url: "https://pubmed.ncbi.nlm.nih.gov/39123456/",
-    title_original: "Neurodiversity-affirming practices in education: a scoping review",
-    title_zh: "教育中的神经多样性肯定式实践：范围综述",
-    summary_original:
-      "A research-oriented entry summarizing recent review evidence on inclusive teaching, accommodations, and student wellbeing.",
-    summary_zh: "面向研究与教育工作者的论文入口，聚焦包容教学、合理便利和学生福祉的近期综述证据。",
-    excerpt: "Recent review evidence on inclusive teaching, accommodations, and student wellbeing.",
-    language: "en",
-    published_at: "2025-03-10T00:00:00.000Z",
-    content_type: "review",
-    topics: ["神经多样性", "教育"],
-    audiences: ["researcher", "educator"],
-    conditions: ["neurodiversity"],
-    review_status: "approved",
-    review_notes: "研究入口示例。",
-    ingested_at: now,
-    metadata: {
-      credibility: "high",
-      pmid: "39123456",
-      tags: ["review", "education"],
-    },
-  },
 ];
 
 export const incomingSeedItems: SeedItem[] = [
@@ -268,32 +243,6 @@ export const incomingSeedItems: SeedItem[] = [
     metadata: {
       credibility: "high",
       tags: ["workplace adjustments"],
-    },
-  },
-  {
-    id: "incoming-neurodiversity-review",
-    source_name: "Journal of Autism and Developmental Disorders",
-    source_type: "academic",
-    source_url: "https://pubmed.ncbi.nlm.nih.gov/00000000/",
-    canonical_url: "https://pubmed.ncbi.nlm.nih.gov/00000000/",
-    title_original: "Neurodiversity-affirming support in higher education: a review",
-    title_zh: "高校中的神经多样性肯定式支持：综述",
-    summary_original:
-      "Review article candidate covering accommodation design, stigma reduction, and student-led support in higher education.",
-    summary_zh: "聚焦高校支持设计、污名减少和学生主导支持的综述型条目。",
-    excerpt: "Review article candidate covering accommodation design, stigma reduction, and student-led support in higher education.",
-    language: "en",
-    published_at: "2025-11-08T00:00:00.000Z",
-    content_type: "review",
-    topics: ["神经多样性", "教育"],
-    audiences: ["educator", "researcher"],
-    conditions: ["neurodiversity"],
-    review_status: "approved",
-    review_notes: "自动发布：研究综述入口。",
-    ingested_at: now,
-    metadata: {
-      credibility: "high",
-      tags: ["higher education", "review"],
     },
   },
   {

@@ -1,29 +1,29 @@
 {
-  "version": "v1772765882011",
-  "generated_at": "2026-03-06T02:58:02.011Z",
+  "version": "v1772809961130",
+  "generated_at": "2026-03-06T15:12:41.130Z",
   "counts": {
-    "total": 44,
+    "total": 45,
     "by_topic": {
-      "学习困难": 15,
-      "神经多样性": 44,
-      "adhd": 28,
-      "自闭症": 15,
-      "政策与服务": 11,
+      "学习困难": 16,
+      "神经多样性": 45,
       "职场": 11,
+      "政策与服务": 11,
       "共病与支持需求": 13,
-      "教育": 25,
-      "家庭支持": 29
+      "adhd": 29,
+      "教育": 26,
+      "家庭支持": 30,
+      "自闭症": 15
     },
     "by_source_type": {
       "official": 34,
       "media": 7,
-      "academic": 3
+      "academic": 4
     },
     "by_region": {
-      "国际": 5,
+      "国际": 6,
       "美国": 27,
-      "加拿大": 6,
       "英国": 5,
+      "加拿大": 6,
       "澳大利亚": 1
     }
   },
@@ -41,7 +41,7 @@
       "summary_zh": "阅读障碍与学习困难的国际资源。适合通过 Dyslexia International 进一步进入该主题的权威信息。",
       "excerpt": "阅读障碍与学习困难的国际资源",
       "language": "bilingual",
-      "published_at": "2026-03-06T02:58:00.272Z",
+      "published_at": "2026-03-06T15:11:26.722Z",
       "content_type": "directory",
       "topics": [
         "学习困难",
@@ -56,53 +56,12 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:58:00.272Z",
+      "ingested_at": "2026-03-06T15:11:26.722Z",
       "metadata": {
         "credibility": "high",
         "tags": [
           "page-harvest",
           "国际"
-        ]
-      }
-    },
-    {
-      "id": "page-nimh",
-      "source_name": "NIMH",
-      "source_type": "official",
-      "source_region": "美国",
-      "source_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
-      "canonical_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
-      "title_original": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
-      "title_zh": "NIMH 资源入口",
-      "summary_original": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
-      "summary_zh": "ADHD 与相关精神健康主题的官方科普与治疗信息。适合通过 NIMH 进一步进入该主题的权威信息。",
-      "excerpt": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
-      "language": "bilingual",
-      "published_at": "2026-03-06T02:57:59.543Z",
-      "content_type": "directory",
-      "topics": [
-        "ADHD",
-        "自闭症",
-        "神经多样性",
-        "政策与服务"
-      ],
-      "audiences": [
-        "family",
-        "self-advocate",
-        "clinician"
-      ],
-      "conditions": [
-        "adhd",
-        "autism"
-      ],
-      "review_status": "approved",
-      "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:59.543Z",
-      "metadata": {
-        "credibility": "high",
-        "tags": [
-          "page-harvest",
-          "美国"
         ]
       }
     },
@@ -119,7 +78,7 @@
       "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
       "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
       "language": "bilingual",
-      "published_at": "2026-03-06T02:57:59.320Z",
+      "published_at": "2026-03-06T15:11:26.208Z",
       "content_type": "directory",
       "topics": [
         "学习困难",
@@ -138,7 +97,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:59.320Z",
+      "ingested_at": "2026-03-06T15:11:26.208Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -160,7 +119,7 @@
       "summary_zh": "ADHD 大众内容、学校与家庭实操。适合通过 ADDitude 进一步进入该主题的权威信息。",
       "excerpt": "ADHD symptom tests, ADD medication & treatment, behavior & discipline, school & learning essentials, organization and more information for families and individuals living with attention…",
       "language": "bilingual",
-      "published_at": "2026-03-06T02:57:58.872Z",
+      "published_at": "2026-03-06T15:11:25.449Z",
       "content_type": "directory",
       "topics": [
         "ADHD",
@@ -180,12 +139,55 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:58.872Z",
+      "ingested_at": "2026-03-06T15:11:25.449Z",
       "metadata": {
         "credibility": "medium",
         "tags": [
           "page-harvest",
           "美国"
+        ]
+      }
+    },
+    {
+      "id": "page-nas",
+      "source_name": "National Autistic Society",
+      "source_type": "official",
+      "source_region": "英国",
+      "source_url": "https://www.autism.org.uk/",
+      "canonical_url": "https://www.autism.org.uk/",
+      "title_original": "National Autistic Society",
+      "title_zh": "National Autistic Society 资源入口",
+      "summary_original": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
+      "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
+      "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
+      "language": "bilingual",
+      "published_at": "2026-03-06T15:11:25.168Z",
+      "content_type": "directory",
+      "topics": [
+        "自闭症",
+        "神经多样性",
+        "职场",
+        "政策与服务",
+        "共病与支持需求"
+      ],
+      "audiences": [
+        "family",
+        "self-advocate",
+        "educator",
+        "employer",
+        "clinician"
+      ],
+      "conditions": [
+        "autism"
+      ],
+      "review_status": "approved",
+      "review_notes": "自动抓取：白名单页面来源。",
+      "ingested_at": "2026-03-06T15:11:25.168Z",
+      "metadata": {
+        "credibility": "high",
+        "tags": [
+          "page-harvest",
+          "英国"
         ]
       }
     },
@@ -202,7 +204,7 @@
       "summary_zh": "儿童神经发育与精神健康资源库。适合通过 Child Mind Institute 进一步进入该主题的权威信息。",
       "excerpt": "The Child Mind Institute is an independent nonprofit dedicated to transforming the lives of children struggling with mental health and learning disorders.",
       "language": "bilingual",
-      "published_at": "2026-03-06T02:57:58.392Z",
+      "published_at": "2026-03-06T15:11:25.055Z",
       "content_type": "directory",
       "topics": [
         "ADHD",
@@ -221,7 +223,52 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:58.393Z",
+      "ingested_at": "2026-03-06T15:11:25.055Z",
+      "metadata": {
+        "credibility": "high",
+        "tags": [
+          "page-harvest",
+          "美国"
+        ]
+      }
+    },
+    {
+      "id": "page-wrightslaw",
+      "source_name": "Wrightslaw",
+      "source_type": "official",
+      "source_region": "美国",
+      "source_url": "https://www.wrightslaw.com/",
+      "canonical_url": "https://www.wrightslaw.com/",
+      "title_original": "Wrightslaw",
+      "title_zh": "Wrightslaw 资源入口",
+      "summary_original": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
+      "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
+      "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
+      "language": "bilingual",
+      "published_at": "2026-03-06T15:11:24.911Z",
+      "content_type": "directory",
+      "topics": [
+        "ADHD",
+        "自闭症",
+        "学习困难",
+        "神经多样性",
+        "教育",
+        "家庭支持",
+        "政策与服务",
+        "共病与支持需求"
+      ],
+      "audiences": [
+        "family",
+        "educator"
+      ],
+      "conditions": [
+        "adhd",
+        "autism",
+        "learning-difficulties"
+      ],
+      "review_status": "approved",
+      "review_notes": "自动抓取：白名单页面来源。",
+      "ingested_at": "2026-03-06T15:11:24.911Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -243,7 +290,7 @@
       "summary_zh": "精神健康与神经发育相关教育资源。适合通过 CAMH 进一步进入该主题的权威信息。",
       "excerpt": "Canada",
       "language": "bilingual",
-      "published_at": "2026-03-06T02:57:58.312Z",
+      "published_at": "2026-03-06T15:11:24.786Z",
       "content_type": "directory",
       "topics": [
         "ADHD",
@@ -262,7 +309,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:58.312Z",
+      "ingested_at": "2026-03-06T15:11:24.786Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -284,7 +331,7 @@
       "summary_zh": "循证指南、临床建议、教育与照护路径。适合通过 NICE 进一步进入该主题的权威信息。",
       "excerpt": "循证指南、临床建议、教育与照护路径",
       "language": "bilingual",
-      "published_at": "2026-03-06T02:57:58.256Z",
+      "published_at": "2026-03-06T15:11:24.622Z",
       "content_type": "directory",
       "topics": [
         "ADHD",
@@ -303,7 +350,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:58.256Z",
+      "ingested_at": "2026-03-06T15:11:24.622Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -313,32 +360,27 @@
       }
     },
     {
-      "id": "page-nas",
-      "source_name": "National Autistic Society",
+      "id": "page-cdc",
+      "source_name": "CDC",
       "source_type": "official",
-      "source_region": "英国",
-      "source_url": "https://www.autism.org.uk/",
-      "canonical_url": "https://www.autism.org.uk/",
-      "title_original": "National Autistic Society",
-      "title_zh": "National Autistic Society 资源入口",
-      "summary_original": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
-      "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
-      "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
+      "source_region": "美国",
+      "source_url": "https://www.cdc.gov/autism/",
+      "canonical_url": "https://www.cdc.gov/autism/",
+      "title_original": "Autism Spectrum Disorder (ASD)",
+      "title_zh": "CDC 资源入口",
+      "summary_original": "ASD is a developmental disability that can lead to social, communication, and behavioral challenges.",
+      "summary_zh": "自闭症筛查、基础介绍、家庭资源。适合通过 CDC 进一步进入该主题的权威信息。",
+      "excerpt": "ASD is a developmental disability that can lead to social, communication, and behavioral challenges.",
       "language": "bilingual",
-      "published_at": "2026-03-06T02:57:58.217Z",
+      "published_at": "2026-03-06T15:11:24.488Z",
       "content_type": "directory",
       "topics": [
         "自闭症",
         "神经多样性",
-        "职场",
-        "政策与服务",
-        "共病与支持需求"
+        "家庭支持"
       ],
       "audiences": [
         "family",
-        "self-advocate",
-        "educator",
-        "employer",
         "clinician"
       ],
       "conditions": [
@@ -346,52 +388,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:58.217Z",
-      "metadata": {
-        "credibility": "high",
-        "tags": [
-          "page-harvest",
-          "英国"
-        ]
-      }
-    },
-    {
-      "id": "page-wrightslaw",
-      "source_name": "Wrightslaw",
-      "source_type": "official",
-      "source_region": "美国",
-      "source_url": "https://www.wrightslaw.com/",
-      "canonical_url": "https://www.wrightslaw.com/",
-      "title_original": "Wrightslaw",
-      "title_zh": "Wrightslaw 资源入口",
-      "summary_original": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
-      "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
-      "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
-      "language": "bilingual",
-      "published_at": "2026-03-06T02:57:58.142Z",
-      "content_type": "directory",
-      "topics": [
-        "ADHD",
-        "自闭症",
-        "学习困难",
-        "神经多样性",
-        "教育",
-        "家庭支持",
-        "政策与服务",
-        "共病与支持需求"
-      ],
-      "audiences": [
-        "family",
-        "educator"
-      ],
-      "conditions": [
-        "adhd",
-        "autism",
-        "learning-difficulties"
-      ],
-      "review_status": "approved",
-      "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:58.142Z",
+      "ingested_at": "2026-03-06T15:11:24.488Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -401,30 +398,30 @@
       }
     },
     {
-      "id": "page-kidshealth",
-      "source_name": "Nemours KidsHealth",
-      "source_type": "official",
-      "source_region": "美国",
-      "source_url": "https://kidshealth.org/",
-      "canonical_url": "https://kidshealth.org/",
-      "title_original": "Nemours KidsHealth - the Web's most visited site about children's health",
-      "title_zh": "Nemours KidsHealth 资源入口",
-      "summary_original": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
-      "summary_zh": "儿童健康科普，自闭症与 ADHD 基础说明。适合通过 Nemours KidsHealth 进一步进入该主题的权威信息。",
-      "excerpt": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
+      "id": "page-trip",
+      "source_name": "TRIP Database",
+      "source_type": "academic",
+      "source_region": "国际",
+      "source_url": "https://www.tripdatabase.com/",
+      "canonical_url": "https://www.tripdatabase.com/",
+      "title_original": "Trip Medical Database",
+      "title_zh": "TRIP Database 资源入口",
+      "summary_original": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
+      "summary_zh": "指南、综述和临床证据检索。适合通过 TRIP Database 进一步进入该主题的权威信息。",
+      "excerpt": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
       "language": "bilingual",
-      "published_at": "2026-03-06T02:57:57.801Z",
+      "published_at": "2026-03-06T15:11:24.408Z",
       "content_type": "directory",
       "topics": [
         "自闭症",
         "ADHD",
         "学习困难",
         "神经多样性",
-        "家庭支持"
+        "政策与服务"
       ],
       "audiences": [
-        "family",
-        "clinician"
+        "clinician",
+        "researcher"
       ],
       "conditions": [
         "autism",
@@ -433,7 +430,48 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:57.801Z",
+      "ingested_at": "2026-03-06T15:11:24.408Z",
+      "metadata": {
+        "credibility": "high",
+        "tags": [
+          "page-harvest",
+          "国际"
+        ]
+      }
+    },
+    {
+      "id": "page-nimh",
+      "source_name": "NIMH",
+      "source_type": "official",
+      "source_region": "美国",
+      "source_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+      "canonical_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+      "title_original": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+      "title_zh": "NIMH 资源入口",
+      "summary_original": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
+      "summary_zh": "ADHD 与相关精神健康主题的官方科普与治疗信息。适合通过 NIMH 进一步进入该主题的权威信息。",
+      "excerpt": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
+      "language": "bilingual",
+      "published_at": "2026-03-06T15:11:24.289Z",
+      "content_type": "directory",
+      "topics": [
+        "ADHD",
+        "自闭症",
+        "神经多样性",
+        "政策与服务"
+      ],
+      "audiences": [
+        "family",
+        "self-advocate",
+        "clinician"
+      ],
+      "conditions": [
+        "adhd",
+        "autism"
+      ],
+      "review_status": "approved",
+      "review_notes": "自动抓取：白名单页面来源。",
+      "ingested_at": "2026-03-06T15:11:24.289Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -455,7 +493,7 @@
       "summary_zh": "ADHD 教育、家庭支持、学校与职场资源。适合通过 CHADD 进一步进入该主题的权威信息。",
       "excerpt": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
       "language": "bilingual",
-      "published_at": "2026-03-06T02:57:57.736Z",
+      "published_at": "2026-03-06T15:11:24.266Z",
       "content_type": "directory",
       "topics": [
         "ADHD",
@@ -476,7 +514,88 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:57.737Z",
+      "ingested_at": "2026-03-06T15:11:24.266Z",
+      "metadata": {
+        "credibility": "high",
+        "tags": [
+          "page-harvest",
+          "美国"
+        ]
+      }
+    },
+    {
+      "id": "page-kidshealth",
+      "source_name": "Nemours KidsHealth",
+      "source_type": "official",
+      "source_region": "美国",
+      "source_url": "https://kidshealth.org/",
+      "canonical_url": "https://kidshealth.org/",
+      "title_original": "Nemours KidsHealth - the Web's most visited site about children's health",
+      "title_zh": "Nemours KidsHealth 资源入口",
+      "summary_original": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
+      "summary_zh": "儿童健康科普，自闭症与 ADHD 基础说明。适合通过 Nemours KidsHealth 进一步进入该主题的权威信息。",
+      "excerpt": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
+      "language": "bilingual",
+      "published_at": "2026-03-06T15:11:24.216Z",
+      "content_type": "directory",
+      "topics": [
+        "自闭症",
+        "ADHD",
+        "学习困难",
+        "神经多样性",
+        "家庭支持"
+      ],
+      "audiences": [
+        "family",
+        "clinician"
+      ],
+      "conditions": [
+        "autism",
+        "adhd",
+        "learning-difficulties"
+      ],
+      "review_status": "approved",
+      "review_notes": "自动抓取：白名单页面来源。",
+      "ingested_at": "2026-03-06T15:11:24.216Z",
+      "metadata": {
+        "credibility": "high",
+        "tags": [
+          "page-harvest",
+          "美国"
+        ]
+      }
+    },
+    {
+      "id": "page-autism-speaks",
+      "source_name": "Autism Speaks",
+      "source_type": "official",
+      "source_region": "美国",
+      "source_url": "https://www.autismspeaks.org/",
+      "canonical_url": "https://www.autismspeaks.org/",
+      "title_original": "Autism Speaks",
+      "title_zh": "Autism Speaks 资源入口",
+      "summary_original": "自闭症工具包、服务目录与家庭资源入口",
+      "summary_zh": "自闭症工具包、服务目录与家庭资源入口。适合通过 Autism Speaks 进一步进入该主题的权威信息。",
+      "excerpt": "自闭症工具包、服务目录与家庭资源入口",
+      "language": "bilingual",
+      "published_at": "2026-03-06T15:11:24.169Z",
+      "content_type": "directory",
+      "topics": [
+        "自闭症",
+        "神经多样性",
+        "家庭支持",
+        "政策与服务"
+      ],
+      "audiences": [
+        "family",
+        "self-advocate"
+      ],
+      "conditions": [
+        "autism"
+      ],
+      "review_status": "approved",
+      "review_notes": "自动抓取：白名单页面来源。",
+      "ingested_at": "2026-03-06T15:11:24.169Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -498,7 +617,7 @@
       "summary_zh": "ADHD 教育、倡导、学校与职场工具。适合通过 CADDAC 进一步进入该主题的权威信息。",
       "excerpt": "CADDAC: Canadian ADHD Awareness, Education, Advocacy",
       "language": "bilingual",
-      "published_at": "2026-03-06T02:57:57.657Z",
+      "published_at": "2026-03-06T15:11:24.119Z",
       "content_type": "directory",
       "topics": [
         "ADHD",
@@ -517,175 +636,12 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:57.657Z",
+      "ingested_at": "2026-03-06T15:11:24.119Z",
       "metadata": {
         "credibility": "high",
         "tags": [
           "page-harvest",
           "加拿大"
-        ]
-      }
-    },
-    {
-      "id": "page-trip",
-      "source_name": "TRIP Database",
-      "source_type": "academic",
-      "source_region": "国际",
-      "source_url": "https://www.tripdatabase.com/",
-      "canonical_url": "https://www.tripdatabase.com/",
-      "title_original": "Trip Medical Database",
-      "title_zh": "TRIP Database 资源入口",
-      "summary_original": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
-      "summary_zh": "指南、综述和临床证据检索。适合通过 TRIP Database 进一步进入该主题的权威信息。",
-      "excerpt": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
-      "language": "bilingual",
-      "published_at": "2026-03-06T02:57:57.598Z",
-      "content_type": "directory",
-      "topics": [
-        "自闭症",
-        "ADHD",
-        "学习困难",
-        "神经多样性",
-        "政策与服务"
-      ],
-      "audiences": [
-        "clinician",
-        "researcher"
-      ],
-      "conditions": [
-        "autism",
-        "adhd",
-        "learning-difficulties"
-      ],
-      "review_status": "approved",
-      "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:57.598Z",
-      "metadata": {
-        "credibility": "high",
-        "tags": [
-          "page-harvest",
-          "国际"
-        ]
-      }
-    },
-    {
-      "id": "page-understood",
-      "source_name": "Understood",
-      "source_type": "media",
-      "source_region": "美国",
-      "source_url": "https://www.understood.org/",
-      "canonical_url": "https://www.understood.org/",
-      "title_original": "Understood - For learning and thinking differences",
-      "title_zh": "Understood 资源入口",
-      "summary_original": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
-      "summary_zh": "面向家长和老师的学习差异实用资源。适合通过 Understood 进一步进入该主题的权威信息。",
-      "excerpt": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
-      "language": "bilingual",
-      "published_at": "2026-03-06T02:57:57.495Z",
-      "content_type": "directory",
-      "topics": [
-        "学习困难",
-        "ADHD",
-        "神经多样性",
-        "家庭支持"
-      ],
-      "audiences": [
-        "family",
-        "educator"
-      ],
-      "conditions": [
-        "learning-difficulties",
-        "adhd"
-      ],
-      "review_status": "approved",
-      "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:57.495Z",
-      "metadata": {
-        "credibility": "medium",
-        "tags": [
-          "page-harvest",
-          "美国"
-        ]
-      }
-    },
-    {
-      "id": "page-pubmed",
-      "source_name": "PubMed",
-      "source_type": "academic",
-      "source_region": "国际",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
-      "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/",
-      "title_original": "PubMed",
-      "title_zh": "PubMed 资源入口",
-      "summary_original": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
-      "summary_zh": "医学与健康研究论文检索。适合通过 PubMed 进一步进入该主题的权威信息。",
-      "excerpt": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
-      "language": "bilingual",
-      "published_at": "2026-03-06T02:57:57.219Z",
-      "content_type": "directory",
-      "topics": [
-        "神经多样性",
-        "自闭症",
-        "ADHD",
-        "学习困难"
-      ],
-      "audiences": [
-        "researcher",
-        "clinician"
-      ],
-      "conditions": [
-        "neurodiversity",
-        "autism",
-        "adhd",
-        "learning-difficulties"
-      ],
-      "review_status": "approved",
-      "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:57.219Z",
-      "metadata": {
-        "credibility": "high",
-        "tags": [
-          "page-harvest",
-          "国际"
-        ]
-      }
-    },
-    {
-      "id": "page-autism-speaks",
-      "source_name": "Autism Speaks",
-      "source_type": "official",
-      "source_region": "美国",
-      "source_url": "https://www.autismspeaks.org/",
-      "canonical_url": "https://www.autismspeaks.org/",
-      "title_original": "Autism Speaks",
-      "title_zh": "Autism Speaks 资源入口",
-      "summary_original": "自闭症工具包、服务目录与家庭资源入口",
-      "summary_zh": "自闭症工具包、服务目录与家庭资源入口。适合通过 Autism Speaks 进一步进入该主题的权威信息。",
-      "excerpt": "自闭症工具包、服务目录与家庭资源入口",
-      "language": "bilingual",
-      "published_at": "2026-03-06T02:57:57.211Z",
-      "content_type": "directory",
-      "topics": [
-        "自闭症",
-        "神经多样性",
-        "家庭支持",
-        "政策与服务"
-      ],
-      "audiences": [
-        "family",
-        "self-advocate"
-      ],
-      "conditions": [
-        "autism"
-      ],
-      "review_status": "approved",
-      "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:57.211Z",
-      "metadata": {
-        "credibility": "high",
-        "tags": [
-          "page-harvest",
-          "美国"
         ]
       }
     },
@@ -702,7 +658,7 @@
       "summary_zh": "澳洲健康信息入口，适合基础科普与就医导航。适合通过 healthdirect 进一步进入该主题的权威信息。",
       "excerpt": "Learn about autism symptoms and management for children and adults. Read how the term Asperger’s is no longer used.",
       "language": "bilingual",
-      "published_at": "2026-03-06T02:57:57.185Z",
+      "published_at": "2026-03-06T15:11:24.085Z",
       "content_type": "directory",
       "topics": [
         "自闭症",
@@ -720,7 +676,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:57.185Z",
+      "ingested_at": "2026-03-06T15:11:24.085Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -742,7 +698,7 @@
       "summary_zh": "教育干预证据和学校支持策略。适合通过 Education Endowment Foundation 进一步进入该主题的权威信息。",
       "excerpt": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
       "language": "bilingual",
-      "published_at": "2026-03-06T02:57:57.089Z",
+      "published_at": "2026-03-06T15:11:23.595Z",
       "content_type": "directory",
       "topics": [
         "学习困难",
@@ -765,7 +721,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:57.089Z",
+      "ingested_at": "2026-03-06T15:11:23.595Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -775,37 +731,81 @@
       }
     },
     {
-      "id": "page-cdc",
-      "source_name": "CDC",
-      "source_type": "official",
-      "source_region": "美国",
-      "source_url": "https://www.cdc.gov/autism/",
-      "canonical_url": "https://www.cdc.gov/autism/",
-      "title_original": "Autism Spectrum Disorder (ASD)",
-      "title_zh": "CDC 资源入口",
-      "summary_original": "ASD is a developmental disability that can lead to social, communication, and behavioral challenges.",
-      "summary_zh": "自闭症筛查、基础介绍、家庭资源。适合通过 CDC 进一步进入该主题的权威信息。",
-      "excerpt": "ASD is a developmental disability that can lead to social, communication, and behavioral challenges.",
+      "id": "page-pubmed",
+      "source_name": "PubMed",
+      "source_type": "academic",
+      "source_region": "国际",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "title_original": "PubMed",
+      "title_zh": "PubMed 资源入口",
+      "summary_original": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
+      "summary_zh": "医学与健康研究论文检索。适合通过 PubMed 进一步进入该主题的权威信息。",
+      "excerpt": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
       "language": "bilingual",
-      "published_at": "2026-03-06T02:57:57.012Z",
+      "published_at": "2026-03-06T15:11:23.563Z",
       "content_type": "directory",
       "topics": [
+        "神经多样性",
         "自闭症",
+        "ADHD",
+        "学习困难"
+      ],
+      "audiences": [
+        "researcher",
+        "clinician"
+      ],
+      "conditions": [
+        "neurodiversity",
+        "autism",
+        "adhd",
+        "learning-difficulties"
+      ],
+      "review_status": "approved",
+      "review_notes": "自动抓取：白名单页面来源。",
+      "ingested_at": "2026-03-06T15:11:23.563Z",
+      "metadata": {
+        "credibility": "high",
+        "tags": [
+          "page-harvest",
+          "国际"
+        ]
+      }
+    },
+    {
+      "id": "page-understood",
+      "source_name": "Understood",
+      "source_type": "media",
+      "source_region": "美国",
+      "source_url": "https://www.understood.org/",
+      "canonical_url": "https://www.understood.org/",
+      "title_original": "Understood - For learning and thinking differences",
+      "title_zh": "Understood 资源入口",
+      "summary_original": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
+      "summary_zh": "面向家长和老师的学习差异实用资源。适合通过 Understood 进一步进入该主题的权威信息。",
+      "excerpt": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
+      "language": "bilingual",
+      "published_at": "2026-03-06T15:11:23.544Z",
+      "content_type": "directory",
+      "topics": [
+        "学习困难",
+        "ADHD",
         "神经多样性",
         "家庭支持"
       ],
       "audiences": [
         "family",
-        "clinician"
+        "educator"
       ],
       "conditions": [
-        "autism"
+        "learning-difficulties",
+        "adhd"
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:57.012Z",
+      "ingested_at": "2026-03-06T15:11:23.544Z",
       "metadata": {
-        "credibility": "high",
+        "credibility": "medium",
         "tags": [
           "page-harvest",
           "美国"
@@ -845,7 +845,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:00.712Z",
+      "ingested_at": "2026-03-06T15:11:27.211Z",
       "metadata": {
         "credibility": "medium",
         "tags": [
@@ -885,7 +885,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:00.909Z",
+      "ingested_at": "2026-03-06T15:11:27.546Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -926,7 +926,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:01.487Z",
+      "ingested_at": "2026-03-06T15:11:27.967Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -967,7 +967,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:00.712Z",
+      "ingested_at": "2026-03-06T15:11:27.211Z",
       "metadata": {
         "credibility": "medium",
         "tags": [
@@ -1008,7 +1008,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:00.712Z",
+      "ingested_at": "2026-03-06T15:11:27.212Z",
       "metadata": {
         "credibility": "medium",
         "tags": [
@@ -1049,7 +1049,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:01.487Z",
+      "ingested_at": "2026-03-06T15:11:27.968Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1091,7 +1091,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:01.487Z",
+      "ingested_at": "2026-03-06T15:11:27.968Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1133,7 +1133,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:00.713Z",
+      "ingested_at": "2026-03-06T15:11:27.212Z",
       "metadata": {
         "credibility": "medium",
         "tags": [
@@ -1173,7 +1173,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:01.487Z",
+      "ingested_at": "2026-03-06T15:11:27.968Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1215,7 +1215,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:01.776Z",
+      "ingested_at": "2026-03-06T15:11:28.362Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1257,7 +1257,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:01.777Z",
+      "ingested_at": "2026-03-06T15:11:28.362Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1298,7 +1298,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:00.696Z",
+      "ingested_at": "2026-03-06T15:11:27.143Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1338,7 +1338,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:00.910Z",
+      "ingested_at": "2026-03-06T15:11:27.546Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1377,7 +1377,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:00.910Z",
+      "ingested_at": "2026-03-06T15:11:27.547Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1416,7 +1416,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:00.910Z",
+      "ingested_at": "2026-03-06T15:11:27.547Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1454,7 +1454,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动发布：官方来源。",
-      "ingested_at": "2026-03-06T02:57:55.783Z",
+      "ingested_at": "2026-03-06T15:11:20.692Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1494,7 +1494,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:00.697Z",
+      "ingested_at": "2026-03-06T15:11:27.144Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1535,7 +1535,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:00.697Z",
+      "ingested_at": "2026-03-06T15:11:27.144Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1576,12 +1576,54 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:00.697Z",
+      "ingested_at": "2026-03-06T15:11:27.144Z",
       "metadata": {
         "credibility": "high",
         "tags": [
           "rss-harvest",
           "chadd-feed"
+        ]
+      }
+    },
+    {
+      "id": "feed-caddac-feed-061d4148c7b6",
+      "source_name": "CADDAC",
+      "source_type": "official",
+      "source_region": "加拿大",
+      "source_url": "https://caddac.ca/adhd-is-not-a-ferrari-with-bad-brakes-by-gabriel/",
+      "canonical_url": "https://caddac.ca/adhd-is-not-a-ferrari-with-bad-brakes-by-gabriel/",
+      "title_original": "ADHD is not a Ferrari with bad brakes by Gabriel",
+      "title_zh": "CADDAC：ADHD is not a Ferrari with bad brakes by Gabriel",
+      "summary_original": "Many of us ADHDers have heard about the analogy that our brain is a Ferrari with bicycle breaks created by Dr. Hallowell. And while I respect him and understand that this is only an analogy and that ADHD is not easily defined, as a car enthusiast, I beg to differ. If we are going to [&#8230;]",
+      "summary_zh": "CADDAC 最新条目：Many of us ADHDers have heard about the analogy that our brain is a Ferrari with bicycle…",
+      "excerpt": "Many of us ADHDers have heard about the analogy that our brain is a Ferrari with bicycle breaks created by Dr. Hallowell. And while I respect him and understand that this is only an analogy and that ADHD is not easily defined, as a car enthusiast, I beg to differ. If we are goin…",
+      "language": "en",
+      "published_at": "2025-12-02T14:52:40.000Z",
+      "content_type": "news",
+      "topics": [
+        "ADHD",
+        "教育",
+        "职场",
+        "家庭支持",
+        "神经多样性"
+      ],
+      "audiences": [
+        "family",
+        "educator",
+        "employer",
+        "self-advocate"
+      ],
+      "conditions": [
+        "adhd"
+      ],
+      "review_status": "approved",
+      "review_notes": "自动抓取：RSS 来源。",
+      "ingested_at": "2026-03-06T15:11:28.362Z",
+      "metadata": {
+        "credibility": "high",
+        "tags": [
+          "rss-harvest",
+          "caddac-feed"
         ]
       }
     },
@@ -1618,7 +1660,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:01.777Z",
+      "ingested_at": "2026-03-06T15:11:28.362Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1699,7 +1741,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动发布：大众实用资源。",
-      "ingested_at": "2026-03-06T02:57:55.783Z",
+      "ingested_at": "2026-03-06T15:11:20.692Z",
       "metadata": {
         "credibility": "medium",
         "tags": [
@@ -1737,7 +1779,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:57.748Z",
+      "ingested_at": "2026-03-06T15:11:24.136Z",
       "metadata": {
         "credibility": "high",
         "tags": [
@@ -1747,45 +1789,94 @@
       }
     },
     {
-      "id": "feed-caddac-feed-061d4148c7b6",
-      "source_name": "CADDAC",
-      "source_type": "official",
-      "source_region": "加拿大",
-      "source_url": "https://caddac.ca/adhd-is-not-a-ferrari-with-bad-brakes-by-gabriel/",
-      "canonical_url": "https://caddac.ca/adhd-is-not-a-ferrari-with-bad-brakes-by-gabriel/",
-      "title_original": "ADHD is not a Ferrari with bad brakes by Gabriel",
-      "title_zh": "CADDAC：ADHD is not a Ferrari with bad brakes by Gabriel",
-      "summary_original": "Many of us ADHDers have heard about the analogy that our brain is a Ferrari with bicycle breaks created by Dr. Hallowell. And while I respect him and understand that this is only an analogy and that ADHD is not easily defined, as a car enthusiast, I beg to differ. If we are going to [&#8230;]",
-      "summary_zh": "CADDAC 最新条目：Many of us ADHDers have heard about the analogy that our brain is a Ferrari with bicycle…",
-      "excerpt": "Many of us ADHDers have heard about the analogy that our brain is a Ferrari with bicycle breaks created by Dr. Hallowell. And while I respect him and understand that this is only an analogy and that ADHD is not easily defined, as a car enthusiast, I beg to differ. If we are goin…",
+      "id": "academic-pmc-sld-50-years",
+      "source_name": "The American psychologist",
+      "source_type": "academic",
+      "source_region": "国际",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6851403/",
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6851403/",
+      "title_original": "Understanding, Educating, and Supporting Children with Specific Learning Disabilities: 50 Years of Science and Practice",
+      "title_zh": "研究：Understanding, Educating, and Supporting Children with Specific Learning Disabilities: 50 Years of Science and Practice",
+      "summary_original": "Specific learning disabilities (SLD) are highly relevant to the science and practice of psychology, both historically and currently, exemplifying the integration of interdisciplinary approaches to human conditions. They can be manifested as primary conditions—as difficulties in acquiring specific academic skills—or as secondary conditions, comorbid to other developmental disorders such as Attention Deficit Hyperactivity Disorder. In this synthesis of historical and contemporary trends in research and practice, we mark the 50th anniversary of the recognition of SLD as a disability in the US. Specifically, we address the manifestations, occurrence, identification, comorbidity, etiology, and treatment of SLD, emphasizing the integration of information from the interdisciplinary fields of psychology, education, psychiatry, genetics, and cognitive neuroscience. SLD, exemplified here by Specific Word Reading, Reading Comprehension, Mathematics, and Written Expression Disabilities, represent spectrum disorders each occurring in approximately 5–15% of the school-aged population. In addition to risk for academic deficiencies and related functional social, emotional, and behavioral difficulties, those with SLD often have poorer long-term social and vocational outcomes. Given the high rate of occurrence of SLD and their lifelong negative impact on functioning if not treated, it is important to establish and maintain effective prevention, surveillance, and treatment systems involving professionals from various disciplines trained to minimize the risk and maximize the protective factors for SLD.",
+      "summary_zh": "基于学术全文自动解析：Specific learning disabilities (SLD) are highly relevant to the science and practice of psychology, both hist…",
+      "excerpt": "Specific learning disabilities (SLD) are highly relevant to the science and practice of psychology, both historically and currently, exemplifying the integration of interdisciplinary approaches to human conditions. They can be manifested as primary conditions…",
       "language": "en",
-      "published_at": "2025-12-02T14:52:40.000Z",
-      "content_type": "news",
+      "published_at": "2019-05-12T16:00:00.000Z",
+      "content_type": "review",
       "topics": [
-        "ADHD",
+        "学习困难",
         "教育",
-        "职场",
         "家庭支持",
-        "神经多样性"
+        "神经多样性",
+        "ADHD"
       ],
       "audiences": [
-        "family",
         "educator",
-        "employer",
-        "self-advocate"
+        "researcher",
+        "clinician",
+        "family"
       ],
       "conditions": [
+        "learning-difficulties",
         "adhd"
       ],
       "review_status": "approved",
-      "review_notes": "自动抓取：RSS 来源。",
-      "ingested_at": "2026-03-06T02:58:01.777Z",
+      "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+      "ingested_at": "2026-03-06T15:11:22.901Z",
       "metadata": {
+        "doi": "10.1037/amp0000452",
+        "pmid": "31081650",
+        "authors": "Elena L Grigorenko; Donald Compton; Lynn Fuchs; Richard Wagner; Erik Willcutt; Jack M Fletcher",
+        "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6851403/",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6851403/pdf/nihms-1029312.pdf",
         "credibility": "high",
         "tags": [
-          "rss-harvest",
-          "caddac-feed"
-        ]
+          "academic-source",
+          "pmc-sld-50-years",
+          "html",
+          "academic-enriched"
+        ],
+        "analysis": {
+          "template": "academic",
+          "summary_title": "《研究：Understanding, Educating, and Supporting Children with Specific Learning Disabilities: 50 Years of Science and Practice》",
+          "publication_info": "The American psychologist，2019/5/13",
+          "authors_display": "Elena L Grigorenko、Donald Compton、Lynn Fuchs、Richard Wagner、Erik Willcutt、Jack M Fletcher",
+          "content_sections": [
+            {
+              "title": "文章概览",
+              "items": [
+                "原文题目：Understanding, Educating, and Supporting Children with Specific Learning Disabilities: 50 Years of Science and Practice",
+                "研究类型：学术研究。",
+                "核心摘要：Specific learning disabilities (SLD) are highly relevant to the science and practice of psychology, both historically and currently, exemplifying the integration of interdisciplinary approaches to human conditions."
+              ]
+            },
+            {
+              "title": "正文结构",
+              "items": [
+                "Three Historical Strands of Inquiry that Shaped the Current Field of SLD：Three strands of phenomenological inquiry culminated in the 1968 definition and have continued to shape current terminology and conventions in the field of SLD ( Figure 2 ).",
+                "Manifestation, Definition, and Etiology：That the academic deficits in SLD relate to other cognitive skills has always been recognized, but the diagnostic and treatment relevance of this connection has remained unclear.",
+                "Prevalence and Incidence：Because the attributes of SLD are dimensional and depend on the thresholds used to subdivide normal distributions ( Hulme & Snowling, 2013 ), estimates of prevalence and incidence vary.",
+                "Comorbidity and Co-Occurrence：One reason SLD can be difficult to define and identify is that different SLDs often co-occur in the same child.",
+                "Identification (Diagnosis)：Comorbidity indicates that approaches to assessment should be broad and comprehensive."
+              ]
+            }
+          ],
+          "key_findings": "Specific learning disabilities (SLD) are highly relevant to the science and practice of psychology, both historically and currently, exemplifying the integration of interdisciplinary approaches to human conditions.",
+          "research_method": "从全文结构看，文章按 Three Historical Strands of Inquiry that Shaped the Current Field of SLD、Manifestation, Definition, and Etiology、Prevalence and Incidence、Comorbidity and Co-Occurrence 展开。",
+          "practical_significance": "Practitioners should recognize that the psychological and educational scientific evidence base supports specific approaches to the identification and treatment of SLD.",
+          "strategy_points": [
+            "Three Historical Strands of Inquiry that Shaped the Current Field of SLD：Three strands of phenomenological inquiry culminated in the 1968 definition and have continued to shape current terminology and conventions in the field of SLD ( Figure 2 ).",
+            "Manifestation, Definition, and Etiology：That the academic deficits in SLD relate to other cognitive skills has always been recognized, but the diagnostic and treatment relevance of this connection has remained unclear.",
+            "Prevalence and Incidence：Because the attributes of SLD are dimensional and depend on the thresholds used to subdivide normal distributions ( Hulme & Snowling, 2013 ), estimates of prevalence and incidence vary.",
+            "Comorbidity and Co-Occurrence：One reason SLD can be difficult to define and identify is that different SLDs often co-occur in the same child."
+          ],
+          "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+          "china_insights": [
+            "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+            "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+            "对学习困难主题，最值得补充的是国内学校场景中的识别流程、课堂调整和家长期待管理。"
+          ]
+        }
       }
     },
     {
@@ -1822,7 +1913,7 @@
       ],
       "review_status": "approved",
       "review_notes": "自动抓取：白名单页面来源。",
-      "ingested_at": "2026-03-06T02:57:58.563Z",
+      "ingested_at": "2026-03-06T15:11:25.893Z",
       "metadata": {
         "credibility": "high",
         "tags": [

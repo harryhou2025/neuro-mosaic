@@ -1,7 +1,7 @@
 import path from "node:path";
 import type { ContentItem, ReviewStatus } from "../shared/content";
 import { buildPublicIndex, classifyItem, dedupeItems, splitByTopic } from "../shared/content-ops";
-import { curatedSeedItems } from "../shared/sample-sources";
+import { curatedSeedItems, retiredSeedItemIds } from "../shared/sample-sources";
 import { readJsonFile, storagePaths, writeJsonFile } from "./storage";
 
 export async function getReviewItems(): Promise<ContentItem[]> {
@@ -15,7 +15,8 @@ export async function getReviewItems(): Promise<ContentItem[]> {
 }
 
 export async function saveReviewItems(items: ContentItem[]): Promise<void> {
-  await writeJsonFile(storagePaths.review, dedupeItems(items));
+  const filtered = items.filter((item) => !retiredSeedItemIds.includes(item.id as (typeof retiredSeedItemIds)[number]));
+  await writeJsonFile(storagePaths.review, dedupeItems(filtered));
 }
 
 export async function upsertReviewItems(nextItems: ContentItem[]): Promise<ContentItem[]> {
