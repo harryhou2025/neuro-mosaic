@@ -78,6 +78,9 @@ function formatDateTime(input: string): string {
 }
 
 function deriveAuthor(item: ContentItem): string {
+  if (item.metadata.analysis?.authors_display?.trim()) {
+    return item.metadata.analysis.authors_display.trim();
+  }
   if (item.metadata.authors?.trim()) {
     return item.metadata.authors.trim();
   }
@@ -88,11 +91,53 @@ function deriveAuthor(item: ContentItem): string {
 }
 
 function deriveMainConclusion(item: ContentItem): string {
+  if (item.metadata.analysis?.conclusion?.trim()) {
+    return item.metadata.analysis.conclusion.trim();
+  }
   return item.summary_zh || item.summary_original || item.excerpt;
 }
 
 function isAcademicItem(item: ContentItem): boolean {
   return item.source_type === "academic" || item.content_type === "research" || item.content_type === "review";
+}
+
+function getDisplayPriority(item: ContentItem): number {
+  const hasStructuredAcademicDetail = Boolean(
+    item.metadata.analysis &&
+      (item.metadata.analysis.content_sections?.length ||
+        item.metadata.analysis.key_findings ||
+        item.metadata.analysis.research_method),
+  );
+
+  if (isAcademicItem(item) && hasStructuredAcademicDetail) {
+    return 0;
+  }
+  if (isAcademicItem(item)) {
+    return 1;
+  }
+  if (item.source_type === "official") {
+    return 2;
+  }
+  return 3;
+}
+
+function compareItemsForDisplay(a: ContentItem, b: ContentItem): number {
+  const priorityDelta = getDisplayPriority(a) - getDisplayPriority(b);
+  if (priorityDelta !== 0) {
+    return priorityDelta;
+  }
+
+  const ingestDelta = new Date(b.ingested_at).getTime() - new Date(a.ingested_at).getTime();
+  if (ingestDelta !== 0) {
+    return ingestDelta;
+  }
+
+  const publishedDelta = new Date(b.published_at).getTime() - new Date(a.published_at).getTime();
+  if (publishedDelta !== 0) {
+    return publishedDelta;
+  }
+
+  return a.title_zh.localeCompare(b.title_zh, "zh-CN");
 }
 
 function splitIntoSentences(text: string): string[] {
@@ -111,6 +156,9 @@ function ensureSentence(text: string): string {
 }
 
 function deriveDetailTitle(item: ContentItem): string {
+  if (item.metadata.analysis?.summary_title?.trim()) {
+    return item.metadata.analysis.summary_title.trim();
+  }
   return `《${item.title_zh}》`;
 }
 
@@ -184,6 +232,9 @@ function deriveAcademicLimitations(item: ContentItem): string[] {
 }
 
 function deriveChinaInsights(item: ContentItem): string[] {
+  if (item.metadata.analysis?.china_insights?.length) {
+    return item.metadata.analysis.china_insights;
+  }
   const text = `${item.title_zh} ${item.summary_zh} ${item.summary_original}`.toLowerCase();
   const insights = [
     "做中文内容时，不要只翻译结论，更要补上中国家庭、学校和职场里真实可执行的做法。",
@@ -205,6 +256,9 @@ function deriveChinaInsights(item: ContentItem): string[] {
 type DetailTree = Array<{ title: string; items: Array<string | { label: string; children: string[] }> }>;
 
 function deriveContentTree(item: ContentItem): DetailTree {
+  if (item.metadata.analysis?.content_sections?.length) {
+    return item.metadata.analysis.content_sections;
+  }
   const baseText = getBaseText(item);
   const sentences = splitIntoSentences(baseText);
 
@@ -269,6 +323,9 @@ function deriveContentTree(item: ContentItem): DetailTree {
 }
 
 function deriveImplications(item: ContentItem): string {
+  if (item.metadata.analysis?.china_insights?.[0]) {
+    return item.metadata.analysis.china_insights[0];
+  }
   const topicHint = item.topics.slice(0, 2).join("、") || "相关主题";
   const audienceHint = item.audiences.slice(0, 2).map((audience) => labels.audience[audience]).join("、") || "读者";
 
@@ -365,9 +422,9 @@ function groupLatestItems(items: ContentItem[]): Array<{ id: string; label: stri
   });
 
   return [
-    { id: "today", label: "今日抓取", items: todayItems },
-    { id: "yesterday", label: "昨日抓取", items: yesterdayItems },
-    { id: "week", label: "本周抓取", items: weekItems },
+    { id: "today", label: "今日抓取", items: [...todayItems].sort(compareItemsForDisplay) },
+    { id: "yesterday", label: "昨日抓取", items: [...yesterdayItems].sort(compareItemsForDisplay) },
+    { id: "week", label: "本周抓取", items: [...weekItems].sort(compareItemsForDisplay) },
   ];
 }
 
@@ -554,6 +611,11 @@ function DetailPage(props: { item: ContentItem }) {
   const implications = deriveImplications(item);
   const insightPoints = deriveInsightPoints(item);
   const detailTitle = deriveDetailTitle(item);
+  const publicationInfo = item.metadata.analysis?.publication_info;
+  const researchMethod = item.metadata.analysis?.research_method;
+  const keyFindings = item.metadata.analysis?.key_findings;
+  const practicalSignificance = item.metadata.analysis?.practical_significance;
+  const strategyPoints = item.metadata.analysis?.strategy_points ?? [];
 
   return (
     <main className="page-shell detail-shell">
@@ -578,7 +640,7 @@ function DetailPage(props: { item: ContentItem }) {
           </p>
           <p className="detail-line">
             <strong>时间：</strong>
-            <span>原始发布时间为 {formatDateTime(item.published_at)}，本次抓取时间为 {formatDateTime(item.ingested_at)}。</span>
+            <span>{publicationInfo ?? `原始发布时间为 ${formatDateTime(item.published_at)}，本次抓取时间为 ${formatDateTime(item.ingested_at)}。`}</span>
           </p>
           <p className="detail-line">
             <strong>作者：</strong>
@@ -618,6 +680,38 @@ function DetailPage(props: { item: ContentItem }) {
           </div>
         </section>
 
+        {researchMethod ? (
+          <section className="detail-section">
+            <h2>研究方法</h2>
+            <p>{ensureSentence(researchMethod)}</p>
+          </section>
+        ) : null}
+
+        {keyFindings ? (
+          <section className="detail-section">
+            <h2>核心发现</h2>
+            <p>{ensureSentence(keyFindings)}</p>
+          </section>
+        ) : null}
+
+        {practicalSignificance ? (
+          <section className="detail-section">
+            <h2>实践意义</h2>
+            <p>{ensureSentence(practicalSignificance)}</p>
+          </section>
+        ) : null}
+
+        {strategyPoints.length ? (
+          <section className="detail-section">
+            <h2>策略要点</h2>
+            <ul className="detail-list">
+              {strategyPoints.map((point) => (
+                <li key={point}>{ensureSentence(point)}</li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
+
         <section className="detail-section">
           <h2>对我们有哪些启发</h2>
           <p className="detail-lead">{implications}</p>
@@ -630,6 +724,11 @@ function DetailPage(props: { item: ContentItem }) {
 
         <p className="detail-source-note">
           来源：{item.source_name} · <a href={item.source_url} target="_blank" rel="noreferrer">{item.source_url}</a>
+          {item.metadata.pdf_url ? (
+            <>
+              {" "}· PDF：<a href={item.metadata.pdf_url} target="_blank" rel="noreferrer">{item.metadata.pdf_url}</a>
+            </>
+          ) : null}
         </p>
       </article>
     </main>
@@ -667,7 +766,7 @@ function groupItems<T extends string>(items: ContentItem[], getKeys: (item: Cont
     }
   }
   return Array.from(map.entries())
-    .map(([label, groupedItems]) => ({ label, items: groupedItems }))
+    .map(([label, groupedItems]) => ({ label, items: [...groupedItems].sort(compareItemsForDisplay) }))
     .sort((a, b) => b.items.length - a.items.length || a.label.localeCompare(b.label, "zh-CN"));
 }
 function GroupedSection(props: { title: string; groups: Array<{ label: string; items: ContentItem[] }> }) {
@@ -782,12 +881,10 @@ function HomePage() {
 
   const visibleItems = index?.items?.length ? index.items : curatedSeedItems.map((item) => classifyItem(item));
   const browseItems = useMemo(() => visibleItems.filter(isBrowsableContent), [visibleItems]);
-  const filtered = useMemo(() => filterItems(browseItems, filters), [filters, browseItems]);
+  const filtered = useMemo(() => filterItems(browseItems, filters).sort(compareItemsForDisplay), [filters, browseItems]);
   const lastUpdated = index?.generated_at ? formatDateTime(index.generated_at) : "未生成";
   const latestItems = useMemo(
-    () =>
-      browseItems
-        .sort((a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime()),
+    () => [...browseItems].sort(compareItemsForDisplay),
     [browseItems],
   );
   const topicGroups = useMemo(() => groupItems(filtered, (item) => item.topics), [filtered]);
