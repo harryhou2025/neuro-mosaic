@@ -219,6 +219,15 @@ function getAcademicCoverFields(item: ContentItem): Array<{ label: string; value
   return fields;
 }
 
+function getAcademicCardFields(item: ContentItem): Array<{ label: string; value: string; href?: string }> {
+  const fields = getAcademicCoverFields(item);
+  const wantedLabels = ["原文链接", "发表信息", "核心发现", "研究方法", "实践意义", "策略要点"];
+  return wantedLabels
+    .map((label) => fields.find((field) => field.label === label))
+    .filter((field): field is { label: string; value: string; href?: string } => Boolean(field))
+    .slice(0, 6);
+}
+
 function getBaseText(item: ContentItem): string {
   return [item.summary_zh, item.summary_original, item.excerpt].filter(Boolean).join(" ");
 }
@@ -682,7 +691,7 @@ function AcademicHighlightsSection(props: { items: ContentItem[] }) {
         {visibleItems.map((item, index) => (
           <article
             key={item.id}
-            className={index === 0 ? "card card--latest card--latest-lead" : "card card--latest"}
+            className={index === 0 ? "card card--latest card--latest-lead academic-card" : "card card--latest academic-card"}
           >
             <div className="card__meta">
               <span>学术精读</span>
@@ -690,26 +699,18 @@ function AcademicHighlightsSection(props: { items: ContentItem[] }) {
               <span>{formatDate(item.published_at)}</span>
             </div>
             <h3>{getDisplayTitle(item)}</h3>
-            <p className="card__original">{item.title_original}</p>
             <div className="academic-cover">
-              {getAcademicCoverFields(item).map((field) => (
+              {getAcademicCardFields(item).map((field) => (
                 <p key={`${item.id}-${field.label}`} className="academic-cover__line">
                   <strong>{field.label}：</strong>
                   {field.href ? (
-                    <a href={field.href} target="_blank" rel="noreferrer">
+                    <a className="academic-cover__value" href={field.href} target="_blank" rel="noreferrer">
                       {field.value}
                     </a>
                   ) : (
-                    <span>{field.value}</span>
+                    <span className="academic-cover__value">{field.value}</span>
                   )}
                 </p>
-              ))}
-            </div>
-            <div className="tag-row">
-              {item.topics.slice(0, 4).map((topic) => (
-                <span key={topic} className="tag">
-                  {topic}
-                </span>
               ))}
             </div>
             <div className="card__actions">
