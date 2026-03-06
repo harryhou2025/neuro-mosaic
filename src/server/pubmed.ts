@@ -100,6 +100,7 @@ export async function ingestPubMedContent(): Promise<ContentItem[]> {
         metadata: {
           doi: row.doi || undefined,
           pmid: row.pmid || undefined,
+          authors: row.authors || row.first_author || undefined,
           credibility: "high",
           tags: row.pub_types ? row.pub_types.split(";").map((tag) => tag.trim()).filter(Boolean) : [],
         },

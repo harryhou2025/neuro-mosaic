@@ -37,6 +37,7 @@ export const contentItemSchema = z.object({
     .object({
       doi: z.string().optional(),
       pmid: z.string().optional(),
+      authors: z.string().optional(),
       credibility: z.enum(["high", "medium", "reference"]),
       tags: z.array(z.string()).default([]),
     })

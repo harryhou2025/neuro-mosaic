@@ -15,6 +15,27 @@ type Filters = {
 
 type BrowseMode = "list" | "topics" | "regions" | "source-types";
 const DEFAULT_SECTION_LIMIT = 6;
+const DETAIL_ROUTE_EVENT = "detail-route-change";
+
+function readDetailId(): string | null {
+  return new URLSearchParams(window.location.search).get("item");
+}
+
+function openDetail(itemId: string): void {
+  const url = new URL(window.location.href);
+  url.searchParams.set("item", itemId);
+  window.history.pushState({}, "", url);
+  window.dispatchEvent(new Event(DETAIL_ROUTE_EVENT));
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function clearDetail(): void {
+  const url = new URL(window.location.href);
+  url.searchParams.delete("item");
+  window.history.pushState({}, "", url);
+  window.dispatchEvent(new Event(DETAIL_ROUTE_EVENT));
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 
 async function fetchIndex(): Promise<PublicIndex> {
   const response = await fetch("/generated/content-index.json");
@@ -54,6 +75,43 @@ function formatDateTime(input: string): string {
     hour: "2-digit",
     minute: "2-digit",
   });
+}
+
+function deriveAuthor(item: ContentItem): string {
+  if (item.metadata.authors?.trim()) {
+    return item.metadata.authors.trim();
+  }
+  if (item.source_type === "academic") {
+    return `${item.source_name} / 作者信息待补充`;
+  }
+  return `${item.source_name}（机构/来源）`;
+}
+
+function deriveMainConclusion(item: ContentItem): string {
+  return item.summary_zh || item.summary_original || item.excerpt;
+}
+
+function deriveImplications(item: ContentItem): string {
+  const topicHint = item.topics.slice(0, 2).join("、") || "相关主题";
+  const audienceHint = item.audiences.slice(0, 2).map((audience) => labels.audience[audience]).join("、") || "读者";
+
+  if (item.source_type === "academic") {
+    return `这条内容对我们最直接的启发是：可以把 ${topicHint} 作为后续专题重点，并优先转化为面向 ${audienceHint} 的可执行建议。`;
+  }
+
+  if (item.source_type === "official") {
+    return `这条内容的启发在于：它能作为 ${topicHint} 主题下的权威依据，帮助 ${audienceHint} 快速建立对支持路径和资源边界的理解。`;
+  }
+
+  return `这条内容更偏实践参考，启发是把 ${topicHint} 相关经验整理成更易懂的行动清单，方便 ${audienceHint} 直接使用。`;
+}
+
+function deriveBody(item: ContentItem): string[] {
+  return [
+    item.summary_zh,
+    item.summary_original,
+    item.excerpt !== item.summary_original ? item.excerpt : "",
+  ].filter(Boolean);
 }
 
 function getShanghaiDateKey(input: string | Date): string {
@@ -211,9 +269,14 @@ function ContentCard({ item }: { item: ContentItem }) {
           <span key={audience}>{labels.audience[audience]}</span>
         ))}
       </div>
-      <a href={item.source_url} target="_blank" rel="noreferrer">
-        查看原始来源
-      </a>
+      <div className="card__actions">
+        <button className="detail-button" onClick={() => openDetail(item.id)}>
+          详情
+        </button>
+        <a href={item.source_url} target="_blank" rel="noreferrer">
+          查看原始来源
+        </a>
+      </div>
     </article>
   );
 }
@@ -259,9 +322,14 @@ function LatestSection(props: { items: ContentItem[]; lastUpdated: string }) {
                     </span>
                   ))}
                 </div>
-                <a href={item.source_url} target="_blank" rel="noreferrer">
-                  查看原始来源
-                </a>
+                <div className="card__actions">
+                  <button className="detail-button" onClick={() => openDetail(item.id)}>
+                    详情
+                  </button>
+                  <a href={item.source_url} target="_blank" rel="noreferrer">
+                    查看原始来源
+                  </a>
+                </div>
               </article>
             ))}
           </div>
@@ -283,6 +351,66 @@ function LatestSection(props: { items: ContentItem[]; lastUpdated: string }) {
         </section>
       ))}
     </section>
+  );
+}
+
+function DetailPage(props: { item: ContentItem }) {
+  const { item } = props;
+  const body = deriveBody(item);
+  const author = deriveAuthor(item);
+  const conclusion = deriveMainConclusion(item);
+  const implications = deriveImplications(item);
+
+  return (
+    <main className="page-shell detail-shell">
+      <button className="back-link" onClick={clearDetail}>
+        返回首页
+      </button>
+      <article className="detail-page">
+        <div className="card__meta">
+          <span>{labels.sourceType[item.source_type]}</span>
+          <span>{item.source_region}</span>
+          <span>{labels.contentType[item.content_type]}</span>
+        </div>
+        <h1>{item.title_zh}</h1>
+        <p className="detail-subtitle">{item.title_original}</p>
+
+        <section className="detail-section">
+          <h2>基本信息</h2>
+          <dl className="detail-meta">
+            <div>
+              <dt>时间</dt>
+              <dd>{formatDateTime(item.published_at)}</dd>
+            </div>
+            <div>
+              <dt>作者</dt>
+              <dd>{author}</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section className="detail-section">
+          <h2>内容</h2>
+          {body.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
+        </section>
+
+        <section className="detail-section">
+          <h2>主要结论</h2>
+          <p>{conclusion}</p>
+        </section>
+
+        <section className="detail-section">
+          <h2>对我们有哪些启发</h2>
+          <p>{implications}</p>
+        </section>
+
+        <p className="detail-source-note">
+          来源：{item.source_name} · <a href={item.source_url} target="_blank" rel="noreferrer">{item.source_url}</a>
+        </p>
+      </article>
+    </main>
   );
 }
 
@@ -411,12 +539,23 @@ function HomePage() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
   const [browseMode, setBrowseMode] = useState<BrowseMode>("list");
+  const [detailId, setDetailId] = useState<string | null>(() => readDetailId());
 
   useEffect(() => {
     fetchIndex()
       .then(setIndex)
       .catch(() => setError("当前未读取到发布索引，先显示内置示例内容。可运行 `npm run publish` 或在审核台点击发布。"))
       .finally(() => setLoading(false));
+  }, []);
+
+  useEffect(() => {
+    const syncRoute = () => setDetailId(readDetailId());
+    window.addEventListener("popstate", syncRoute);
+    window.addEventListener(DETAIL_ROUTE_EVENT, syncRoute);
+    return () => {
+      window.removeEventListener("popstate", syncRoute);
+      window.removeEventListener(DETAIL_ROUTE_EVENT, syncRoute);
+    };
   }, []);
 
   const visibleItems = index?.items?.length ? index.items : curatedSeedItems.map((item) => classifyItem(item));
@@ -435,6 +574,11 @@ function HomePage() {
     () => groupItems(filtered, (item) => [labels.sourceType[item.source_type]]),
     [filtered],
   );
+  const detailItem = useMemo(() => visibleItems.find((item) => item.id === detailId) ?? null, [detailId, visibleItems]);
+
+  if (detailItem) {
+    return <DetailPage item={detailItem} />;
+  }
 
   return (
     <main className="page-shell">
