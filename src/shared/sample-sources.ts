@@ -3,7 +3,12 @@ import type { ContentItem } from "./content";
 const now = new Date().toISOString();
 type SeedItem = Omit<ContentItem, "source_region"> & { source_region?: string };
 
-export const retiredSeedItemIds = ["incoming-neurodiversity-review", "seed-pubmed-review", "seed-sld-review"] as const;
+export const retiredSeedItemIds = [
+  "incoming-neurodiversity-review",
+  "seed-pubmed-review",
+  "seed-sld-review",
+  "academic-pmc-sld-50-years",
+] as const;
 
 export const curatedSeedItems: SeedItem[] = [
   {

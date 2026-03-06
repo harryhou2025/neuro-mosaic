@@ -12,7 +12,7 @@
     "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
     "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:11:26.208Z",
+    "published_at": "2026-03-06T15:39:13.290Z",
     "content_type": "directory",
     "topics": [
       "学习困难",
@@ -31,7 +31,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:11:26.208Z",
+    "ingested_at": "2026-03-06T15:39:13.290Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -53,7 +53,7 @@
     "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
     "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:11:25.168Z",
+    "published_at": "2026-03-06T15:39:12.496Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -74,7 +74,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:11:25.168Z",
+    "ingested_at": "2026-03-06T15:39:12.496Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -96,7 +96,7 @@
     "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
     "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:11:24.911Z",
+    "published_at": "2026-03-06T15:39:11.818Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -119,7 +119,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:11:24.911Z",
+    "ingested_at": "2026-03-06T15:39:11.818Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -141,7 +141,7 @@
     "summary_zh": "ADHD 教育、家庭支持、学校与职场资源。适合通过 CHADD 进一步进入该主题的权威信息。",
     "excerpt": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:11:24.266Z",
+    "published_at": "2026-03-06T15:39:11.071Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -162,7 +162,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:11:24.266Z",
+    "ingested_at": "2026-03-06T15:39:11.071Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -184,7 +184,7 @@
     "summary_zh": "教育干预证据和学校支持策略。适合通过 Education Endowment Foundation 进一步进入该主题的权威信息。",
     "excerpt": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:11:23.595Z",
+    "published_at": "2026-03-06T15:39:10.947Z",
     "content_type": "directory",
     "topics": [
       "学习困难",
@@ -207,7 +207,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:11:23.595Z",
+    "ingested_at": "2026-03-06T15:39:10.947Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -248,7 +248,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:11:27.967Z",
+    "ingested_at": "2026-03-06T15:39:14.925Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -289,7 +289,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:11:27.968Z",
+    "ingested_at": "2026-03-06T15:39:14.926Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -331,13 +331,197 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:11:27.968Z",
+    "ingested_at": "2026-03-06T15:39:14.926Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "childmind-feed"
       ]
+    }
+  },
+  {
+    "id": "academic-autism-2026-41764700",
+    "source_name": "Quality of Life Research",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12950652/",
+    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12950652/",
+    "title_original": "Circadian preference and quality of life in adults with autism spectrum disorder: a Brazilian cross-sectional self-reported survey",
+    "title_zh": "研究：PubMed 41764700",
+    "summary_original": "Adults with Autism Spectrum Disorder (ASD) often experience significant challenges that affect their quality of life (QoL), including mental health issues, socioeconomic strain, and circadian rhythm disruptions. Chronotype, or an individual’s biological preference for sleep-wake patterns, has been associated with well-being in neurotypical populations but remains underexplored in adults with ASD. This study aimed to investigate the association between chronotype and perceived QoL in Brazilian adults with ASD.",
+    "summary_zh": "基于学术全文自动解析：Adults with Autism Spectrum Disorder (ASD) often experience significant challenges that affect their quality…",
+    "excerpt": "Adults with Autism Spectrum Disorder (ASD) often experience significant challenges that affect their quality of life (QoL), including mental health issues, socioeconomic strain, and circadian rhythm disruptions. Chronotype, or an individual’s biological prefe…",
+    "language": "en",
+    "published_at": "2026-02-28T16:00:00.000Z",
+    "content_type": "research",
+    "topics": [
+      "自闭症",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "researcher",
+      "clinician",
+      "self-advocate",
+      "employer"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T15:34:16.256Z",
+    "metadata": {
+      "doi": "10.1007/s11136-026-04176-1",
+      "pmid": "41764700",
+      "authors": "Júlia Grillo Lima; Mônica Thaís S Macedo; Thais de Oliveira F Baldo; Marcelo Perim Baldo",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12950652/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12950652/pdf/11136_2026_Article_4176.pdf",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "autism-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：PubMed 41764700》",
+        "publication_info": "Quality of Life Research，2026/3/1",
+        "authors_display": "Júlia Grillo Lima、Mônica Thaís S Macedo、Thais de Oliveira F Baldo、Marcelo Perim Baldo",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：Circadian preference and quality of life in adults with autism spectrum disorder: a Brazilian cross-sectional self-reported survey",
+              "研究类型：横断面调查。",
+              "核心摘要：Adults with Autism Spectrum Disorder (ASD) often experience significant challenges that affect their quality of life (QoL), including mental health issues, socioeconomic strain, and circadian rhythm disruptions."
+            ]
+          },
+          {
+            "title": "正文结构",
+            "items": [
+              "Marcelo Perim Baldo：Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give app…",
+              "Purpose：Adults with Autism Spectrum Disorder (ASD) often experience significant challenges that affect their quality of life (QoL), including mental health issues, socioeconomic strain, and circadian rhythm disruptions.",
+              "Methods：We conducted a cross-sectional, web-based survey as part of the SOLACE-ASD Brasil project.",
+              "Results：Intermediate chronotype was the most prevalent (40.1%), followed by evening (38.7%) and morning (21.2%) chronotypes.",
+              "Conclusion：Chronotype is an independent predictor of QoL in adults with ASD, with evening preference linked to worse outcomes."
+            ]
+          }
+        ],
+        "key_findings": "Adults with Autism Spectrum Disorder (ASD) often experience significant challenges that affect their quality of life (QoL), including mental health issues, socioeconomic strain, and circadian rhythm disruptions.",
+        "research_method": "从全文结构看，文章按 Marcelo Perim Baldo、Purpose、Methods、Results 展开。",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
+        "strategy_points": [
+          "Marcelo Perim Baldo：Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give app…",
+          "Purpose：Adults with Autism Spectrum Disorder (ASD) often experience significant challenges that affect their quality of life (QoL), including mental health issues, socioeconomic strain, and circadian rhythm disruptions.",
+          "Methods：We conducted a cross-sectional, web-based survey as part of the SOLACE-ASD Brasil project.",
+          "Results：Intermediate chronotype was the most prevalent (40.1%), followed by evening (38.7%) and morning (21.2%) chronotypes."
+        ],
+        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
+        ]
+      }
+    }
+  },
+  {
+    "id": "academic-adhd-2026-41759998",
+    "source_name": "Medicine",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12956189/",
+    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12956189/",
+    "title_original": "Genomic approach to investigate air pollution’s causal impact on neurodevelopment and mental health: An extensive-scale 2-sample Mendelian randomization study",
+    "title_zh": "研究：Genomic approach to investigate air pollution’s causal impact on neurodevelopment and mental health: An extensive-scale 2-sample Mendelian randomization study",
+    "summary_original": "Air pollution is a major global public health threat associated with increased morbidity and premature mortality. Growing evidence suggests that air pollution may also adversely affect brain health, contributing to cognitive impairment and mental disorders. However, most existing studies are observational and therefore vulnerable to residual confounding and reverse causation. Mendelian randomization (MR), which uses genetic variants as instrumental variables, offers a framework to strengthen causal inference regarding the neurological effects of air pollution. We conducted a 2-sample MR study using large-scale genome-wide association study data to investigate the causal effects of air pollution on neurodevelopmental and mental health outcomes. Exposures included ambient air pollutants (PM 2.5 , PM 10 , PM 2.5–10 , NO 2 , and NO x ) and workplace-related air pollution, including self-reported “very dusty” workplace exposure, chemical or other fumes, and diesel exhaust. Neurodevelopmental and mental health outcomes comprised 17 genome-wide association studies datasets across 6 domains: cognitive function and intelligence, educational attainment, psychiatric disorders, emotional and behavioral disorders in children and adolescents, attention-deficit/hyperactivity disorder (ADHD), and neuroticism. Genetically proxied higher PM 2.5 exposure was associated with lower intelligence and cognitive performance, reduced educational attainment, and increased risks of schizophrenia, depression, panic attacks, and vulnerability during youth. Elevated NO x exposure was associated with poorer cognition, lower educational attainment, and increased risks of anxiety, panic disorder, and attention-deficit/hyperactivity disorder. Higher NO 2 levels were associated with an increased risk of schizophrenia and higher neuroticism scores. Workplace-related air pollution exposures were also associated with adverse outcomes. Self-reported “very dusty” workplace exposure was associated with poorer cognitive performance and educational attainment, while chemical fumes and diesel exhaust were linked to reduced academic achievement and increased risks of selected psychiatric outcomes. This MR study provides evidence supporting potential causal relationships between air pollution exposure and a wide range of neurodevelopmental and mental health outcomes, underscoring the importance of reducing air pollution exposure, particularly among vulnerable populations.",
+    "summary_zh": "基于学术全文自动解析：Air pollution is a major global public health threat associated with increased morbidity and premature mortal…",
+    "excerpt": "Air pollution is a major global public health threat associated with increased morbidity and premature mortality. Growing evidence suggests that air pollution may also adversely affect brain health, contributing to cognitive impairment and mental disorders. H…",
+    "language": "en",
+    "published_at": "2026-02-27T16:00:00.000Z",
+    "content_type": "research",
+    "topics": [
+      "ADHD",
+      "教育",
+      "职场",
+      "神经多样性",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "self-advocate",
+      "educator",
+      "researcher",
+      "family",
+      "employer",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T15:39:05.138Z",
+    "metadata": {
+      "doi": "10.1097/MD.0000000000047836",
+      "pmid": "41759998",
+      "authors": "Wen Wu; Yuchao Fan",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12956189/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12956189/pdf/medi-105-e47836.pdf",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "adhd-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：Genomic approach to investigate air pollution’s causal impact on neurodevelopment and mental health: An extensive-scale 2-sample Mendelian randomization study》",
+        "publication_info": "Medicine，2026/2/28",
+        "authors_display": "Wen Wu、Yuchao Fan",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：Genomic approach to investigate air pollution’s causal impact on neurodevelopment and mental health: An extensive-scale 2-sample Mendelian randomization study",
+              "研究类型：学术研究。",
+              "核心摘要：Air pollution is a major global public health threat associated with increased morbidity and premature mortality."
+            ]
+          },
+          {
+            "title": "正文结构",
+            "items": [
+              "Yuchao Fan , MD：Correspondence: Yuchao Fan, Department of Anesthesiology, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, Affiliated Cancer Hospital of University of Electronic S…",
+              "1. Introduction：Air pollution is a major global public health challenge, with approximately 99% of the world’s population exposed to levels exceeding recommended thresholds.",
+              "2. Material and methods：In this study, we employed a 2-sample MR approach to investigate the potential causal relationship between air pollution and neurodevelopmental as well as mental health outcomes.",
+              "2.1. Study design：This study employed a 2-sample MR design using summary-level statistics from GWAS to investigate the potential causal effects of air pollution on neurodevelopmental and mental health outcomes.",
+              "2.2. Data source：The genetic dataset employed in this study was sourced from the IEU open GWAS project ( https://gwas.mrcieu.ac.uk/ ), an encompassing compilation of data from multiple reputable sources."
+            ]
+          }
+        ],
+        "key_findings": "Air pollution is a major global public health threat associated with increased morbidity and premature mortality.",
+        "research_method": "从全文结构看，文章按 Yuchao Fan , MD、1. Introduction、2. Material and methods、2.1. Study design 展开。",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
+        "strategy_points": [
+          "Yuchao Fan , MD：Correspondence: Yuchao Fan, Department of Anesthesiology, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, Affiliated Cancer Hospital of University of Electronic S…",
+          "1. Introduction：Air pollution is a major global public health challenge, with approximately 99% of the world’s population exposed to levels exceeding recommended thresholds.",
+          "2. Material and methods：In this study, we employed a 2-sample MR approach to investigate the potential causal relationship between air pollution and neurodevelopmental as well as mental health outcomes.",
+          "2.1. Study design：This study employed a 2-sample MR design using summary-level statistics from GWAS to investigate the potential causal effects of air pollution on neurodevelopmental and mental health outcomes."
+        ],
+        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
+        ]
+      }
     }
   },
   {
@@ -371,7 +555,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:11:27.968Z",
+    "ingested_at": "2026-03-06T15:39:14.926Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -381,42 +565,188 @@
     }
   },
   {
-    "id": "incoming-neurodiversity-review",
-    "source_name": "Journal of Autism and Developmental Disorders",
+    "id": "academic-autism-2026-41641503",
+    "source_name": "Autism",
     "source_type": "academic",
     "source_region": "国际",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/00000000/",
-    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/00000000/",
-    "title_original": "Neurodiversity-affirming support in higher education: a review",
-    "title_zh": "高校中的神经多样性肯定式支持：综述",
-    "summary_original": "Review article candidate covering accommodation design, stigma reduction, and student-led support in higher education.",
-    "summary_zh": "聚焦高校支持设计、污名减少和学生主导支持的综述型条目。",
-    "excerpt": "Review article candidate covering accommodation design, stigma reduction, and student-led support in higher education.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923632/",
+    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923632/",
+    "title_original": "Sleep and activity patterns in autism",
+    "title_zh": "研究：Sleep and activity patterns in autism",
+    "summary_original": "Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior, and co-occurring conditions. Sleep disturbances are common in autism. This study uses low-cost wearable devices to compare sleep, physical activity, and circadian behavior in autistic adults and their non-autistic relatives. We recruited 318 autistic individuals and 130 family members, collecting accelerometer data over 3 weeks (8249 days). Using a data-driven approach, we identified actimetry-derived features associated with autism. We examined 308 traits using the elastic net algorithm and linear mixed effects regressions. We identified 52 actimetry measures associated with autism (area under the curve: 0.812; confidence interval: 0.761–0.862), validated in a test set (area under the curve: 0.756; confidence interval: 0.700–0.813). Both mean and day-to-day variability in several measures (e.g., time spent sedentary, total light physical activity) were associated with autism. In autistic individuals, reduced physical activity during wake was more strongly associated with shorter sleep time than in non-autistic relatives (likelihood ratio: 41.6; p = 1.13e−10). Reduced physical activity in autistic individuals was linked to increased social impairment, as measured by the Social Responsiveness Scale. Long inactivity periods and lower physical activity levels were associated with autism, correlating with less sleep and later sleep onset. Interventional studies are needed to explore if improving sleep and physical activity can improve the quality of life for autistic individuals.",
+    "summary_zh": "基于学术全文自动解析：Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior…",
+    "excerpt": "Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior, and co-occurring conditions. Sleep disturbances are common in autism. This study uses low-cost wearable devices to compare sleep, physical activity,…",
     "language": "en",
-    "published_at": "2025-11-08T00:00:00.000Z",
-    "content_type": "review",
+    "published_at": "2026-02-04T16:00:00.000Z",
+    "content_type": "research",
     "topics": [
-      "神经多样性",
+      "自闭症",
       "教育",
+      "家庭支持",
+      "神经多样性",
       "共病与支持需求"
     ],
     "audiences": [
+      "family",
       "educator",
       "researcher",
-      "clinician"
+      "clinician",
+      "self-advocate"
     ],
     "conditions": [
-      "neurodiversity"
+      "autism"
     ],
     "review_status": "approved",
-    "review_notes": "自动发布：研究综述入口。",
-    "ingested_at": "2026-03-06T02:57:55.783Z",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T15:39:04.770Z",
     "metadata": {
+      "doi": "10.1177/13623613251413538",
+      "pmid": "41641503",
+      "authors": "J Dylan Weissenkampen; Arpita Ghorai; Thaise NR Carneiro; Maria Fasolino; Brielle N Gehringer; Maya Rajan; Holly C Dow; Shriya Kunatharaju; Till Roenneberg; Ronnie Sebro; Daniel J Rader; Brendan T Keenan; Laura Almasy; Edward S Brodkin; Maja Bućan",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923632/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923632/pdf/10.1177_13623613251413538.pdf",
       "credibility": "high",
       "tags": [
-        "higher education",
-        "review"
-      ]
+        "academic-search",
+        "autism-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：Sleep and activity patterns in autism》",
+        "publication_info": "Autism，2026/2/5",
+        "authors_display": "J Dylan Weissenkampen、Arpita Ghorai、Thaise NR Carneiro、Maria Fasolino、Brielle N Gehringer、Maya Rajan",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：Sleep and activity patterns in autism",
+              "研究类型：干预研究。",
+              "核心摘要：Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior, and co-occurring conditions."
+            ]
+          },
+          {
+            "title": "正文结构",
+            "items": [
+              "Maja Bućan：Maja Bućan, Department of Genetics, University of Pennsylvania, 475 CRB, 415 Curie Blvd, Philadelphia, PA 19104, USA.",
+              "Lay Abstract：Autistic individuals frequently report problems with their sleep, though what aspects of sleep are most affected is not well understood.",
+              "Introduction：Autism spectrum conditions (hereafter referred to as autism) are childhood-onset neurodevelopmental disturbances characterized by impairment of social communication and restricted repetitive or stereotyped patterns of b…",
+              "Study participants：We recruited participants through the Autism Spectrum Program of Excellence (ASPE) at the University of Pennsylvania (Philadelphia, Pennsylvania) ( Elkhatib Smidt et al., 2022 ; Taylor et al., 2021 , 2022 ) and autistic…",
+              "Phenotypic assessments：All probands (autistic participants) and their potentially non-autistic relatives were assessed for autism-related quantitative traits using self- and informant-reports using the Social Responsiveness Scale (SRS) ( Chan…"
+            ]
+          }
+        ],
+        "key_findings": "Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior, and co-occurring conditions.",
+        "research_method": "从全文结构看，文章按 Maja Bućan、Lay Abstract、Introduction、Study participants 展开。",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
+        "strategy_points": [
+          "Maja Bućan：Maja Bućan, Department of Genetics, University of Pennsylvania, 475 CRB, 415 Curie Blvd, Philadelphia, PA 19104, USA.",
+          "Lay Abstract：Autistic individuals frequently report problems with their sleep, though what aspects of sleep are most affected is not well understood.",
+          "Introduction：Autism spectrum conditions (hereafter referred to as autism) are childhood-onset neurodevelopmental disturbances characterized by impairment of social communication and restricted repetitive or stereotyped patterns of b…",
+          "Study participants：We recruited participants through the Autism Spectrum Program of Excellence (ASPE) at the University of Pennsylvania (Philadelphia, Pennsylvania) ( Elkhatib Smidt et al., 2022 ; Taylor et al., 2021 , 2022 ) and autistic…"
+        ],
+        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
+        ]
+      }
+    }
+  },
+  {
+    "id": "academic-autism-2026-41474110",
+    "source_name": "Autism",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923634/",
+    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923634/",
+    "title_original": "Thinking flexibly: A cognitive remediation therapy–informed intervention for autistic youth",
+    "title_zh": "研究：Thinking flexibly: A cognitive remediation therapy–informed intervention for autistic youth",
+    "summary_original": "Autistic people are known to demonstrate greater difficulties with cognitive flexibility. These difficulties are associated with a range of poor outcomes, including elevated rates of anxiety and depression. Current intervention approaches fail to account for these specific mechanisms. In this study, we address this by piloting a new intervention which aims to specifically target cognitive inflexibility. The ‘Thinking Flexibly’ intervention has been co-designed with autistic youth based on previous work, including cognitive remediation therapy. Twenty autistic adolescents were recruited from clinical services and offered the eight-session intervention. Acceptability was assessed through participant drop-out and session completion. Participants (and their parents) also completed questionnaire measures of cognitive inflexibility, anxiety, depression and functional outcomes before and after the intervention. Our results indicated good acceptability with 19/20 participants completing the intervention and session attendance was high, with a single missed session. We found significant increases in flexibility across both parent- and self-report of a moderate effect. Participants reported significant reductions in symptoms of anxiety and depression. We conclude that ‘Thinking Flexibly’ is acceptable for use with autistic adolescents and shows promise as a standalone or adjunct therapy. Changes on outcome measures are promising and warrant further investigation in a larger trial.",
+    "summary_zh": "基于学术全文自动解析：Autistic people are known to demonstrate greater difficulties with cognitive flexibility. These difficulties…",
+    "excerpt": "Autistic people are known to demonstrate greater difficulties with cognitive flexibility. These difficulties are associated with a range of poor outcomes, including elevated rates of anxiety and depression. Current intervention approaches fail to account for…",
+    "language": "en",
+    "published_at": "2025-12-30T16:00:00.000Z",
+    "content_type": "research",
+    "topics": [
+      "自闭症",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "职场",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "researcher",
+      "clinician",
+      "self-advocate",
+      "employer"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T15:39:04.770Z",
+    "metadata": {
+      "doi": "10.1177/13623613251407294",
+      "pmid": "41474110",
+      "authors": "Jasmin Dipre; Lauren Burton; Kate Tchanturia; Matthew J Hollocks",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923634/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923634/pdf/10.1177_13623613251407294.pdf",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "autism-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：Thinking flexibly: A cognitive remediation therapy–informed intervention for autistic youth》",
+        "publication_info": "Autism，2025/12/31",
+        "authors_display": "Jasmin Dipre、Lauren Burton、Kate Tchanturia、Matthew J Hollocks",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：Thinking flexibly: A cognitive remediation therapy–informed intervention for autistic youth",
+              "研究类型：干预研究。",
+              "核心摘要：Autistic people are known to demonstrate greater difficulties with cognitive flexibility."
+            ]
+          },
+          {
+            "title": "正文结构",
+            "items": [
+              "Matthew J Hollocks：Matthew J Hollocks, Department of Child & Adolescent Psychiatry, King’s College London, 16 De Crespigny Park, London SE5 8AB, UK.",
+              "Lay abstract：Autistic people often have greater difficulties with flexible thinking when compared to those without autism.",
+              "Introduction：Autistic young people are at disproportionate risk for having co-occurring mental health difficulties.",
+              "Participants：Twenty autistic youth (mean age = 14 years 3 months; range = 12 years 2 months–16 years 5 months) were recruited from child and adolescent mental health services in South London.",
+              "Design：This was a single-arm intervention design."
+            ]
+          }
+        ],
+        "key_findings": "Autistic people are known to demonstrate greater difficulties with cognitive flexibility.",
+        "research_method": "从全文结构看，文章按 Matthew J Hollocks、Lay abstract、Introduction、Participants 展开。",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
+        "strategy_points": [
+          "Matthew J Hollocks：Matthew J Hollocks, Department of Child & Adolescent Psychiatry, King’s College London, 16 De Crespigny Park, London SE5 8AB, UK.",
+          "Lay abstract：Autistic people often have greater difficulties with flexible thinking when compared to those without autism.",
+          "Introduction：Autistic young people are at disproportionate risk for having co-occurring mental health difficulties.",
+          "Participants：Twenty autistic youth (mean age = 14 years 3 months; range = 12 years 2 months–16 years 5 months) were recruited from child and adolescent mental health services in South London."
+        ],
+        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
+        ]
+      }
     }
   },
   {
@@ -452,7 +782,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：大众实用资源。",
-    "ingested_at": "2026-03-06T15:11:20.692Z",
+    "ingested_at": "2026-03-06T15:39:03.552Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -490,7 +820,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:11:24.136Z",
+    "ingested_at": "2026-03-06T15:39:10.979Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -533,7 +863,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:11:25.893Z",
+    "ingested_at": "2026-03-06T15:39:12.222Z",
     "metadata": {
       "credibility": "high",
       "tags": [

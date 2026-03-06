@@ -162,6 +162,13 @@ function deriveDetailTitle(item: ContentItem): string {
   return `《${item.title_zh}》`;
 }
 
+function getDisplayTitle(item: ContentItem): string {
+  if (/^研究：PubMed \d+$/i.test(item.title_zh)) {
+    return `研究：${item.title_original}`;
+  }
+  return item.title_zh;
+}
+
 function getBaseText(item: ContentItem): string {
   return [item.summary_zh, item.summary_original, item.excerpt].filter(Boolean).join(" ");
 }
@@ -502,7 +509,7 @@ function ContentCard({ item }: { item: ContentItem }) {
         <span>{labels.contentType[item.content_type]}</span>
         <span>{formatDate(item.published_at)}</span>
       </div>
-      <h3>{item.title_zh}</h3>
+      <h3>{getDisplayTitle(item)}</h3>
       <p className="card__original">{item.title_original}</p>
       <p>{item.summary_zh}</p>
       <p className="card__excerpt">{item.excerpt}</p>
@@ -561,7 +568,7 @@ function LatestSection(props: { items: ContentItem[]; lastUpdated: string }) {
                   <span>{item.source_region}</span>
                   <span>{formatDate(item.published_at)}</span>
                 </div>
-                <h3>{item.title_zh}</h3>
+                <h3>{getDisplayTitle(item)}</h3>
                 <p className="card__original">{item.title_original}</p>
                 <p>{item.summary_zh}</p>
                 <div className="tag-row">
@@ -632,7 +639,7 @@ function AcademicHighlightsSection(props: { items: ContentItem[] }) {
               <span>{item.source_name}</span>
               <span>{formatDate(item.published_at)}</span>
             </div>
-            <h3>{item.title_zh}</h3>
+            <h3>{getDisplayTitle(item)}</h3>
             <p className="card__original">{item.title_original}</p>
             <p>{item.metadata.analysis?.key_findings ?? item.summary_zh}</p>
             <div className="tag-row">
@@ -690,14 +697,14 @@ function DetailPage(props: { item: ContentItem }) {
             <span>{item.source_region}</span>
             <span>{labels.contentType[item.content_type]}</span>
           </div>
-          <h1>{detailTitle}</h1>
+          <h1>{/^《研究：PubMed \d+》$/i.test(detailTitle) ? `《研究：${item.title_original}》` : detailTitle}</h1>
           <p className="detail-subtitle">{item.title_original}</p>
         </div>
 
         <section className="detail-section">
           <p className="detail-line">
             <strong>总结标题：</strong>
-            <span>{detailTitle}（{item.title_original}）</span>
+            <span>{/^《研究：PubMed \d+》$/i.test(detailTitle) ? `《研究：${item.title_original}》` : detailTitle}（{item.title_original}）</span>
           </p>
           <p className="detail-line">
             <strong>时间：</strong>
@@ -851,7 +858,7 @@ function GroupedSection(props: { title: string; groups: Array<{ label: string; i
             <div className="group-panel__items">
               {group.items.slice(0, 4).map((item) => (
                 <a key={`${group.label}-${item.id}`} href={item.source_url} target="_blank" rel="noreferrer" className="group-link">
-                  <strong>{item.title_zh}</strong>
+                  <strong>{getDisplayTitle(item)}</strong>
                   <span>
                     {item.source_name} · {item.source_region}
                   </span>
