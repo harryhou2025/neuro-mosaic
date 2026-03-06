@@ -603,6 +603,67 @@ function LatestSection(props: { items: ContentItem[]; lastUpdated: string }) {
   );
 }
 
+function AcademicHighlightsSection(props: { items: ContentItem[] }) {
+  const { items } = props;
+  const [expanded, setExpanded] = useState(false);
+  const visibleItems = expanded ? items : items.slice(0, DEFAULT_SECTION_LIMIT);
+
+  if (items.length === 0) {
+    return null;
+  }
+
+  return (
+    <section className="latest-section">
+      <div className="section-heading">
+        <div>
+          <p className="eyebrow">Academic Highlights</p>
+          <h2>学术精读</h2>
+        </div>
+        <p>这里优先展示已经补齐作者、期刊、时间与结构化摘要的学术文章，方便直接点进详情页阅读。</p>
+      </div>
+      <div className="latest-grid">
+        {visibleItems.map((item, index) => (
+          <article
+            key={item.id}
+            className={index === 0 ? "card card--latest card--latest-lead" : "card card--latest"}
+          >
+            <div className="card__meta">
+              <span>学术精读</span>
+              <span>{item.source_name}</span>
+              <span>{formatDate(item.published_at)}</span>
+            </div>
+            <h3>{item.title_zh}</h3>
+            <p className="card__original">{item.title_original}</p>
+            <p>{item.metadata.analysis?.key_findings ?? item.summary_zh}</p>
+            <div className="tag-row">
+              {item.topics.slice(0, 4).map((topic) => (
+                <span key={topic} className="tag">
+                  {topic}
+                </span>
+              ))}
+            </div>
+            <div className="card__actions">
+              <button className="detail-button" onClick={() => openDetail(item.id)}>
+                进入精读详情
+              </button>
+              <a href={item.source_url} target="_blank" rel="noreferrer">
+                查看原始来源
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+      {items.length > DEFAULT_SECTION_LIMIT ? (
+        <div className="section-actions">
+          <button className="browse-nav__button" onClick={() => setExpanded((current) => !current)}>
+            {expanded ? "收起" : "查看更多"}
+          </button>
+        </div>
+      ) : null}
+    </section>
+  );
+}
+
 function DetailPage(props: { item: ContentItem }) {
   const { item } = props;
   const contentTree = deriveContentTree(item);
@@ -883,6 +944,22 @@ function HomePage() {
   const browseItems = useMemo(() => visibleItems.filter(isBrowsableContent), [visibleItems]);
   const filtered = useMemo(() => filterItems(browseItems, filters).sort(compareItemsForDisplay), [filters, browseItems]);
   const lastUpdated = index?.generated_at ? formatDateTime(index.generated_at) : "未生成";
+  const academicHighlights = useMemo(
+    () =>
+      [...browseItems]
+        .filter(
+          (item) =>
+            isAcademicItem(item) &&
+            Boolean(
+              item.metadata.analysis &&
+                (item.metadata.analysis.content_sections?.length ||
+                  item.metadata.analysis.key_findings ||
+                  item.metadata.analysis.research_method),
+            ),
+        )
+        .sort(compareItemsForDisplay),
+    [browseItems],
+  );
   const latestItems = useMemo(
     () => [...browseItems].sort(compareItemsForDisplay),
     [browseItems],
@@ -930,6 +1007,7 @@ function HomePage() {
       <section className="panel empty">
         最后更新时间（北京时间）：{lastUpdated}
       </section>
+      <AcademicHighlightsSection items={academicHighlights} />
       <LatestSection items={latestItems} lastUpdated={lastUpdated} />
       <BrowseNav mode={browseMode} setMode={setBrowseMode} />
       <FiltersPanel filters={filters} setFilters={setFilters} />
