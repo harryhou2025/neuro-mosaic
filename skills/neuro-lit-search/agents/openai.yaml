@@ -1,0 +1,8 @@
+interface:
+  display_name: "Neuro Lit Search"
+  short_description: "Neurodiversity/Autism/ADHD literature search"
+  default_prompt: "Use $neuro-lit-search to turn my research question on neurodiversity/autism/ADHD into reproducible database queries (PubMed/WoS/Scopus/Scholar), export PubMed results, and produce a prioritized reading list plus an evidence table."
+
+policy:
+  allow_implicit_invocation: true
+

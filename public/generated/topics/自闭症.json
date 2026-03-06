@@ -1,0 +1,625 @@
+[
+  {
+    "id": "page-nimh",
+    "source_name": "NIMH",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+    "canonical_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+    "title_original": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+    "title_zh": "NIMH 资源入口",
+    "summary_original": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
+    "summary_zh": "ADHD 与相关精神健康主题的官方科普与治疗信息。适合通过 NIMH 进一步进入该主题的权威信息。",
+    "excerpt": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:59.543Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:59.543Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-child-mind",
+    "source_name": "Child Mind Institute",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://childmind.org/",
+    "canonical_url": "https://childmind.org/",
+    "title_original": "Child Mind Institute | Transforming Children&#039;s Lives.",
+    "title_zh": "Child Mind Institute 资源入口",
+    "summary_original": "The Child Mind Institute is an independent nonprofit dedicated to transforming the lives of children struggling with mental health and learning disorders.",
+    "summary_zh": "儿童神经发育与精神健康资源库。适合通过 Child Mind Institute 进一步进入该主题的权威信息。",
+    "excerpt": "The Child Mind Institute is an independent nonprofit dedicated to transforming the lives of children struggling with mental health and learning disorders.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.392Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "学习困难",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.393Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-nice",
+    "source_name": "NICE",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://www.nice.org.uk/guidance/ng87",
+    "canonical_url": "https://www.nice.org.uk/guidance/ng87",
+    "title_original": "Overview | Attention deficit hyperactivity disorder: diagnosis and management | Guidance | NICE",
+    "title_zh": "NICE 资源入口",
+    "summary_original": "循证指南、临床建议、教育与照护路径",
+    "summary_zh": "循证指南、临床建议、教育与照护路径。适合通过 NICE 进一步进入该主题的权威信息。",
+    "excerpt": "循证指南、临床建议、教育与照护路径",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.256Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "神经多样性",
+      "教育"
+    ],
+    "audiences": [
+      "clinician",
+      "educator",
+      "researcher"
+    ],
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.256Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  },
+  {
+    "id": "page-nas",
+    "source_name": "National Autistic Society",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://www.autism.org.uk/",
+    "canonical_url": "https://www.autism.org.uk/",
+    "title_original": "National Autistic Society",
+    "title_zh": "National Autistic Society 资源入口",
+    "summary_original": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
+    "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
+    "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.217Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "职场",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator",
+      "employer",
+      "clinician"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.217Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  },
+  {
+    "id": "page-wrightslaw",
+    "source_name": "Wrightslaw",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.wrightslaw.com/",
+    "canonical_url": "https://www.wrightslaw.com/",
+    "title_original": "Wrightslaw",
+    "title_zh": "Wrightslaw 资源入口",
+    "summary_original": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
+    "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
+    "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.142Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "学习困难",
+      "神经多样性",
+      "教育",
+      "家庭支持",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.142Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-kidshealth",
+    "source_name": "Nemours KidsHealth",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://kidshealth.org/",
+    "canonical_url": "https://kidshealth.org/",
+    "title_original": "Nemours KidsHealth - the Web's most visited site about children's health",
+    "title_zh": "Nemours KidsHealth 资源入口",
+    "summary_original": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
+    "summary_zh": "儿童健康科普，自闭症与 ADHD 基础说明。适合通过 Nemours KidsHealth 进一步进入该主题的权威信息。",
+    "excerpt": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.801Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "ADHD",
+      "学习困难",
+      "神经多样性",
+      "家庭支持"
+    ],
+    "audiences": [
+      "family",
+      "clinician"
+    ],
+    "conditions": [
+      "autism",
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.801Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-trip",
+    "source_name": "TRIP Database",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://www.tripdatabase.com/",
+    "canonical_url": "https://www.tripdatabase.com/",
+    "title_original": "Trip Medical Database",
+    "title_zh": "TRIP Database 资源入口",
+    "summary_original": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
+    "summary_zh": "指南、综述和临床证据检索。适合通过 TRIP Database 进一步进入该主题的权威信息。",
+    "excerpt": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.598Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "ADHD",
+      "学习困难",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "clinician",
+      "researcher"
+    ],
+    "conditions": [
+      "autism",
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.598Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "国际"
+      ]
+    }
+  },
+  {
+    "id": "page-pubmed",
+    "source_name": "PubMed",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
+    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/",
+    "title_original": "PubMed",
+    "title_zh": "PubMed 资源入口",
+    "summary_original": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
+    "summary_zh": "医学与健康研究论文检索。适合通过 PubMed 进一步进入该主题的权威信息。",
+    "excerpt": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.219Z",
+    "content_type": "directory",
+    "topics": [
+      "神经多样性",
+      "自闭症",
+      "ADHD",
+      "学习困难"
+    ],
+    "audiences": [
+      "researcher",
+      "clinician"
+    ],
+    "conditions": [
+      "neurodiversity",
+      "autism",
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.219Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "国际"
+      ]
+    }
+  },
+  {
+    "id": "page-autism-speaks",
+    "source_name": "Autism Speaks",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.autismspeaks.org/",
+    "canonical_url": "https://www.autismspeaks.org/",
+    "title_original": "Autism Speaks",
+    "title_zh": "Autism Speaks 资源入口",
+    "summary_original": "自闭症工具包、服务目录与家庭资源入口",
+    "summary_zh": "自闭症工具包、服务目录与家庭资源入口。适合通过 Autism Speaks 进一步进入该主题的权威信息。",
+    "excerpt": "自闭症工具包、服务目录与家庭资源入口",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.211Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "家庭支持",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.211Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-healthdirect",
+    "source_name": "healthdirect",
+    "source_type": "official",
+    "source_region": "澳大利亚",
+    "source_url": "https://www.healthdirect.gov.au/autism",
+    "canonical_url": "https://www.healthdirect.gov.au/autism",
+    "title_original": "Autism spectrum disorder (ASD)",
+    "title_zh": "healthdirect 资源入口",
+    "summary_original": "Learn about autism symptoms and management for children and adults. Read how the term Asperger’s is no longer used.",
+    "summary_zh": "澳洲健康信息入口，适合基础科普与就医导航。适合通过 healthdirect 进一步进入该主题的权威信息。",
+    "excerpt": "Learn about autism symptoms and management for children and adults. Read how the term Asperger’s is no longer used.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.185Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "ADHD",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "clinician"
+    ],
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.185Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "澳大利亚"
+      ]
+    }
+  },
+  {
+    "id": "page-edresearch",
+    "source_name": "Education Endowment Foundation",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://educationendowmentfoundation.org.uk/",
+    "canonical_url": "https://educationendowmentfoundation.org.uk/",
+    "title_original": "Education Endowment Foundation | EEF",
+    "title_zh": "Education Endowment Foundation 资源入口",
+    "summary_original": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
+    "summary_zh": "教育干预证据和学校支持策略。适合通过 Education Endowment Foundation 进一步进入该主题的权威信息。",
+    "excerpt": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.089Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "ADHD",
+      "自闭症",
+      "神经多样性",
+      "教育",
+      "家庭支持",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "educator",
+      "researcher",
+      "family"
+    ],
+    "conditions": [
+      "learning-difficulties",
+      "adhd",
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.089Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  },
+  {
+    "id": "page-cdc",
+    "source_name": "CDC",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.cdc.gov/autism/",
+    "canonical_url": "https://www.cdc.gov/autism/",
+    "title_original": "Autism Spectrum Disorder (ASD)",
+    "title_zh": "CDC 资源入口",
+    "summary_original": "ASD is a developmental disability that can lead to social, communication, and behavioral challenges.",
+    "summary_zh": "自闭症筛查、基础介绍、家庭资源。适合通过 CDC 进一步进入该主题的权威信息。",
+    "excerpt": "ASD is a developmental disability that can lead to social, communication, and behavioral challenges.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.012Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "家庭支持"
+    ],
+    "audiences": [
+      "family",
+      "clinician"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.012Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "feed-childmind-feed-d254b9c64c15",
+    "source_name": "Child Mind Institute",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://childmind.org/article/what-is-audhd/",
+    "canonical_url": "https://childmind.org/article/what-is-audhd/",
+    "title_original": "What Is AuDHD?",
+    "title_zh": "Child Mind Institute：What Is AuDHD?",
+    "summary_original": "AuDHD is a new term that’s being used to describe people who have both autism and ADHD. It’s not an official diagnosis but is meant to draw attention to the combined effect of having the two disorders. Having both autism and ADHD is very common — studies estimate that 50 to 70 percent of people &#8230; Continued The post What Is AuDHD? appeared first on Child Mind Institute .",
+    "summary_zh": "Child Mind Institute 最新条目：AuDHD is a new term that’s being used to describe people who have both autism and ADHD. I…",
+    "excerpt": "AuDHD is a new term that’s being used to describe people who have both autism and ADHD. It’s not an official diagnosis but is meant to draw attention to the combined effect of having the two disorders. Having both autism and ADHD is very common — studies estimate that 50 to 70 p…",
+    "language": "en",
+    "published_at": "2026-03-02T17:12:16.000Z",
+    "content_type": "news",
+    "topics": [
+      "神经多样性",
+      "家庭支持",
+      "共病与支持需求",
+      "自闭症",
+      "ADHD"
+    ],
+    "audiences": [
+      "family",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:01.487Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "childmind-feed"
+      ]
+    }
+  },
+  {
+    "id": "page-nhs",
+    "source_name": "NHS",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://www.nhs.uk/conditions/autism/",
+    "canonical_url": "https://www.nhs.uk/conditions/autism/",
+    "title_original": "Autism",
+    "title_zh": "NHS 资源入口",
+    "summary_original": "NHS guide to autism. Find out what autism is and what the common signs are. Get help and advice if you or your child are autistic.",
+    "summary_zh": "公众导向的自闭症与支持服务信息。适合通过 NHS 进一步进入该主题的权威信息。",
+    "excerpt": "NHS guide to autism. Find out what autism is and what the common signs are. Get help and advice if you or your child are autistic.",
+    "language": "bilingual",
+    "published_at": "8 Mar 2023, 1:51 p.m.",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.748Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  },
+  {
+    "id": "page-autistica",
+    "source_name": "Autistica",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://www.autistica.org.uk/",
+    "canonical_url": "https://www.autistica.org.uk/",
+    "title_original": "Home | Autistica | Autism research and campaigning | Autistica",
+    "title_zh": "Autistica 资源入口",
+    "summary_original": "Autistica is the UK&#039;s leading autism research and campaigning charity. We create breakthroughs to enable autistic people to live happy, healthy and long lives.",
+    "summary_zh": "自闭症研究、政策倡导与生活支持。适合通过 Autistica 进一步进入该主题的权威信息。",
+    "excerpt": "Autistica is the UK&#039;s leading autism research and campaigning charity. We create breakthroughs to enable autistic people to live happy, healthy and long lives.",
+    "language": "bilingual",
+    "published_at": "2017-08-16T16:59:22+01:00",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "self-advocate",
+      "researcher",
+      "family",
+      "clinician",
+      "employer"
+    ],
+    "conditions": [
+      "autism",
+      "neurodiversity"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.563Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  }
+]

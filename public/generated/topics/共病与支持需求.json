@@ -1,0 +1,545 @@
+[
+  {
+    "id": "page-ncld",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.ncld.org/",
+    "canonical_url": "https://www.ncld.org/",
+    "title_original": "National Center for Learning Disabilities",
+    "title_zh": "NCLD 资源入口",
+    "summary_original": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
+    "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:59.320Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "神经多样性",
+      "职场",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "self-advocate"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:59.320Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-nas",
+    "source_name": "National Autistic Society",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://www.autism.org.uk/",
+    "canonical_url": "https://www.autism.org.uk/",
+    "title_original": "National Autistic Society",
+    "title_zh": "National Autistic Society 资源入口",
+    "summary_original": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
+    "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
+    "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.217Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "职场",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator",
+      "employer",
+      "clinician"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.217Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  },
+  {
+    "id": "page-wrightslaw",
+    "source_name": "Wrightslaw",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.wrightslaw.com/",
+    "canonical_url": "https://www.wrightslaw.com/",
+    "title_original": "Wrightslaw",
+    "title_zh": "Wrightslaw 资源入口",
+    "summary_original": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
+    "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
+    "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.142Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "学习困难",
+      "神经多样性",
+      "教育",
+      "家庭支持",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.142Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-chadd",
+    "source_name": "CHADD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://chadd.org/",
+    "canonical_url": "https://chadd.org/",
+    "title_original": "CHADD - Improving the lives of people affected by ADHD",
+    "title_zh": "CHADD 资源入口",
+    "summary_original": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
+    "summary_zh": "ADHD 教育、家庭支持、学校与职场资源。适合通过 CHADD 进一步进入该主题的权威信息。",
+    "excerpt": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.736Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "神经多样性",
+      "教育",
+      "职场",
+      "家庭支持",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator",
+      "employer"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.737Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-edresearch",
+    "source_name": "Education Endowment Foundation",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://educationendowmentfoundation.org.uk/",
+    "canonical_url": "https://educationendowmentfoundation.org.uk/",
+    "title_original": "Education Endowment Foundation | EEF",
+    "title_zh": "Education Endowment Foundation 资源入口",
+    "summary_original": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
+    "summary_zh": "教育干预证据和学校支持策略。适合通过 Education Endowment Foundation 进一步进入该主题的权威信息。",
+    "excerpt": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.089Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "ADHD",
+      "自闭症",
+      "神经多样性",
+      "教育",
+      "家庭支持",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "educator",
+      "researcher",
+      "family"
+    ],
+    "conditions": [
+      "learning-difficulties",
+      "adhd",
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.089Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  },
+  {
+    "id": "feed-childmind-feed-73100ab53193",
+    "source_name": "Child Mind Institute",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://childmind.org/blog/child-mind-institute-partners-with-macys-to-help-teens-get-prom-ready/",
+    "canonical_url": "https://childmind.org/blog/child-mind-institute-partners-with-macys-to-help-teens-get-prom-ready/",
+    "title_original": "Child Mind Institute Partners With Macy’s to Help Teens Get Prom Ready",
+    "title_zh": "Child Mind Institute：Child Mind Institute Partners With Macy’s to Help Teens Get Prom Ready",
+    "summary_original": "The partnership aims to support youth nationwide with dedicated mental health resources to help teens and families from across the country overcome prom-related stress and anxiety and prepare for the best experience. The post Child Mind Institute Partners With Macy’s to Help Teens Get Prom Ready appeared first on Child Mind Institute .",
+    "summary_zh": "Child Mind Institute 最新条目：The partnership aims to support youth nationwide with dedicated mental health resources t…",
+    "excerpt": "The partnership aims to support youth nationwide with dedicated mental health resources to help teens and families from across the country overcome prom-related stress and anxiety and prepare for the best experience. The post Child Mind Institute Partners With Macy’s to Help Tee…",
+    "language": "en",
+    "published_at": "2026-03-04T18:22:22.000Z",
+    "content_type": "news",
+    "topics": [
+      "神经多样性",
+      "家庭支持",
+      "共病与支持需求",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:01.487Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "childmind-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-childmind-feed-c769bd2fd9e8",
+    "source_name": "Child Mind Institute",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://childmind.org/blog/how-we-built-responsible-ai-in-mirror-journal/",
+    "canonical_url": "https://childmind.org/blog/how-we-built-responsible-ai-in-mirror-journal/",
+    "title_original": "How We Built Responsible AI in Mirror Journal",
+    "title_zh": "Child Mind Institute：How We Built Responsible AI in Mirror Journal",
+    "summary_original": "In developing Mirror, a digital journaling tool from the Child Mind Institute, we didn’t set out to build just another mental health app. We took it as a challenge to answer a deeper ethical question: When someone shares their most vulnerable thoughts with an algorithm, how can the technology best serve as a bridge to meaningful human connection? The post How We Built Responsible AI in Mirror Journal appeared first on Child Mind Institute .",
+    "summary_zh": "Child Mind Institute 最新条目：In developing Mirror, a digital journaling tool from the Child Mind Institute, we didn’t…",
+    "excerpt": "In developing Mirror, a digital journaling tool from the Child Mind Institute, we didn’t set out to build just another mental health app. We took it as a challenge to answer a deeper ethical question: When someone shares their most vulnerable thoughts with an algorithm, how can…",
+    "language": "en",
+    "published_at": "2026-03-03T15:10:06.000Z",
+    "content_type": "news",
+    "topics": [
+      "神经多样性",
+      "家庭支持",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "clinician",
+      "researcher"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:01.487Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "childmind-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-childmind-feed-d254b9c64c15",
+    "source_name": "Child Mind Institute",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://childmind.org/article/what-is-audhd/",
+    "canonical_url": "https://childmind.org/article/what-is-audhd/",
+    "title_original": "What Is AuDHD?",
+    "title_zh": "Child Mind Institute：What Is AuDHD?",
+    "summary_original": "AuDHD is a new term that’s being used to describe people who have both autism and ADHD. It’s not an official diagnosis but is meant to draw attention to the combined effect of having the two disorders. Having both autism and ADHD is very common — studies estimate that 50 to 70 percent of people &#8230; Continued The post What Is AuDHD? appeared first on Child Mind Institute .",
+    "summary_zh": "Child Mind Institute 最新条目：AuDHD is a new term that’s being used to describe people who have both autism and ADHD. I…",
+    "excerpt": "AuDHD is a new term that’s being used to describe people who have both autism and ADHD. It’s not an official diagnosis but is meant to draw attention to the combined effect of having the two disorders. Having both autism and ADHD is very common — studies estimate that 50 to 70 p…",
+    "language": "en",
+    "published_at": "2026-03-02T17:12:16.000Z",
+    "content_type": "news",
+    "topics": [
+      "神经多样性",
+      "家庭支持",
+      "共病与支持需求",
+      "自闭症",
+      "ADHD"
+    ],
+    "audiences": [
+      "family",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:01.487Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "childmind-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-childmind-feed-4376083481b7",
+    "source_name": "Child Mind Institute",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://childmind.org/article/how-to-talk-to-your-teen-about-prom/",
+    "canonical_url": "https://childmind.org/article/how-to-talk-to-your-teen-about-prom/",
+    "title_original": "How to Talk to Your Teen About Prom",
+    "title_zh": "Child Mind Institute：How to Talk to Your Teen About Prom",
+    "summary_original": "We’ve all seen teen movies where prom is the grand finale — either the most romantic night of a young life or a booze-fueled bacchanalia full of teenagers making bad decisions. In real life, for most people, prom is neither. But the pressure to create lifelong memories has the potential to cause some conflict among &#8230; Continued The post How to Talk to Your Teen About Prom appeared first on Child Mind Institute .",
+    "summary_zh": "Child Mind Institute 最新条目：We’ve all seen teen movies where prom is the grand finale — either the most romantic nigh…",
+    "excerpt": "We’ve all seen teen movies where prom is the grand finale — either the most romantic night of a young life or a booze-fueled bacchanalia full of teenagers making bad decisions. In real life, for most people, prom is neither. But the pressure to create lifelong memories has the p…",
+    "language": "en",
+    "published_at": "2026-02-26T22:01:30.000Z",
+    "content_type": "news",
+    "topics": [
+      "神经多样性",
+      "家庭支持",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:01.487Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "childmind-feed"
+      ]
+    }
+  },
+  {
+    "id": "incoming-neurodiversity-review",
+    "source_name": "Journal of Autism and Developmental Disorders",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/00000000/",
+    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/00000000/",
+    "title_original": "Neurodiversity-affirming support in higher education: a review",
+    "title_zh": "高校中的神经多样性肯定式支持：综述",
+    "summary_original": "Review article candidate covering accommodation design, stigma reduction, and student-led support in higher education.",
+    "summary_zh": "聚焦高校支持设计、污名减少和学生主导支持的综述型条目。",
+    "excerpt": "Review article candidate covering accommodation design, stigma reduction, and student-led support in higher education.",
+    "language": "en",
+    "published_at": "2025-11-08T00:00:00.000Z",
+    "content_type": "review",
+    "topics": [
+      "神经多样性",
+      "教育",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "educator",
+      "researcher",
+      "clinician"
+    ],
+    "conditions": [
+      "neurodiversity"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：研究综述入口。",
+    "ingested_at": "2026-03-06T02:57:55.783Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "higher education",
+        "review"
+      ]
+    }
+  },
+  {
+    "id": "incoming-understood-executive",
+    "source_name": "Understood",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.understood.org/en/articles/executive-function-101",
+    "canonical_url": "https://www.understood.org/en/articles/executive-function-101",
+    "title_original": "Executive function 101",
+    "title_zh": "执行功能入门",
+    "summary_original": "A practical introduction to executive function challenges and support strategies across school and home settings.",
+    "summary_zh": "介绍执行功能困难及其在学校和家庭中的支持策略。",
+    "excerpt": "A practical introduction to executive function challenges and support strategies across school and home settings.",
+    "language": "bilingual",
+    "published_at": "2025-02-14T00:00:00.000Z",
+    "content_type": "guide",
+    "topics": [
+      "学习困难",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "clinician"
+    ],
+    "conditions": [
+      "learning-difficulties",
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：大众实用资源。",
+    "ingested_at": "2026-03-06T02:57:55.783Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "executive function"
+      ]
+    }
+  },
+  {
+    "id": "page-nhs",
+    "source_name": "NHS",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://www.nhs.uk/conditions/autism/",
+    "canonical_url": "https://www.nhs.uk/conditions/autism/",
+    "title_original": "Autism",
+    "title_zh": "NHS 资源入口",
+    "summary_original": "NHS guide to autism. Find out what autism is and what the common signs are. Get help and advice if you or your child are autistic.",
+    "summary_zh": "公众导向的自闭症与支持服务信息。适合通过 NHS 进一步进入该主题的权威信息。",
+    "excerpt": "NHS guide to autism. Find out what autism is and what the common signs are. Get help and advice if you or your child are autistic.",
+    "language": "bilingual",
+    "published_at": "8 Mar 2023, 1:51 p.m.",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.748Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  },
+  {
+    "id": "page-autistica",
+    "source_name": "Autistica",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://www.autistica.org.uk/",
+    "canonical_url": "https://www.autistica.org.uk/",
+    "title_original": "Home | Autistica | Autism research and campaigning | Autistica",
+    "title_zh": "Autistica 资源入口",
+    "summary_original": "Autistica is the UK&#039;s leading autism research and campaigning charity. We create breakthroughs to enable autistic people to live happy, healthy and long lives.",
+    "summary_zh": "自闭症研究、政策倡导与生活支持。适合通过 Autistica 进一步进入该主题的权威信息。",
+    "excerpt": "Autistica is the UK&#039;s leading autism research and campaigning charity. We create breakthroughs to enable autistic people to live happy, healthy and long lives.",
+    "language": "bilingual",
+    "published_at": "2017-08-16T16:59:22+01:00",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "self-advocate",
+      "researcher",
+      "family",
+      "clinician",
+      "employer"
+    ],
+    "conditions": [
+      "autism",
+      "neurodiversity"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.563Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  }
+]

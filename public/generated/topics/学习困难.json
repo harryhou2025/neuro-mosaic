@@ -1,0 +1,618 @@
+[
+  {
+    "id": "page-dyslexia-intl",
+    "source_name": "Dyslexia International",
+    "source_type": "official",
+    "source_region": "国际",
+    "source_url": "https://www.dyslexia-international.org/",
+    "canonical_url": "https://www.dyslexia-international.org/",
+    "title_original": "The Dyslexia International Foundation &#8211; Registered Charity & Knowledge Base",
+    "title_zh": "Dyslexia International 资源入口",
+    "summary_original": "阅读障碍与学习困难的国际资源",
+    "summary_zh": "阅读障碍与学习困难的国际资源。适合通过 Dyslexia International 进一步进入该主题的权威信息。",
+    "excerpt": "阅读障碍与学习困难的国际资源",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:58:00.272Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:58:00.272Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "国际"
+      ]
+    }
+  },
+  {
+    "id": "page-ncld",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.ncld.org/",
+    "canonical_url": "https://www.ncld.org/",
+    "title_original": "National Center for Learning Disabilities",
+    "title_zh": "NCLD 资源入口",
+    "summary_original": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
+    "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:59.320Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "神经多样性",
+      "职场",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "self-advocate"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:59.320Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-additude",
+    "source_name": "ADDitude",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.additudemag.com/",
+    "canonical_url": "https://www.additudemag.com/",
+    "title_original": "ADDitude",
+    "title_zh": "ADDitude 资源入口",
+    "summary_original": "ADHD symptom tests, ADD medication & treatment, behavior & discipline, school & learning essentials, organization and more information for families and individuals living with attention…",
+    "summary_zh": "ADHD 大众内容、学校与家庭实操。适合通过 ADDitude 进一步进入该主题的权威信息。",
+    "excerpt": "ADHD symptom tests, ADD medication & treatment, behavior & discipline, school & learning essentials, organization and more information for families and individuals living with attention…",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.872Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "学习困难",
+      "神经多样性",
+      "教育",
+      "家庭支持"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator"
+    ],
+    "conditions": [
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.872Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-child-mind",
+    "source_name": "Child Mind Institute",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://childmind.org/",
+    "canonical_url": "https://childmind.org/",
+    "title_original": "Child Mind Institute | Transforming Children&#039;s Lives.",
+    "title_zh": "Child Mind Institute 资源入口",
+    "summary_original": "The Child Mind Institute is an independent nonprofit dedicated to transforming the lives of children struggling with mental health and learning disorders.",
+    "summary_zh": "儿童神经发育与精神健康资源库。适合通过 Child Mind Institute 进一步进入该主题的权威信息。",
+    "excerpt": "The Child Mind Institute is an independent nonprofit dedicated to transforming the lives of children struggling with mental health and learning disorders.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.392Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "学习困难",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.393Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-wrightslaw",
+    "source_name": "Wrightslaw",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.wrightslaw.com/",
+    "canonical_url": "https://www.wrightslaw.com/",
+    "title_original": "Wrightslaw",
+    "title_zh": "Wrightslaw 资源入口",
+    "summary_original": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
+    "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
+    "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.142Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "学习困难",
+      "神经多样性",
+      "教育",
+      "家庭支持",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.142Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-kidshealth",
+    "source_name": "Nemours KidsHealth",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://kidshealth.org/",
+    "canonical_url": "https://kidshealth.org/",
+    "title_original": "Nemours KidsHealth - the Web's most visited site about children's health",
+    "title_zh": "Nemours KidsHealth 资源入口",
+    "summary_original": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
+    "summary_zh": "儿童健康科普，自闭症与 ADHD 基础说明。适合通过 Nemours KidsHealth 进一步进入该主题的权威信息。",
+    "excerpt": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.801Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "ADHD",
+      "学习困难",
+      "神经多样性",
+      "家庭支持"
+    ],
+    "audiences": [
+      "family",
+      "clinician"
+    ],
+    "conditions": [
+      "autism",
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.801Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-trip",
+    "source_name": "TRIP Database",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://www.tripdatabase.com/",
+    "canonical_url": "https://www.tripdatabase.com/",
+    "title_original": "Trip Medical Database",
+    "title_zh": "TRIP Database 资源入口",
+    "summary_original": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
+    "summary_zh": "指南、综述和临床证据检索。适合通过 TRIP Database 进一步进入该主题的权威信息。",
+    "excerpt": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.598Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "ADHD",
+      "学习困难",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "clinician",
+      "researcher"
+    ],
+    "conditions": [
+      "autism",
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.598Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "国际"
+      ]
+    }
+  },
+  {
+    "id": "page-understood",
+    "source_name": "Understood",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.understood.org/",
+    "canonical_url": "https://www.understood.org/",
+    "title_original": "Understood - For learning and thinking differences",
+    "title_zh": "Understood 资源入口",
+    "summary_original": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
+    "summary_zh": "面向家长和老师的学习差异实用资源。适合通过 Understood 进一步进入该主题的权威信息。",
+    "excerpt": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.495Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "ADHD",
+      "神经多样性",
+      "家庭支持"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties",
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.495Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-pubmed",
+    "source_name": "PubMed",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
+    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/",
+    "title_original": "PubMed",
+    "title_zh": "PubMed 资源入口",
+    "summary_original": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
+    "summary_zh": "医学与健康研究论文检索。适合通过 PubMed 进一步进入该主题的权威信息。",
+    "excerpt": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.219Z",
+    "content_type": "directory",
+    "topics": [
+      "神经多样性",
+      "自闭症",
+      "ADHD",
+      "学习困难"
+    ],
+    "audiences": [
+      "researcher",
+      "clinician"
+    ],
+    "conditions": [
+      "neurodiversity",
+      "autism",
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.219Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "国际"
+      ]
+    }
+  },
+  {
+    "id": "page-edresearch",
+    "source_name": "Education Endowment Foundation",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://educationendowmentfoundation.org.uk/",
+    "canonical_url": "https://educationendowmentfoundation.org.uk/",
+    "title_original": "Education Endowment Foundation | EEF",
+    "title_zh": "Education Endowment Foundation 资源入口",
+    "summary_original": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
+    "summary_zh": "教育干预证据和学校支持策略。适合通过 Education Endowment Foundation 进一步进入该主题的权威信息。",
+    "excerpt": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.089Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "ADHD",
+      "自闭症",
+      "神经多样性",
+      "教育",
+      "家庭支持",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "educator",
+      "researcher",
+      "family"
+    ],
+    "conditions": [
+      "learning-difficulties",
+      "adhd",
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.089Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  },
+  {
+    "id": "feed-ncld-feed-447c592bc8a0",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://ncld.org/february-2026-policy-news-round-up/",
+    "canonical_url": "https://ncld.org/february-2026-policy-news-round-up/",
+    "title_original": "February 2026 Policy News Round-Up",
+    "title_zh": "NCLD：February 2026 Policy News Round-Up",
+    "summary_original": "Education advocates celebrate public schools, new actions to dismantle the U.S. Department of Education, and a proposal to reimagine education research is announced. See what else NCLD is tracking this month. NCLD and Education Advocates Celebrate Public Schools Week The National Center for Learning Disabilities, along with dozens of national, state, and local organizations, celebrated... The post February 2026 Policy News Round-Up appeared first on National Center for Learning Disabilities .",
+    "summary_zh": "NCLD 最新条目：Education advocates celebrate public schools, new actions to dismantle the U.S. Departmen…",
+    "excerpt": "Education advocates celebrate public schools, new actions to dismantle the U.S. Department of Education, and a proposal to reimagine education research is announced. See what else NCLD is tracking this month. NCLD and Education Advocates Celebrate Public Schools Week The Nationa…",
+    "language": "en",
+    "published_at": "2026-03-04T20:11:50.000Z",
+    "content_type": "news",
+    "topics": [
+      "学习困难",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.909Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "ncld-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-ncld-feed-e6f150cd7dca",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://ncld.org/january-2026-policy-news-round-up/",
+    "canonical_url": "https://ncld.org/january-2026-policy-news-round-up/",
+    "title_original": "January 2026 Policy News Round-Up",
+    "title_zh": "NCLD：January 2026 Policy News Round-Up",
+    "summary_original": "The new year began with the reintroduction of key higher education legislation, as well as movement on FY 2026 appropriations. See what else NCLD is tracking this month. The RISE Act Was Reintroduced With Endorsement from NCLD and Higher Education Groups The Respond, Innovate, Succeed and Empower (RISE) Act was reintroduced in the Senate on... The post January 2026 Policy News Round-Up appeared first on National Center for Learning Disabilities .",
+    "summary_zh": "NCLD 最新条目：The new year began with the reintroduction of key higher education legislation, as well a…",
+    "excerpt": "The new year began with the reintroduction of key higher education legislation, as well as movement on FY 2026 appropriations. See what else NCLD is tracking this month. The RISE Act Was Reintroduced With Endorsement from NCLD and Higher Education Groups The Respond, Innovate, S…",
+    "language": "en",
+    "published_at": "2026-02-04T18:50:19.000Z",
+    "content_type": "news",
+    "topics": [
+      "学习困难",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.910Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "ncld-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-ncld-feed-88384fcb4e2e",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://ncld.org/ncld-response-to-gao-report-on-ocr/",
+    "canonical_url": "https://ncld.org/ncld-response-to-gao-report-on-ocr/",
+    "title_original": "NCLD Response to GAO report on OCR",
+    "title_zh": "NCLD：NCLD Response to GAO report on OCR",
+    "summary_original": "Washington, D.C. — February 2, 2026 Statement from the National Center for Learning Disabilities The information coming to light from the GAO report released today raises serious concerns not only about civil rights enforcement, but about fiscal responsibility and basic governance. For nearly 10 months, civil rights investigators were paid not to do their jobs... The post NCLD Response to GAO report on OCR appeared first on National Center for Learning Disabilities .",
+    "summary_zh": "NCLD 最新条目：Washington, D.C. — February 2, 2026 Statement from the National Center for Learning Disab…",
+    "excerpt": "Washington, D.C. — February 2, 2026 Statement from the National Center for Learning Disabilities The information coming to light from the GAO report released today raises serious concerns not only about civil rights enforcement, but about fiscal responsibility and basic governan…",
+    "language": "en",
+    "published_at": "2026-02-02T15:35:37.000Z",
+    "content_type": "news",
+    "topics": [
+      "学习困难",
+      "教育",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.910Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "ncld-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-ncld-feed-ee465e256109",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://ncld.org/advocates-respond-to-osers-listening-session/",
+    "canonical_url": "https://ncld.org/advocates-respond-to-osers-listening-session/",
+    "title_original": "Advocates Respond to OSERS Listening Session",
+    "title_zh": "NCLD：Advocates Respond to OSERS Listening Session",
+    "summary_original": "Washington, D.C. — January 28, 2026 Statement from the Advance IDEA Coalition (Council for Exceptional Children, Council of Parent Attorneys &#38; Advocates, National Center for Learning Disabilities, The Arc of the United States, and The Center for Learner Equity) We were pleased that the Department of Education hosted a formal listening session to hear personal... The post Advocates Respond to OSERS Listening Session appeared first on National Center for Learning Disabilities .",
+    "summary_zh": "NCLD 最新条目：Washington, D.C. — January 28, 2026 Statement from the Advance IDEA Coalition (Council fo…",
+    "excerpt": "Washington, D.C. — January 28, 2026 Statement from the Advance IDEA Coalition (Council for Exceptional Children, Council of Parent Attorneys &#38; Advocates, National Center for Learning Disabilities, The Arc of the United States, and The Center for Learner Equity) We were pleas…",
+    "language": "en",
+    "published_at": "2026-01-29T16:46:20.000Z",
+    "content_type": "news",
+    "topics": [
+      "学习困难",
+      "教育",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.910Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "ncld-feed"
+      ]
+    }
+  },
+  {
+    "id": "incoming-understood-executive",
+    "source_name": "Understood",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.understood.org/en/articles/executive-function-101",
+    "canonical_url": "https://www.understood.org/en/articles/executive-function-101",
+    "title_original": "Executive function 101",
+    "title_zh": "执行功能入门",
+    "summary_original": "A practical introduction to executive function challenges and support strategies across school and home settings.",
+    "summary_zh": "介绍执行功能困难及其在学校和家庭中的支持策略。",
+    "excerpt": "A practical introduction to executive function challenges and support strategies across school and home settings.",
+    "language": "bilingual",
+    "published_at": "2025-02-14T00:00:00.000Z",
+    "content_type": "guide",
+    "topics": [
+      "学习困难",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "clinician"
+    ],
+    "conditions": [
+      "learning-difficulties",
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：大众实用资源。",
+    "ingested_at": "2026-03-06T02:57:55.783Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "executive function"
+      ]
+    }
+  }
+]

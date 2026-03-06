@@ -1,0 +1,1036 @@
+[
+  {
+    "id": "page-additude",
+    "source_name": "ADDitude",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.additudemag.com/",
+    "canonical_url": "https://www.additudemag.com/",
+    "title_original": "ADDitude",
+    "title_zh": "ADDitude 资源入口",
+    "summary_original": "ADHD symptom tests, ADD medication & treatment, behavior & discipline, school & learning essentials, organization and more information for families and individuals living with attention…",
+    "summary_zh": "ADHD 大众内容、学校与家庭实操。适合通过 ADDitude 进一步进入该主题的权威信息。",
+    "excerpt": "ADHD symptom tests, ADD medication & treatment, behavior & discipline, school & learning essentials, organization and more information for families and individuals living with attention…",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.872Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "学习困难",
+      "神经多样性",
+      "教育",
+      "家庭支持"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator"
+    ],
+    "conditions": [
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.872Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-camh",
+    "source_name": "CAMH",
+    "source_type": "official",
+    "source_region": "加拿大",
+    "source_url": "https://www.camh.ca/",
+    "canonical_url": "https://www.camh.ca/",
+    "title_original": "The Centre for Addiction and Mental Health",
+    "title_zh": "CAMH 资源入口",
+    "summary_original": "Canada",
+    "summary_zh": "精神健康与神经发育相关教育资源。适合通过 CAMH 进一步进入该主题的权威信息。",
+    "excerpt": "Canada",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.312Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "神经多样性",
+      "教育"
+    ],
+    "audiences": [
+      "family",
+      "clinician",
+      "researcher",
+      "educator"
+    ],
+    "conditions": [
+      "adhd",
+      "neurodiversity"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.312Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "加拿大"
+      ]
+    }
+  },
+  {
+    "id": "page-nice",
+    "source_name": "NICE",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://www.nice.org.uk/guidance/ng87",
+    "canonical_url": "https://www.nice.org.uk/guidance/ng87",
+    "title_original": "Overview | Attention deficit hyperactivity disorder: diagnosis and management | Guidance | NICE",
+    "title_zh": "NICE 资源入口",
+    "summary_original": "循证指南、临床建议、教育与照护路径",
+    "summary_zh": "循证指南、临床建议、教育与照护路径。适合通过 NICE 进一步进入该主题的权威信息。",
+    "excerpt": "循证指南、临床建议、教育与照护路径",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.256Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "神经多样性",
+      "教育"
+    ],
+    "audiences": [
+      "clinician",
+      "educator",
+      "researcher"
+    ],
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.256Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  },
+  {
+    "id": "page-wrightslaw",
+    "source_name": "Wrightslaw",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.wrightslaw.com/",
+    "canonical_url": "https://www.wrightslaw.com/",
+    "title_original": "Wrightslaw",
+    "title_zh": "Wrightslaw 资源入口",
+    "summary_original": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
+    "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
+    "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.142Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "学习困难",
+      "神经多样性",
+      "教育",
+      "家庭支持",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.142Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-chadd",
+    "source_name": "CHADD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://chadd.org/",
+    "canonical_url": "https://chadd.org/",
+    "title_original": "CHADD - Improving the lives of people affected by ADHD",
+    "title_zh": "CHADD 资源入口",
+    "summary_original": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
+    "summary_zh": "ADHD 教育、家庭支持、学校与职场资源。适合通过 CHADD 进一步进入该主题的权威信息。",
+    "excerpt": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.736Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "神经多样性",
+      "教育",
+      "职场",
+      "家庭支持",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator",
+      "employer"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.737Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-caddac",
+    "source_name": "CADDAC",
+    "source_type": "official",
+    "source_region": "加拿大",
+    "source_url": "https://caddac.ca/",
+    "canonical_url": "https://caddac.ca/",
+    "title_original": "CADDAC: Canadian ADHD Awareness | Education | Advocacy",
+    "title_zh": "CADDAC 资源入口",
+    "summary_original": "CADDAC: Canadian ADHD Awareness, Education, Advocacy",
+    "summary_zh": "ADHD 教育、倡导、学校与职场工具。适合通过 CADDAC 进一步进入该主题的权威信息。",
+    "excerpt": "CADDAC: Canadian ADHD Awareness, Education, Advocacy",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.657Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "神经多样性",
+      "教育",
+      "职场"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "employer",
+      "self-advocate"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.657Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "加拿大"
+      ]
+    }
+  },
+  {
+    "id": "page-edresearch",
+    "source_name": "Education Endowment Foundation",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://educationendowmentfoundation.org.uk/",
+    "canonical_url": "https://educationendowmentfoundation.org.uk/",
+    "title_original": "Education Endowment Foundation | EEF",
+    "title_zh": "Education Endowment Foundation 资源入口",
+    "summary_original": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
+    "summary_zh": "教育干预证据和学校支持策略。适合通过 Education Endowment Foundation 进一步进入该主题的权威信息。",
+    "excerpt": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.089Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "ADHD",
+      "自闭症",
+      "神经多样性",
+      "教育",
+      "家庭支持",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "educator",
+      "researcher",
+      "family"
+    ],
+    "conditions": [
+      "learning-difficulties",
+      "adhd",
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.089Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  },
+  {
+    "id": "feed-additude-feed-7cd9ef3e16b2",
+    "source_name": "ADDitude",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.additudemag.com/how-to-stop-procrastinating-adhd-avoidant-thoughts/",
+    "canonical_url": "https://www.additudemag.com/how-to-stop-procrastinating-adhd-avoidant-thoughts/",
+    "title_original": "To Stop Procrastinating, Interrupt Your Avoidant Thoughts",
+    "title_zh": "ADDitude：To Stop Procrastinating, Interrupt Your Avoidant Thoughts",
+    "summary_original": "Changing your procrastination patterns won’t happen overnight, and most of the work is in noticing the thoughts that lead to procrastination, even if those thoughts seem benign.",
+    "summary_zh": "ADDitude 最新条目：Changing your procrastination patterns won’t happen overnight, and most of the work is in…",
+    "excerpt": "Changing your procrastination patterns won’t happen overnight, and most of the work is in noticing the thoughts that lead to procrastination, even if those thoughts seem benign.",
+    "language": "en",
+    "published_at": "2026-03-05T22:41:23.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "职场"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator"
+    ],
+    "conditions": [
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.712Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "rss-harvest",
+        "additude-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-ncld-feed-447c592bc8a0",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://ncld.org/february-2026-policy-news-round-up/",
+    "canonical_url": "https://ncld.org/february-2026-policy-news-round-up/",
+    "title_original": "February 2026 Policy News Round-Up",
+    "title_zh": "NCLD：February 2026 Policy News Round-Up",
+    "summary_original": "Education advocates celebrate public schools, new actions to dismantle the U.S. Department of Education, and a proposal to reimagine education research is announced. See what else NCLD is tracking this month. NCLD and Education Advocates Celebrate Public Schools Week The National Center for Learning Disabilities, along with dozens of national, state, and local organizations, celebrated... The post February 2026 Policy News Round-Up appeared first on National Center for Learning Disabilities .",
+    "summary_zh": "NCLD 最新条目：Education advocates celebrate public schools, new actions to dismantle the U.S. Departmen…",
+    "excerpt": "Education advocates celebrate public schools, new actions to dismantle the U.S. Department of Education, and a proposal to reimagine education research is announced. See what else NCLD is tracking this month. NCLD and Education Advocates Celebrate Public Schools Week The Nationa…",
+    "language": "en",
+    "published_at": "2026-03-04T20:11:50.000Z",
+    "content_type": "news",
+    "topics": [
+      "学习困难",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.909Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "ncld-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-additude-feed-d75751065226",
+    "source_name": "ADDitude",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.additudemag.com/people-pleasing-behaviors-adhd-boundaries/",
+    "canonical_url": "https://www.additudemag.com/people-pleasing-behaviors-adhd-boundaries/",
+    "title_original": "It&#8217;s Not People-Pleasing. It&#8217;s Self-Abandonment.",
+    "title_zh": "ADDitude：It&#8217;s Not People-Pleasing. It&#8217;s Self-Abandonment.",
+    "summary_original": "Answer one powerful question to help you stop under-valuing yourself.",
+    "summary_zh": "ADDitude 最新条目：Answer one powerful question to help you stop under-valuing yourself.",
+    "excerpt": "Answer one powerful question to help you stop under-valuing yourself.",
+    "language": "en",
+    "published_at": "2026-03-04T10:35:37.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator"
+    ],
+    "conditions": [
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.712Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "rss-harvest",
+        "additude-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-additude-feed-fa93e7caad68",
+    "source_name": "ADDitude",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.additudemag.com/alysa-liu-adhd-role-model/",
+    "canonical_url": "https://www.additudemag.com/alysa-liu-adhd-role-model/",
+    "title_original": "&#8220;Alysa Liu Is the ADHD Role Model We Desperately Needed&#8221;",
+    "title_zh": "ADDitude：&#8220;Alysa Liu Is the ADHD Role Model We Desperately Needed&#8221;",
+    "summary_original": "“The biggest lessons we can learn from Liu: Be yourself. Do what you need to do for you. Follow your interests, because that’s where your success lies.”",
+    "summary_zh": "ADDitude 最新条目：“The biggest lessons we can learn from Liu: Be yourself. Do what you need to do for you.…",
+    "excerpt": "“The biggest lessons we can learn from Liu: Be yourself. Do what you need to do for you. Follow your interests, because that’s where your success lies.”",
+    "language": "en",
+    "published_at": "2026-03-04T03:36:01.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator"
+    ],
+    "conditions": [
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.712Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "rss-harvest",
+        "additude-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-additude-feed-1afc1d0f8358",
+    "source_name": "ADDitude",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.additudemag.com/autistic-artists-spectrum-neurodivergence/",
+    "canonical_url": "https://www.additudemag.com/autistic-artists-spectrum-neurodivergence/",
+    "title_original": "The Autistic Experience, Illustrated",
+    "title_zh": "ADDitude：The Autistic Experience, Illustrated",
+    "summary_original": "ADDitude is proud to feature these original works from autistic artists who make the world more vibrant and interesting.",
+    "summary_zh": "ADDitude 最新条目：ADDitude is proud to feature these original works from autistic artists who make the worl…",
+    "excerpt": "ADDitude is proud to feature these original works from autistic artists who make the world more vibrant and interesting.",
+    "language": "en",
+    "published_at": "2026-03-02T10:32:39.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "职场"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator"
+    ],
+    "conditions": [
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.713Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "rss-harvest",
+        "additude-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-caddac-feed-94fdc1e2b46f",
+    "source_name": "CADDAC",
+    "source_type": "official",
+    "source_region": "加拿大",
+    "source_url": "https://caddac.ca/why-its-okay-to-need-to-escape-your-adhd-brain-and-why-sometimes-its-best-that-you-do-by-laura/",
+    "canonical_url": "https://caddac.ca/why-its-okay-to-need-to-escape-your-adhd-brain-and-why-sometimes-its-best-that-you-do-by-laura/",
+    "title_original": "Why It’s Okay to Need to Escape Your ADHD Brain (and Why Sometimes It’s Best That You Do) by Laura",
+    "title_zh": "CADDAC：Why It’s Okay to Need to Escape Your ADHD Brain (and Why Sometimes It’s Best That You Do) by Laura",
+    "summary_original": "Life inside an ADHD brain can be…unpleasant at times. When everything feels like too much, it’s natural to want to escape. For years, I felt guilty about the moments I needed to put my own consciousness on pause, largely because of how I did it: sugar binges, social media scrolls, Netflix marathons that went on [&#8230;]",
+    "summary_zh": "CADDAC 最新条目：Life inside an ADHD brain can be…unpleasant at times. When everything feels like too much…",
+    "excerpt": "Life inside an ADHD brain can be…unpleasant at times. When everything feels like too much, it’s natural to want to escape. For years, I felt guilty about the moments I needed to put my own consciousness on pause, largely because of how I did it: sugar binges, social media scroll…",
+    "language": "en",
+    "published_at": "2026-02-18T19:27:53.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "职场",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "employer",
+      "self-advocate"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:01.776Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "caddac-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-caddac-feed-3a9b7c9c8fac",
+    "source_name": "CADDAC",
+    "source_type": "official",
+    "source_region": "加拿大",
+    "source_url": "https://caddac.ca/navigating-the-world-with-adhd-as-a-woman-finding-balance-purpose-and-connection-by-krista/",
+    "canonical_url": "https://caddac.ca/navigating-the-world-with-adhd-as-a-woman-finding-balance-purpose-and-connection-by-krista/",
+    "title_original": "Navigating the world with ADHD as a woman: Finding balance, purpose and connection by Krista",
+    "title_zh": "CADDAC：Navigating the world with ADHD as a woman: Finding balance, purpose and connection by Krista",
+    "summary_original": "Growing up, my late father told me that I was “born to move”. When I was born, the doctor who caught me almost dropped me because I was squirming so much. I am still fond of that story, because it is undoubtedly true. To me, it was normal to have an abundance of energy, as [&#8230;]",
+    "summary_zh": "CADDAC 最新条目：Growing up, my late father told me that I was “born to move”. When I was born, the doctor…",
+    "excerpt": "Growing up, my late father told me that I was “born to move”. When I was born, the doctor who caught me almost dropped me because I was squirming so much. I am still fond of that story, because it is undoubtedly true. To me, it was normal to have an abundance of energy, as [&#82…",
+    "language": "en",
+    "published_at": "2026-02-09T16:15:23.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "职场",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "employer",
+      "self-advocate"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:01.777Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "caddac-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-chadd-feed-e755ad13c811",
+    "source_name": "CHADD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://chadd.org/finding-community-and-support-during-black-history-month/",
+    "canonical_url": "https://chadd.org/finding-community-and-support-during-black-history-month/",
+    "title_original": "Finding Community and Support During Black History Month",
+    "title_zh": "CHADD：Finding Community and Support During Black History Month",
+    "summary_original": "In honor of the annual celebration of Black culture, achievements, and community overall, CHADD is highlighting support groups and communities created for and by Black/African Americans. Navigating life with ADHD can be a struggle. For some people, ADHD can be debilitating, affecting family relationships, job stability, and personal relationships. If you are a Black person&#8230; The post Finding Community and Support During Black History Month appeared first on CHADD .",
+    "summary_zh": "CHADD 最新条目：In honor of the annual celebration of Black culture, achievements, and community overall,…",
+    "excerpt": "In honor of the annual celebration of Black culture, achievements, and community overall, CHADD is highlighting support groups and communities created for and by Black/African Americans. Navigating life with ADHD can be a struggle. For some people, ADHD can be debilitating, affe…",
+    "language": "en",
+    "published_at": "2026-02-05T21:33:44.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "self-advocate",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.696Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "chadd-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-ncld-feed-e6f150cd7dca",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://ncld.org/january-2026-policy-news-round-up/",
+    "canonical_url": "https://ncld.org/january-2026-policy-news-round-up/",
+    "title_original": "January 2026 Policy News Round-Up",
+    "title_zh": "NCLD：January 2026 Policy News Round-Up",
+    "summary_original": "The new year began with the reintroduction of key higher education legislation, as well as movement on FY 2026 appropriations. See what else NCLD is tracking this month. The RISE Act Was Reintroduced With Endorsement from NCLD and Higher Education Groups The Respond, Innovate, Succeed and Empower (RISE) Act was reintroduced in the Senate on... The post January 2026 Policy News Round-Up appeared first on National Center for Learning Disabilities .",
+    "summary_zh": "NCLD 最新条目：The new year began with the reintroduction of key higher education legislation, as well a…",
+    "excerpt": "The new year began with the reintroduction of key higher education legislation, as well as movement on FY 2026 appropriations. See what else NCLD is tracking this month. The RISE Act Was Reintroduced With Endorsement from NCLD and Higher Education Groups The Respond, Innovate, S…",
+    "language": "en",
+    "published_at": "2026-02-04T18:50:19.000Z",
+    "content_type": "news",
+    "topics": [
+      "学习困难",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.910Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "ncld-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-ncld-feed-88384fcb4e2e",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://ncld.org/ncld-response-to-gao-report-on-ocr/",
+    "canonical_url": "https://ncld.org/ncld-response-to-gao-report-on-ocr/",
+    "title_original": "NCLD Response to GAO report on OCR",
+    "title_zh": "NCLD：NCLD Response to GAO report on OCR",
+    "summary_original": "Washington, D.C. — February 2, 2026 Statement from the National Center for Learning Disabilities The information coming to light from the GAO report released today raises serious concerns not only about civil rights enforcement, but about fiscal responsibility and basic governance. For nearly 10 months, civil rights investigators were paid not to do their jobs... The post NCLD Response to GAO report on OCR appeared first on National Center for Learning Disabilities .",
+    "summary_zh": "NCLD 最新条目：Washington, D.C. — February 2, 2026 Statement from the National Center for Learning Disab…",
+    "excerpt": "Washington, D.C. — February 2, 2026 Statement from the National Center for Learning Disabilities The information coming to light from the GAO report released today raises serious concerns not only about civil rights enforcement, but about fiscal responsibility and basic governan…",
+    "language": "en",
+    "published_at": "2026-02-02T15:35:37.000Z",
+    "content_type": "news",
+    "topics": [
+      "学习困难",
+      "教育",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.910Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "ncld-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-ncld-feed-ee465e256109",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://ncld.org/advocates-respond-to-osers-listening-session/",
+    "canonical_url": "https://ncld.org/advocates-respond-to-osers-listening-session/",
+    "title_original": "Advocates Respond to OSERS Listening Session",
+    "title_zh": "NCLD：Advocates Respond to OSERS Listening Session",
+    "summary_original": "Washington, D.C. — January 28, 2026 Statement from the Advance IDEA Coalition (Council for Exceptional Children, Council of Parent Attorneys &#38; Advocates, National Center for Learning Disabilities, The Arc of the United States, and The Center for Learner Equity) We were pleased that the Department of Education hosted a formal listening session to hear personal... The post Advocates Respond to OSERS Listening Session appeared first on National Center for Learning Disabilities .",
+    "summary_zh": "NCLD 最新条目：Washington, D.C. — January 28, 2026 Statement from the Advance IDEA Coalition (Council fo…",
+    "excerpt": "Washington, D.C. — January 28, 2026 Statement from the Advance IDEA Coalition (Council for Exceptional Children, Council of Parent Attorneys &#38; Advocates, National Center for Learning Disabilities, The Arc of the United States, and The Center for Learner Equity) We were pleas…",
+    "language": "en",
+    "published_at": "2026-01-29T16:46:20.000Z",
+    "content_type": "news",
+    "topics": [
+      "学习困难",
+      "教育",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.910Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "ncld-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-chadd-feed-bd404c4ff7c4",
+    "source_name": "CHADD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://chadd.org/chadd-announces-a-leadership-transition-welcoming-suzanne-sophos-as-president-continuing-strong-governance-and-advocacy-for-the-adhd-community/",
+    "canonical_url": "https://chadd.org/chadd-announces-a-leadership-transition-welcoming-suzanne-sophos-as-president-continuing-strong-governance-and-advocacy-for-the-adhd-community/",
+    "title_original": "Suzanne Sophos Assumes CHADD Presidency",
+    "title_zh": "CHADD：Suzanne Sophos Assumes CHADD Presidency",
+    "summary_original": "CHADD’s board of directors announces an exciting transition in board leadership. Recognizing the conclusion of Jeremy Didier’s presidency on December 31, 2025, the board welcomes Suzanne Sophos as CHADD president effective January 1, 2026. Didier will serve as immediate past president through the end of 2026. This transition reflects CHADD’s ongoing leadership succession plan and&#8230; The post Suzanne Sophos Assumes CHADD Presidency appeared first on CHADD .",
+    "summary_zh": "CHADD 最新条目：CHADD’s board of directors announces an exciting transition in board leadership. Recogniz…",
+    "excerpt": "CHADD’s board of directors announces an exciting transition in board leadership. Recognizing the conclusion of Jeremy Didier’s presidency on December 31, 2025, the board welcomes Suzanne Sophos as CHADD president effective January 1, 2026. Didier will serve as immediate past pre…",
+    "language": "en",
+    "published_at": "2026-01-12T06:00:58.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "self-advocate",
+      "employer"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.697Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "chadd-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-chadd-feed-c36620485678",
+    "source_name": "CHADD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://chadd.org/2025-holiday-greetings-from-chadd/",
+    "canonical_url": "https://chadd.org/2025-holiday-greetings-from-chadd/",
+    "title_original": "2025 Holiday Greetings from CHADD",
+    "title_zh": "CHADD：2025 Holiday Greetings from CHADD",
+    "summary_original": "Warmest wishes for a joyful 2026. Wishing you a peaceful holiday season and a bright new year. Thank you for being part of the CHADD community and for helping us support children, adults, and families living with ADHD. The post 2025 Holiday Greetings from CHADD appeared first on CHADD .",
+    "summary_zh": "CHADD 最新条目：Warmest wishes for a joyful 2026. Wishing you a peaceful holiday season and a bright new…",
+    "excerpt": "Warmest wishes for a joyful 2026. Wishing you a peaceful holiday season and a bright new year. Thank you for being part of the CHADD community and for helping us support children, adults, and families living with ADHD. The post 2025 Holiday Greetings from CHADD appeared first on…",
+    "language": "en",
+    "published_at": "2025-12-19T06:00:48.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "self-advocate",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.697Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "chadd-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-chadd-feed-08e43bcefdf0",
+    "source_name": "CHADD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://chadd.org/2025-holiday-greetings-from-chadd-2/",
+    "canonical_url": "https://chadd.org/2025-holiday-greetings-from-chadd-2/",
+    "title_original": "2025 Holiday Greetings from CHADD",
+    "title_zh": "CHADD：2025 Holiday Greetings from CHADD",
+    "summary_original": "Wishing you a peaceful holiday season and a bright new year. Thank you for being part of the CHADD community and for helping us support children, adults, and families living with ADHD. The post 2025 Holiday Greetings from CHADD appeared first on CHADD .",
+    "summary_zh": "CHADD 最新条目：Wishing you a peaceful holiday season and a bright new year. Thank you for being part of…",
+    "excerpt": "Wishing you a peaceful holiday season and a bright new year. Thank you for being part of the CHADD community and for helping us support children, adults, and families living with ADHD. The post 2025 Holiday Greetings from CHADD appeared first on CHADD .",
+    "language": "en",
+    "published_at": "2025-12-18T22:10:19.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "self-advocate",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.697Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "chadd-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-caddac-feed-0f746743e58a",
+    "source_name": "CADDAC",
+    "source_type": "official",
+    "source_region": "加拿大",
+    "source_url": "https://caddac.ca/death-by-a-thousand-tiny-cuts-by-dawn/",
+    "canonical_url": "https://caddac.ca/death-by-a-thousand-tiny-cuts-by-dawn/",
+    "title_original": "Death By a Thousand Tiny Cuts by Dawn",
+    "title_zh": "CADDAC：Death By a Thousand Tiny Cuts by Dawn",
+    "summary_original": "Shaming has been the name of the game for kids with ADHD for a long time. I expect it became a problem at about the time mankind stopped living in the world and started trying to control it instead. There was no need for children to behave like little adults until we started making them [&#8230;]",
+    "summary_zh": "CADDAC 最新条目：Shaming has been the name of the game for kids with ADHD for a long time. I expect it bec…",
+    "excerpt": "Shaming has been the name of the game for kids with ADHD for a long time. I expect it became a problem at about the time mankind stopped living in the world and started trying to control it instead. There was no need for children to behave like little adults until we started mak…",
+    "language": "en",
+    "published_at": "2025-11-14T14:30:28.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "职场",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "employer",
+      "self-advocate"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:01.777Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "caddac-feed"
+      ]
+    }
+  },
+  {
+    "id": "incoming-neurodiversity-review",
+    "source_name": "Journal of Autism and Developmental Disorders",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/00000000/",
+    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/00000000/",
+    "title_original": "Neurodiversity-affirming support in higher education: a review",
+    "title_zh": "高校中的神经多样性肯定式支持：综述",
+    "summary_original": "Review article candidate covering accommodation design, stigma reduction, and student-led support in higher education.",
+    "summary_zh": "聚焦高校支持设计、污名减少和学生主导支持的综述型条目。",
+    "excerpt": "Review article candidate covering accommodation design, stigma reduction, and student-led support in higher education.",
+    "language": "en",
+    "published_at": "2025-11-08T00:00:00.000Z",
+    "content_type": "review",
+    "topics": [
+      "神经多样性",
+      "教育",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "educator",
+      "researcher",
+      "clinician"
+    ],
+    "conditions": [
+      "neurodiversity"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：研究综述入口。",
+    "ingested_at": "2026-03-06T02:57:55.783Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "higher education",
+        "review"
+      ]
+    }
+  },
+  {
+    "id": "incoming-understood-executive",
+    "source_name": "Understood",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.understood.org/en/articles/executive-function-101",
+    "canonical_url": "https://www.understood.org/en/articles/executive-function-101",
+    "title_original": "Executive function 101",
+    "title_zh": "执行功能入门",
+    "summary_original": "A practical introduction to executive function challenges and support strategies across school and home settings.",
+    "summary_zh": "介绍执行功能困难及其在学校和家庭中的支持策略。",
+    "excerpt": "A practical introduction to executive function challenges and support strategies across school and home settings.",
+    "language": "bilingual",
+    "published_at": "2025-02-14T00:00:00.000Z",
+    "content_type": "guide",
+    "topics": [
+      "学习困难",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "clinician"
+    ],
+    "conditions": [
+      "learning-difficulties",
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：大众实用资源。",
+    "ingested_at": "2026-03-06T02:57:55.783Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "executive function"
+      ]
+    }
+  },
+  {
+    "id": "feed-caddac-feed-061d4148c7b6",
+    "source_name": "CADDAC",
+    "source_type": "official",
+    "source_region": "加拿大",
+    "source_url": "https://caddac.ca/adhd-is-not-a-ferrari-with-bad-brakes-by-gabriel/",
+    "canonical_url": "https://caddac.ca/adhd-is-not-a-ferrari-with-bad-brakes-by-gabriel/",
+    "title_original": "ADHD is not a Ferrari with bad brakes by Gabriel",
+    "title_zh": "CADDAC：ADHD is not a Ferrari with bad brakes by Gabriel",
+    "summary_original": "Many of us ADHDers have heard about the analogy that our brain is a Ferrari with bicycle breaks created by Dr. Hallowell. And while I respect him and understand that this is only an analogy and that ADHD is not easily defined, as a car enthusiast, I beg to differ. If we are going to [&#8230;]",
+    "summary_zh": "CADDAC 最新条目：Many of us ADHDers have heard about the analogy that our brain is a Ferrari with bicycle…",
+    "excerpt": "Many of us ADHDers have heard about the analogy that our brain is a Ferrari with bicycle breaks created by Dr. Hallowell. And while I respect him and understand that this is only an analogy and that ADHD is not easily defined, as a car enthusiast, I beg to differ. If we are goin…",
+    "language": "en",
+    "published_at": "2025-12-02T14:52:40.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "职场",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "employer",
+      "self-advocate"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:01.777Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "caddac-feed"
+      ]
+    }
+  }
+]

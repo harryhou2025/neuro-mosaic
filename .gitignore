@@ -1,0 +1,6 @@
+node_modules
+.npm-cache
+dist
+.tmp
+coverage
+.DS_Store

@@ -1,0 +1,456 @@
+[
+  {
+    "id": "page-nimh",
+    "source_name": "NIMH",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+    "canonical_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+    "title_original": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+    "title_zh": "NIMH 资源入口",
+    "summary_original": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
+    "summary_zh": "ADHD 与相关精神健康主题的官方科普与治疗信息。适合通过 NIMH 进一步进入该主题的权威信息。",
+    "excerpt": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:59.543Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:59.543Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-ncld",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.ncld.org/",
+    "canonical_url": "https://www.ncld.org/",
+    "title_original": "National Center for Learning Disabilities",
+    "title_zh": "NCLD 资源入口",
+    "summary_original": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
+    "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:59.320Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "神经多样性",
+      "职场",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "self-advocate"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:59.320Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-nas",
+    "source_name": "National Autistic Society",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://www.autism.org.uk/",
+    "canonical_url": "https://www.autism.org.uk/",
+    "title_original": "National Autistic Society",
+    "title_zh": "National Autistic Society 资源入口",
+    "summary_original": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
+    "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
+    "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.217Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "职场",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator",
+      "employer",
+      "clinician"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.217Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  },
+  {
+    "id": "page-wrightslaw",
+    "source_name": "Wrightslaw",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.wrightslaw.com/",
+    "canonical_url": "https://www.wrightslaw.com/",
+    "title_original": "Wrightslaw",
+    "title_zh": "Wrightslaw 资源入口",
+    "summary_original": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
+    "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
+    "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:58.142Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "学习困难",
+      "神经多样性",
+      "教育",
+      "家庭支持",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.142Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-trip",
+    "source_name": "TRIP Database",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://www.tripdatabase.com/",
+    "canonical_url": "https://www.tripdatabase.com/",
+    "title_original": "Trip Medical Database",
+    "title_zh": "TRIP Database 资源入口",
+    "summary_original": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
+    "summary_zh": "指南、综述和临床证据检索。适合通过 TRIP Database 进一步进入该主题的权威信息。",
+    "excerpt": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.598Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "ADHD",
+      "学习困难",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "clinician",
+      "researcher"
+    ],
+    "conditions": [
+      "autism",
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.598Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "国际"
+      ]
+    }
+  },
+  {
+    "id": "page-autism-speaks",
+    "source_name": "Autism Speaks",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.autismspeaks.org/",
+    "canonical_url": "https://www.autismspeaks.org/",
+    "title_original": "Autism Speaks",
+    "title_zh": "Autism Speaks 资源入口",
+    "summary_original": "自闭症工具包、服务目录与家庭资源入口",
+    "summary_zh": "自闭症工具包、服务目录与家庭资源入口。适合通过 Autism Speaks 进一步进入该主题的权威信息。",
+    "excerpt": "自闭症工具包、服务目录与家庭资源入口",
+    "language": "bilingual",
+    "published_at": "2026-03-06T02:57:57.211Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "家庭支持",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.211Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "feed-ncld-feed-447c592bc8a0",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://ncld.org/february-2026-policy-news-round-up/",
+    "canonical_url": "https://ncld.org/february-2026-policy-news-round-up/",
+    "title_original": "February 2026 Policy News Round-Up",
+    "title_zh": "NCLD：February 2026 Policy News Round-Up",
+    "summary_original": "Education advocates celebrate public schools, new actions to dismantle the U.S. Department of Education, and a proposal to reimagine education research is announced. See what else NCLD is tracking this month. NCLD and Education Advocates Celebrate Public Schools Week The National Center for Learning Disabilities, along with dozens of national, state, and local organizations, celebrated... The post February 2026 Policy News Round-Up appeared first on National Center for Learning Disabilities .",
+    "summary_zh": "NCLD 最新条目：Education advocates celebrate public schools, new actions to dismantle the U.S. Departmen…",
+    "excerpt": "Education advocates celebrate public schools, new actions to dismantle the U.S. Department of Education, and a proposal to reimagine education research is announced. See what else NCLD is tracking this month. NCLD and Education Advocates Celebrate Public Schools Week The Nationa…",
+    "language": "en",
+    "published_at": "2026-03-04T20:11:50.000Z",
+    "content_type": "news",
+    "topics": [
+      "学习困难",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.909Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "ncld-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-childmind-feed-73100ab53193",
+    "source_name": "Child Mind Institute",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://childmind.org/blog/child-mind-institute-partners-with-macys-to-help-teens-get-prom-ready/",
+    "canonical_url": "https://childmind.org/blog/child-mind-institute-partners-with-macys-to-help-teens-get-prom-ready/",
+    "title_original": "Child Mind Institute Partners With Macy’s to Help Teens Get Prom Ready",
+    "title_zh": "Child Mind Institute：Child Mind Institute Partners With Macy’s to Help Teens Get Prom Ready",
+    "summary_original": "The partnership aims to support youth nationwide with dedicated mental health resources to help teens and families from across the country overcome prom-related stress and anxiety and prepare for the best experience. The post Child Mind Institute Partners With Macy’s to Help Teens Get Prom Ready appeared first on Child Mind Institute .",
+    "summary_zh": "Child Mind Institute 最新条目：The partnership aims to support youth nationwide with dedicated mental health resources t…",
+    "excerpt": "The partnership aims to support youth nationwide with dedicated mental health resources to help teens and families from across the country overcome prom-related stress and anxiety and prepare for the best experience. The post Child Mind Institute Partners With Macy’s to Help Tee…",
+    "language": "en",
+    "published_at": "2026-03-04T18:22:22.000Z",
+    "content_type": "news",
+    "topics": [
+      "神经多样性",
+      "家庭支持",
+      "共病与支持需求",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:01.487Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "childmind-feed"
+      ]
+    }
+  },
+  {
+    "id": "feed-ncld-feed-e6f150cd7dca",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://ncld.org/january-2026-policy-news-round-up/",
+    "canonical_url": "https://ncld.org/january-2026-policy-news-round-up/",
+    "title_original": "January 2026 Policy News Round-Up",
+    "title_zh": "NCLD：January 2026 Policy News Round-Up",
+    "summary_original": "The new year began with the reintroduction of key higher education legislation, as well as movement on FY 2026 appropriations. See what else NCLD is tracking this month. The RISE Act Was Reintroduced With Endorsement from NCLD and Higher Education Groups The Respond, Innovate, Succeed and Empower (RISE) Act was reintroduced in the Senate on... The post January 2026 Policy News Round-Up appeared first on National Center for Learning Disabilities .",
+    "summary_zh": "NCLD 最新条目：The new year began with the reintroduction of key higher education legislation, as well a…",
+    "excerpt": "The new year began with the reintroduction of key higher education legislation, as well as movement on FY 2026 appropriations. See what else NCLD is tracking this month. The RISE Act Was Reintroduced With Endorsement from NCLD and Higher Education Groups The Respond, Innovate, S…",
+    "language": "en",
+    "published_at": "2026-02-04T18:50:19.000Z",
+    "content_type": "news",
+    "topics": [
+      "学习困难",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T02:58:00.910Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "rss-harvest",
+        "ncld-feed"
+      ]
+    }
+  },
+  {
+    "id": "page-nhs",
+    "source_name": "NHS",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://www.nhs.uk/conditions/autism/",
+    "canonical_url": "https://www.nhs.uk/conditions/autism/",
+    "title_original": "Autism",
+    "title_zh": "NHS 资源入口",
+    "summary_original": "NHS guide to autism. Find out what autism is and what the common signs are. Get help and advice if you or your child are autistic.",
+    "summary_zh": "公众导向的自闭症与支持服务信息。适合通过 NHS 进一步进入该主题的权威信息。",
+    "excerpt": "NHS guide to autism. Find out what autism is and what the common signs are. Get help and advice if you or your child are autistic.",
+    "language": "bilingual",
+    "published_at": "8 Mar 2023, 1:51 p.m.",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:57.748Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  },
+  {
+    "id": "page-autistica",
+    "source_name": "Autistica",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://www.autistica.org.uk/",
+    "canonical_url": "https://www.autistica.org.uk/",
+    "title_original": "Home | Autistica | Autism research and campaigning | Autistica",
+    "title_zh": "Autistica 资源入口",
+    "summary_original": "Autistica is the UK&#039;s leading autism research and campaigning charity. We create breakthroughs to enable autistic people to live happy, healthy and long lives.",
+    "summary_zh": "自闭症研究、政策倡导与生活支持。适合通过 Autistica 进一步进入该主题的权威信息。",
+    "excerpt": "Autistica is the UK&#039;s leading autism research and campaigning charity. We create breakthroughs to enable autistic people to live happy, healthy and long lives.",
+    "language": "bilingual",
+    "published_at": "2017-08-16T16:59:22+01:00",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "self-advocate",
+      "researcher",
+      "family",
+      "clinician",
+      "employer"
+    ],
+    "conditions": [
+      "autism",
+      "neurodiversity"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T02:57:58.563Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  }
+]
