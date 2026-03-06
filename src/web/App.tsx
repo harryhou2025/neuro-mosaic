@@ -38,7 +38,7 @@ function clearDetail(): void {
 }
 
 async function fetchIndex(): Promise<PublicIndex> {
-  const response = await fetch("/generated/content-index.json");
+  const response = await fetch(`${import.meta.env.BASE_URL}generated/content-index.json`);
   if (!response.ok) {
     throw new Error("content-index.json not found");
   }
