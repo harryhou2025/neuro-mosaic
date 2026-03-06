@@ -169,6 +169,56 @@ function getDisplayTitle(item: ContentItem): string {
   return item.title_zh;
 }
 
+function getAcademicCoverFields(item: ContentItem): Array<{ label: string; value: string; href?: string }> {
+  const analysis = item.metadata.analysis;
+  const fields: Array<{ label: string; value: string; href?: string }> = [];
+
+  if (item.metadata.pdf_url || item.metadata.article_url || item.source_url) {
+    fields.push({
+      label: "原文链接",
+      value: item.metadata.pdf_url || item.metadata.article_url || item.source_url,
+      href: item.metadata.pdf_url || item.metadata.article_url || item.source_url,
+    });
+  }
+
+  fields.push({
+    label: "发表信息",
+    value:
+      analysis?.publication_info ||
+      `${item.source_name}，${formatDate(item.published_at)}，${deriveAuthor(item)}`,
+  });
+
+  if (analysis?.key_findings || item.summary_zh) {
+    fields.push({
+      label: "核心发现",
+      value: analysis?.key_findings || item.summary_zh,
+    });
+  }
+
+  if (analysis?.research_method) {
+    fields.push({
+      label: "研究方法",
+      value: analysis.research_method,
+    });
+  }
+
+  if (analysis?.practical_significance) {
+    fields.push({
+      label: "实践意义",
+      value: analysis.practical_significance,
+    });
+  }
+
+  if (analysis?.strategy_points?.length) {
+    fields.push({
+      label: "策略要点",
+      value: analysis.strategy_points.slice(0, 3).join("；"),
+    });
+  }
+
+  return fields;
+}
+
 function getBaseText(item: ContentItem): string {
   return [item.summary_zh, item.summary_original, item.excerpt].filter(Boolean).join(" ");
 }
@@ -641,7 +691,20 @@ function AcademicHighlightsSection(props: { items: ContentItem[] }) {
             </div>
             <h3>{getDisplayTitle(item)}</h3>
             <p className="card__original">{item.title_original}</p>
-            <p>{item.metadata.analysis?.key_findings ?? item.summary_zh}</p>
+            <div className="academic-cover">
+              {getAcademicCoverFields(item).map((field) => (
+                <p key={`${item.id}-${field.label}`} className="academic-cover__line">
+                  <strong>{field.label}：</strong>
+                  {field.href ? (
+                    <a href={field.href} target="_blank" rel="noreferrer">
+                      {field.value}
+                    </a>
+                  ) : (
+                    <span>{field.value}</span>
+                  )}
+                </p>
+              ))}
+            </div>
             <div className="tag-row">
               {item.topics.slice(0, 4).map((topic) => (
                 <span key={topic} className="tag">
@@ -684,6 +747,7 @@ function DetailPage(props: { item: ContentItem }) {
   const keyFindings = item.metadata.analysis?.key_findings;
   const practicalSignificance = item.metadata.analysis?.practical_significance;
   const strategyPoints = item.metadata.analysis?.strategy_points ?? [];
+  const coverFields = getAcademicCoverFields(item);
 
   return (
     <main className="page-shell detail-shell">
@@ -702,6 +766,22 @@ function DetailPage(props: { item: ContentItem }) {
         </div>
 
         <section className="detail-section">
+          {isAcademicItem(item) ? (
+            <div className="academic-cover academic-cover--detail">
+              {coverFields.map((field) => (
+                <p key={`${item.id}-${field.label}`} className="academic-cover__line">
+                  <strong>{field.label}：</strong>
+                  {field.href ? (
+                    <a href={field.href} target="_blank" rel="noreferrer">
+                      {field.value}
+                    </a>
+                  ) : (
+                    <span>{field.value}</span>
+                  )}
+                </p>
+              ))}
+            </div>
+          ) : null}
           <p className="detail-line">
             <strong>总结标题：</strong>
             <span>{/^《研究：PubMed \d+》$/i.test(detailTitle) ? `《研究：${item.title_original}》` : detailTitle}（{item.title_original}）</span>

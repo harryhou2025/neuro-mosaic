@@ -203,6 +203,36 @@ textarea {
   margin-top: 10px;
 }
 
+.academic-cover {
+  display: grid;
+  gap: 10px;
+  margin: 14px 0 8px;
+}
+
+.academic-cover--detail {
+  margin-bottom: 18px;
+}
+
+.academic-cover__line {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.academic-cover__line strong {
+  font-family: "Fraunces", "Noto Serif SC", serif;
+  margin-right: 6px;
+}
+
+.academic-cover__line a {
+  color: #2f59d9;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.academic-cover__line a:hover {
+  text-decoration: underline;
+}
+
 .detail-button,
 .back-link {
   border: 0;
@@ -611,6 +641,11 @@ textarea {
 
   .detail-highlight {
     padding: 14px 14px;
+  }
+
+  .academic-cover {
+    gap: 8px;
+    margin: 12px 0 6px;
   }
 
   .group-panel__header {
