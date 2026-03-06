@@ -106,18 +106,18 @@ function groupLatestItems(items: ContentItem[]): Array<{ id: string; label: stri
   const yesterdayKey = getShanghaiDateKey(yesterday);
   const weekStart = getStartOfShanghaiWeek(now);
 
-  const todayItems = items.filter((item) => getShanghaiDateKey(item.published_at) === todayKey);
-  const yesterdayItems = items.filter((item) => getShanghaiDateKey(item.published_at) === yesterdayKey);
+  const todayItems = items.filter((item) => getShanghaiDateKey(item.ingested_at) === todayKey);
+  const yesterdayItems = items.filter((item) => getShanghaiDateKey(item.ingested_at) === yesterdayKey);
   const weekItems = items.filter((item) => {
-    const published = new Date(item.published_at);
-    const key = getShanghaiDateKey(item.published_at);
-    return published >= weekStart && key !== todayKey && key !== yesterdayKey;
+    const ingested = new Date(item.ingested_at);
+    const key = getShanghaiDateKey(item.ingested_at);
+    return ingested >= weekStart && key !== todayKey && key !== yesterdayKey;
   });
 
   return [
-    { id: "today", label: "今日", items: todayItems },
-    { id: "yesterday", label: "昨天", items: yesterdayItems },
-    { id: "week", label: "本周", items: weekItems },
+    { id: "today", label: "今日抓取", items: todayItems },
+    { id: "yesterday", label: "昨日抓取", items: yesterdayItems },
+    { id: "week", label: "本周抓取", items: weekItems },
   ];
 }
 
@@ -229,7 +229,7 @@ function LatestSection(props: { items: ContentItem[]; lastUpdated: string }) {
           <p className="eyebrow">Latest Updates</p>
           <h2>每日最新数据</h2>
         </div>
-        <p>这里只展示新闻、更新和研究类内容；资源入口页保留在页面下方。最后同步时间：{lastUpdated}</p>
+        <p>按网站抓取时间分成今日、昨日和本周；卡片里仍保留原始发布日期。最后同步时间：{lastUpdated}</p>
       </div>
       {groups.map((group) => (
         <section key={group.id} className="latest-bucket">
