@@ -240,6 +240,15 @@ textarea {
   border-top: 1px solid var(--line);
 }
 
+.detail-subsection + .detail-subsection {
+  margin-top: 18px;
+}
+
+.detail-subsection h3 {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+}
+
 .detail-line {
   display: flex;
   gap: 10px;
@@ -277,6 +286,15 @@ textarea {
 
 .detail-list li {
   margin-bottom: 10px;
+}
+
+.detail-sublist {
+  margin: 10px 0 0;
+  padding-left: 22px;
+}
+
+.detail-sublist li {
+  margin-bottom: 8px;
 }
 
 .detail-source-note {

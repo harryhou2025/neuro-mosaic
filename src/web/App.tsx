@@ -91,6 +91,10 @@ function deriveMainConclusion(item: ContentItem): string {
   return item.summary_zh || item.summary_original || item.excerpt;
 }
 
+function isAcademicItem(item: ContentItem): boolean {
+  return item.source_type === "academic" || item.content_type === "research" || item.content_type === "review";
+}
+
 function splitIntoSentences(text: string): string[] {
   return text
     .split(/[。！？.!?]\s*/)
@@ -110,27 +114,158 @@ function deriveDetailTitle(item: ContentItem): string {
   return `《${item.title_zh}》`;
 }
 
-function deriveContentPoints(item: ContentItem): string[] {
-  const baseText = [item.summary_zh, item.summary_original, item.excerpt].filter(Boolean).join(" ");
-  const sentences = splitIntoSentences(baseText);
-  const points = sentences.slice(0, 4).map((sentence, index) => {
-    if (index === 0) {
-      return `核心内容：${ensureSentence(sentence)}`;
-    }
-    if (/support|支持|策略|school|教育|work|职场/i.test(sentence)) {
-      return `实践场景：${ensureSentence(sentence)}`;
-    }
-    if (/study|review|research|研究|evidence|eviden/i.test(sentence)) {
-      return `研究观察：${ensureSentence(sentence)}`;
-    }
-    return ensureSentence(sentence);
-  });
+function getBaseText(item: ContentItem): string {
+  return [item.summary_zh, item.summary_original, item.excerpt].filter(Boolean).join(" ");
+}
 
-  if (points.length > 0) {
-    return points;
+function inferStudyType(item: ContentItem): string {
+  const text = `${item.title_original} ${item.summary_original} ${item.metadata.tags.join(" ")}`.toLowerCase();
+  if (/systematic review|scoping review|review|meta-analysis/.test(text) || item.content_type === "review") {
+    return "综述/范围综述";
+  }
+  if (/cohort|longitudinal/.test(text)) {
+    return "队列/纵向研究";
+  }
+  if (/survey|cross-sectional|questionnaire/.test(text)) {
+    return "横断面/调查研究";
+  }
+  if (/interview|qualitative|focus group/.test(text)) {
+    return "质性研究";
+  }
+  return item.content_type === "research" ? "原始研究" : "学术文章";
+}
+
+function inferAcademicMethods(item: ContentItem): string[] {
+  const text = getBaseText(item);
+  const lower = text.toLowerCase();
+  const methods: string[] = [];
+
+  methods.push(`研究类型：${inferStudyType(item)}。`);
+
+  if (/review|综述/.test(lower)) {
+    methods.push("文章主要通过汇总既有研究结果来回答问题，重点不在单一样本，而在证据范围和共性结论。");
+  }
+  if (/adult|成年人|higher education|college|university/.test(lower)) {
+    methods.push("研究对象或场景主要集中在青少年后期到成年阶段，尤其涉及高等教育或成人支持环境。");
+  }
+  if (/school|classroom|teacher|教育/.test(lower)) {
+    methods.push("研究场景包含学校或教学环境，适合进一步转化为课堂支持和学校制度建议。");
+  }
+  if (/work|employment|workplace|职场/.test(lower)) {
+    methods.push("研究场景与就业或职场支持相关，更适合用于组织支持和管理实践的整理。");
   }
 
-  return [`围绕 ${item.topics.slice(0, 2).join("、")} 主题展开，适合 ${item.audiences.map((audience) => labels.audience[audience]).join("、")} 阅读。`];
+  return methods.slice(0, 4);
+}
+
+function deriveAcademicFindings(item: ContentItem): string[] {
+  const sentences = splitIntoSentences(getBaseText(item));
+  const findings = sentences.slice(0, 5).map((sentence) => ensureSentence(sentence));
+  if (findings.length > 0) {
+    return findings;
+  }
+  return ["当前可用摘要信息有限，但可以确认文章围绕该主题的支持需求、实践策略或研究发现展开。"];
+}
+
+function deriveAcademicLimitations(item: ContentItem): string[] {
+  const text = getBaseText(item).toLowerCase();
+  const limitations = [
+    "当前页面主要基于公开摘要和元数据整理，细节解读仍受原文全文可见范围限制。",
+  ];
+  if (/review|综述/.test(text)) {
+    limitations.push("如果是综述类文章，还需要回到纳入标准和原始研究质量，才能判断结论的稳健性。");
+  } else {
+    limitations.push("如果是原始研究，还需要确认样本规模、研究地区和测量工具，避免过度外推。");
+  }
+  if (!/china|中国|chinese/.test(text)) {
+    limitations.push("研究很可能来自英语语境，迁移到中文环境时要考虑学校制度、医疗资源和家长期待的差异。");
+  }
+  return limitations;
+}
+
+function deriveChinaInsights(item: ContentItem): string[] {
+  const text = `${item.title_zh} ${item.summary_zh} ${item.summary_original}`.toLowerCase();
+  const insights = [
+    "做中文内容时，不要只翻译结论，更要补上中国家庭、学校和职场里真实可执行的做法。",
+    "可以把这篇内容拆成更适合中文读者的结构：概念解释、常见误区、支持路径、行动清单。",
+  ];
+
+  if (/school|education|教育/.test(text)) {
+    insights.push("对国内语境来说，最值得转化的是家校协作、课堂支持和班主任/任课老师能立即执行的策略。");
+  }
+  if (/work|employment|职场/.test(text)) {
+    insights.push("如果面向国内职场读者，应补上团队沟通、任务拆分、会议节奏和绩效预期管理的本土案例。");
+  }
+  if (/support|service|policy|服务|政策/.test(text)) {
+    insights.push("建议同时补充国内可获取的支持资源、诊疗路径和替代方案，否则读者很难落地。");
+  }
+  return insights;
+}
+
+type DetailTree = Array<{ title: string; items: Array<string | { label: string; children: string[] }> }>;
+
+function deriveContentTree(item: ContentItem): DetailTree {
+  const baseText = getBaseText(item);
+  const sentences = splitIntoSentences(baseText);
+
+  if (isAcademicItem(item)) {
+    return [
+      {
+        title: "研究问题",
+        items: [
+          `这篇文章主要围绕 ${item.topics.slice(0, 2).join("、")} 展开，关注对象包括 ${item.audiences
+            .map((audience) => labels.audience[audience])
+            .join("、")}。`,
+          ensureSentence(sentences[0] ?? (baseText || "摘要显示作者试图解释该主题下的支持需求、实践方式或研究结果。")),
+        ],
+      },
+      {
+        title: "研究设计",
+        items: inferAcademicMethods(item),
+      },
+      {
+        title: "关键发现",
+        items: deriveAcademicFindings(item),
+      },
+      {
+        title: "需要谨慎理解的地方",
+        items: deriveAcademicLimitations(item),
+      },
+    ];
+  }
+
+  const strategyChildren = sentences
+    .filter((sentence) => /support|strategy|tool|manage|school|work|家庭|支持|策略|工具|管理|教育|职场/i.test(sentence))
+    .slice(0, 4)
+    .map((sentence) => ensureSentence(sentence));
+
+  return [
+    {
+      title: "背景与核心问题",
+      items: [
+        ensureSentence(sentences[0] ?? (baseText || `文章围绕 ${item.topics.slice(0, 2).join("、")} 主题展开。`)),
+        ensureSentence(sentences[1] ?? `内容更适合 ${item.audiences.map((audience) => labels.audience[audience]).join("、")} 阅读。`),
+      ],
+    },
+    {
+      title: "具体内容",
+      items: [
+        ...sentences.slice(2, 4).map((sentence) => ensureSentence(sentence)),
+        strategyChildren.length
+          ? {
+              label: "文章提到的应对策略",
+              children: strategyChildren,
+            }
+          : {
+              label: "可直接转化的实践方向",
+              children: [
+                `围绕 ${item.topics.slice(0, 2).join("、")} 提炼行动清单。`,
+                "优先整理成更易懂的步骤、案例和注意事项。",
+              ],
+            },
+      ],
+    },
+  ];
 }
 
 function deriveImplications(item: ContentItem): string {
@@ -149,6 +284,10 @@ function deriveImplications(item: ContentItem): string {
 }
 
 function deriveInsightPoints(item: ContentItem): string[] {
+  if (isAcademicItem(item)) {
+    return deriveChinaInsights(item);
+  }
+
   const topicHint = item.topics.slice(0, 2).join("、") || "相关主题";
   const audienceHint = item.audiences.slice(0, 2).map((audience) => labels.audience[audience]).join("、") || "相关人群";
   const points = [
@@ -409,7 +548,7 @@ function LatestSection(props: { items: ContentItem[]; lastUpdated: string }) {
 
 function DetailPage(props: { item: ContentItem }) {
   const { item } = props;
-  const contentPoints = deriveContentPoints(item);
+  const contentTree = deriveContentTree(item);
   const author = deriveAuthor(item);
   const conclusion = deriveMainConclusion(item);
   const implications = deriveImplications(item);
@@ -449,11 +588,27 @@ function DetailPage(props: { item: ContentItem }) {
 
         <section className="detail-section">
           <h2>具体内容</h2>
-          <ul className="detail-list">
-            {contentPoints.map((point) => (
-              <li key={point}>{point}</li>
-            ))}
-          </ul>
+          {contentTree.map((group) => (
+            <section key={group.title} className="detail-subsection">
+              <h3>{group.title}</h3>
+              <ul className="detail-list">
+                {group.items.map((entry) =>
+                  typeof entry === "string" ? (
+                    <li key={entry}>{entry}</li>
+                  ) : (
+                    <li key={entry.label}>
+                      <strong>{entry.label}</strong>
+                      <ol className="detail-sublist">
+                        {entry.children.map((child) => (
+                          <li key={child}>{child}</li>
+                        ))}
+                      </ol>
+                    </li>
+                  ),
+                )}
+              </ul>
+            </section>
+          ))}
         </section>
 
         <section className="detail-section">
