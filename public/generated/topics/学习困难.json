@@ -12,7 +12,7 @@
     "summary_zh": "阅读障碍与学习困难的国际资源。适合通过 Dyslexia International 进一步进入该主题的权威信息。",
     "excerpt": "阅读障碍与学习困难的国际资源",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:38.305Z",
+    "published_at": "2026-03-06T17:27:01.759Z",
     "content_type": "directory",
     "topics": [
       "学习困难",
@@ -27,7 +27,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:38.305Z",
+    "ingested_at": "2026-03-06T17:27:01.759Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -37,81 +37,40 @@
     }
   },
   {
-    "id": "page-additude",
-    "source_name": "ADDitude",
-    "source_type": "media",
+    "id": "page-ncld",
+    "source_name": "NCLD",
+    "source_type": "official",
     "source_region": "美国",
-    "source_url": "https://www.additudemag.com/",
-    "canonical_url": "https://www.additudemag.com/",
-    "title_original": "ADDitude",
-    "title_zh": "ADDitude 资源入口",
-    "summary_original": "ADHD symptom tests, ADD medication & treatment, behavior & discipline, school & learning essentials, organization and more information for families and individuals living with attention…",
-    "summary_zh": "ADHD 大众内容、学校与家庭实操。适合通过 ADDitude 进一步进入该主题的权威信息。",
-    "excerpt": "ADHD symptom tests, ADD medication & treatment, behavior & discipline, school & learning essentials, organization and more information for families and individuals living with attention…",
+    "source_url": "https://www.ncld.org/",
+    "canonical_url": "https://www.ncld.org/",
+    "title_original": "National Center for Learning Disabilities",
+    "title_zh": "NCLD 资源入口",
+    "summary_original": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
+    "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:37.934Z",
+    "published_at": "2026-03-06T17:27:01.068Z",
     "content_type": "directory",
     "topics": [
-      "ADHD",
       "学习困难",
       "神经多样性",
-      "教育",
-      "家庭支持"
+      "职场",
+      "政策与服务",
+      "共病与支持需求"
     ],
     "audiences": [
       "family",
-      "self-advocate",
-      "educator"
+      "educator",
+      "self-advocate"
     ],
     "conditions": [
-      "adhd",
       "learning-difficulties"
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:37.934Z",
+    "ingested_at": "2026-03-06T17:27:01.068Z",
     "metadata": {
-      "credibility": "medium",
-      "tags": [
-        "page-harvest",
-        "美国"
-      ]
-    }
-  },
-  {
-    "id": "page-understood",
-    "source_name": "Understood",
-    "source_type": "media",
-    "source_region": "美国",
-    "source_url": "https://www.understood.org/",
-    "canonical_url": "https://www.understood.org/",
-    "title_original": "Understood - For learning and thinking differences",
-    "title_zh": "Understood 资源入口",
-    "summary_original": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
-    "summary_zh": "面向家长和老师的学习差异实用资源。适合通过 Understood 进一步进入该主题的权威信息。",
-    "excerpt": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T16:37:37.110Z",
-    "content_type": "directory",
-    "topics": [
-      "学习困难",
-      "ADHD",
-      "神经多样性",
-      "家庭支持"
-    ],
-    "audiences": [
-      "family",
-      "educator"
-    ],
-    "conditions": [
-      "learning-difficulties",
-      "adhd"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:37.110Z",
-    "metadata": {
-      "credibility": "medium",
+      "credibility": "high",
       "tags": [
         "page-harvest",
         "美国"
@@ -131,7 +90,7 @@
     "summary_zh": "儿童神经发育与精神健康资源库。适合通过 Child Mind Institute 进一步进入该主题的权威信息。",
     "excerpt": "The Child Mind Institute is an independent nonprofit dedicated to transforming the lives of children struggling with mental health and learning disorders.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.564Z",
+    "published_at": "2026-03-06T17:26:59.793Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -150,7 +109,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.564Z",
+    "ingested_at": "2026-03-06T17:26:59.793Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -160,40 +119,41 @@
     }
   },
   {
-    "id": "page-ncld",
-    "source_name": "NCLD",
-    "source_type": "official",
+    "id": "page-additude",
+    "source_name": "ADDitude",
+    "source_type": "media",
     "source_region": "美国",
-    "source_url": "https://www.ncld.org/",
-    "canonical_url": "https://www.ncld.org/",
-    "title_original": "National Center for Learning Disabilities",
-    "title_zh": "NCLD 资源入口",
-    "summary_original": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
-    "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
-    "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "source_url": "https://www.additudemag.com/",
+    "canonical_url": "https://www.additudemag.com/",
+    "title_original": "ADDitude",
+    "title_zh": "ADDitude 资源入口",
+    "summary_original": "ADHD symptom tests, ADD medication & treatment, behavior & discipline, school & learning essentials, organization and more information for families and individuals living with attention…",
+    "summary_zh": "ADHD 大众内容、学校与家庭实操。适合通过 ADDitude 进一步进入该主题的权威信息。",
+    "excerpt": "ADHD symptom tests, ADD medication & treatment, behavior & discipline, school & learning essentials, organization and more information for families and individuals living with attention…",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.560Z",
+    "published_at": "2026-03-06T17:26:59.769Z",
     "content_type": "directory",
     "topics": [
+      "ADHD",
       "学习困难",
       "神经多样性",
-      "职场",
-      "政策与服务",
-      "共病与支持需求"
+      "教育",
+      "家庭支持"
     ],
     "audiences": [
       "family",
-      "educator",
-      "self-advocate"
+      "self-advocate",
+      "educator"
     ],
     "conditions": [
+      "adhd",
       "learning-difficulties"
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.560Z",
+    "ingested_at": "2026-03-06T17:26:59.769Z",
     "metadata": {
-      "credibility": "high",
+      "credibility": "medium",
       "tags": [
         "page-harvest",
         "美国"
@@ -213,7 +173,7 @@
     "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
     "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.464Z",
+    "published_at": "2026-03-06T17:26:59.632Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -236,7 +196,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.464Z",
+    "ingested_at": "2026-03-06T17:26:59.632Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -258,7 +218,7 @@
     "summary_zh": "儿童健康科普，自闭症与 ADHD 基础说明。适合通过 Nemours KidsHealth 进一步进入该主题的权威信息。",
     "excerpt": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.318Z",
+    "published_at": "2026-03-06T17:26:59.070Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -278,9 +238,49 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.318Z",
+    "ingested_at": "2026-03-06T17:26:59.070Z",
     "metadata": {
       "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-understood",
+    "source_name": "Understood",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.understood.org/",
+    "canonical_url": "https://www.understood.org/",
+    "title_original": "Understood - For learning and thinking differences",
+    "title_zh": "Understood 资源入口",
+    "summary_original": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
+    "summary_zh": "面向家长和老师的学习差异实用资源。适合通过 Understood 进一步进入该主题的权威信息。",
+    "excerpt": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T17:26:58.922Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "ADHD",
+      "神经多样性",
+      "家庭支持"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties",
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T17:26:58.922Z",
+    "metadata": {
+      "credibility": "medium",
       "tags": [
         "page-harvest",
         "美国"
@@ -300,7 +300,7 @@
     "summary_zh": "指南、综述和临床证据检索。适合通过 TRIP Database 进一步进入该主题的权威信息。",
     "excerpt": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.217Z",
+    "published_at": "2026-03-06T17:26:58.891Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -320,13 +320,46 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.217Z",
+    "ingested_at": "2026-03-06T17:26:58.891Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
         "国际"
-      ]
+      ],
+      "detail_summary": {
+        "title": "《TRIP Database 资源入口》（Trip Medical Database）",
+        "time_text": "发表于 2026年3月7日。",
+        "author_text": "TRIP Database（机构作者）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、ADHD、学习困难 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Trip Medical Database》涉及的问题，重点分析 自闭症、ADHD、学习困难 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇学术研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、ADHD、学习困难 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章更适合继续转化为面向家庭、学校、临床或职场的中文行动建议，而不是停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、ADHD、学习困难 的进一步阅读材料，适合继续补充更细的中文解读。"
+      }
     }
   },
   {
@@ -342,7 +375,7 @@
     "summary_zh": "医学与健康研究论文检索。适合通过 PubMed 进一步进入该主题的权威信息。",
     "excerpt": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:35.923Z",
+    "published_at": "2026-03-06T17:26:58.607Z",
     "content_type": "directory",
     "topics": [
       "神经多样性",
@@ -362,13 +395,46 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:35.923Z",
+    "ingested_at": "2026-03-06T17:26:58.607Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
         "国际"
-      ]
+      ],
+      "detail_summary": {
+        "title": "《PubMed 资源入口》（PubMed）",
+        "time_text": "发表于 2026年3月7日。",
+        "author_text": "PubMed（机构作者）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 神经多样性、自闭症、ADHD 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《PubMed》涉及的问题，重点分析 神经多样性、自闭症、ADHD 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇学术研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 神经多样性、自闭症、ADHD 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章更适合继续转化为面向家庭、学校、临床或职场的中文行动建议，而不是停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 神经多样性、自闭症、ADHD 的进一步阅读材料，适合继续补充更细的中文解读。"
+      }
     }
   },
   {
@@ -384,7 +450,7 @@
     "summary_zh": "教育干预证据和学校支持策略。适合通过 Education Endowment Foundation 进一步进入该主题的权威信息。",
     "excerpt": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:35.733Z",
+    "published_at": "2026-03-06T17:26:58.481Z",
     "content_type": "directory",
     "topics": [
       "学习困难",
@@ -407,7 +473,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:35.733Z",
+    "ingested_at": "2026-03-06T17:26:58.481Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -447,7 +513,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.078Z",
+    "ingested_at": "2026-03-06T17:27:02.596Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -487,7 +553,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.079Z",
+    "ingested_at": "2026-03-06T17:27:02.596Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -526,13 +592,139 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.079Z",
+    "ingested_at": "2026-03-06T17:27:02.597Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "ncld-feed"
       ]
+    }
+  },
+  {
+    "id": "academic-autism-2026-41618911",
+    "source_name": "Autism",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923618/",
+    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923618/",
+    "title_original": "Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them",
+    "title_zh": "研究：Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them",
+    "summary_original": "Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cognitive development. However, research examining autistic adolescents’ friendships has tended to use methodologies inaccessible to children with complex communication and learning needs. We examined the friendship experiences of 12 autistic adolescents (aged 12–15 years) with complex communication and learning needs who attended a specialist school. Using reflexive thematic analysis, we identified two themes. Within the first theme of ‘reconceptualising friendship’, the adolescents identified friends who evoked strong emotions and connection, without distinguishing between positive or negative interactions, or the standard boundaries of friendship. ‘Friendships’ with adults were also highlighted. Within the second theme of ‘the context dependent nature of connection’, the adolescents’ descriptions of friendship communicated a preference for engagement via physical play in spaces that facilitated such interaction. Our findings underscore the importance of directly eliciting the views of autistic adolescents with complex communication and learning needs. They also highlight the value of facilitating opportunities to build social connection with peers and adults through physical play and activities that provoke strong emotions within a safe and contained context.",
+    "summary_zh": "基于学术全文自动解析：Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cog…",
+    "excerpt": "Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cognitive development. However, research examining autistic adolescents’ friendships has tended to use methodologies inaccessible to children with comple…",
+    "language": "en",
+    "published_at": "2026-01-30T16:00:00.000Z",
+    "content_type": "research",
+    "topics": [
+      "自闭症",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "学习困难"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "researcher",
+      "clinician",
+      "self-advocate",
+      "employer"
+    ],
+    "conditions": [
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T17:26:36.214Z",
+    "metadata": {
+      "doi": "10.1177/13623613251414302",
+      "pmid": "41618911",
+      "authors": "Jo Halsall; Elise Robinson; Anna Cook; Adam Halsall; Laura Crane",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923618/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923618/pdf/10.1177_13623613251414302.pdf",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "autism-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them》",
+        "publication_info": "Autism，2026/1/31",
+        "authors_display": "Jo Halsall、Elise Robinson、Anna Cook、Adam Halsall、Laura Crane",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them",
+              "研究类型：学术研究。",
+              "核心摘要：Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cognitive development."
+            ]
+          },
+          {
+            "title": "正文结构",
+            "items": [
+              "Laura Crane：Laura Crane, Autism Centre for Education and Research (ACER), Department of Disability, Inclusion and Special Needs (DISN), School of Education, University of Birmingham, Edgbaston, Birmingham, B15 2TT, UK.",
+              "Lay abstract：Friendship plays a key role in helping autistic young people develop: socially, emotionally and cognitively.",
+              "Participants：Purposive sampling was used to recruit participants from two campuses at Queensmill School, an autism-specific specialist school in London.",
+              "Materials：Data-collection methods were developed by the research team.",
+              "Procedure：Interviews were completed in a quiet, familiar and private room within the children’s school."
+            ]
+          }
+        ],
+        "key_findings": "Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cognitive development.",
+        "research_method": "从全文结构看，文章按 Laura Crane、Lay abstract、Participants、Materials 展开。",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
+        "strategy_points": [
+          "Laura Crane：Laura Crane, Autism Centre for Education and Research (ACER), Department of Disability, Inclusion and Special Needs (DISN), School of Education, University of Birmingham, Edgbaston, Birmingham, B15 2TT, UK.",
+          "Lay abstract：Friendship plays a key role in helping autistic young people develop: socially, emotionally and cognitively.",
+          "Participants：Purposive sampling was used to recruit participants from two campuses at Queensmill School, an autism-specific specialist school in London.",
+          "Materials：Data-collection methods were developed by the research team."
+        ],
+        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
+        ]
+      },
+      "detail_summary": {
+        "title": "《研究：Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them》",
+        "time_text": "Autism，2026年1月31日。",
+        "author_text": "Jo Halsall、Elise Robinson、Anna Cook 等（Autism）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、教育、家庭支持 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them》涉及的问题，重点分析 自闭症、教育、家庭支持 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇学术研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、教育、家庭支持 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、教育、家庭支持 的进一步阅读材料，适合继续补充更细的中文解读。"
+      }
     }
   },
   {
@@ -565,13 +757,138 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.079Z",
+    "ingested_at": "2026-03-06T17:27:02.597Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "ncld-feed"
       ]
+    }
+  },
+  {
+    "id": "academic-adhd-2026-41543975",
+    "source_name": "Clinical EEG and Neuroscience",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12868308/",
+    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12868308/",
+    "title_original": "Mindfulness Training in Youth With ADHD + Comorbid Learning Disability Maintains Medial Frontal Cortex Function During Response Inhibition",
+    "title_zh": "研究：Mindfulness Training in Youth With ADHD + Comorbid Learning Disability Maintains Medial Frontal Cortex Function During Response Inhibition",
+    "summary_original": "The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyperactivity disorder (ADHD) and comorbid learning disability (N = 75, ages 11-17 years) who participated in a 20-week mindfulness martial arts intervention compared to a waitlist control.",
+    "summary_zh": "基于学术全文自动解析：The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyp…",
+    "excerpt": "The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyperactivity disorder (ADHD) and comorbid learning disability (N = 75, ages 11-17 years) who participated in a 20-week mindfulness martial arts interven…",
+    "language": "en",
+    "published_at": "2026-01-15T16:00:00.000Z",
+    "content_type": "research",
+    "topics": [
+      "ADHD",
+      "教育",
+      "职场",
+      "神经多样性",
+      "学习困难"
+    ],
+    "audiences": [
+      "self-advocate",
+      "educator",
+      "researcher",
+      "family",
+      "employer"
+    ],
+    "conditions": [
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T17:26:37.236Z",
+    "metadata": {
+      "doi": "10.1177/15500594251399706",
+      "pmid": "41543975",
+      "authors": "Maxwell Seward; Karen Milligan; Annabel Sibalis; Harry Wenban; Stefon van Noordt",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12868308/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12868308/pdf/10.1177_15500594251399706.pdf",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "adhd-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：Mindfulness Training in Youth With ADHD + Comorbid Learning Disability Maintains Medial Frontal Cortex Function During Response Inhibition》",
+        "publication_info": "Clinical EEG and Neuroscience，2026/1/16",
+        "authors_display": "Maxwell Seward、Karen Milligan、Annabel Sibalis、Harry Wenban、Stefon van Noordt",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：Mindfulness Training in Youth With ADHD + Comorbid Learning Disability Maintains Medial Frontal Cortex Function During Response Inhibition",
+              "研究类型：干预研究。",
+              "核心摘要：The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyperactivity disorder (ADHD) and comorbid learning disability (N = 75, ages 11-17 years) who participated in a 20-week mindfulness martial arts interven…"
+            ]
+          },
+          {
+            "title": "正文结构",
+            "items": [
+              "Stefon van Noordt：Stefon van Noordt, Department of Psychology, Wake Forest University, 1834 Wake Forest Rd, Winston-Salem, NC, USA.",
+              "Objective：The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyperactivity disorder (ADHD) and comorbid learning disability (N = 75, ages 11-17 years) who participated in a 2…",
+              "Method：EEG was recorded pre and post intervention during a blocked Go/NoGo task.",
+              "Results：A significant group by time interaction was found for NoGo N2 amplitudes, indicating that waitlist control participants had significantly attenuated N2 amplitudes over time whereas the intervention group maintained simi…",
+              "Conclusions：These findings suggest that participation in mindfulness martial arts may buffer against reductions in N2 activity during adolescence for youth with ADHD"
+            ]
+          }
+        ],
+        "key_findings": "The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyperactivity disorder (ADHD) and comorbid learning disability (N = 75, ages 11-17 years) who participated in a 2…",
+        "research_method": "从全文结构看，文章按 Stefon van Noordt、Objective、Method、Results 展开。",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
+        "strategy_points": [
+          "Stefon van Noordt：Stefon van Noordt, Department of Psychology, Wake Forest University, 1834 Wake Forest Rd, Winston-Salem, NC, USA.",
+          "Objective：The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyperactivity disorder (ADHD) and comorbid learning disability (N = 75, ages 11-17 years) who participated in a 2…",
+          "Method：EEG was recorded pre and post intervention during a blocked Go/NoGo task.",
+          "Results：A significant group by time interaction was found for NoGo N2 amplitudes, indicating that waitlist control participants had significantly attenuated N2 amplitudes over time whereas the intervention group maintained simi…"
+        ],
+        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
+        ]
+      },
+      "detail_summary": {
+        "title": "《研究：Mindfulness Training in Youth With ADHD + Comorbid Learning Disability Maintains Medial Frontal Cortex Function During Response Inhibition》",
+        "time_text": "Clinical EEG and Neuroscience，2026年1月16日。",
+        "author_text": "Maxwell Seward、Karen Milligan、Annabel Sibalis 等（Clinical EEG and Neuroscience）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 ADHD、教育、职场 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Mindfulness Training in Youth With ADHD + Comorbid Learning Disability Maintains Medial Frontal Cortex Function During Response Inhibition》涉及的问题，重点分析 ADHD、教育、职场 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇干预研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 ADHD、教育、职场 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 ADHD、教育、职场 的进一步阅读材料，适合继续补充更细的中文解读。"
+      }
     }
   },
   {
@@ -607,7 +924,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：大众实用资源。",
-    "ingested_at": "2026-03-06T16:37:09.529Z",
+    "ingested_at": "2026-03-06T17:26:34.406Z",
     "metadata": {
       "credibility": "medium",
       "tags": [

@@ -1,48 +1,5 @@
 [
   {
-    "id": "page-nas",
-    "source_name": "National Autistic Society",
-    "source_type": "official",
-    "source_region": "英国",
-    "source_url": "https://www.autism.org.uk/",
-    "canonical_url": "https://www.autism.org.uk/",
-    "title_original": "National Autistic Society",
-    "title_zh": "National Autistic Society 资源入口",
-    "summary_original": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
-    "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
-    "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.787Z",
-    "content_type": "directory",
-    "topics": [
-      "自闭症",
-      "神经多样性",
-      "职场",
-      "政策与服务",
-      "共病与支持需求"
-    ],
-    "audiences": [
-      "family",
-      "self-advocate",
-      "educator",
-      "employer",
-      "clinician"
-    ],
-    "conditions": [
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.788Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "英国"
-      ]
-    }
-  },
-  {
     "id": "page-ncld",
     "source_name": "NCLD",
     "source_type": "official",
@@ -55,7 +12,7 @@
     "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
     "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.560Z",
+    "published_at": "2026-03-06T17:27:01.068Z",
     "content_type": "directory",
     "topics": [
       "学习困难",
@@ -74,7 +31,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.560Z",
+    "ingested_at": "2026-03-06T17:27:01.068Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -96,7 +53,7 @@
     "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
     "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.464Z",
+    "published_at": "2026-03-06T17:26:59.632Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -119,12 +76,55 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.464Z",
+    "ingested_at": "2026-03-06T17:26:59.632Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
         "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-nas",
+    "source_name": "National Autistic Society",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://www.autism.org.uk/",
+    "canonical_url": "https://www.autism.org.uk/",
+    "title_original": "National Autistic Society",
+    "title_zh": "National Autistic Society 资源入口",
+    "summary_original": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
+    "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
+    "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T17:26:59.604Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "职场",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator",
+      "employer",
+      "clinician"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T17:26:59.604Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
       ]
     }
   },
@@ -141,7 +141,7 @@
     "summary_zh": "ADHD 教育、家庭支持、学校与职场资源。适合通过 CHADD 进一步进入该主题的权威信息。",
     "excerpt": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.463Z",
+    "published_at": "2026-03-06T17:26:59.032Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -162,7 +162,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.463Z",
+    "ingested_at": "2026-03-06T17:26:59.033Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -184,7 +184,7 @@
     "summary_zh": "教育干预证据和学校支持策略。适合通过 Education Endowment Foundation 进一步进入该主题的权威信息。",
     "excerpt": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:35.733Z",
+    "published_at": "2026-03-06T17:26:58.481Z",
     "content_type": "directory",
     "topics": [
       "学习困难",
@@ -207,7 +207,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:35.733Z",
+    "ingested_at": "2026-03-06T17:26:58.481Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -248,7 +248,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.240Z",
+    "ingested_at": "2026-03-06T17:27:03.085Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -289,7 +289,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.241Z",
+    "ingested_at": "2026-03-06T17:27:03.085Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -331,7 +331,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.241Z",
+    "ingested_at": "2026-03-06T17:27:03.085Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -371,104 +371,13 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.241Z",
+    "ingested_at": "2026-03-06T17:27:03.085Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "childmind-feed"
       ]
-    }
-  },
-  {
-    "id": "academic-autism-2026-41641503",
-    "source_name": "Autism",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923632/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923632/",
-    "title_original": "Sleep and activity patterns in autism",
-    "title_zh": "研究：Sleep and activity patterns in autism",
-    "summary_original": "Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior, and co-occurring conditions. Sleep disturbances are common in autism. This study uses low-cost wearable devices to compare sleep, physical activity, and circadian behavior in autistic adults and their non-autistic relatives. We recruited 318 autistic individuals and 130 family members, collecting accelerometer data over 3 weeks (8249 days). Using a data-driven approach, we identified actimetry-derived features associated with autism. We examined 308 traits using the elastic net algorithm and linear mixed effects regressions. We identified 52 actimetry measures associated with autism (area under the curve: 0.812; confidence interval: 0.761–0.862), validated in a test set (area under the curve: 0.756; confidence interval: 0.700–0.813). Both mean and day-to-day variability in several measures (e.g., time spent sedentary, total light physical activity) were associated with autism. In autistic individuals, reduced physical activity during wake was more strongly associated with shorter sleep time than in non-autistic relatives (likelihood ratio: 41.6; p = 1.13e−10). Reduced physical activity in autistic individuals was linked to increased social impairment, as measured by the Social Responsiveness Scale. Long inactivity periods and lower physical activity levels were associated with autism, correlating with less sleep and later sleep onset. Interventional studies are needed to explore if improving sleep and physical activity can improve the quality of life for autistic individuals.",
-    "summary_zh": "基于学术全文自动解析：Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior…",
-    "excerpt": "Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior, and co-occurring conditions. Sleep disturbances are common in autism. This study uses low-cost wearable devices to compare sleep, physical activity,…",
-    "language": "en",
-    "published_at": "2026-02-04T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "自闭症",
-      "教育",
-      "家庭支持",
-      "神经多样性",
-      "共病与支持需求"
-    ],
-    "audiences": [
-      "family",
-      "educator",
-      "researcher",
-      "clinician",
-      "self-advocate"
-    ],
-    "conditions": [
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.594Z",
-    "metadata": {
-      "doi": "10.1177/13623613251413538",
-      "pmid": "41641503",
-      "authors": "J Dylan Weissenkampen; Arpita Ghorai; Thaise NR Carneiro; Maria Fasolino; Brielle N Gehringer; Maya Rajan; Holly C Dow; Shriya Kunatharaju; Till Roenneberg; Ronnie Sebro; Daniel J Rader; Brendan T Keenan; Laura Almasy; Edward S Brodkin; Maja Bućan",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923632/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923632/pdf/10.1177_13623613251413538.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "autism-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Sleep and activity patterns in autism》",
-        "publication_info": "Autism，2026/2/5",
-        "authors_display": "J Dylan Weissenkampen、Arpita Ghorai、Thaise NR Carneiro、Maria Fasolino、Brielle N Gehringer、Maya Rajan",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Sleep and activity patterns in autism",
-              "研究类型：干预研究。",
-              "核心摘要：Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior, and co-occurring conditions."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Maja Bućan：Maja Bućan, Department of Genetics, University of Pennsylvania, 475 CRB, 415 Curie Blvd, Philadelphia, PA 19104, USA.",
-              "Lay Abstract：Autistic individuals frequently report problems with their sleep, though what aspects of sleep are most affected is not well understood.",
-              "Introduction：Autism spectrum conditions (hereafter referred to as autism) are childhood-onset neurodevelopmental disturbances characterized by impairment of social communication and restricted repetitive or stereotyped patterns of b…",
-              "Study participants：We recruited participants through the Autism Spectrum Program of Excellence (ASPE) at the University of Pennsylvania (Philadelphia, Pennsylvania) ( Elkhatib Smidt et al., 2022 ; Taylor et al., 2021 , 2022 ) and autistic…",
-              "Phenotypic assessments：All probands (autistic participants) and their potentially non-autistic relatives were assessed for autism-related quantitative traits using self- and informant-reports using the Social Responsiveness Scale (SRS) ( Chan…"
-            ]
-          }
-        ],
-        "key_findings": "Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior, and co-occurring conditions.",
-        "research_method": "从全文结构看，文章按 Maja Bućan、Lay Abstract、Introduction、Study participants 展开。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "Maja Bućan：Maja Bućan, Department of Genetics, University of Pennsylvania, 475 CRB, 415 Curie Blvd, Philadelphia, PA 19104, USA.",
-          "Lay Abstract：Autistic individuals frequently report problems with their sleep, though what aspects of sleep are most affected is not well understood.",
-          "Introduction：Autism spectrum conditions (hereafter referred to as autism) are childhood-onset neurodevelopmental disturbances characterized by impairment of social communication and restricted repetitive or stereotyped patterns of b…",
-          "Study participants：We recruited participants through the Autism Spectrum Program of Excellence (ASPE) at the University of Pennsylvania (Philadelphia, Pennsylvania) ( Elkhatib Smidt et al., 2022 ; Taylor et al., 2021 , 2022 ) and autistic…"
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
-        ]
-      }
     }
   },
   {
@@ -505,7 +414,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.593Z",
+    "ingested_at": "2026-03-06T17:26:36.214Z",
     "metadata": {
       "doi": "10.1016/j.reia.2026.202830",
       "pmid": "41716690",
@@ -559,6 +468,39 @@
           "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
           "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
         ]
+      },
+      "detail_summary": {
+        "title": "《研究：Exploring Trajectories of Anxiety Symptoms in Autistic and Non-Autistic Youth over Adolescence Using Parent- and Self-Report Measures》",
+        "time_text": "Research in autism，2026年1月23日。",
+        "author_text": "Meredith Cola、Rachael A Muscatello、Xinyu Zhang 等（Research in autism）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、教育、家庭支持 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Exploring Trajectories of Anxiety Symptoms in Autistic and Non-Autistic Youth over Adolescence Using Parent- and Self-Report Measures》涉及的问题，重点分析 自闭症、教育、家庭支持 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇队列或纵向研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、教育、家庭支持 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、教育、家庭支持 的进一步阅读材料，适合继续补充更细的中文解读。"
       }
     }
   },
@@ -595,7 +537,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：大众实用资源。",
-    "ingested_at": "2026-03-06T16:37:09.529Z",
+    "ingested_at": "2026-03-06T17:26:34.406Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -633,7 +575,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.300Z",
+    "ingested_at": "2026-03-06T17:26:59.148Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -676,7 +618,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:38.075Z",
+    "ingested_at": "2026-03-06T17:27:00.443Z",
     "metadata": {
       "credibility": "high",
       "tags": [

@@ -1,89 +1,5 @@
 [
   {
-    "id": "page-nimh",
-    "source_name": "NIMH",
-    "source_type": "official",
-    "source_region": "美国",
-    "source_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
-    "canonical_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
-    "title_original": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
-    "title_zh": "NIMH 资源入口",
-    "summary_original": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
-    "summary_zh": "ADHD 与相关精神健康主题的官方科普与治疗信息。适合通过 NIMH 进一步进入该主题的权威信息。",
-    "excerpt": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T16:37:39.946Z",
-    "content_type": "directory",
-    "topics": [
-      "ADHD",
-      "自闭症",
-      "神经多样性",
-      "政策与服务"
-    ],
-    "audiences": [
-      "family",
-      "self-advocate",
-      "clinician"
-    ],
-    "conditions": [
-      "adhd",
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:39.946Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "美国"
-      ]
-    }
-  },
-  {
-    "id": "page-nas",
-    "source_name": "National Autistic Society",
-    "source_type": "official",
-    "source_region": "英国",
-    "source_url": "https://www.autism.org.uk/",
-    "canonical_url": "https://www.autism.org.uk/",
-    "title_original": "National Autistic Society",
-    "title_zh": "National Autistic Society 资源入口",
-    "summary_original": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
-    "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
-    "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.787Z",
-    "content_type": "directory",
-    "topics": [
-      "自闭症",
-      "神经多样性",
-      "职场",
-      "政策与服务",
-      "共病与支持需求"
-    ],
-    "audiences": [
-      "family",
-      "self-advocate",
-      "educator",
-      "employer",
-      "clinician"
-    ],
-    "conditions": [
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.788Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "英国"
-      ]
-    }
-  },
-  {
     "id": "page-ncld",
     "source_name": "NCLD",
     "source_type": "official",
@@ -96,7 +12,7 @@
     "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
     "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.560Z",
+    "published_at": "2026-03-06T17:27:01.068Z",
     "content_type": "directory",
     "topics": [
       "学习困难",
@@ -115,7 +31,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.560Z",
+    "ingested_at": "2026-03-06T17:27:01.068Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -137,7 +53,7 @@
     "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
     "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.464Z",
+    "published_at": "2026-03-06T17:26:59.632Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -160,7 +76,130 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.464Z",
+    "ingested_at": "2026-03-06T17:26:59.632Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-nas",
+    "source_name": "National Autistic Society",
+    "source_type": "official",
+    "source_region": "英国",
+    "source_url": "https://www.autism.org.uk/",
+    "canonical_url": "https://www.autism.org.uk/",
+    "title_original": "National Autistic Society",
+    "title_zh": "National Autistic Society 资源入口",
+    "summary_original": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
+    "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
+    "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T17:26:59.604Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "职场",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator",
+      "employer",
+      "clinician"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T17:26:59.604Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "英国"
+      ]
+    }
+  },
+  {
+    "id": "page-autism-speaks",
+    "source_name": "Autism Speaks",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.autismspeaks.org/",
+    "canonical_url": "https://www.autismspeaks.org/",
+    "title_original": "Autism Speaks",
+    "title_zh": "Autism Speaks 资源入口",
+    "summary_original": "自闭症工具包、服务目录与家庭资源入口",
+    "summary_zh": "自闭症工具包、服务目录与家庭资源入口。适合通过 Autism Speaks 进一步进入该主题的权威信息。",
+    "excerpt": "自闭症工具包、服务目录与家庭资源入口",
+    "language": "bilingual",
+    "published_at": "2026-03-06T17:26:59.036Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "家庭支持",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T17:26:59.036Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-nimh",
+    "source_name": "NIMH",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+    "canonical_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+    "title_original": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+    "title_zh": "NIMH 资源入口",
+    "summary_original": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
+    "summary_zh": "ADHD 与相关精神健康主题的官方科普与治疗信息。适合通过 NIMH 进一步进入该主题的权威信息。",
+    "excerpt": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T17:26:58.947Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T17:26:58.947Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -182,7 +221,7 @@
     "summary_zh": "指南、综述和临床证据检索。适合通过 TRIP Database 进一步进入该主题的权威信息。",
     "excerpt": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.217Z",
+    "published_at": "2026-03-06T17:26:58.891Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -202,52 +241,46 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.217Z",
+    "ingested_at": "2026-03-06T17:26:58.891Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
         "国际"
-      ]
-    }
-  },
-  {
-    "id": "page-autism-speaks",
-    "source_name": "Autism Speaks",
-    "source_type": "official",
-    "source_region": "美国",
-    "source_url": "https://www.autismspeaks.org/",
-    "canonical_url": "https://www.autismspeaks.org/",
-    "title_original": "Autism Speaks",
-    "title_zh": "Autism Speaks 资源入口",
-    "summary_original": "自闭症工具包、服务目录与家庭资源入口",
-    "summary_zh": "自闭症工具包、服务目录与家庭资源入口。适合通过 Autism Speaks 进一步进入该主题的权威信息。",
-    "excerpt": "自闭症工具包、服务目录与家庭资源入口",
-    "language": "bilingual",
-    "published_at": "2026-03-06T16:37:35.903Z",
-    "content_type": "directory",
-    "topics": [
-      "自闭症",
-      "神经多样性",
-      "家庭支持",
-      "政策与服务"
-    ],
-    "audiences": [
-      "family",
-      "self-advocate"
-    ],
-    "conditions": [
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:35.903Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "美国"
-      ]
+      ],
+      "detail_summary": {
+        "title": "《TRIP Database 资源入口》（Trip Medical Database）",
+        "time_text": "发表于 2026年3月7日。",
+        "author_text": "TRIP Database（机构作者）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、ADHD、学习困难 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Trip Medical Database》涉及的问题，重点分析 自闭症、ADHD、学习困难 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇学术研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、ADHD、学习困难 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章更适合继续转化为面向家庭、学校、临床或职场的中文行动建议，而不是停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、ADHD、学习困难 的进一步阅读材料，适合继续补充更细的中文解读。"
+      }
     }
   },
   {
@@ -281,7 +314,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.078Z",
+    "ingested_at": "2026-03-06T17:27:02.596Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -322,104 +355,13 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.240Z",
+    "ingested_at": "2026-03-06T17:27:03.085Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "childmind-feed"
       ]
-    }
-  },
-  {
-    "id": "academic-autism-2026-41775479",
-    "source_name": "BMJ Open",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12958878/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12958878/",
-    "title_original": "Feasibility of the ICF CoreSets for Autism Strengths and Needs Assessment in NHS diagnostic services in England: protocol for a randomised pilot trial",
-    "title_zh": "研究：Feasibility of the ICF CoreSets for Autism Strengths and Needs Assessment in NHS diagnostic services in England: protocol for a randomised pilot trial",
-    "summary_original": "There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adulthood. Diagnosis on its own does not provide adequate information to plan post-diagnostic support for autistic people, and clinicians often plan support without the use of validated standardised tools which may exacerbate inequities in care. This study will evaluate a novel strengths and needs assessment, based on the WHO’s International Classification of Functioning, Disability and Health CoreSet for Autism, for use in adult diagnostic services immediately on receipt of an autism diagnosis. Potential issues, including the length of the assessment, timing of delivery and selection bias, will be explored as part of the trial process evaluation.",
-    "summary_zh": "基于学术全文自动解析：There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adul…",
-    "excerpt": "There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adulthood. Diagnosis on its own does not provide adequate information to plan post-diagnostic support for autistic people, and clinicians often plan suppo…",
-    "language": "en",
-    "published_at": "2026-03-02T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "自闭症",
-      "教育",
-      "家庭支持",
-      "神经多样性",
-      "政策与服务"
-    ],
-    "audiences": [
-      "family",
-      "educator",
-      "researcher",
-      "clinician",
-      "self-advocate"
-    ],
-    "conditions": [
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.594Z",
-    "metadata": {
-      "doi": "10.1136/bmjopen-2025-103303",
-      "pmid": "41775479",
-      "authors": "Marianne Day; Kelly Scargill; Daniel Poole; Ian Kellar; Tracey Anne Young; Sven Bölte; Sally Clarke; Keri-Michèle Lodge; Andrea Woods; M Freeth",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12958878/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12958878/pdf/bmjopen-16-3.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "autism-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Feasibility of the ICF CoreSets for Autism Strengths and Needs Assessment in NHS diagnostic services in England: protocol for a randomised pilot trial》",
-        "publication_info": "BMJ Open，2026/3/3",
-        "authors_display": "Marianne Day、Kelly Scargill、Daniel Poole、Ian Kellar、Tracey Anne Young、Sven Bölte",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Feasibility of the ICF CoreSets for Autism Strengths and Needs Assessment in NHS diagnostic services in England: protocol for a randomised pilot trial",
-              "研究类型：干预研究。",
-              "核心摘要：There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adulthood."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "M Freeth：SB discloses that he has in the last 3 years acted as a consultant or lecturer for Medice, Takeda, Neuraxpharm, Merk Sharp & Dohme and LinusBio.",
-              "Introduction：There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adulthood.",
-              "Methods and analysis：A two-arm, multisite, randomised pilot trial design will be used to evaluate the ICF CoreSets for Autism Strengths and Needs Assessment in three diagnostic services in England.",
-              "Ethics and dissemination：This study was reviewed by the East Midlands—Nottingham 2 Research Ethics Committee and was given Health Research Authority approval on 18 March 2025 (REC reference:25/EM/0041).",
-              "Trial registration number：Keywords: Feasibility Studies, Patient-Centered Care, Patient Care Management, Quality of Life, Randomized Controlled Trial"
-            ]
-          }
-        ],
-        "key_findings": "There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adulthood.",
-        "research_method": "从全文结构看，文章按 M Freeth、Introduction、Methods and analysis、Ethics and dissemination 展开。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "M Freeth：SB discloses that he has in the last 3 years acted as a consultant or lecturer for Medice, Takeda, Neuraxpharm, Merk Sharp & Dohme and LinusBio.",
-          "Introduction：There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adulthood.",
-          "Methods and analysis：A two-arm, multisite, randomised pilot trial design will be used to evaluate the ICF CoreSets for Autism Strengths and Needs Assessment in three diagnostic services in England.",
-          "Ethics and dissemination：This study was reviewed by the East Midlands—Nottingham 2 Research Ethics Committee and was given Health Research Authority approval on 18 March 2025 (REC reference:25/EM/0041)."
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
-        ]
-      }
     }
   },
   {
@@ -453,7 +395,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.079Z",
+    "ingested_at": "2026-03-06T17:27:02.596Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -492,7 +434,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.300Z",
+    "ingested_at": "2026-03-06T17:26:59.148Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -535,7 +477,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:38.075Z",
+    "ingested_at": "2026-03-06T17:27:00.443Z",
     "metadata": {
       "credibility": "high",
       "tags": [

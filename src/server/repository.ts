@@ -2,6 +2,7 @@ import path from "node:path";
 import type { ContentItem, ReviewStatus } from "../shared/content";
 import { buildPublicIndex, classifyItem, dedupeItems, splitByTopic } from "../shared/content-ops";
 import { curatedSeedItems, retiredSeedItemIds } from "../shared/sample-sources";
+import { materializeStoredItems } from "./detail-summary-materializer";
 import { readJsonFile, storagePaths, writeJsonFile } from "./storage";
 
 export async function getReviewItems(): Promise<ContentItem[]> {
@@ -16,7 +17,7 @@ export async function getReviewItems(): Promise<ContentItem[]> {
 
 export async function saveReviewItems(items: ContentItem[]): Promise<void> {
   const filtered = items.filter((item) => !retiredSeedItemIds.includes(item.id as (typeof retiredSeedItemIds)[number]));
-  await writeJsonFile(storagePaths.review, dedupeItems(filtered));
+  await writeJsonFile(storagePaths.review, dedupeItems(materializeStoredItems(filtered)));
 }
 
 export async function upsertReviewItems(nextItems: ContentItem[]): Promise<ContentItem[]> {
@@ -44,10 +45,11 @@ export async function updateReviewStatus(
 }
 
 export async function publishApprovedItems(): Promise<{ version: string; count: number }> {
-  const items = await getReviewItems();
+  const items = materializeStoredItems(await getReviewItems());
   const index = buildPublicIndex(items);
   const byTopic = splitByTopic(items);
 
+  await saveReviewItems(items);
   await writeJsonFile(path.join(storagePaths.generated, "content-index.json"), index);
   for (const [slug, topicItems] of Object.entries(byTopic)) {
     await writeJsonFile(path.join(storagePaths.topics, `${slug}.json`), topicItems);

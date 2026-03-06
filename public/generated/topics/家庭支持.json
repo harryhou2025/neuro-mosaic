@@ -33,7 +33,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.594Z",
+    "ingested_at": "2026-03-06T17:26:36.214Z",
     "metadata": {
       "doi": "10.1016/j.ijmedinf.2026.106262",
       "pmid": "41539128",
@@ -69,6 +69,39 @@
           "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
           "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
         ]
+      },
+      "detail_summary": {
+        "title": "《研究：Empowering caregivers of individuals with autism spectrum disorder through sensor-based monitoring of emotional dysregulation: A scoping review》",
+        "time_text": "International journal of medical informatics，2026年4月1日。",
+        "author_text": "International journal of medical informatics（机构作者）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、教育、家庭支持 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Empowering caregivers of individuals with autism spectrum disorder through sensor-based monitoring of emotional dysregulation: A scoping review》涉及的问题，重点分析 自闭症、教育、家庭支持 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇综述或系统回顾，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、教育、家庭支持 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、教育、家庭支持 的进一步阅读材料，适合继续补充更细的中文解读。"
       }
     }
   },
@@ -105,7 +138,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.594Z",
+    "ingested_at": "2026-03-06T17:26:36.214Z",
     "metadata": {
       "doi": "10.1016/j.jpsychires.2026.01.033",
       "pmid": "41637997",
@@ -141,6 +174,39 @@
           "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
           "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
         ]
+      },
+      "detail_summary": {
+        "title": "《研究：Persistence of autistic symptom differences by severity among individuals at clinical high risk for psychosis and with first-episode psychosis: An 18-month longitudinal follow-up study》",
+        "time_text": "Journal of psychiatric research，2026年4月1日。",
+        "author_text": "Journal of psychiatric research（机构作者）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、教育、家庭支持 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Persistence of autistic symptom differences by severity among individuals at clinical high risk for psychosis and with first-episode psychosis: An 18-month longitudinal follow-up study》涉及的问题，重点分析 自闭症、教育、家庭支持 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇队列或纵向研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、教育、家庭支持 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、教育、家庭支持 的进一步阅读材料，适合继续补充更细的中文解读。"
       }
     }
   },
@@ -157,7 +223,7 @@
     "summary_zh": "ADHD 大众内容、学校与家庭实操。适合通过 ADDitude 进一步进入该主题的权威信息。",
     "excerpt": "ADHD symptom tests, ADD medication & treatment, behavior & discipline, school & learning essentials, organization and more information for families and individuals living with attention…",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:37.934Z",
+    "published_at": "2026-03-06T17:26:59.769Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -177,47 +243,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:37.934Z",
-    "metadata": {
-      "credibility": "medium",
-      "tags": [
-        "page-harvest",
-        "美国"
-      ]
-    }
-  },
-  {
-    "id": "page-understood",
-    "source_name": "Understood",
-    "source_type": "media",
-    "source_region": "美国",
-    "source_url": "https://www.understood.org/",
-    "canonical_url": "https://www.understood.org/",
-    "title_original": "Understood - For learning and thinking differences",
-    "title_zh": "Understood 资源入口",
-    "summary_original": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
-    "summary_zh": "面向家长和老师的学习差异实用资源。适合通过 Understood 进一步进入该主题的权威信息。",
-    "excerpt": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T16:37:37.110Z",
-    "content_type": "directory",
-    "topics": [
-      "学习困难",
-      "ADHD",
-      "神经多样性",
-      "家庭支持"
-    ],
-    "audiences": [
-      "family",
-      "educator"
-    ],
-    "conditions": [
-      "learning-difficulties",
-      "adhd"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:37.110Z",
+    "ingested_at": "2026-03-06T17:26:59.769Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -239,7 +265,7 @@
     "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
     "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.464Z",
+    "published_at": "2026-03-06T17:26:59.632Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -262,50 +288,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.464Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "美国"
-      ]
-    }
-  },
-  {
-    "id": "page-chadd",
-    "source_name": "CHADD",
-    "source_type": "official",
-    "source_region": "美国",
-    "source_url": "https://chadd.org/",
-    "canonical_url": "https://chadd.org/",
-    "title_original": "CHADD - Improving the lives of people affected by ADHD",
-    "title_zh": "CHADD 资源入口",
-    "summary_original": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
-    "summary_zh": "ADHD 教育、家庭支持、学校与职场资源。适合通过 CHADD 进一步进入该主题的权威信息。",
-    "excerpt": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.463Z",
-    "content_type": "directory",
-    "topics": [
-      "ADHD",
-      "神经多样性",
-      "教育",
-      "职场",
-      "家庭支持",
-      "共病与支持需求"
-    ],
-    "audiences": [
-      "family",
-      "self-advocate",
-      "educator",
-      "employer"
-    ],
-    "conditions": [
-      "adhd"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.463Z",
+    "ingested_at": "2026-03-06T17:26:59.632Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -327,7 +310,7 @@
     "summary_zh": "儿童健康科普，自闭症与 ADHD 基础说明。适合通过 Nemours KidsHealth 进一步进入该主题的权威信息。",
     "excerpt": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.318Z",
+    "published_at": "2026-03-06T17:26:59.070Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -347,7 +330,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.318Z",
+    "ingested_at": "2026-03-06T17:26:59.070Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -369,7 +352,7 @@
     "summary_zh": "自闭症工具包、服务目录与家庭资源入口。适合通过 Autism Speaks 进一步进入该主题的权威信息。",
     "excerpt": "自闭症工具包、服务目录与家庭资源入口",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:35.903Z",
+    "published_at": "2026-03-06T17:26:59.036Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -386,7 +369,128 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:35.903Z",
+    "ingested_at": "2026-03-06T17:26:59.036Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-chadd",
+    "source_name": "CHADD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://chadd.org/",
+    "canonical_url": "https://chadd.org/",
+    "title_original": "CHADD - Improving the lives of people affected by ADHD",
+    "title_zh": "CHADD 资源入口",
+    "summary_original": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
+    "summary_zh": "ADHD 教育、家庭支持、学校与职场资源。适合通过 CHADD 进一步进入该主题的权威信息。",
+    "excerpt": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T17:26:59.032Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "神经多样性",
+      "教育",
+      "职场",
+      "家庭支持",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator",
+      "employer"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T17:26:59.033Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-understood",
+    "source_name": "Understood",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.understood.org/",
+    "canonical_url": "https://www.understood.org/",
+    "title_original": "Understood - For learning and thinking differences",
+    "title_zh": "Understood 资源入口",
+    "summary_original": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
+    "summary_zh": "面向家长和老师的学习差异实用资源。适合通过 Understood 进一步进入该主题的权威信息。",
+    "excerpt": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T17:26:58.922Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "ADHD",
+      "神经多样性",
+      "家庭支持"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties",
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T17:26:58.922Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-cdc",
+    "source_name": "CDC",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.cdc.gov/autism/",
+    "canonical_url": "https://www.cdc.gov/autism/",
+    "title_original": "Autism Spectrum Disorder (ASD)",
+    "title_zh": "CDC 资源入口",
+    "summary_original": "ASD is a developmental disability that can lead to social, communication, and behavioral challenges.",
+    "summary_zh": "自闭症筛查、基础介绍、家庭资源。适合通过 CDC 进一步进入该主题的权威信息。",
+    "excerpt": "ASD is a developmental disability that can lead to social, communication, and behavioral challenges.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T17:26:58.692Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "神经多样性",
+      "家庭支持"
+    ],
+    "audiences": [
+      "family",
+      "clinician"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T17:26:58.692Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -408,7 +512,7 @@
     "summary_zh": "教育干预证据和学校支持策略。适合通过 Education Endowment Foundation 进一步进入该主题的权威信息。",
     "excerpt": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:35.733Z",
+    "published_at": "2026-03-06T17:26:58.481Z",
     "content_type": "directory",
     "topics": [
       "学习困难",
@@ -431,50 +535,12 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:35.733Z",
+    "ingested_at": "2026-03-06T17:26:58.481Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
         "英国"
-      ]
-    }
-  },
-  {
-    "id": "page-cdc",
-    "source_name": "CDC",
-    "source_type": "official",
-    "source_region": "美国",
-    "source_url": "https://www.cdc.gov/autism/",
-    "canonical_url": "https://www.cdc.gov/autism/",
-    "title_original": "Autism Spectrum Disorder (ASD)",
-    "title_zh": "CDC 资源入口",
-    "summary_original": "ASD is a developmental disability that can lead to social, communication, and behavioral challenges.",
-    "summary_zh": "自闭症筛查、基础介绍、家庭资源。适合通过 CDC 进一步进入该主题的权威信息。",
-    "excerpt": "ASD is a developmental disability that can lead to social, communication, and behavioral challenges.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T16:37:35.531Z",
-    "content_type": "directory",
-    "topics": [
-      "自闭症",
-      "神经多样性",
-      "家庭支持"
-    ],
-    "audiences": [
-      "family",
-      "clinician"
-    ],
-    "conditions": [
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:35.531Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "美国"
       ]
     }
   },
@@ -510,7 +576,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.331Z",
+    "ingested_at": "2026-03-06T17:27:02.360Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -552,7 +618,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.331Z",
+    "ingested_at": "2026-03-06T17:27:02.360Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -592,7 +658,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.078Z",
+    "ingested_at": "2026-03-06T17:27:02.596Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -633,7 +699,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.240Z",
+    "ingested_at": "2026-03-06T17:27:03.085Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -674,7 +740,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.331Z",
+    "ingested_at": "2026-03-06T17:27:02.360Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -715,7 +781,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.331Z",
+    "ingested_at": "2026-03-06T17:27:02.360Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -756,7 +822,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.241Z",
+    "ingested_at": "2026-03-06T17:27:03.085Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -798,104 +864,13 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.241Z",
+    "ingested_at": "2026-03-06T17:27:03.085Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "childmind-feed"
       ]
-    }
-  },
-  {
-    "id": "academic-autism-2026-41775479",
-    "source_name": "BMJ Open",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12958878/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12958878/",
-    "title_original": "Feasibility of the ICF CoreSets for Autism Strengths and Needs Assessment in NHS diagnostic services in England: protocol for a randomised pilot trial",
-    "title_zh": "研究：Feasibility of the ICF CoreSets for Autism Strengths and Needs Assessment in NHS diagnostic services in England: protocol for a randomised pilot trial",
-    "summary_original": "There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adulthood. Diagnosis on its own does not provide adequate information to plan post-diagnostic support for autistic people, and clinicians often plan support without the use of validated standardised tools which may exacerbate inequities in care. This study will evaluate a novel strengths and needs assessment, based on the WHO’s International Classification of Functioning, Disability and Health CoreSet for Autism, for use in adult diagnostic services immediately on receipt of an autism diagnosis. Potential issues, including the length of the assessment, timing of delivery and selection bias, will be explored as part of the trial process evaluation.",
-    "summary_zh": "基于学术全文自动解析：There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adul…",
-    "excerpt": "There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adulthood. Diagnosis on its own does not provide adequate information to plan post-diagnostic support for autistic people, and clinicians often plan suppo…",
-    "language": "en",
-    "published_at": "2026-03-02T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "自闭症",
-      "教育",
-      "家庭支持",
-      "神经多样性",
-      "政策与服务"
-    ],
-    "audiences": [
-      "family",
-      "educator",
-      "researcher",
-      "clinician",
-      "self-advocate"
-    ],
-    "conditions": [
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.594Z",
-    "metadata": {
-      "doi": "10.1136/bmjopen-2025-103303",
-      "pmid": "41775479",
-      "authors": "Marianne Day; Kelly Scargill; Daniel Poole; Ian Kellar; Tracey Anne Young; Sven Bölte; Sally Clarke; Keri-Michèle Lodge; Andrea Woods; M Freeth",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12958878/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12958878/pdf/bmjopen-16-3.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "autism-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Feasibility of the ICF CoreSets for Autism Strengths and Needs Assessment in NHS diagnostic services in England: protocol for a randomised pilot trial》",
-        "publication_info": "BMJ Open，2026/3/3",
-        "authors_display": "Marianne Day、Kelly Scargill、Daniel Poole、Ian Kellar、Tracey Anne Young、Sven Bölte",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Feasibility of the ICF CoreSets for Autism Strengths and Needs Assessment in NHS diagnostic services in England: protocol for a randomised pilot trial",
-              "研究类型：干预研究。",
-              "核心摘要：There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adulthood."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "M Freeth：SB discloses that he has in the last 3 years acted as a consultant or lecturer for Medice, Takeda, Neuraxpharm, Merk Sharp & Dohme and LinusBio.",
-              "Introduction：There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adulthood.",
-              "Methods and analysis：A two-arm, multisite, randomised pilot trial design will be used to evaluate the ICF CoreSets for Autism Strengths and Needs Assessment in three diagnostic services in England.",
-              "Ethics and dissemination：This study was reviewed by the East Midlands—Nottingham 2 Research Ethics Committee and was given Health Research Authority approval on 18 March 2025 (REC reference:25/EM/0041).",
-              "Trial registration number：Keywords: Feasibility Studies, Patient-Centered Care, Patient Care Management, Quality of Life, Randomized Controlled Trial"
-            ]
-          }
-        ],
-        "key_findings": "There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adulthood.",
-        "research_method": "从全文结构看，文章按 M Freeth、Introduction、Methods and analysis、Ethics and dissemination 展开。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "M Freeth：SB discloses that he has in the last 3 years acted as a consultant or lecturer for Medice, Takeda, Neuraxpharm, Merk Sharp & Dohme and LinusBio.",
-          "Introduction：There are approximately 700 000 autistic people in the UK, and autism is increasingly being diagnosed in adulthood.",
-          "Methods and analysis：A two-arm, multisite, randomised pilot trial design will be used to evaluate the ICF CoreSets for Autism Strengths and Needs Assessment in three diagnostic services in England.",
-          "Ethics and dissemination：This study was reviewed by the East Midlands—Nottingham 2 Research Ethics Committee and was given Health Research Authority approval on 18 March 2025 (REC reference:25/EM/0041)."
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
-        ]
-      }
     }
   },
   {
@@ -930,7 +905,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.594Z",
+    "ingested_at": "2026-03-06T17:26:36.214Z",
     "metadata": {
       "doi": "10.1186/s13034-026-01054-z",
       "pmid": "41776675",
@@ -984,6 +959,39 @@
           "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
           "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
         ]
+      },
+      "detail_summary": {
+        "title": "《研究：Hospitalizations in adolescents with autism spectrum disorder are rising in Spain》",
+        "time_text": "Child and Adolescent Psychiatry and Mental Health，2026年3月3日。",
+        "author_text": "Soriano、Vicente、Ramos 等（Child and Adolescent Psychiatry and Mental Health）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、教育、家庭支持 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Hospitalizations in adolescents with autism spectrum disorder are rising in Spain》涉及的问题，重点分析 自闭症、教育、家庭支持 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇干预研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、教育、家庭支持 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、教育、家庭支持 的进一步阅读材料，适合继续补充更细的中文解读。"
       }
     }
   },
@@ -1030,44 +1038,44 @@
     }
   },
   {
-    "id": "academic-autism-2026-41696839",
-    "source_name": "Medicina",
+    "id": "academic-autism-2026-41772186",
+    "source_name": "Behavior Research Methods",
     "source_type": "academic",
     "source_region": "国际",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41696839/",
-    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/41696839/",
-    "title_original": "[Social skills in adults with late-onset diagnosis of ASD and ADHD]",
-    "title_zh": "研究：[Social skills in adults with late-onset diagnosis of ASD and ADHD]",
-    "summary_original": "Introduction: Social skills (SS) in individuals with Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) are typically affected.",
-    "summary_zh": "基于学术全文自动解析：Introduction: Social skills (SS) in individuals with Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyp…",
-    "excerpt": "Introduction: Social skills (SS) in individuals with Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) are typically affected.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953272/",
+    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953272/",
+    "title_original": "Joint attention in autism: A narrative review of assessment techniques from behavioral observation to artificial intelligence",
+    "title_zh": "研究：Joint attention in autism: A narrative review of assessment techniques from behavioral observation to artificial intelligence",
+    "summary_original": "Joint attention (JA), the shared focus between two individuals on an object or event, plays a pivotal role in social communication, cognitive development, and language acquisition during early childhood. However, JA is frequently impaired in children with autism spectrum disorder (ASD), highlighting the need for precise assessment to support early diagnosis and intervention. This narrative review explores the evolution of JA assessment methods, tracing the shift from human-mediated techniques to technology-driven approaches, including artificial intelligence (AI). The study analyzes research indexed in major bibliographic databases between 2002 and 2024, categorizing findings into human-mediated and technology-assisted methods. Key aspects such as target populations, data collection processes, and validation strategies are examined. By highlighting the strengths and limitations of existing approaches, the review identifies future research directions that can advance JA assessment and inform early intervention strategies, ultimately benefiting children with ASD and their families.",
+    "summary_zh": "基于学术全文自动解析：Joint attention (JA), the shared focus between two individuals on an object or event, plays a pivotal role in…",
+    "excerpt": "Joint attention (JA), the shared focus between two individuals on an object or event, plays a pivotal role in social communication, cognitive development, and language acquisition during early childhood. However, JA is frequently impaired in children with aut…",
     "language": "en",
-    "published_at": "2026-02-28T16:00:00.000Z",
-    "content_type": "research",
+    "published_at": "2026-03-01T16:00:00.000Z",
+    "content_type": "review",
     "topics": [
       "自闭症",
       "教育",
       "家庭支持",
-      "神经多样性",
-      "ADHD"
+      "神经多样性"
     ],
     "audiences": [
       "family",
       "educator",
       "researcher",
-      "clinician",
-      "self-advocate"
+      "clinician"
     ],
     "conditions": [
-      "autism",
-      "adhd"
+      "autism"
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.594Z",
+    "ingested_at": "2026-03-06T17:26:36.214Z",
     "metadata": {
-      "pmid": "41696839",
-      "article_url": "https://pubmed.ncbi.nlm.nih.gov/41696839/",
+      "doi": "10.3758/s13428-026-02950-0",
+      "pmid": "41772186",
+      "authors": "Marwa Qaraqe; Elizabeth B Varghese; Inam Qadir; Dena Al-Thani; Chahnaz T Baroudi",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953272/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953272/pdf/13428_2026_Article_2950.pdf",
       "credibility": "high",
       "tags": [
         "academic-search",
@@ -1077,28 +1085,201 @@
       ],
       "analysis": {
         "template": "academic",
-        "summary_title": "《研究：[Social skills in adults with late-onset diagnosis of ASD and ADHD]》",
-        "publication_info": "Medicina，2026/3/1",
+        "summary_title": "《研究：Joint attention in autism: A narrative review of assessment techniques from behavioral observation to artificial intelligence》",
+        "publication_info": "Behavior Research Methods，2026/3/2",
+        "authors_display": "Marwa Qaraqe、Elizabeth B Varghese、Inam Qadir、Dena Al-Thani、Chahnaz T Baroudi",
         "content_sections": [
           {
             "title": "文章概览",
             "items": [
-              "原文题目：[Social skills in adults with late-onset diagnosis of ASD and ADHD]",
-              "研究类型：学术研究。",
-              "核心摘要：Introduction: Social skills (SS) in individuals with Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) are typically affected."
+              "原文题目：Joint attention in autism: A narrative review of assessment techniques from behavioral observation to artificial intelligence",
+              "研究类型：综述/系统回顾。",
+              "核心摘要：Joint attention (JA), the shared focus between two individuals on an object or event, plays a pivotal role in social communication, cognitive development, and language acquisition during early childhood."
+            ]
+          },
+          {
+            "title": "正文结构",
+            "items": [
+              "Chahnaz T Baroudi：Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give app…",
+              "Introduction：Autism is a neurodevelopmental condition characterized by deficits in social communication and repetitive patterns of behavior.",
+              "Related reviews：A handful of reviews focusing on JA assessment are available in the literature; however, they primarily focus on human-mediated approaches.",
+              "Scope and relevance of the review：This review provides a narrative synthesis of the methodologies, technologies, and measures used in JA assessment across different target groups.",
+              "Research questions (RQ)：The methodology of this review is structured around addressing a set of carefully framed research questions that guide the analysis and synthesis of the existing literature."
             ]
           }
         ],
-        "key_findings": "Introduction: Social skills (SS) in individuals with Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) are typically affected.",
-        "research_method": "基于 学术研究 自动识别。当前优先使用 PMC 全文页 中可获取的摘要与章节结构。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [],
-        "conclusion": "Introduction: Social skills (SS) in individuals with Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) are typically affected.",
+        "key_findings": "Joint attention (JA), the shared focus between two individuals on an object or event, plays a pivotal role in social communication, cognitive development, and language acquisition during early childhood.",
+        "research_method": "从全文结构看，文章按 Chahnaz T Baroudi、Introduction、Related reviews、Scope and relevance of the review 展开。",
+        "practical_significance": "The methodology of this review is structured around addressing a set of carefully framed research questions that guide the analysis and synthesis of the existing literature.",
+        "strategy_points": [
+          "Chahnaz T Baroudi：Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give app…",
+          "Introduction：Autism is a neurodevelopmental condition characterized by deficits in social communication and repetitive patterns of behavior.",
+          "Related reviews：A handful of reviews focusing on JA assessment are available in the literature; however, they primarily focus on human-mediated approaches.",
+          "Scope and relevance of the review：This review provides a narrative synthesis of the methodologies, technologies, and measures used in JA assessment across different target groups."
+        ],
+        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
         "china_insights": [
           "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
           "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
           "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
         ]
+      },
+      "detail_summary": {
+        "title": "《研究：Joint attention in autism: A narrative review of assessment techniques from behavioral observation to artificial intelligence》",
+        "time_text": "Behavior Research Methods，2026年3月2日。",
+        "author_text": "Marwa Qaraqe、Elizabeth B Varghese、Inam Qadir 等（Behavior Research Methods）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、教育、家庭支持 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Joint attention in autism: A narrative review of assessment techniques from behavioral observation to artificial intelligence》涉及的问题，重点分析 自闭症、教育、家庭支持 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇综述或系统回顾，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、教育、家庭支持 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章更适合继续转化为面向家庭、学校、临床或职场的中文行动建议，而不是停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、教育、家庭支持 的进一步阅读材料，适合继续补充更细的中文解读。"
+      }
+    }
+  },
+  {
+    "id": "academic-adhd-2026-41770381",
+    "source_name": "Research on Child and Adolescent Psychopathology",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953414/",
+    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953414/",
+    "title_original": "Linking ADHD to Depression in Adolescents: the Mediating Role of Social Skills",
+    "title_zh": "研究：Linking ADHD to Depression in Adolescents: the Mediating Role of Social Skills",
+    "summary_original": "Adolescents with attention-deficit/hyperactivity disorder (ADHD) are at a higher risk for developing depression than their peers. One potential explanation for this increased risk is that adolescents with ADHD often have impaired social skills, which may interfere with successful social interactions and connections, and subsequently lead to low self-worth and depression. We hypothesized that global social skills and social skill factors most related to friendships (communication, cooperation, engagement, and empathy) would mediate the positive relation between ADHD symptom severity and depression. Additionally, we investigated whether global social skills would mediate the relations between ADHD symptom severity and four facets of depression (negative self-evaluation, anhedonia, dysphoric mood, and somatic complaints). Our sample included 335 adolescents with ADHD in grades 6–11 who participated in an intervention study. Parent-reported ADHD symptoms were measured at or before baseline, parent-reported social skills (global and several subscales) were measured one year later, and self-reported depression was measured 1.5 years after baseline. Global social skills mediated (1) the relation between ADHD and depression and (2) the relation between ADHD and negative self-evaluation. Cooperation, communication, empathy, and responsibility individually mediated the relation between ADHD and depression, and assertion, self-control, and engagement did not.",
+    "summary_zh": "基于学术全文自动解析：Adolescents with attention-deficit/hyperactivity disorder (ADHD) are at a higher risk for developing depressi…",
+    "excerpt": "Adolescents with attention-deficit/hyperactivity disorder (ADHD) are at a higher risk for developing depression than their peers. One potential explanation for this increased risk is that adolescents with ADHD often have impaired social skills, which may inte…",
+    "language": "en",
+    "published_at": "2026-03-01T16:00:00.000Z",
+    "content_type": "research",
+    "topics": [
+      "ADHD",
+      "教育",
+      "职场",
+      "神经多样性",
+      "家庭支持"
+    ],
+    "audiences": [
+      "self-advocate",
+      "educator",
+      "researcher",
+      "family",
+      "employer"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T17:26:37.236Z",
+    "metadata": {
+      "doi": "10.1007/s10802-026-01430-5",
+      "pmid": "41770381",
+      "authors": "Allison M Loomis; Sierra R Hightower-Henson; Steven W Evans; George J DuPaul",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953414/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953414/pdf/10802_2026_Article_1430.pdf",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "adhd-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：Linking ADHD to Depression in Adolescents: the Mediating Role of Social Skills》",
+        "publication_info": "Research on Child and Adolescent Psychopathology，2026/3/2",
+        "authors_display": "Allison M Loomis、Sierra R Hightower-Henson、Steven W Evans、George J DuPaul",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：Linking ADHD to Depression in Adolescents: the Mediating Role of Social Skills",
+              "研究类型：干预研究。",
+              "核心摘要：Adolescents with attention-deficit/hyperactivity disorder (ADHD) are at a higher risk for developing depression than their peers."
+            ]
+          },
+          {
+            "title": "正文结构",
+            "items": [
+              "George J DuPaul：Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give app…",
+              "Supplementary Information：The online version contains supplementary material available at 10.1007/s10802-026-01430-5.",
+              "Introduction：Adolescents with attention-deficit/hyperactivity disorder (ADHD) have higher rates of depression than their peers without ADHD, with approximately 14% of adolescents with ADHD, as opposed to 8% of all adolescents, meeti…",
+              "ADHD and Depression：Multiple studies have suggested that adolescents with ADHD are at risk for developing depression during adolescence and early adulthood (Meinzer et al., 2013 , 2016 ).",
+              "Facets of Depression：Although ADHD and depression can be comorbid, it remains unclear which aspects of depression are most impacted by ADHD and social skills functioning."
+            ]
+          }
+        ],
+        "key_findings": "Adolescents with attention-deficit/hyperactivity disorder (ADHD) are at a higher risk for developing depression than their peers.",
+        "research_method": "从全文结构看，文章按 George J DuPaul、Supplementary Information、Introduction、ADHD and Depression 展开。",
+        "practical_significance": "In summary, our results suggest that social skills needed for the development and continuity of friendships, including communication, empathy, and cooperation, may be the most important in the development of depression…",
+        "strategy_points": [
+          "George J DuPaul：Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give app…",
+          "Supplementary Information：The online version contains supplementary material available at 10.1007/s10802-026-01430-5.",
+          "Introduction：Adolescents with attention-deficit/hyperactivity disorder (ADHD) have higher rates of depression than their peers without ADHD, with approximately 14% of adolescents with ADHD, as opposed to 8% of all adolescents, meeti…",
+          "ADHD and Depression：Multiple studies have suggested that adolescents with ADHD are at risk for developing depression during adolescence and early adulthood (Meinzer et al., 2013 , 2016 )."
+        ],
+        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
+        ]
+      },
+      "detail_summary": {
+        "title": "《研究：Linking ADHD to Depression in Adolescents: the Mediating Role of Social Skills》",
+        "time_text": "Research on Child and Adolescent Psychopathology，2026年3月2日。",
+        "author_text": "Allison M Loomis、Sierra R Hightower-Henson、Steven W Evans 等（Research on Child and Adolescent Psychopathology）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 ADHD、教育、职场 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Linking ADHD to Depression in Adolescents: the Mediating Role of Social Skills》涉及的问题，重点分析 ADHD、教育、职场 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇干预研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 ADHD、教育、职场 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章更适合继续转化为面向家庭、学校、临床或职场的中文行动建议，而不是停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 ADHD、教育、职场 的进一步阅读材料，适合继续补充更细的中文解读。"
       }
     }
   },
@@ -1134,7 +1315,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.594Z",
+    "ingested_at": "2026-03-06T17:26:36.214Z",
     "metadata": {
       "pmid": "41696841",
       "article_url": "https://pubmed.ncbi.nlm.nih.gov/41696841/",
@@ -1169,6 +1350,39 @@
           "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
           "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
         ]
+      },
+      "detail_summary": {
+        "title": "《研究：[\"Good night, gorilla\": Evaluating narratives in children with autism spectrum disorder]》",
+        "time_text": "Medicina，2026年3月1日。",
+        "author_text": "Medicina（机构作者）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、教育、家庭支持 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《[\"Good night, gorilla\": Evaluating narratives in children with autism spectrum disorder]》涉及的问题，重点分析 自闭症、教育、家庭支持 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇学术研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、教育、家庭支持 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、教育、家庭支持 的进一步阅读材料，适合继续补充更细的中文解读。"
       }
     }
   },
@@ -1203,7 +1417,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.241Z",
+    "ingested_at": "2026-03-06T17:27:03.085Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1213,91 +1427,111 @@
     }
   },
   {
-    "id": "academic-autism-2026-41744144",
-    "source_name": "Special Care in Dentistry",
+    "id": "academic-adhd-2026-41724026",
+    "source_name": "Research in developmental disabilities",
     "source_type": "academic",
     "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12937036/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12937036/",
-    "title_original": "Dental Care Access Among Children and Adolescents With Autism Spectrum Disorder: A Cross Sectional Survey in Juiz de Fora, Brazil",
-    "title_zh": "研究：Dental Care Access Among Children and Adolescents With Autism Spectrum Disorder: A Cross Sectional Survey in Juiz de Fora, Brazil",
-    "summary_original": "To investigate the conditions of access to dental care among children and adolescents with Autism Spectrum Disorder (ASD) in Juiz de Fora, Brazil, and to identify the main barriers faced by this population.",
-    "summary_zh": "基于学术全文自动解析：To investigate the conditions of access to dental care among children and adolescents with Autism Spectrum Di…",
-    "excerpt": "To investigate the conditions of access to dental care among children and adolescents with Autism Spectrum Disorder (ASD) in Juiz de Fora, Brazil, and to identify the main barriers faced by this population.",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41724026/",
+    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/41724026/",
+    "title_original": "Blurred lines: Investigating functional profiles in autism and ADHD across key developmental domains",
+    "title_zh": "研究：Blurred lines: Investigating functional profiles in autism and ADHD across key developmental domains",
+    "summary_original": "While Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) present distinct symptoms and developmental trajectories, they also share overlapping characteristics across different domains. This exploratory study investigated differences between ASD, ADHD and non-diagnosed (ND) peers across theory of mind, pragmatic language, inattention, impulsivity, social skills, and behavioral problems. A data-driven approach was further applied to explore whether distinct functional profiles emerged across these domains and whether such profiles aligned with traditional diagnostic categories. The sample included 204 participants aged 8-16: 51 with ASD, 64 with ADHD, and 89 ND, matched for age, sex, and intelligence quotient. Results highlight that both clinical groups performed worse than ND peers, with no differences between ASD and ADHD. Latent profile analysis identified four distinct profiles: 1 (\"Inattentive with pragmatic difficulties\"; n = 20), 2 (\"Social deficits with behavioral dysregulation\"; n = 63), 3 (\"Highly impulsive\"; n = 24), and 4 (\"Minimal impairments\"; n = 97). The first three were predominantly composed of autistic and ADHD participants, while the fourth was distinctive of ND. Notably, 50 % of both autistic and ADHD participants were grouped into Profile 2, characterized primarily by parental reports, alongside weaknesses performing tests. Our findings suggest that ASD and ADHD share difficulties across key developmental domains, with functional profiles extending beyond traditional diagnostic boundaries. Given the exploratory nature of the study and the relatively limited sample size, these findings should be considered preliminary and warrant replication in larger and more diverse samples. Despite this, our results support a dimensional view of neurodevelopmental conditions, while highlighting the need to integrate informant reports, psychometric data, and clinical judgment to ensure meaningful interpretations of a child's functional profile.",
+    "summary_zh": "基于学术全文自动解析：While Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) present distinct sym…",
+    "excerpt": "While Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) present distinct symptoms and developmental trajectories, they also share overlapping characteristics across different domains. This exploratory study investigated differ…",
     "language": "en",
-    "published_at": "2026-02-25T16:00:00.000Z",
+    "published_at": "2026-02-20T16:00:00.000Z",
     "content_type": "research",
     "topics": [
-      "自闭症",
+      "ADHD",
       "教育",
-      "家庭支持",
-      "神经多样性"
+      "职场",
+      "神经多样性",
+      "自闭症",
+      "家庭支持"
     ],
     "audiences": [
-      "family",
+      "self-advocate",
       "educator",
       "researcher",
+      "family",
+      "employer",
       "clinician"
     ],
     "conditions": [
+      "adhd",
       "autism"
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.594Z",
+    "ingested_at": "2026-03-06T17:26:37.237Z",
     "metadata": {
-      "doi": "10.1111/scd.70158",
-      "pmid": "41744144",
-      "authors": "Pedro Mattos Cardoso; Laís Canêdo Martins; Fernanda Campos Machado; Camila Faria Carrada; Flávia Almeida Ribeiro Scalioni",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12937036/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12937036/pdf/SCD-46-0.pdf",
+      "doi": "10.1016/j.ridd.2026.105240",
+      "pmid": "41724026",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/41724026/",
       "credibility": "high",
       "tags": [
         "academic-search",
-        "autism-2026",
+        "adhd-2026",
         "academic-enriched",
         "html"
       ],
       "analysis": {
         "template": "academic",
-        "summary_title": "《研究：Dental Care Access Among Children and Adolescents With Autism Spectrum Disorder: A Cross Sectional Survey in Juiz de Fora, Brazil》",
-        "publication_info": "Special Care in Dentistry，2026/2/26",
-        "authors_display": "Pedro Mattos Cardoso、Laís Canêdo Martins、Fernanda Campos Machado、Camila Faria Carrada、Flávia Almeida Ribeiro Scalioni",
+        "summary_title": "《研究：Blurred lines: Investigating functional profiles in autism and ADHD across key developmental domains》",
+        "publication_info": "Research in developmental disabilities，2026/2/21",
         "content_sections": [
           {
             "title": "文章概览",
             "items": [
-              "原文题目：Dental Care Access Among Children and Adolescents With Autism Spectrum Disorder: A Cross Sectional Survey in Juiz de Fora, Brazil",
-              "研究类型：横断面调查。",
-              "核心摘要：To investigate the conditions of access to dental care among children and adolescents with Autism Spectrum Disorder (ASD) in Juiz de Fora, Brazil, and to identify the main barriers faced by this population."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Flávia Almeida Ribeiro Scalioni：Revised 2026 Jan 7; Received 2025 Sep 2; Accepted 2026 Feb 11; Issue date 2026 Mar-Apr.",
-              "Aims：To investigate the conditions of access to dental care among children and adolescents with Autism Spectrum Disorder (ASD) in Juiz de Fora, Brazil, and to identify the main barriers faced by this population.",
-              "Methods and Results：This cross sectional study used a convenience sampling strategy.",
-              "Conclusion：Although most children and adolescents with ASD in Juiz de Fora had received dental care, ongoing barriers hinder consistent access, as identified through associative—not causal—relationships, given the cross sectional…",
-              "1. Introduction：Autism Spectrum Disorder (ASD) is a neurodevelopmental condition characterized by persistent deficits in communication and social interaction, restricted and repetitive behaviors, and atypical responses to sensory stimu…"
+              "原文题目：Blurred lines: Investigating functional profiles in autism and ADHD across key developmental domains",
+              "研究类型：学术研究。",
+              "核心摘要：While Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) present distinct symptoms and developmental trajectories, they also share overlapping characteristics across different domains."
             ]
           }
         ],
-        "key_findings": "To investigate the conditions of access to dental care among children and adolescents with Autism Spectrum Disorder (ASD) in Juiz de Fora, Brazil, and to identify the main barriers faced by this population.",
-        "research_method": "从全文结构看，文章按 Flávia Almeida Ribeiro Scalioni、Aims、Methods and Results、Conclusion 展开。",
+        "key_findings": "While Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) present distinct symptoms and developmental trajectories, they also share overlapping characteristics across different domains.",
+        "research_method": "基于 学术研究 自动识别。当前优先使用 PMC 全文页 中可获取的摘要与章节结构。",
         "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "Flávia Almeida Ribeiro Scalioni：Revised 2026 Jan 7; Received 2025 Sep 2; Accepted 2026 Feb 11; Issue date 2026 Mar-Apr.",
-          "Aims：To investigate the conditions of access to dental care among children and adolescents with Autism Spectrum Disorder (ASD) in Juiz de Fora, Brazil, and to identify the main barriers faced by this population.",
-          "Methods and Results：This cross sectional study used a convenience sampling strategy.",
-          "Conclusion：Although most children and adolescents with ASD in Juiz de Fora had received dental care, ongoing barriers hinder consistent access, as identified through associative—not causal—relationships, given the cross sectional…"
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+        "strategy_points": [],
+        "conclusion": "While Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) present distinct symptoms and developmental trajectories, they also share overlapping characteristics across different domains.",
         "china_insights": [
           "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
           "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
+          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
         ]
+      },
+      "detail_summary": {
+        "title": "《研究：Blurred lines: Investigating functional profiles in autism and ADHD across key developmental domains》",
+        "time_text": "Research in developmental disabilities，2026年2月21日。",
+        "author_text": "Research in developmental disabilities（机构作者）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 ADHD、教育、职场 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Blurred lines: Investigating functional profiles in autism and ADHD across key developmental domains》涉及的问题，重点分析 ADHD、教育、职场 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇学术研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 ADHD、教育、职场 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 ADHD、教育、职场 的进一步阅读材料，适合继续补充更细的中文解读。"
       }
     }
   },
@@ -1334,7 +1568,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.472Z",
+    "ingested_at": "2026-03-06T17:27:03.267Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1376,7 +1610,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.473Z",
+    "ingested_at": "2026-03-06T17:27:03.268Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1417,7 +1651,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:40.377Z",
+    "ingested_at": "2026-03-06T17:27:02.178Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1457,104 +1691,13 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.079Z",
+    "ingested_at": "2026-03-06T17:27:02.596Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "ncld-feed"
       ]
-    }
-  },
-  {
-    "id": "academic-autism-2026-41641503",
-    "source_name": "Autism",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923632/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923632/",
-    "title_original": "Sleep and activity patterns in autism",
-    "title_zh": "研究：Sleep and activity patterns in autism",
-    "summary_original": "Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior, and co-occurring conditions. Sleep disturbances are common in autism. This study uses low-cost wearable devices to compare sleep, physical activity, and circadian behavior in autistic adults and their non-autistic relatives. We recruited 318 autistic individuals and 130 family members, collecting accelerometer data over 3 weeks (8249 days). Using a data-driven approach, we identified actimetry-derived features associated with autism. We examined 308 traits using the elastic net algorithm and linear mixed effects regressions. We identified 52 actimetry measures associated with autism (area under the curve: 0.812; confidence interval: 0.761–0.862), validated in a test set (area under the curve: 0.756; confidence interval: 0.700–0.813). Both mean and day-to-day variability in several measures (e.g., time spent sedentary, total light physical activity) were associated with autism. In autistic individuals, reduced physical activity during wake was more strongly associated with shorter sleep time than in non-autistic relatives (likelihood ratio: 41.6; p = 1.13e−10). Reduced physical activity in autistic individuals was linked to increased social impairment, as measured by the Social Responsiveness Scale. Long inactivity periods and lower physical activity levels were associated with autism, correlating with less sleep and later sleep onset. Interventional studies are needed to explore if improving sleep and physical activity can improve the quality of life for autistic individuals.",
-    "summary_zh": "基于学术全文自动解析：Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior…",
-    "excerpt": "Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior, and co-occurring conditions. Sleep disturbances are common in autism. This study uses low-cost wearable devices to compare sleep, physical activity,…",
-    "language": "en",
-    "published_at": "2026-02-04T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "自闭症",
-      "教育",
-      "家庭支持",
-      "神经多样性",
-      "共病与支持需求"
-    ],
-    "audiences": [
-      "family",
-      "educator",
-      "researcher",
-      "clinician",
-      "self-advocate"
-    ],
-    "conditions": [
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.594Z",
-    "metadata": {
-      "doi": "10.1177/13623613251413538",
-      "pmid": "41641503",
-      "authors": "J Dylan Weissenkampen; Arpita Ghorai; Thaise NR Carneiro; Maria Fasolino; Brielle N Gehringer; Maya Rajan; Holly C Dow; Shriya Kunatharaju; Till Roenneberg; Ronnie Sebro; Daniel J Rader; Brendan T Keenan; Laura Almasy; Edward S Brodkin; Maja Bućan",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923632/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923632/pdf/10.1177_13623613251413538.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "autism-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Sleep and activity patterns in autism》",
-        "publication_info": "Autism，2026/2/5",
-        "authors_display": "J Dylan Weissenkampen、Arpita Ghorai、Thaise NR Carneiro、Maria Fasolino、Brielle N Gehringer、Maya Rajan",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Sleep and activity patterns in autism",
-              "研究类型：干预研究。",
-              "核心摘要：Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior, and co-occurring conditions."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Maja Bućan：Maja Bućan, Department of Genetics, University of Pennsylvania, 475 CRB, 415 Curie Blvd, Philadelphia, PA 19104, USA.",
-              "Lay Abstract：Autistic individuals frequently report problems with their sleep, though what aspects of sleep are most affected is not well understood.",
-              "Introduction：Autism spectrum conditions (hereafter referred to as autism) are childhood-onset neurodevelopmental disturbances characterized by impairment of social communication and restricted repetitive or stereotyped patterns of b…",
-              "Study participants：We recruited participants through the Autism Spectrum Program of Excellence (ASPE) at the University of Pennsylvania (Philadelphia, Pennsylvania) ( Elkhatib Smidt et al., 2022 ; Taylor et al., 2021 , 2022 ) and autistic…",
-              "Phenotypic assessments：All probands (autistic participants) and their potentially non-autistic relatives were assessed for autism-related quantitative traits using self- and informant-reports using the Social Responsiveness Scale (SRS) ( Chan…"
-            ]
-          }
-        ],
-        "key_findings": "Autism is a heritable neurodevelopmental condition marked by impaired social interaction, repetitive behavior, and co-occurring conditions.",
-        "research_method": "从全文结构看，文章按 Maja Bućan、Lay Abstract、Introduction、Study participants 展开。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "Maja Bućan：Maja Bućan, Department of Genetics, University of Pennsylvania, 475 CRB, 415 Curie Blvd, Philadelphia, PA 19104, USA.",
-          "Lay Abstract：Autistic individuals frequently report problems with their sleep, though what aspects of sleep are most affected is not well understood.",
-          "Introduction：Autism spectrum conditions (hereafter referred to as autism) are childhood-onset neurodevelopmental disturbances characterized by impairment of social communication and restricted repetitive or stereotyped patterns of b…",
-          "Study participants：We recruited participants through the Autism Spectrum Program of Excellence (ASPE) at the University of Pennsylvania (Philadelphia, Pennsylvania) ( Elkhatib Smidt et al., 2022 ; Taylor et al., 2021 , 2022 ) and autistic…"
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
-        ]
-      }
     }
   },
   {
@@ -1587,7 +1730,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.079Z",
+    "ingested_at": "2026-03-06T17:27:02.597Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1597,45 +1740,48 @@
     }
   },
   {
-    "id": "academic-autism-2026-41627191",
-    "source_name": "International Journal of Qualitative Studies on Health and Well-being",
+    "id": "academic-autism-2026-41618911",
+    "source_name": "Autism",
     "source_type": "academic",
     "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12865827/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12865827/",
-    "title_original": "“Am I My Sibling’s Keeper?”: the Lived experiences of adult siblings of individuals with Autism Spectrum Disorder in China",
-    "title_zh": "研究：“Am I My Sibling’s Keeper?”: the Lived experiences of adult siblings of individuals with Autism Spectrum Disorder in China",
-    "summary_original": "Research on families of individuals with Autism Spectrum Disorder (ASD) often marginalizes adult neurotypical (NT) siblings, particularly outside of Western contexts.",
-    "summary_zh": "基于学术全文自动解析：Research on families of individuals with Autism Spectrum Disorder (ASD) often marginalizes adult neurotypical…",
-    "excerpt": "Research on families of individuals with Autism Spectrum Disorder (ASD) often marginalizes adult neurotypical (NT) siblings, particularly outside of Western contexts.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923618/",
+    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923618/",
+    "title_original": "Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them",
+    "title_zh": "研究：Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them",
+    "summary_original": "Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cognitive development. However, research examining autistic adolescents’ friendships has tended to use methodologies inaccessible to children with complex communication and learning needs. We examined the friendship experiences of 12 autistic adolescents (aged 12–15 years) with complex communication and learning needs who attended a specialist school. Using reflexive thematic analysis, we identified two themes. Within the first theme of ‘reconceptualising friendship’, the adolescents identified friends who evoked strong emotions and connection, without distinguishing between positive or negative interactions, or the standard boundaries of friendship. ‘Friendships’ with adults were also highlighted. Within the second theme of ‘the context dependent nature of connection’, the adolescents’ descriptions of friendship communicated a preference for engagement via physical play in spaces that facilitated such interaction. Our findings underscore the importance of directly eliciting the views of autistic adolescents with complex communication and learning needs. They also highlight the value of facilitating opportunities to build social connection with peers and adults through physical play and activities that provoke strong emotions within a safe and contained context.",
+    "summary_zh": "基于学术全文自动解析：Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cog…",
+    "excerpt": "Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cognitive development. However, research examining autistic adolescents’ friendships has tended to use methodologies inaccessible to children with comple…",
     "language": "en",
-    "published_at": "2026-02-01T16:00:00.000Z",
+    "published_at": "2026-01-30T16:00:00.000Z",
     "content_type": "research",
     "topics": [
       "自闭症",
       "教育",
       "家庭支持",
-      "神经多样性"
+      "神经多样性",
+      "学习困难"
     ],
     "audiences": [
       "family",
       "educator",
       "researcher",
       "clinician",
-      "self-advocate"
+      "self-advocate",
+      "employer"
     ],
     "conditions": [
-      "autism"
+      "autism",
+      "learning-difficulties"
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.593Z",
+    "ingested_at": "2026-03-06T17:26:36.214Z",
     "metadata": {
-      "doi": "10.1080/17482631.2026.2625293",
-      "pmid": "41627191",
-      "authors": "Fengying Han; Xin Gao",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12865827/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12865827/pdf/ZQHW_21_2625293.pdf",
+      "doi": "10.1177/13623613251414302",
+      "pmid": "41618911",
+      "authors": "Jo Halsall; Elise Robinson; Anna Cook; Adam Halsall; Laura Crane",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923618/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923618/pdf/10.1177_13623613251414302.pdf",
       "credibility": "high",
       "tags": [
         "academic-search",
@@ -1645,37 +1791,37 @@
       ],
       "analysis": {
         "template": "academic",
-        "summary_title": "《研究：“Am I My Sibling’s Keeper?”: the Lived experiences of adult siblings of individuals with Autism Spectrum Disorder in China》",
-        "publication_info": "International Journal of Qualitative Studies on Health and Well-being，2026/2/2",
-        "authors_display": "Fengying Han、Xin Gao",
+        "summary_title": "《研究：Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them》",
+        "publication_info": "Autism，2026/1/31",
+        "authors_display": "Jo Halsall、Elise Robinson、Anna Cook、Adam Halsall、Laura Crane",
         "content_sections": [
           {
             "title": "文章概览",
             "items": [
-              "原文题目：“Am I My Sibling’s Keeper?”: the Lived experiences of adult siblings of individuals with Autism Spectrum Disorder in China",
+              "原文题目：Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them",
               "研究类型：学术研究。",
-              "核心摘要：Research on families of individuals with Autism Spectrum Disorder (ASD) often marginalizes adult neurotypical (NT) siblings, particularly outside of Western contexts."
+              "核心摘要：Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cognitive development."
             ]
           },
           {
             "title": "正文结构",
             "items": [
-              "Xin Gao：CONTACT Xin Gao gaoxin@student.usm.my Social Work Department, School of Social Sciences, Universiti Sains Malaysia, Penang 11800, Malaysia",
-              "Background：Research on families of individuals with Autism Spectrum Disorder (ASD) often marginalizes adult neurotypical (NT) siblings, particularly outside of Western contexts.",
-              "Objective：This study aimed to provide an in-depth exploration of the lived experiences of adult NT siblings of individuals with ASD (IWASD) in China.",
-              "Methods：Using an Interpretative Phenomenological Analysis (IPA) approach, this study conducted semi-structured in-depth interviews with eight adult NT siblings of IWASD from China.",
-              "Results：The analysis yielded three group experiential themes: 1) the inescapable responsibility within a culture of blood-ties, 2) the struggle between “flesh-and-blood kin” and “spiritual isolation”, and 3) finding identity be…"
+              "Laura Crane：Laura Crane, Autism Centre for Education and Research (ACER), Department of Disability, Inclusion and Special Needs (DISN), School of Education, University of Birmingham, Edgbaston, Birmingham, B15 2TT, UK.",
+              "Lay abstract：Friendship plays a key role in helping autistic young people develop: socially, emotionally and cognitively.",
+              "Participants：Purposive sampling was used to recruit participants from two campuses at Queensmill School, an autism-specific specialist school in London.",
+              "Materials：Data-collection methods were developed by the research team.",
+              "Procedure：Interviews were completed in a quiet, familiar and private room within the children’s school."
             ]
           }
         ],
-        "key_findings": "Research on families of individuals with Autism Spectrum Disorder (ASD) often marginalizes adult neurotypical (NT) siblings, particularly outside of Western contexts.",
-        "research_method": "从全文结构看，文章按 Xin Gao、Background、Objective、Methods 展开。",
-        "practical_significance": "This study employed a qualitative research design to explore the lived experiences and meaning-making processes of IWASD’s adult NT siblings in China.",
+        "key_findings": "Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cognitive development.",
+        "research_method": "从全文结构看，文章按 Laura Crane、Lay abstract、Participants、Materials 展开。",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
         "strategy_points": [
-          "Xin Gao：CONTACT Xin Gao gaoxin@student.usm.my Social Work Department, School of Social Sciences, Universiti Sains Malaysia, Penang 11800, Malaysia",
-          "Background：Research on families of individuals with Autism Spectrum Disorder (ASD) often marginalizes adult neurotypical (NT) siblings, particularly outside of Western contexts.",
-          "Objective：This study aimed to provide an in-depth exploration of the lived experiences of adult NT siblings of individuals with ASD (IWASD) in China.",
-          "Methods：Using an Interpretative Phenomenological Analysis (IPA) approach, this study conducted semi-structured in-depth interviews with eight adult NT siblings of IWASD from China."
+          "Laura Crane：Laura Crane, Autism Centre for Education and Research (ACER), Department of Disability, Inclusion and Special Needs (DISN), School of Education, University of Birmingham, Edgbaston, Birmingham, B15 2TT, UK.",
+          "Lay abstract：Friendship plays a key role in helping autistic young people develop: socially, emotionally and cognitively.",
+          "Participants：Purposive sampling was used to recruit participants from two campuses at Queensmill School, an autism-specific specialist school in London.",
+          "Materials：Data-collection methods were developed by the research team."
         ],
         "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
         "china_insights": [
@@ -1683,6 +1829,39 @@
           "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
           "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
         ]
+      },
+      "detail_summary": {
+        "title": "《研究：Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them》",
+        "time_text": "Autism，2026年1月31日。",
+        "author_text": "Jo Halsall、Elise Robinson、Anna Cook 等（Autism）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、教育、家庭支持 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them》涉及的问题，重点分析 自闭症、教育、家庭支持 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇学术研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、教育、家庭支持 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、教育、家庭支持 的进一步阅读材料，适合继续补充更细的中文解读。"
       }
     }
   },
@@ -1716,7 +1895,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.079Z",
+    "ingested_at": "2026-03-06T17:27:02.597Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1759,7 +1938,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.593Z",
+    "ingested_at": "2026-03-06T17:26:36.214Z",
     "metadata": {
       "doi": "10.1016/j.reia.2026.202830",
       "pmid": "41716690",
@@ -1813,6 +1992,161 @@
           "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
           "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
         ]
+      },
+      "detail_summary": {
+        "title": "《研究：Exploring Trajectories of Anxiety Symptoms in Autistic and Non-Autistic Youth over Adolescence Using Parent- and Self-Report Measures》",
+        "time_text": "Research in autism，2026年1月23日。",
+        "author_text": "Meredith Cola、Rachael A Muscatello、Xinyu Zhang 等（Research in autism）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、教育、家庭支持 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Exploring Trajectories of Anxiety Symptoms in Autistic and Non-Autistic Youth over Adolescence Using Parent- and Self-Report Measures》涉及的问题，重点分析 自闭症、教育、家庭支持 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇队列或纵向研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、教育、家庭支持 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、教育、家庭支持 的进一步阅读材料，适合继续补充更细的中文解读。"
+      }
+    }
+  },
+  {
+    "id": "academic-autism-2026-41576766",
+    "source_name": "Developmental Cognitive Neuroscience",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12861191/",
+    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12861191/",
+    "title_original": "From Breath to Brain: NICU respiratory interventions and bedside brain signal entropy predict later autism risk",
+    "title_zh": "研究：From Breath to Brain: NICU respiratory interventions and bedside brain signal entropy predict later autism risk",
+    "summary_original": "Premature infants often experience hypoxia and require prolonged ventilation, which can trigger systemic inflammation, damage the developing brain, and increase the risk of neurodevelopmental disorders such as Autism Spectrum Disorder (ASD). Early intervention is key for ensuring optimal outcomes for those with ASD; thus emphasizing the critical importance of accurately identifying infants at risk as early as possible. Here, infants underwent electroencephalography during social (held) and nonsocial (not held) resting state conditions to assess brain signal variability, saliva collection to determine inflammation, calculation of a novel Prognostic Respiratory Intensity Scoring Metric (PRISM) to assess the burden of respiratory support, and ASD testing in toddlerhood. Higher PRISM scores were associated with increased brain signal entropy during the nonsocial resting state. However, this association was not observed in the social resting state condition – particularly for male babies. Interestingly in female infants, we saw that the relationship between brain signal entropy and PRISM scores were potentially mediated by cytokines. Notably, the interaction between nonsocial resting state brain signal entropy, sex, and PRISM scores predicted risk of developing ASD with 88 % accuracy. These non-invasive measures can identify infants at the highest risk for an ASD diagnosis before discharge.",
+    "summary_zh": "基于学术全文自动解析：Premature infants often experience hypoxia and require prolonged ventilation, which can trigger systemic infl…",
+    "excerpt": "Premature infants often experience hypoxia and require prolonged ventilation, which can trigger systemic inflammation, damage the developing brain, and increase the risk of neurodevelopmental disorders such as Autism Spectrum Disorder (ASD). Early interventio…",
+    "language": "en",
+    "published_at": "2026-01-15T16:00:00.000Z",
+    "content_type": "research",
+    "topics": [
+      "自闭症",
+      "教育",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "researcher",
+      "clinician"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T17:26:36.214Z",
+    "metadata": {
+      "doi": "10.1016/j.dcn.2026.101679",
+      "pmid": "41576766",
+      "authors": "Madelyn G Nance; Winnie R Chang; Chad Aldridge; Jennifer Burnsed; Kevin Pelphrey; Santina Zanelli; Meghan H Puglia",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12861191/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12861191/pdf/main.pdf",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "autism-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：From Breath to Brain: NICU respiratory interventions and bedside brain signal entropy predict later autism risk》",
+        "publication_info": "Developmental Cognitive Neuroscience，2026/1/16",
+        "authors_display": "Madelyn G Nance、Winnie R Chang、Chad Aldridge、Jennifer Burnsed、Kevin Pelphrey、Santina Zanelli",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：From Breath to Brain: NICU respiratory interventions and bedside brain signal entropy predict later autism risk",
+              "研究类型：干预研究。",
+              "核心摘要：Premature infants often experience hypoxia and require prolonged ventilation, which can trigger systemic inflammation, damage the developing brain, and increase the risk of neurodevelopmental disorders such as Autism Spectrum Disorder (ASD)."
+            ]
+          },
+          {
+            "title": "正文结构",
+            "items": [
+              "Meghan H Puglia：Correspondence to: University of Virginia, Department of Neurology, 560 Ray C.",
+              "Highlights：Caregiver touch rescues brain signal entropy across PRISM groups in male infants.",
+              "1. Introduction：Most neural development occurs during the third trimester of pregnancy ( Bouyssi-Kobar et al., 2016 , Ortinau and Neil, 2015 , Volpe, 2019 ).",
+              "2.1. Participants：EEG data was collected from 158 preterm infants hospitalized and recruited from the University of Virginia NICU between 0 and 4 months chronological age as part of a larger, ongoing neurodevelopmental study.",
+              "2.2. EEG acquisition and analysis：Full scalp resting state EEG was recorded using 32 Ag/AgCl active actiCAP slim electrodes (Brain Produces GmBh, Germany) affixed to an elastic cap in the 10–20 electrode placement."
+            ]
+          }
+        ],
+        "key_findings": "Premature infants often experience hypoxia and require prolonged ventilation, which can trigger systemic inflammation, damage the developing brain, and increase the risk of neurodevelopmental disorders such as Autism Sp…",
+        "research_method": "从全文结构看，文章按 Meghan H Puglia、Highlights、1. Introduction、2.1. Participants 展开。",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
+        "strategy_points": [
+          "Meghan H Puglia：Correspondence to: University of Virginia, Department of Neurology, 560 Ray C.",
+          "Highlights：Caregiver touch rescues brain signal entropy across PRISM groups in male infants.",
+          "1. Introduction：Most neural development occurs during the third trimester of pregnancy ( Bouyssi-Kobar et al., 2016 , Ortinau and Neil, 2015 , Volpe, 2019 ).",
+          "2.1. Participants：EEG data was collected from 158 preterm infants hospitalized and recruited from the University of Virginia NICU between 0 and 4 months chronological age as part of a larger, ongoing neurodevelopmental study."
+        ],
+        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
+        ]
+      },
+      "detail_summary": {
+        "title": "《研究：From Breath to Brain: NICU respiratory interventions and bedside brain signal entropy predict later autism risk》",
+        "time_text": "Developmental Cognitive Neuroscience，2026年1月16日。",
+        "author_text": "Madelyn G Nance、Winnie R Chang、Chad Aldridge 等（Developmental Cognitive Neuroscience）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、教育、家庭支持 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《From Breath to Brain: NICU respiratory interventions and bedside brain signal entropy predict later autism risk》涉及的问题，重点分析 自闭症、教育、家庭支持 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇干预研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、教育、家庭支持 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、教育、家庭支持 的进一步阅读材料，适合继续补充更细的中文解读。"
       }
     }
   },
@@ -1848,13 +2182,135 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:40.378Z",
+    "ingested_at": "2026-03-06T17:27:02.178Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "chadd-feed"
       ]
+    }
+  },
+  {
+    "id": "academic-autism-2026-41779503",
+    "source_name": "Revista Gaúcha de Enfermagem",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://www.scielo.br/j/rgenf/a/KkJ5zxWTxF6CW579tfD7pPm/?lang=en",
+    "canonical_url": "https://www.scielo.br/j/rgenf/a/KkJ5zxWTxF6CW579tfD7pPm/?lang=en",
+    "title_original": "Experiences of mothering children with autism spectrum disorder",
+    "title_zh": "研究：Experiences of mothering children with autism spectrum disorder",
+    "summary_original": "Objective: to investigate the challenges faced and the strategies adopted by mothers of children with autism spectrum disorder in the experience of mothering.",
+    "summary_zh": "基于学术全文自动解析：Objective: to investigate the challenges faced and the strategies adopted by mothers of children with autism…",
+    "excerpt": "1 Rev Gaúcha Enferm. 2026;47:e20250216 https://doi.org/10.1590/1983-1447.2026.20250216.en Revista Gaúcha de Enfermagem www.seer.ufrgs.br/revistagauchadeenfermagem a Universidade do Estado do Pará. Programa de Pós- Graduação em Enfermagem. Santarém. Pará. Bras…",
+    "language": "en",
+    "published_at": "2026-01-01T00:00:00.000Z",
+    "content_type": "research",
+    "topics": [
+      "自闭症",
+      "教育",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "researcher",
+      "clinician"
+    ],
+    "conditions": [
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T17:26:36.214Z",
+    "metadata": {
+      "doi": "10.1590/1983-1447.2026.20250216.en",
+      "pmid": "41779503",
+      "authors": "Batista, Daniele Mesquita; Oliveira, Ana Ricelly Pereira de; Nogueira, Lidiane Rossato Deckmann; Silva, Lucas dos Santos da; Nascimento, Ruan Nogueira do; Cardoso, Aline Mendes; Goulart, Emilly Vasconcelos; Ferreira, Maria Goreth Silva",
+      "article_url": "https://www.scielo.br/j/rgenf/a/KkJ5zxWTxF6CW579tfD7pPm/?lang=en",
+      "pdf_url": "https://www.scielo.br/j/rgenf/a/KkJ5zxWTxF6CW579tfD7pPm/?lang=en&format=pdf",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "autism-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：Experiences of mothering children with autism spectrum disorder》",
+        "publication_info": "Revista Gaúcha de Enfermagem，2026/1/1",
+        "authors_display": "Batista, Daniele Mesquita、Oliveira, Ana Ricelly Pereira de、Nogueira, Lidiane Rossato Deckmann、Silva, Lucas dos Santos da、Nascimento, Ruan Nogueira do、Cardoso, Aline Mendes",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：Experiences of mothering children with autism spectrum disorder",
+              "研究类型：学术研究。",
+              "核心摘要：Objective: to investigate the challenges faced and the strategies adopted by mothers of children with autism spectrum disorder in the experience of mothering."
+            ]
+          },
+          {
+            "title": "正文结构",
+            "items": [
+              "RESUMO：Objetivo: investigar os desafios enfrentados e as estratégias adotadas por mães de crianças com transtorno do espectro autista na vivência da maternagem.",
+              "RESUMEN：Objetivo: investigar los desafíos que enfrentan y las estrategias adoptadas por las madres de niños con trastorno del espectro autista en la experiencia de la maternidad.",
+              "INTRODUCTION：Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder characterized by persistent deficits in social communication and social interaction, accompanied by restricted and repetitive patterns of behavior, interes…",
+              "METHOD：This is a qualitative study, supported by the Sensitive Creative Method (SCM) , which uses creativity and sensitivity to promote the expression of thoughts, feelings, and experiences both individually and collectively.",
+              "RESULTS AND DISCUSSION：The discourse analysis revealed two main axes: the daily challenges in the development of mothering - with the subthemes “recognizing the signs and the impact of the diagnosis; burden, sacrifice, and helplessness; and s…"
+            ]
+          }
+        ],
+        "key_findings": "Objective: to investigate the challenges faced and the strategies adopted by mothers of children with autism spectrum disorder in the experience of mothering.",
+        "research_method": "This is a qualitative study, supported by the Sensitive Creative Method (SCM) , which uses creativity and sensitivity to promote the expression of thoughts, feelings, and experiences both individually and collectively.",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
+        "strategy_points": [
+          "RESUMO：Objetivo: investigar os desafios enfrentados e as estratégias adotadas por mães de crianças com transtorno do espectro autista na vivência da maternagem.",
+          "RESUMEN：Objetivo: investigar los desafíos que enfrentan y las estrategias adoptadas por las madres de niños con trastorno del espectro autista en la experiencia de la maternidad.",
+          "INTRODUCTION：Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder characterized by persistent deficits in social communication and social interaction, accompanied by restricted and repetitive patterns of behavior, interes…",
+          "METHOD：This is a qualitative study, supported by the Sensitive Creative Method (SCM) , which uses creativity and sensitivity to promote the expression of thoughts, feelings, and experiences both individually and collectively."
+        ],
+        "conclusion": "The discourse analysis revealed two main axes: the daily challenges in the development of mothering - with the subthemes “recognizing the signs and the impact of the diagnosis; burden, sacrifice, and helplessness; and s…",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
+        ]
+      },
+      "detail_summary": {
+        "title": "《研究：Experiences of mothering children with autism spectrum disorder》",
+        "time_text": "Revista Gaúcha de Enfermagem，2026年1月1日。",
+        "author_text": "Batista、Daniele Mesquita、Oliveira 等（Revista Gaúcha de Enfermagem）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、教育、家庭支持 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Experiences of mothering children with autism spectrum disorder》涉及的问题，重点分析 自闭症、教育、家庭支持 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇质性研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、教育、家庭支持 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、教育、家庭支持 的进一步阅读材料，适合继续补充更细的中文解读。"
+      }
     }
   },
   {
@@ -1889,7 +2345,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:40.378Z",
+    "ingested_at": "2026-03-06T17:27:02.178Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1930,7 +2386,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:40.378Z",
+    "ingested_at": "2026-03-06T17:27:02.178Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1972,7 +2428,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.473Z",
+    "ingested_at": "2026-03-06T17:27:03.268Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -2014,7 +2470,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.473Z",
+    "ingested_at": "2026-03-06T17:27:03.268Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -2056,7 +2512,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：大众实用资源。",
-    "ingested_at": "2026-03-06T16:37:09.529Z",
+    "ingested_at": "2026-03-06T17:26:34.406Z",
     "metadata": {
       "credibility": "medium",
       "tags": [

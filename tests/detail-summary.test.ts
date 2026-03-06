@@ -122,4 +122,28 @@ describe("deriveDetailSummary", () => {
     expect(result.sections.find((section) => section.title === "应对策略")?.body).toContain("任务清单");
     expect(result.conclusion).toContain("ADHD");
   });
+
+  it("does not leak raw English abstract labels into academic sections or conclusion", () => {
+    const item = createBaseItem({
+      summary_zh: "",
+      summary_original: "Background: The global prevalence of autism spectrum diagnosis (ASD) is increasing.",
+      metadata: {
+        authors: "Alex Chen",
+        credibility: "high",
+        tags: [],
+        analysis: {
+          template: "academic",
+          research_method: "Based on academic article auto detection.",
+          key_findings: "Background: The global prevalence of autism spectrum diagnosis (ASD) is increasing.",
+          conclusion: "Background: The global prevalence of autism spectrum diagnosis (ASD) is increasing.",
+        },
+      },
+    });
+
+    const result = deriveDetailSummary(item);
+    expect(result.sections.some((section) => /Background:/i.test(section.body))).toBe(false);
+    expect(result.sections.some((section) => /The global prevalence/i.test(section.body))).toBe(false);
+    expect(result.conclusion).not.toMatch(/Background:/i);
+    expect(result.conclusion).not.toMatch(/The global prevalence/i);
+  });
 });

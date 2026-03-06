@@ -33,7 +33,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.594Z",
+    "ingested_at": "2026-03-06T17:26:36.214Z",
     "metadata": {
       "doi": "10.1016/j.ijmedinf.2026.106262",
       "pmid": "41539128",
@@ -69,80 +69,81 @@
           "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
           "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
         ]
+      },
+      "detail_summary": {
+        "title": "《研究：Empowering caregivers of individuals with autism spectrum disorder through sensor-based monitoring of emotional dysregulation: A scoping review》",
+        "time_text": "International journal of medical informatics，2026年4月1日。",
+        "author_text": "International journal of medical informatics（机构作者）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 自闭症、教育、家庭支持 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Empowering caregivers of individuals with autism spectrum disorder through sensor-based monitoring of emotional dysregulation: A scoping review》涉及的问题，重点分析 自闭症、教育、家庭支持 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇综述或系统回顾，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 自闭症、教育、家庭支持 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 自闭症、教育、家庭支持 的进一步阅读材料，适合继续补充更细的中文解读。"
       }
     }
   },
   {
-    "id": "academic-adhd-2026-41558234",
-    "source_name": "Addictive behaviors",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41558234/",
-    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/41558234/",
-    "title_original": "ADHD symptoms and problematic digital media use in emerging adults: Investigating the role of cognitive deficits as mediators",
-    "title_zh": "研究：ADHD symptoms and problematic digital media use in emerging adults: Investigating the role of cognitive deficits as mediators",
-    "summary_original": "This study examined the relationship between ADHD symptoms and problematic social media use (PSMU) and problematic gaming (PG) in a community sample of emerging adults. Cognitive deficits underlying ADHD - inhibitory control deficits, reward sensitivity, and temporal processing deficits - were investigated as potential mechanisms linking ADHD symptoms to PSMU and PG. In a sample of 111 emerging adults (M age = 21.2, SD = 2.7; 84% female), ADHD symptoms, PSMU, and PG were assessed using self-report scales, while cognitive deficits were evaluated through both self-report scales and behavioural tasks. Parallel mediation analyses revealed significant positive direct effects between ADHD symptoms and both PSMU and PG, but found no significant mediating effects of the hypothesised mechanisms. Exploratory analyses suggested that inhibitory control and temporal processing deficits may play a role in linking hyperactivity/impulsivity symptoms to PSMU, and inhibitory control deficits emerged as a possible transdiagnostic factor for concurrent ADHD symptoms and PSMU. Nonetheless, the main analyses did not support mediation by cognitive deficits, indicating no evidence that they explained the associations between ADHD symptoms and problematic digital media use. Future research may explore such prospective mechanisms in longitudinal designs with representative samples to inform interventions which may reduce problematic digital media use in individuals with elevated ADHD symptoms.",
-    "summary_zh": "基于学术全文自动解析：This study examined the relationship between ADHD symptoms and problematic social media use (PSMU) and proble…",
-    "excerpt": "This study examined the relationship between ADHD symptoms and problematic social media use (PSMU) and problematic gaming (PG) in a community sample of emerging adults. Cognitive deficits underlying ADHD - inhibitory control deficits, reward sensitivity, and…",
-    "language": "en",
-    "published_at": "2026-03-31T16:00:00.000Z",
-    "content_type": "research",
+    "id": "page-ncld",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.ncld.org/",
+    "canonical_url": "https://www.ncld.org/",
+    "title_original": "National Center for Learning Disabilities",
+    "title_zh": "NCLD 资源入口",
+    "summary_original": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
+    "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T17:27:01.068Z",
+    "content_type": "directory",
     "topics": [
-      "ADHD",
-      "教育",
+      "学习困难",
+      "神经多样性",
       "职场",
-      "神经多样性"
+      "政策与服务",
+      "共病与支持需求"
     ],
     "audiences": [
-      "self-advocate",
-      "educator",
-      "researcher",
       "family",
-      "employer",
-      "clinician"
+      "educator",
+      "self-advocate"
     ],
     "conditions": [
-      "adhd"
+      "learning-difficulties"
     ],
     "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.988Z",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T17:27:01.068Z",
     "metadata": {
-      "doi": "10.1016/j.addbeh.2026.108608",
-      "pmid": "41558234",
-      "article_url": "https://pubmed.ncbi.nlm.nih.gov/41558234/",
       "credibility": "high",
       "tags": [
-        "academic-search",
-        "adhd-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：ADHD symptoms and problematic digital media use in emerging adults: Investigating the role of cognitive deficits as mediators》",
-        "publication_info": "Addictive behaviors，2026/4/1",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：ADHD symptoms and problematic digital media use in emerging adults: Investigating the role of cognitive deficits as mediators",
-              "研究类型：干预研究。",
-              "核心摘要：This study examined the relationship between ADHD symptoms and problematic social media use (PSMU) and problematic gaming (PG) in a community sample of emerging adults."
-            ]
-          }
-        ],
-        "key_findings": "This study examined the relationship between ADHD symptoms and problematic social media use (PSMU) and problematic gaming (PG) in a community sample of emerging adults.",
-        "research_method": "基于 干预研究 自动识别。当前优先使用 PMC 全文页 中可获取的摘要与章节结构。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [],
-        "conclusion": "This study examined the relationship between ADHD symptoms and problematic social media use (PSMU) and problematic gaming (PG) in a community sample of emerging adults.",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
-        ]
-      }
+        "page-harvest",
+        "美国"
+      ]
     }
   },
   {
@@ -158,7 +159,7 @@
     "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
     "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.787Z",
+    "published_at": "2026-03-06T17:26:59.604Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -179,53 +180,12 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.788Z",
+    "ingested_at": "2026-03-06T17:26:59.604Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
         "英国"
-      ]
-    }
-  },
-  {
-    "id": "page-ncld",
-    "source_name": "NCLD",
-    "source_type": "official",
-    "source_region": "美国",
-    "source_url": "https://www.ncld.org/",
-    "canonical_url": "https://www.ncld.org/",
-    "title_original": "National Center for Learning Disabilities",
-    "title_zh": "NCLD 资源入口",
-    "summary_original": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
-    "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
-    "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.560Z",
-    "content_type": "directory",
-    "topics": [
-      "学习困难",
-      "神经多样性",
-      "职场",
-      "政策与服务",
-      "共病与支持需求"
-    ],
-    "audiences": [
-      "family",
-      "educator",
-      "self-advocate"
-    ],
-    "conditions": [
-      "learning-difficulties"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.560Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "美国"
       ]
     }
   },
@@ -242,7 +202,7 @@
     "summary_zh": "ADHD 教育、家庭支持、学校与职场资源。适合通过 CHADD 进一步进入该主题的权威信息。",
     "excerpt": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.463Z",
+    "published_at": "2026-03-06T17:26:59.032Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -263,7 +223,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.463Z",
+    "ingested_at": "2026-03-06T17:26:59.033Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -285,7 +245,7 @@
     "summary_zh": "ADHD 教育、倡导、学校与职场工具。适合通过 CADDAC 进一步进入该主题的权威信息。",
     "excerpt": "CADDAC: Canadian ADHD Awareness, Education, Advocacy",
     "language": "bilingual",
-    "published_at": "2026-03-06T16:37:36.308Z",
+    "published_at": "2026-03-06T17:26:58.985Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -304,7 +264,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T16:37:36.308Z",
+    "ingested_at": "2026-03-06T17:26:58.985Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -346,7 +306,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.331Z",
+    "ingested_at": "2026-03-06T17:27:02.360Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -398,17 +358,141 @@
     }
   },
   {
-    "id": "academic-adhd-2026-41696840",
-    "source_name": "Medicina",
+    "id": "academic-adhd-2026-41770381",
+    "source_name": "Research on Child and Adolescent Psychopathology",
     "source_type": "academic",
     "source_region": "国际",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41696840/",
-    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/41696840/",
-    "title_original": "[Factors associated with ADHD medication adherence and treatment outcomes]",
-    "title_zh": "研究：[Factors associated with ADHD medication adherence and treatment outcomes]",
-    "summary_original": "Introduction: Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder that affects 5 to 8% of youth and 2.5 to 4% of adults. Pharmacological treatments are among the most effective when treating ADHD, yet adherence to medication is still sub-optimal. We reviewed the literature on clinical and socio demographic factors that may influence adherence and compared it to our clinical data.",
-    "summary_zh": "基于学术全文自动解析：Introduction: Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder that affects 5…",
-    "excerpt": "Introduction: Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder that affects 5 to 8% of youth and 2.5 to 4% of adults. Pharmacological treatments are among the most effective when treating ADHD, yet adherence to medication is st…",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953414/",
+    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953414/",
+    "title_original": "Linking ADHD to Depression in Adolescents: the Mediating Role of Social Skills",
+    "title_zh": "研究：Linking ADHD to Depression in Adolescents: the Mediating Role of Social Skills",
+    "summary_original": "Adolescents with attention-deficit/hyperactivity disorder (ADHD) are at a higher risk for developing depression than their peers. One potential explanation for this increased risk is that adolescents with ADHD often have impaired social skills, which may interfere with successful social interactions and connections, and subsequently lead to low self-worth and depression. We hypothesized that global social skills and social skill factors most related to friendships (communication, cooperation, engagement, and empathy) would mediate the positive relation between ADHD symptom severity and depression. Additionally, we investigated whether global social skills would mediate the relations between ADHD symptom severity and four facets of depression (negative self-evaluation, anhedonia, dysphoric mood, and somatic complaints). Our sample included 335 adolescents with ADHD in grades 6–11 who participated in an intervention study. Parent-reported ADHD symptoms were measured at or before baseline, parent-reported social skills (global and several subscales) were measured one year later, and self-reported depression was measured 1.5 years after baseline. Global social skills mediated (1) the relation between ADHD and depression and (2) the relation between ADHD and negative self-evaluation. Cooperation, communication, empathy, and responsibility individually mediated the relation between ADHD and depression, and assertion, self-control, and engagement did not.",
+    "summary_zh": "基于学术全文自动解析：Adolescents with attention-deficit/hyperactivity disorder (ADHD) are at a higher risk for developing depressi…",
+    "excerpt": "Adolescents with attention-deficit/hyperactivity disorder (ADHD) are at a higher risk for developing depression than their peers. One potential explanation for this increased risk is that adolescents with ADHD often have impaired social skills, which may inte…",
+    "language": "en",
+    "published_at": "2026-03-01T16:00:00.000Z",
+    "content_type": "research",
+    "topics": [
+      "ADHD",
+      "教育",
+      "职场",
+      "神经多样性",
+      "家庭支持"
+    ],
+    "audiences": [
+      "self-advocate",
+      "educator",
+      "researcher",
+      "family",
+      "employer"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T17:26:37.236Z",
+    "metadata": {
+      "doi": "10.1007/s10802-026-01430-5",
+      "pmid": "41770381",
+      "authors": "Allison M Loomis; Sierra R Hightower-Henson; Steven W Evans; George J DuPaul",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953414/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953414/pdf/10802_2026_Article_1430.pdf",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "adhd-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：Linking ADHD to Depression in Adolescents: the Mediating Role of Social Skills》",
+        "publication_info": "Research on Child and Adolescent Psychopathology，2026/3/2",
+        "authors_display": "Allison M Loomis、Sierra R Hightower-Henson、Steven W Evans、George J DuPaul",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：Linking ADHD to Depression in Adolescents: the Mediating Role of Social Skills",
+              "研究类型：干预研究。",
+              "核心摘要：Adolescents with attention-deficit/hyperactivity disorder (ADHD) are at a higher risk for developing depression than their peers."
+            ]
+          },
+          {
+            "title": "正文结构",
+            "items": [
+              "George J DuPaul：Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give app…",
+              "Supplementary Information：The online version contains supplementary material available at 10.1007/s10802-026-01430-5.",
+              "Introduction：Adolescents with attention-deficit/hyperactivity disorder (ADHD) have higher rates of depression than their peers without ADHD, with approximately 14% of adolescents with ADHD, as opposed to 8% of all adolescents, meeti…",
+              "ADHD and Depression：Multiple studies have suggested that adolescents with ADHD are at risk for developing depression during adolescence and early adulthood (Meinzer et al., 2013 , 2016 ).",
+              "Facets of Depression：Although ADHD and depression can be comorbid, it remains unclear which aspects of depression are most impacted by ADHD and social skills functioning."
+            ]
+          }
+        ],
+        "key_findings": "Adolescents with attention-deficit/hyperactivity disorder (ADHD) are at a higher risk for developing depression than their peers.",
+        "research_method": "从全文结构看，文章按 George J DuPaul、Supplementary Information、Introduction、ADHD and Depression 展开。",
+        "practical_significance": "In summary, our results suggest that social skills needed for the development and continuity of friendships, including communication, empathy, and cooperation, may be the most important in the development of depression…",
+        "strategy_points": [
+          "George J DuPaul：Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give app…",
+          "Supplementary Information：The online version contains supplementary material available at 10.1007/s10802-026-01430-5.",
+          "Introduction：Adolescents with attention-deficit/hyperactivity disorder (ADHD) have higher rates of depression than their peers without ADHD, with approximately 14% of adolescents with ADHD, as opposed to 8% of all adolescents, meeti…",
+          "ADHD and Depression：Multiple studies have suggested that adolescents with ADHD are at risk for developing depression during adolescence and early adulthood (Meinzer et al., 2013 , 2016 )."
+        ],
+        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
+        ]
+      },
+      "detail_summary": {
+        "title": "《研究：Linking ADHD to Depression in Adolescents: the Mediating Role of Social Skills》",
+        "time_text": "Research on Child and Adolescent Psychopathology，2026年3月2日。",
+        "author_text": "Allison M Loomis、Sierra R Hightower-Henson、Steven W Evans 等（Research on Child and Adolescent Psychopathology）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 ADHD、教育、职场 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Linking ADHD to Depression in Adolescents: the Mediating Role of Social Skills》涉及的问题，重点分析 ADHD、教育、职场 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇干预研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 ADHD、教育、职场 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章更适合继续转化为面向家庭、学校、临床或职场的中文行动建议，而不是停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 ADHD、教育、职场 的进一步阅读材料，适合继续补充更细的中文解读。"
+      }
+    }
+  },
+  {
+    "id": "academic-adhd-2026-39668306",
+    "source_name": "Journal of Occupational Rehabilitation",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://link.springer.com/article/10.1007/s10926-024-10259-y",
+    "canonical_url": "https://link.springer.com/article/10.1007/s10926-024-10259-y",
+    "title_original": "Predicting Occupational Outcomes for Individuals with ADHD: The Role of Hyperactivity/Impulsivity and Executive Functioning",
+    "title_zh": "研究：Predicting Occupational Outcomes for Individuals with ADHD: The Role of Hyperactivity/Impulsivity and Executive Functioning",
+    "summary_original": "The present study adds to the literature by evaluating the differential risk of ADHD symptom dimensions and executive functioning (EF; time management, organization, motivation) to key occupational outcomes.",
+    "summary_zh": "基于学术全文自动解析：The present study adds to the literature by evaluating the differential risk of ADHD symptom dimensions and e…",
+    "excerpt": "Vol.:(0123456789) Journal of Occupational Rehabilitation (2026) 36:223–233 https://doi.org/10.1007/s10926-024-10259-y Predicting Occupational Outcomes for Individuals with ADHD: The Role of Hyperactivity/Impulsivity and Executive Functioning Elizabeth S. M. C…",
     "language": "en",
     "published_at": "2026-02-28T16:00:00.000Z",
     "content_type": "research",
@@ -417,6 +501,131 @@
       "教育",
       "职场",
       "神经多样性"
+    ],
+    "audiences": [
+      "self-advocate",
+      "educator",
+      "researcher",
+      "family",
+      "employer"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T17:26:37.236Z",
+    "metadata": {
+      "doi": "10.1007/s10926-024-10259-y",
+      "pmid": "39668306",
+      "authors": "Chan, Elizabeth S. M.; Langberg, Joshua M.",
+      "article_url": "https://link.springer.com/article/10.1007/s10926-024-10259-y",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10926-024-10259-y.pdf",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "adhd-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：Predicting Occupational Outcomes for Individuals with ADHD: The Role of Hyperactivity/Impulsivity and Executive Functioning》",
+        "publication_info": "Journal of Occupational Rehabilitation，2026/3/1",
+        "authors_display": "Chan, Elizabeth S. M.、Langberg, Joshua M.",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：Predicting Occupational Outcomes for Individuals with ADHD: The Role of Hyperactivity/Impulsivity and Executive Functioning",
+              "研究类型：学术研究。",
+              "核心摘要：The present study adds to the literature by evaluating the differential risk of ADHD symptom dimensions and executive functioning (EF; time management, organization, motivation) to key occupational outcomes."
+            ]
+          },
+          {
+            "title": "正文结构",
+            "items": [
+              "Purpose：The present study adds to the literature by evaluating the differential risk of ADHD symptom dimensions and executive functioning (EF; time management, organization, motivation) to key occupational outcomes.",
+              "Methods：Participants were adults ( N = 100; 51% male) with ADHD working full-time between the ages of 19–30 ( M = 26.61, SD = 2.28).",
+              "Results：Over and above medication status, sex, and age, path analyses revealed hyperactivity/impulsivity and time management were the most consistent predictors of outcomes.",
+              "Conclusion：The present study is one of the first to document the differential risks of ADHD symptoms and EF to a comprehensive set of occupational functioning outcomes.",
+              "Introduction：Meaningful and successful employment is essential for high quality of life, well-being, and to obtain competitive wages/income [ 1 ]."
+            ]
+          }
+        ],
+        "key_findings": "The present study adds to the literature by evaluating the differential risk of ADHD symptom dimensions and executive functioning (EF; time management, organization, motivation) to key occupational outcomes.",
+        "research_method": "Participants were adults ( N = 100; 51% male) with ADHD working full-time between the ages of 19–30 ( M = 26.61, SD = 2.28).",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
+        "strategy_points": [
+          "Purpose：The present study adds to the literature by evaluating the differential risk of ADHD symptom dimensions and executive functioning (EF; time management, organization, motivation) to key occupational outcomes.",
+          "Methods：Participants were adults ( N = 100; 51% male) with ADHD working full-time between the ages of 19–30 ( M = 26.61, SD = 2.28).",
+          "Results：Over and above medication status, sex, and age, path analyses revealed hyperactivity/impulsivity and time management were the most consistent predictors of outcomes.",
+          "Conclusion：The present study is one of the first to document the differential risks of ADHD symptoms and EF to a comprehensive set of occupational functioning outcomes."
+        ],
+        "conclusion": "The present study is one of the first to document the differential risks of ADHD symptoms and EF to a comprehensive set of occupational functioning outcomes.",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
+        ]
+      },
+      "detail_summary": {
+        "title": "《研究：Predicting Occupational Outcomes for Individuals with ADHD: The Role of Hyperactivity/Impulsivity and Executive Functioning》",
+        "time_text": "Journal of Occupational Rehabilitation，2026年3月1日。",
+        "author_text": "Chan、Elizabeth S. M.、Langberg 等（Journal of Occupational Rehabilitation）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 ADHD、教育、职场 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Predicting Occupational Outcomes for Individuals with ADHD: The Role of Hyperactivity/Impulsivity and Executive Functioning》涉及的问题，重点分析 ADHD、教育、职场 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇学术研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 ADHD、教育、职场 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 ADHD、教育、职场 的进一步阅读材料，适合继续补充更细的中文解读。"
+      }
+    }
+  },
+  {
+    "id": "academic-adhd-2026-41724026",
+    "source_name": "Research in developmental disabilities",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41724026/",
+    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/41724026/",
+    "title_original": "Blurred lines: Investigating functional profiles in autism and ADHD across key developmental domains",
+    "title_zh": "研究：Blurred lines: Investigating functional profiles in autism and ADHD across key developmental domains",
+    "summary_original": "While Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) present distinct symptoms and developmental trajectories, they also share overlapping characteristics across different domains. This exploratory study investigated differences between ASD, ADHD and non-diagnosed (ND) peers across theory of mind, pragmatic language, inattention, impulsivity, social skills, and behavioral problems. A data-driven approach was further applied to explore whether distinct functional profiles emerged across these domains and whether such profiles aligned with traditional diagnostic categories. The sample included 204 participants aged 8-16: 51 with ASD, 64 with ADHD, and 89 ND, matched for age, sex, and intelligence quotient. Results highlight that both clinical groups performed worse than ND peers, with no differences between ASD and ADHD. Latent profile analysis identified four distinct profiles: 1 (\"Inattentive with pragmatic difficulties\"; n = 20), 2 (\"Social deficits with behavioral dysregulation\"; n = 63), 3 (\"Highly impulsive\"; n = 24), and 4 (\"Minimal impairments\"; n = 97). The first three were predominantly composed of autistic and ADHD participants, while the fourth was distinctive of ND. Notably, 50 % of both autistic and ADHD participants were grouped into Profile 2, characterized primarily by parental reports, alongside weaknesses performing tests. Our findings suggest that ASD and ADHD share difficulties across key developmental domains, with functional profiles extending beyond traditional diagnostic boundaries. Given the exploratory nature of the study and the relatively limited sample size, these findings should be considered preliminary and warrant replication in larger and more diverse samples. Despite this, our results support a dimensional view of neurodevelopmental conditions, while highlighting the need to integrate informant reports, psychometric data, and clinical judgment to ensure meaningful interpretations of a child's functional profile.",
+    "summary_zh": "基于学术全文自动解析：While Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) present distinct sym…",
+    "excerpt": "While Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) present distinct symptoms and developmental trajectories, they also share overlapping characteristics across different domains. This exploratory study investigated differ…",
+    "language": "en",
+    "published_at": "2026-02-20T16:00:00.000Z",
+    "content_type": "research",
+    "topics": [
+      "ADHD",
+      "教育",
+      "职场",
+      "神经多样性",
+      "自闭症",
+      "家庭支持"
     ],
     "audiences": [
       "self-advocate",
@@ -427,14 +636,16 @@
       "clinician"
     ],
     "conditions": [
-      "adhd"
+      "adhd",
+      "autism"
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.988Z",
+    "ingested_at": "2026-03-06T17:26:37.237Z",
     "metadata": {
-      "pmid": "41696840",
-      "article_url": "https://pubmed.ncbi.nlm.nih.gov/41696840/",
+      "doi": "10.1016/j.ridd.2026.105240",
+      "pmid": "41724026",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/41724026/",
       "credibility": "high",
       "tags": [
         "academic-search",
@@ -444,190 +655,61 @@
       ],
       "analysis": {
         "template": "academic",
-        "summary_title": "《研究：[Factors associated with ADHD medication adherence and treatment outcomes]》",
-        "publication_info": "Medicina，2026/3/1",
+        "summary_title": "《研究：Blurred lines: Investigating functional profiles in autism and ADHD across key developmental domains》",
+        "publication_info": "Research in developmental disabilities，2026/2/21",
         "content_sections": [
           {
             "title": "文章概览",
             "items": [
-              "原文题目：[Factors associated with ADHD medication adherence and treatment outcomes]",
+              "原文题目：Blurred lines: Investigating functional profiles in autism and ADHD across key developmental domains",
               "研究类型：学术研究。",
-              "核心摘要：Introduction: Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder that affects 5 to 8% of youth and 2.5 to 4% of adults."
+              "核心摘要：While Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) present distinct symptoms and developmental trajectories, they also share overlapping characteristics across different domains."
             ]
           }
         ],
-        "key_findings": "Introduction: Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder that affects 5 to 8% of youth and 2.5 to 4% of adults.",
+        "key_findings": "While Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) present distinct symptoms and developmental trajectories, they also share overlapping characteristics across different domains.",
         "research_method": "基于 学术研究 自动识别。当前优先使用 PMC 全文页 中可获取的摘要与章节结构。",
         "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
         "strategy_points": [],
-        "conclusion": "Introduction: Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder that affects 5 to 8% of youth and 2.5 to 4% of adults.",
+        "conclusion": "While Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) present distinct symptoms and developmental trajectories, they also share overlapping characteristics across different domains.",
         "china_insights": [
           "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
           "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
           "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
         ]
-      }
-    }
-  },
-  {
-    "id": "academic-adhd-2026-40701403",
-    "source_name": "Journal of the American Academy of Child and Adolescent Psychiatry",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/40701403/",
-    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/40701403/",
-    "title_original": "Noninvasive Brain Stimulation in Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis of Treatment Efficacy and Targeting Strategies",
-    "title_zh": "研究：Noninvasive Brain Stimulation in Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis of Treatment Efficacy and Targeting Strategies",
-    "summary_original": "Objective: Noninvasive brain stimulation (NIBS) has emerged as a promising novel treatment for attention-deficit/hyperactivity disorder (ADHD). However, the precise effects of NIBS in ADHD as well as optimal stimulation protocols remain elusive. This systematic review and meta-analysis aimed to provide a rigorous evaluation and robust quantified evidence on the therapeutic efficacy of NIBS in ADHD.",
-    "summary_zh": "基于学术全文自动解析：Objective: Noninvasive brain stimulation (NIBS) has emerged as a promising novel treatment for attention-defi…",
-    "excerpt": "Objective: Noninvasive brain stimulation (NIBS) has emerged as a promising novel treatment for attention-deficit/hyperactivity disorder (ADHD). However, the precise effects of NIBS in ADHD as well as optimal stimulation protocols remain elusive. This systemat…",
-    "language": "en",
-    "published_at": "2026-02-28T16:00:00.000Z",
-    "content_type": "review",
-    "topics": [
-      "ADHD",
-      "教育",
-      "职场",
-      "神经多样性"
-    ],
-    "audiences": [
-      "self-advocate",
-      "educator",
-      "researcher",
-      "family",
-      "employer"
-    ],
-    "conditions": [
-      "adhd"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.988Z",
-    "metadata": {
-      "doi": "10.1016/j.jaac.2025.07.009",
-      "pmid": "40701403",
-      "article_url": "https://pubmed.ncbi.nlm.nih.gov/40701403/",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "adhd-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Noninvasive Brain Stimulation in Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis of Treatment Efficacy and Targeting Strategies》",
-        "publication_info": "Journal of the American Academy of Child and Adolescent Psychiatry，2026/3/1",
-        "content_sections": [
+      },
+      "detail_summary": {
+        "title": "《研究：Blurred lines: Investigating functional profiles in autism and ADHD across key developmental domains》",
+        "time_text": "Research in developmental disabilities，2026年2月21日。",
+        "author_text": "Research in developmental disabilities（机构作者）",
+        "sections": [
           {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Noninvasive Brain Stimulation in Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis of Treatment Efficacy and Targeting Strategies",
-              "研究类型：综述/系统回顾。",
-              "核心摘要：Objective: Noninvasive brain stimulation (NIBS) has emerged as a promising novel treatment for attention-deficit/hyperactivity disorder (ADHD)."
-            ]
-          }
-        ],
-        "key_findings": "Objective: Noninvasive brain stimulation (NIBS) has emerged as a promising novel treatment for attention-deficit/hyperactivity disorder (ADHD).",
-        "research_method": "基于 综述/系统回顾 自动识别。当前优先使用 PMC 全文页 中可获取的摘要与章节结构。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [],
-        "conclusion": "Objective: Noninvasive brain stimulation (NIBS) has emerged as a promising novel treatment for attention-deficit/hyperactivity disorder (ADHD).",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
-        ]
-      }
-    }
-  },
-  {
-    "id": "academic-adhd-2026-41735456",
-    "source_name": "Scientific Reports",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://www.nature.com/articles/s41598-026-41256-1",
-    "canonical_url": "https://www.nature.com/articles/s41598-026-41256-1",
-    "title_original": "The combined ADHD profile faces the greatest risk of delay, depletion and disengagement in university students",
-    "title_zh": "研究：The combined ADHD profile faces the greatest risk of delay, depletion and disengagement in university students",
-    "summary_original": "Attention-deficit/hyperactivity disorder (ADHD) symptoms are increasingly recognized in adulthood, particularly among university students, yet their distinct psychological correlates remain underexplored. Using a cross-sectional design, this study examined Hungarian college students ( N = 1,879, aged between 18 and 35 years) who responded online to a set of questionnaires that included the Adult ADHD Self-Report Scale, Procrastination Scale, Higher Education Retention Scale and Ego-Depletion Scale. We applied k-means cluster analysis to classify students into four ADHD-related groups (Combined, Inattentive, Hyperactive-Impulsive, Low-symptom) based on symptom criteria. Consequently, we compared these clusters across six theoretically relevant self-regulatory outcomes: maladaptive and adaptive procrastination, maladaptive and adaptive perfectionism, ego depletion and dropout intention. A multivariate analysis of covariance (MANCOVA), controlling for age and biological sex, revealed significant differences among ADHD clusters on all outcomes. While the Combined group reported the highest levels of maladaptive procrastination and ego depletion, the Hyperactive-Impulsive and Low-symptom groups reported the highest adaptive procrastination scores. These findings suggest that adaptive procrastination may serve as a protective or compensatory strategy in students with certain ADHD profiles, offering constructive reconceptualization of functional delay and self-regulation in academic contexts.",
-    "summary_zh": "基于学术全文自动解析：Attention-deficit/hyperactivity disorder (ADHD) symptoms are increasingly recognized in adulthood, particular…",
-    "excerpt": "Attention-deficit/hyperactivity disorder (ADHD) symptoms are increasingly recognized in adulthood, particularly among university students, yet their distinct psychological correlates remain underexplored. Using a cross-sectional design, this study examined Hu…",
-    "language": "en",
-    "published_at": "2026-02-23T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "ADHD",
-      "教育",
-      "职场",
-      "神经多样性"
-    ],
-    "audiences": [
-      "self-advocate",
-      "educator",
-      "researcher",
-      "family",
-      "employer"
-    ],
-    "conditions": [
-      "adhd"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T16:37:10.988Z",
-    "metadata": {
-      "doi": "10.1038/s41598-026-41256-1",
-      "pmid": "41735456",
-      "authors": "M&#252;ller, Vanessa; Pik&#243;, Bettina",
-      "article_url": "https://www.nature.com/articles/s41598-026-41256-1",
-      "pdf_url": "https://www.nature.com/articles/s41598-026-41256-1.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "adhd-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：The combined ADHD profile faces the greatest risk of delay, depletion and disengagement in university students》",
-        "publication_info": "Scientific Reports，2026/2/24",
-        "authors_display": "M&#252;ller, Vanessa、Pik&#243;, Bettina",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：The combined ADHD profile faces the greatest risk of delay, depletion and disengagement in university students",
-              "研究类型：横断面调查。",
-              "核心摘要：Attention-deficit/hyperactivity disorder (ADHD) symptoms are increasingly recognized in adulthood, particularly among university students, yet their distinct psychological correlates remain underexplored."
-            ]
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 ADHD、教育、职场 展开，重点回应研究、支持或实践层面的核心问题。"
           },
           {
-            "title": "正文结构",
-            "items": [
-              "Data availability：The datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request.",
-              "Funding：Open access funding provided by University of Szeged.",
-              "Authors and Affiliations：Doctoral School of Education, University of Szeged, Szeged, Hungary",
-              "Contributions：VM: Conceptualization, methodology, software, validation, formal analysis, investigation, resources, data curation, visualization, writing—original draft preparation, funding acquisition.",
-              "Publisher’s note：Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
-            ]
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Blurred lines: Investigating functional profiles in autism and ADHD across key developmental domains》涉及的问题，重点分析 ADHD、教育、职场 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇学术研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 ADHD、教育、职场 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
           }
         ],
-        "key_findings": "Attention-deficit/hyperactivity disorder (ADHD) symptoms are increasingly recognized in adulthood, particularly among university students, yet their distinct psychological correlates remain underexplored.",
-        "research_method": "基于 横断面调查 自动识别。当前优先使用 PMC 全文页 中可获取的摘要与章节结构。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "Data availability：The datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request.",
-          "Funding：Open access funding provided by University of Szeged.",
-          "Authors and Affiliations：Doctoral School of Education, University of Szeged, Szeged, Hungary",
-          "Contributions：VM: Conceptualization, methodology, software, validation, formal analysis, investigation, resources, data curation, visualization, writing—original draft preparation, funding acquisition."
-        ],
-        "conclusion": "Attention-deficit/hyperactivity disorder (ADHD) symptoms are increasingly recognized in adulthood, particularly among university students, yet their distinct psychological correlates remain underexplored.",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
-        ]
+        "conclusion": "综合现有信息，这篇内容可作为 ADHD、教育、职场 的进一步阅读材料，适合继续补充更细的中文解读。"
       }
     }
   },
@@ -664,7 +746,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.472Z",
+    "ingested_at": "2026-03-06T17:27:03.267Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -706,7 +788,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.473Z",
+    "ingested_at": "2026-03-06T17:27:03.268Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -744,12 +826,137 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：官方来源。",
-    "ingested_at": "2026-03-06T16:37:09.529Z",
+    "ingested_at": "2026-03-06T17:26:34.406Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "workplace adjustments"
       ]
+    }
+  },
+  {
+    "id": "academic-adhd-2026-41543975",
+    "source_name": "Clinical EEG and Neuroscience",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12868308/",
+    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12868308/",
+    "title_original": "Mindfulness Training in Youth With ADHD + Comorbid Learning Disability Maintains Medial Frontal Cortex Function During Response Inhibition",
+    "title_zh": "研究：Mindfulness Training in Youth With ADHD + Comorbid Learning Disability Maintains Medial Frontal Cortex Function During Response Inhibition",
+    "summary_original": "The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyperactivity disorder (ADHD) and comorbid learning disability (N = 75, ages 11-17 years) who participated in a 20-week mindfulness martial arts intervention compared to a waitlist control.",
+    "summary_zh": "基于学术全文自动解析：The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyp…",
+    "excerpt": "The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyperactivity disorder (ADHD) and comorbid learning disability (N = 75, ages 11-17 years) who participated in a 20-week mindfulness martial arts interven…",
+    "language": "en",
+    "published_at": "2026-01-15T16:00:00.000Z",
+    "content_type": "research",
+    "topics": [
+      "ADHD",
+      "教育",
+      "职场",
+      "神经多样性",
+      "学习困难"
+    ],
+    "audiences": [
+      "self-advocate",
+      "educator",
+      "researcher",
+      "family",
+      "employer"
+    ],
+    "conditions": [
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T17:26:37.236Z",
+    "metadata": {
+      "doi": "10.1177/15500594251399706",
+      "pmid": "41543975",
+      "authors": "Maxwell Seward; Karen Milligan; Annabel Sibalis; Harry Wenban; Stefon van Noordt",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12868308/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12868308/pdf/10.1177_15500594251399706.pdf",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "adhd-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：Mindfulness Training in Youth With ADHD + Comorbid Learning Disability Maintains Medial Frontal Cortex Function During Response Inhibition》",
+        "publication_info": "Clinical EEG and Neuroscience，2026/1/16",
+        "authors_display": "Maxwell Seward、Karen Milligan、Annabel Sibalis、Harry Wenban、Stefon van Noordt",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：Mindfulness Training in Youth With ADHD + Comorbid Learning Disability Maintains Medial Frontal Cortex Function During Response Inhibition",
+              "研究类型：干预研究。",
+              "核心摘要：The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyperactivity disorder (ADHD) and comorbid learning disability (N = 75, ages 11-17 years) who participated in a 20-week mindfulness martial arts interven…"
+            ]
+          },
+          {
+            "title": "正文结构",
+            "items": [
+              "Stefon van Noordt：Stefon van Noordt, Department of Psychology, Wake Forest University, 1834 Wake Forest Rd, Winston-Salem, NC, USA.",
+              "Objective：The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyperactivity disorder (ADHD) and comorbid learning disability (N = 75, ages 11-17 years) who participated in a 2…",
+              "Method：EEG was recorded pre and post intervention during a blocked Go/NoGo task.",
+              "Results：A significant group by time interaction was found for NoGo N2 amplitudes, indicating that waitlist control participants had significantly attenuated N2 amplitudes over time whereas the intervention group maintained simi…",
+              "Conclusions：These findings suggest that participation in mindfulness martial arts may buffer against reductions in N2 activity during adolescence for youth with ADHD"
+            ]
+          }
+        ],
+        "key_findings": "The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyperactivity disorder (ADHD) and comorbid learning disability (N = 75, ages 11-17 years) who participated in a 2…",
+        "research_method": "从全文结构看，文章按 Stefon van Noordt、Objective、Method、Results 展开。",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
+        "strategy_points": [
+          "Stefon van Noordt：Stefon van Noordt, Department of Psychology, Wake Forest University, 1834 Wake Forest Rd, Winston-Salem, NC, USA.",
+          "Objective：The present study investigated the neural correlates of cognitive control in youth with Attention Deficit Hyperactivity disorder (ADHD) and comorbid learning disability (N = 75, ages 11-17 years) who participated in a 2…",
+          "Method：EEG was recorded pre and post intervention during a blocked Go/NoGo task.",
+          "Results：A significant group by time interaction was found for NoGo N2 amplitudes, indicating that waitlist control participants had significantly attenuated N2 amplitudes over time whereas the intervention group maintained simi…"
+        ],
+        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
+        ]
+      },
+      "detail_summary": {
+        "title": "《研究：Mindfulness Training in Youth With ADHD + Comorbid Learning Disability Maintains Medial Frontal Cortex Function During Response Inhibition》",
+        "time_text": "Clinical EEG and Neuroscience，2026年1月16日。",
+        "author_text": "Maxwell Seward、Karen Milligan、Annabel Sibalis 等（Clinical EEG and Neuroscience）",
+        "sections": [
+          {
+            "index": "4.1",
+            "title": "研究背景",
+            "body": "这篇文章围绕 ADHD、教育、职场 展开，重点回应研究、支持或实践层面的核心问题。"
+          },
+          {
+            "index": "4.2",
+            "title": "研究对象或问题",
+            "body": "文章主要关注《Mindfulness Training in Youth With ADHD + Comorbid Learning Disability Maintains Medial Frontal Cortex Function During Response Inhibition》涉及的问题，重点分析 ADHD、教育、职场 相关人群在支持、教育、评估或生活场景中的实际需求。"
+          },
+          {
+            "index": "4.3",
+            "title": "研究方法",
+            "body": "从公开摘要与全文结构判断，这是一篇干预研究，当前重点整理研究问题、主要发现和实践含义。"
+          },
+          {
+            "index": "4.4",
+            "title": "核心发现",
+            "body": "现有信息显示，文章给出了与 ADHD、教育、职场 相关的核心发现，重点可用于理解支持需求与实践方向。"
+          },
+          {
+            "index": "4.5",
+            "title": "实践启示",
+            "body": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。"
+          }
+        ],
+        "conclusion": "综合现有信息，这篇内容可作为 ADHD、教育、职场 的进一步阅读材料，适合继续补充更细的中文解读。"
+      }
     }
   },
   {
@@ -785,7 +992,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.473Z",
+    "ingested_at": "2026-03-06T17:27:03.268Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -827,7 +1034,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T16:37:41.473Z",
+    "ingested_at": "2026-03-06T17:27:03.268Z",
     "metadata": {
       "credibility": "high",
       "tags": [

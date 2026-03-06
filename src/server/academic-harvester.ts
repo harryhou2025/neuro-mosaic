@@ -1,7 +1,7 @@
 import { PDFParse } from "pdf-parse";
 import { safeExcerpt } from "../shared/content-ops";
 import type { AudienceKey, ConditionKey, ContentItem } from "../shared/content";
-import { deriveDetailSummary } from "../shared/detail-summary";
+import { buildStoredAcademicDetailSummary } from "./detail-summary-materializer";
 
 type AcademicSearchConfig = {
   id: string;
@@ -542,7 +542,7 @@ function mergeAcademicData(item: ContentItem, document: ParsedAcademicDocument, 
     ...document,
     parsedFrom: pdfText ? "pdf" : document.parsedFrom,
   });
-  merged.metadata.detail_summary = deriveDetailSummary(merged);
+  merged.metadata.detail_summary = buildStoredAcademicDetailSummary(merged);
   return merged;
 }
 
