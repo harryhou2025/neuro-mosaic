@@ -225,6 +225,10 @@ textarea {
   padding: 28px;
 }
 
+.detail-hero {
+  padding-bottom: 12px;
+}
+
 .detail-subtitle {
   color: rgba(24, 34, 41, 0.68);
   font-size: 1.05rem;
@@ -236,24 +240,43 @@ textarea {
   border-top: 1px solid var(--line);
 }
 
-.detail-meta {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
-  margin: 0;
+.detail-line {
+  display: flex;
+  gap: 10px;
+  line-height: 1.7;
+  margin: 0 0 14px;
 }
 
-.detail-meta dt {
-  font-size: 0.82rem;
-  color: rgba(24, 34, 41, 0.62);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 6px;
+.detail-line strong {
+  min-width: 88px;
+  font-family: "Fraunces", "Noto Serif SC", serif;
 }
 
-.detail-meta dd {
+.detail-highlight {
+  border-radius: 20px;
+  background: rgba(203, 91, 45, 0.08);
+  padding: 16px 18px;
+}
+
+.detail-highlight p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.detail-lead {
+  font-size: 1.02rem;
+  line-height: 1.8;
+}
+
+.detail-list {
+  margin: 12px 0 0;
+  padding-left: 24px;
+  line-height: 1.8;
+}
+
+.detail-list li {
+  margin-bottom: 10px;
 }
 
 .detail-source-note {
@@ -557,9 +580,19 @@ textarea {
     padding: 18px 16px;
   }
 
-  .detail-meta {
-    grid-template-columns: 1fr;
-    gap: 12px;
+  .detail-line {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .detail-line strong {
+    display: inline-block;
+    min-width: 0;
+    margin-bottom: 4px;
+  }
+
+  .detail-highlight {
+    padding: 14px 14px;
   }
 
   .group-panel__header {

@@ -91,6 +91,48 @@ function deriveMainConclusion(item: ContentItem): string {
   return item.summary_zh || item.summary_original || item.excerpt;
 }
 
+function splitIntoSentences(text: string): string[] {
+  return text
+    .split(/[。！？.!?]\s*/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+}
+
+function ensureSentence(text: string): string {
+  const trimmed = text.trim();
+  if (!trimmed) {
+    return "";
+  }
+  return /[。！？.!?]$/.test(trimmed) ? trimmed : `${trimmed}。`;
+}
+
+function deriveDetailTitle(item: ContentItem): string {
+  return `《${item.title_zh}》`;
+}
+
+function deriveContentPoints(item: ContentItem): string[] {
+  const baseText = [item.summary_zh, item.summary_original, item.excerpt].filter(Boolean).join(" ");
+  const sentences = splitIntoSentences(baseText);
+  const points = sentences.slice(0, 4).map((sentence, index) => {
+    if (index === 0) {
+      return `核心内容：${ensureSentence(sentence)}`;
+    }
+    if (/support|支持|策略|school|教育|work|职场/i.test(sentence)) {
+      return `实践场景：${ensureSentence(sentence)}`;
+    }
+    if (/study|review|research|研究|evidence|eviden/i.test(sentence)) {
+      return `研究观察：${ensureSentence(sentence)}`;
+    }
+    return ensureSentence(sentence);
+  });
+
+  if (points.length > 0) {
+    return points;
+  }
+
+  return [`围绕 ${item.topics.slice(0, 2).join("、")} 主题展开，适合 ${item.audiences.map((audience) => labels.audience[audience]).join("、")} 阅读。`];
+}
+
 function deriveImplications(item: ContentItem): string {
   const topicHint = item.topics.slice(0, 2).join("、") || "相关主题";
   const audienceHint = item.audiences.slice(0, 2).map((audience) => labels.audience[audience]).join("、") || "读者";
@@ -106,12 +148,23 @@ function deriveImplications(item: ContentItem): string {
   return `这条内容更偏实践参考，启发是把 ${topicHint} 相关经验整理成更易懂的行动清单，方便 ${audienceHint} 直接使用。`;
 }
 
-function deriveBody(item: ContentItem): string[] {
-  return [
-    item.summary_zh,
-    item.summary_original,
-    item.excerpt !== item.summary_original ? item.excerpt : "",
-  ].filter(Boolean);
+function deriveInsightPoints(item: ContentItem): string[] {
+  const topicHint = item.topics.slice(0, 2).join("、") || "相关主题";
+  const audienceHint = item.audiences.slice(0, 2).map((audience) => labels.audience[audience]).join("、") || "相关人群";
+  const points = [
+    `可以把这条内容转化为面向 ${audienceHint} 的行动建议，而不只是停留在概念介绍。`,
+    `后续整理 ${topicHint} 专题时，可把这条内容作为证据或实践案例的支撑材料。`,
+  ];
+
+  if (item.source_type === "academic") {
+    points.push("如果继续扩展专题，适合进一步追踪原始论文、系统综述和引用链，形成更扎实的证据地图。");
+  } else if (item.source_type === "official") {
+    points.push("这类官方来源适合作为基础定义、政策边界和支持路径说明，能提升内容可信度。");
+  } else {
+    points.push("这类实践型内容适合继续提炼成更具体的清单、案例和经验条目，方便读者立即使用。");
+  }
+
+  return points;
 }
 
 function getShanghaiDateKey(input: string | Date): string {
@@ -356,10 +409,12 @@ function LatestSection(props: { items: ContentItem[]; lastUpdated: string }) {
 
 function DetailPage(props: { item: ContentItem }) {
   const { item } = props;
-  const body = deriveBody(item);
+  const contentPoints = deriveContentPoints(item);
   const author = deriveAuthor(item);
   const conclusion = deriveMainConclusion(item);
   const implications = deriveImplications(item);
+  const insightPoints = deriveInsightPoints(item);
+  const detailTitle = deriveDetailTitle(item);
 
   return (
     <main className="page-shell detail-shell">
@@ -367,43 +422,55 @@ function DetailPage(props: { item: ContentItem }) {
         返回首页
       </button>
       <article className="detail-page">
-        <div className="card__meta">
-          <span>{labels.sourceType[item.source_type]}</span>
-          <span>{item.source_region}</span>
-          <span>{labels.contentType[item.content_type]}</span>
+        <div className="detail-hero">
+          <div className="card__meta">
+            <span>{labels.sourceType[item.source_type]}</span>
+            <span>{item.source_region}</span>
+            <span>{labels.contentType[item.content_type]}</span>
+          </div>
+          <h1>{detailTitle}</h1>
+          <p className="detail-subtitle">{item.title_original}</p>
         </div>
-        <h1>{item.title_zh}</h1>
-        <p className="detail-subtitle">{item.title_original}</p>
 
         <section className="detail-section">
-          <h2>基本信息</h2>
-          <dl className="detail-meta">
-            <div>
-              <dt>时间</dt>
-              <dd>{formatDateTime(item.published_at)}</dd>
-            </div>
-            <div>
-              <dt>作者</dt>
-              <dd>{author}</dd>
-            </div>
-          </dl>
+          <p className="detail-line">
+            <strong>总结标题：</strong>
+            <span>{detailTitle}（{item.title_original}）</span>
+          </p>
+          <p className="detail-line">
+            <strong>时间：</strong>
+            <span>原始发布时间为 {formatDateTime(item.published_at)}，本次抓取时间为 {formatDateTime(item.ingested_at)}。</span>
+          </p>
+          <p className="detail-line">
+            <strong>作者：</strong>
+            <span>{author}</span>
+          </p>
         </section>
 
         <section className="detail-section">
-          <h2>内容</h2>
-          {body.map((paragraph) => (
-            <p key={paragraph}>{paragraph}</p>
-          ))}
+          <h2>具体内容</h2>
+          <ul className="detail-list">
+            {contentPoints.map((point) => (
+              <li key={point}>{point}</li>
+            ))}
+          </ul>
         </section>
 
         <section className="detail-section">
           <h2>主要结论</h2>
-          <p>{conclusion}</p>
+          <div className="detail-highlight">
+            <p>{ensureSentence(conclusion)}</p>
+          </div>
         </section>
 
         <section className="detail-section">
           <h2>对我们有哪些启发</h2>
-          <p>{implications}</p>
+          <p className="detail-lead">{implications}</p>
+          <ul className="detail-list">
+            {insightPoints.map((point) => (
+              <li key={point}>{point}</li>
+            ))}
+          </ul>
         </section>
 
         <p className="detail-source-note">
