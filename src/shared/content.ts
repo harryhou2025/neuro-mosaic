@@ -38,8 +38,32 @@ export const contentItemSchema = z.object({
       doi: z.string().optional(),
       pmid: z.string().optional(),
       authors: z.string().optional(),
+      article_url: z.string().url().optional(),
+      pdf_url: z.string().url().optional(),
       credibility: z.enum(["high", "medium", "reference"]),
       tags: z.array(z.string()).default([]),
+      analysis: z
+        .object({
+          template: z.enum(["academic", "practice"]).optional(),
+          summary_title: z.string().optional(),
+          publication_info: z.string().optional(),
+          authors_display: z.string().optional(),
+          content_sections: z
+            .array(
+              z.object({
+                title: z.string(),
+                items: z.array(z.string()),
+              }),
+            )
+            .optional(),
+          key_findings: z.string().optional(),
+          research_method: z.string().optional(),
+          practical_significance: z.string().optional(),
+          strategy_points: z.array(z.string()).optional(),
+          conclusion: z.string().optional(),
+          china_insights: z.array(z.string()).optional(),
+        })
+        .optional(),
     })
     .default({ credibility: "reference", tags: [] }),
 });
