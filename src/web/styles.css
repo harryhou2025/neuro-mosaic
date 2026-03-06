@@ -306,6 +306,21 @@ textarea {
   font-size: 1.1rem;
 }
 
+.detail-subsection--numbered h3 {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.detail-subsection--numbered h3 span {
+  font-family: "Fraunces", "Noto Serif SC", serif;
+}
+
+.detail-subsection--numbered p {
+  margin: 0;
+  line-height: 1.9;
+}
+
 .detail-line {
   display: flex;
   gap: 10px;

@@ -64,6 +64,21 @@ export const contentItemSchema = z.object({
           china_insights: z.array(z.string()).optional(),
         })
         .optional(),
+      detail_summary: z
+        .object({
+          title: z.string(),
+          time_text: z.string(),
+          author_text: z.string(),
+          sections: z.array(
+            z.object({
+              index: z.string(),
+              title: z.string(),
+              body: z.string(),
+            }),
+          ),
+          conclusion: z.string(),
+        })
+        .optional(),
     })
     .default({ credibility: "reference", tags: [] }),
 });

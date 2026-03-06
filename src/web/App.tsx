@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { ContentItem, PublicIndex } from "../shared/content";
 import { classifyItem } from "../shared/content-ops";
+import { deriveDetailSummary } from "../shared/detail-summary";
 import { curatedSeedItems } from "../shared/sample-sources";
 import { listRegions, sourceDirectory } from "../shared/source-directory";
 import { labels, topicCatalog } from "../shared/taxonomy";
@@ -727,18 +728,14 @@ function AcademicHighlightsSection(props: { items: ContentItem[] }) {
 
 function DetailPage(props: { item: ContentItem }) {
   const { item } = props;
-  const contentTree = deriveContentTree(item);
-  const author = deriveAuthor(item);
-  const conclusion = deriveMainConclusion(item);
-  const implications = deriveImplications(item);
-  const insightPoints = deriveInsightPoints(item);
-  const detailTitle = deriveDetailTitle(item);
-  const publicationInfo = item.metadata.analysis?.publication_info;
-  const researchMethod = item.metadata.analysis?.research_method;
-  const keyFindings = item.metadata.analysis?.key_findings;
-  const practicalSignificance = item.metadata.analysis?.practical_significance;
-  const strategyPoints = item.metadata.analysis?.strategy_points ?? [];
-  const coverFields = getAcademicCoverFields(item);
+  const detailSummary = deriveDetailSummary(item);
+  const sourceLinks = [
+    { label: "原文", href: item.source_url },
+    item.metadata.article_url && item.metadata.article_url !== item.source_url
+      ? { label: "文章页", href: item.metadata.article_url }
+      : null,
+    item.metadata.pdf_url ? { label: "PDF", href: item.metadata.pdf_url } : null,
+  ].filter(Boolean) as Array<{ label: string; href: string }>;
 
   return (
     <main className="page-shell detail-shell">
@@ -752,122 +749,56 @@ function DetailPage(props: { item: ContentItem }) {
             <span>{item.source_region}</span>
             <span>{labels.contentType[item.content_type]}</span>
           </div>
-          <h1>{/^《研究：PubMed \d+》$/i.test(detailTitle) ? `《研究：${item.title_original}》` : detailTitle}</h1>
+          <h1>{detailSummary.title}</h1>
           <p className="detail-subtitle">{item.title_original}</p>
         </div>
 
         <section className="detail-section">
-          {isAcademicItem(item) ? (
-            <div className="academic-cover academic-cover--detail">
-              {coverFields.map((field) => (
-                <p key={`${item.id}-${field.label}`} className="academic-cover__line">
-                  <strong>{field.label}：</strong>
-                  {field.href ? (
-                    <a href={field.href} target="_blank" rel="noreferrer">
-                      {field.value}
-                    </a>
-                  ) : (
-                    <span>{field.value}</span>
-                  )}
-                </p>
-              ))}
-            </div>
-          ) : null}
           <p className="detail-line">
             <strong>总结标题：</strong>
-            <span>{/^《研究：PubMed \d+》$/i.test(detailTitle) ? `《研究：${item.title_original}》` : detailTitle}（{item.title_original}）</span>
+            <span>{detailSummary.title}</span>
           </p>
           <p className="detail-line">
             <strong>时间：</strong>
-            <span>{publicationInfo ?? `原始发布时间为 ${formatDateTime(item.published_at)}，本次抓取时间为 ${formatDateTime(item.ingested_at)}。`}</span>
+            <span>{detailSummary.time_text}</span>
           </p>
           <p className="detail-line">
             <strong>作者：</strong>
-            <span>{author}</span>
+            <span>{detailSummary.author_text}</span>
           </p>
         </section>
 
         <section className="detail-section">
           <h2>具体内容</h2>
-          {contentTree.map((group) => (
-            <section key={group.title} className="detail-subsection">
-              <h3>{group.title}</h3>
-              <ul className="detail-list">
-                {group.items.map((entry) =>
-                  typeof entry === "string" ? (
-                    <li key={entry}>{entry}</li>
-                  ) : (
-                    <li key={entry.label}>
-                      <strong>{entry.label}</strong>
-                      <ol className="detail-sublist">
-                        {entry.children.map((child) => (
-                          <li key={child}>{child}</li>
-                        ))}
-                      </ol>
-                    </li>
-                  ),
-                )}
-              </ul>
+          {detailSummary.sections.map((section) => (
+            <section key={section.index} className="detail-subsection detail-subsection--numbered">
+              <h3>
+                {section.index}
+                <span>{section.title}</span>
+              </h3>
+              <p>{section.body}</p>
             </section>
           ))}
         </section>
 
         <section className="detail-section">
-          <h2>主要结论</h2>
+          <h2>结论</h2>
           <div className="detail-highlight">
-            <p>{ensureSentence(conclusion)}</p>
+            <p>{detailSummary.conclusion}</p>
           </div>
         </section>
 
-        {researchMethod ? (
-          <section className="detail-section">
-            <h2>研究方法</h2>
-            <p>{ensureSentence(researchMethod)}</p>
-          </section>
-        ) : null}
-
-        {keyFindings ? (
-          <section className="detail-section">
-            <h2>核心发现</h2>
-            <p>{ensureSentence(keyFindings)}</p>
-          </section>
-        ) : null}
-
-        {practicalSignificance ? (
-          <section className="detail-section">
-            <h2>实践意义</h2>
-            <p>{ensureSentence(practicalSignificance)}</p>
-          </section>
-        ) : null}
-
-        {strategyPoints.length ? (
-          <section className="detail-section">
-            <h2>策略要点</h2>
-            <ul className="detail-list">
-              {strategyPoints.map((point) => (
-                <li key={point}>{ensureSentence(point)}</li>
-              ))}
-            </ul>
-          </section>
-        ) : null}
-
-        <section className="detail-section">
-          <h2>对我们有哪些启发</h2>
-          <p className="detail-lead">{implications}</p>
-          <ul className="detail-list">
-            {insightPoints.map((point) => (
-              <li key={point}>{point}</li>
-            ))}
-          </ul>
-        </section>
-
         <p className="detail-source-note">
-          来源：{item.source_name} · <a href={item.source_url} target="_blank" rel="noreferrer">{item.source_url}</a>
-          {item.metadata.pdf_url ? (
-            <>
-              {" "}· PDF：<a href={item.metadata.pdf_url} target="_blank" rel="noreferrer">{item.metadata.pdf_url}</a>
-            </>
-          ) : null}
+          来源：{item.source_name}
+          {sourceLinks.length ? " · " : ""}
+          {sourceLinks.map((link, index) => (
+            <span key={link.href}>
+              {index > 0 ? " · " : ""}
+              <a href={link.href} target="_blank" rel="noreferrer">
+                {link.label}
+              </a>
+            </span>
+          ))}
         </p>
       </article>
     </main>

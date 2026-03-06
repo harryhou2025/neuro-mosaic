@@ -1,6 +1,7 @@
 import { PDFParse } from "pdf-parse";
 import { safeExcerpt } from "../shared/content-ops";
 import type { AudienceKey, ConditionKey, ContentItem } from "../shared/content";
+import { deriveDetailSummary } from "../shared/detail-summary";
 
 type AcademicSearchConfig = {
   id: string;
@@ -541,6 +542,7 @@ function mergeAcademicData(item: ContentItem, document: ParsedAcademicDocument, 
     ...document,
     parsedFrom: pdfText ? "pdf" : document.parsedFrom,
   });
+  merged.metadata.detail_summary = deriveDetailSummary(merged);
   return merged;
 }
 
@@ -656,7 +658,7 @@ export async function harvestAcademicSources(): Promise<ContentItem[]> {
     }
   }
 
-const enriched = await Promise.all(seededItems.map((item) => enrichAcademicItem(item)));
+  const enriched = await Promise.all(seededItems.map((item) => enrichAcademicItem(item)));
   return enriched
     .filter(
       (item) =>
