@@ -21,12 +21,10 @@ export async function saveReviewItems(items: ContentItem[]): Promise<void> {
 
 export async function upsertReviewItems(nextItems: ContentItem[]): Promise<ContentItem[]> {
   const current = await getReviewItems();
-  const generatedAcademicIds = new Set(
-    nextItems
-      .filter((item) => item.source_type === "academic" && item.id.startsWith("academic-"))
-      .map((item) => item.id),
+  const hasGeneratedAcademicItems = nextItems.some((item) => item.source_type === "academic" && item.id.startsWith("academic-"));
+  const preservedCurrent = current.filter(
+    (item) => !(hasGeneratedAcademicItems && item.source_type === "academic" && item.id.startsWith("academic-")),
   );
-  const preservedCurrent = current.filter((item) => !generatedAcademicIds.has(item.id));
   const merged = dedupeItems([...preservedCurrent, ...nextItems]);
   await saveReviewItems(merged);
   return merged;

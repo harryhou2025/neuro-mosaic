@@ -1,46 +1,5 @@
 [
   {
-    "id": "page-ncld",
-    "source_name": "NCLD",
-    "source_type": "official",
-    "source_region": "美国",
-    "source_url": "https://www.ncld.org/",
-    "canonical_url": "https://www.ncld.org/",
-    "title_original": "National Center for Learning Disabilities",
-    "title_zh": "NCLD 资源入口",
-    "summary_original": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
-    "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
-    "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T15:39:13.290Z",
-    "content_type": "directory",
-    "topics": [
-      "学习困难",
-      "神经多样性",
-      "职场",
-      "政策与服务",
-      "共病与支持需求"
-    ],
-    "audiences": [
-      "family",
-      "educator",
-      "self-advocate"
-    ],
-    "conditions": [
-      "learning-difficulties"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:13.290Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "美国"
-      ]
-    }
-  },
-  {
     "id": "page-dyslexia-intl",
     "source_name": "Dyslexia International",
     "source_type": "official",
@@ -53,7 +12,7 @@
     "summary_zh": "阅读障碍与学习困难的国际资源。适合通过 Dyslexia International 进一步进入该主题的权威信息。",
     "excerpt": "阅读障碍与学习困难的国际资源",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:13.079Z",
+    "published_at": "2026-03-06T16:37:38.305Z",
     "content_type": "directory",
     "topics": [
       "学习困难",
@@ -68,7 +27,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:13.079Z",
+    "ingested_at": "2026-03-06T16:37:38.305Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -90,7 +49,7 @@
     "summary_zh": "ADHD 大众内容、学校与家庭实操。适合通过 ADDitude 进一步进入该主题的权威信息。",
     "excerpt": "ADHD symptom tests, ADD medication & treatment, behavior & discipline, school & learning essentials, organization and more information for families and individuals living with attention…",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:12.721Z",
+    "published_at": "2026-03-06T16:37:37.934Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -110,7 +69,47 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:12.721Z",
+    "ingested_at": "2026-03-06T16:37:37.934Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-understood",
+    "source_name": "Understood",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.understood.org/",
+    "canonical_url": "https://www.understood.org/",
+    "title_original": "Understood - For learning and thinking differences",
+    "title_zh": "Understood 资源入口",
+    "summary_original": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
+    "summary_zh": "面向家长和老师的学习差异实用资源。适合通过 Understood 进一步进入该主题的权威信息。",
+    "excerpt": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T16:37:37.110Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "ADHD",
+      "神经多样性",
+      "家庭支持"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties",
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T16:37:37.110Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -132,7 +131,7 @@
     "summary_zh": "儿童神经发育与精神健康资源库。适合通过 Child Mind Institute 进一步进入该主题的权威信息。",
     "excerpt": "The Child Mind Institute is an independent nonprofit dedicated to transforming the lives of children struggling with mental health and learning disorders.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:11.905Z",
+    "published_at": "2026-03-06T16:37:36.564Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -151,7 +150,48 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:11.906Z",
+    "ingested_at": "2026-03-06T16:37:36.564Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-ncld",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.ncld.org/",
+    "canonical_url": "https://www.ncld.org/",
+    "title_original": "National Center for Learning Disabilities",
+    "title_zh": "NCLD 资源入口",
+    "summary_original": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
+    "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T16:37:36.560Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "神经多样性",
+      "职场",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "self-advocate"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T16:37:36.560Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -173,7 +213,7 @@
     "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
     "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:11.818Z",
+    "published_at": "2026-03-06T16:37:36.464Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -196,7 +236,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:11.818Z",
+    "ingested_at": "2026-03-06T16:37:36.464Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -218,7 +258,7 @@
     "summary_zh": "儿童健康科普，自闭症与 ADHD 基础说明。适合通过 Nemours KidsHealth 进一步进入该主题的权威信息。",
     "excerpt": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:11.550Z",
+    "published_at": "2026-03-06T16:37:36.318Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -238,12 +278,96 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:11.550Z",
+    "ingested_at": "2026-03-06T16:37:36.318Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
         "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-trip",
+    "source_name": "TRIP Database",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://www.tripdatabase.com/",
+    "canonical_url": "https://www.tripdatabase.com/",
+    "title_original": "Trip Medical Database",
+    "title_zh": "TRIP Database 资源入口",
+    "summary_original": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
+    "summary_zh": "指南、综述和临床证据检索。适合通过 TRIP Database 进一步进入该主题的权威信息。",
+    "excerpt": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
+    "language": "bilingual",
+    "published_at": "2026-03-06T16:37:36.217Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "ADHD",
+      "学习困难",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "clinician",
+      "researcher"
+    ],
+    "conditions": [
+      "autism",
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T16:37:36.217Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "国际"
+      ]
+    }
+  },
+  {
+    "id": "page-pubmed",
+    "source_name": "PubMed",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
+    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/",
+    "title_original": "PubMed",
+    "title_zh": "PubMed 资源入口",
+    "summary_original": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
+    "summary_zh": "医学与健康研究论文检索。适合通过 PubMed 进一步进入该主题的权威信息。",
+    "excerpt": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T16:37:35.923Z",
+    "content_type": "directory",
+    "topics": [
+      "神经多样性",
+      "自闭症",
+      "ADHD",
+      "学习困难"
+    ],
+    "audiences": [
+      "researcher",
+      "clinician"
+    ],
+    "conditions": [
+      "neurodiversity",
+      "autism",
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T16:37:35.923Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "国际"
       ]
     }
   },
@@ -260,7 +384,7 @@
     "summary_zh": "教育干预证据和学校支持策略。适合通过 Education Endowment Foundation 进一步进入该主题的权威信息。",
     "excerpt": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:10.947Z",
+    "published_at": "2026-03-06T16:37:35.733Z",
     "content_type": "directory",
     "topics": [
       "学习困难",
@@ -283,136 +407,12 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:10.947Z",
+    "ingested_at": "2026-03-06T16:37:35.733Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
         "英国"
-      ]
-    }
-  },
-  {
-    "id": "page-trip",
-    "source_name": "TRIP Database",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://www.tripdatabase.com/",
-    "canonical_url": "https://www.tripdatabase.com/",
-    "title_original": "Trip Medical Database",
-    "title_zh": "TRIP Database 资源入口",
-    "summary_original": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
-    "summary_zh": "指南、综述和临床证据检索。适合通过 TRIP Database 进一步进入该主题的权威信息。",
-    "excerpt": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
-    "language": "bilingual",
-    "published_at": "2026-03-06T15:39:10.941Z",
-    "content_type": "directory",
-    "topics": [
-      "自闭症",
-      "ADHD",
-      "学习困难",
-      "神经多样性",
-      "政策与服务"
-    ],
-    "audiences": [
-      "clinician",
-      "researcher"
-    ],
-    "conditions": [
-      "autism",
-      "adhd",
-      "learning-difficulties"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:10.941Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "国际"
-      ]
-    }
-  },
-  {
-    "id": "page-understood",
-    "source_name": "Understood",
-    "source_type": "media",
-    "source_region": "美国",
-    "source_url": "https://www.understood.org/",
-    "canonical_url": "https://www.understood.org/",
-    "title_original": "Understood - For learning and thinking differences",
-    "title_zh": "Understood 资源入口",
-    "summary_original": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
-    "summary_zh": "面向家长和老师的学习差异实用资源。适合通过 Understood 进一步进入该主题的权威信息。",
-    "excerpt": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T15:39:10.662Z",
-    "content_type": "directory",
-    "topics": [
-      "学习困难",
-      "ADHD",
-      "神经多样性",
-      "家庭支持"
-    ],
-    "audiences": [
-      "family",
-      "educator"
-    ],
-    "conditions": [
-      "learning-difficulties",
-      "adhd"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:10.662Z",
-    "metadata": {
-      "credibility": "medium",
-      "tags": [
-        "page-harvest",
-        "美国"
-      ]
-    }
-  },
-  {
-    "id": "page-pubmed",
-    "source_name": "PubMed",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
-    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/",
-    "title_original": "PubMed",
-    "title_zh": "PubMed 资源入口",
-    "summary_original": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
-    "summary_zh": "医学与健康研究论文检索。适合通过 PubMed 进一步进入该主题的权威信息。",
-    "excerpt": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T15:39:10.224Z",
-    "content_type": "directory",
-    "topics": [
-      "神经多样性",
-      "自闭症",
-      "ADHD",
-      "学习困难"
-    ],
-    "audiences": [
-      "researcher",
-      "clinician"
-    ],
-    "conditions": [
-      "neurodiversity",
-      "autism",
-      "adhd",
-      "learning-difficulties"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:10.224Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "国际"
       ]
     }
   },
@@ -447,7 +447,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.433Z",
+    "ingested_at": "2026-03-06T16:37:41.078Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -487,7 +487,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.433Z",
+    "ingested_at": "2026-03-06T16:37:41.079Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -526,106 +526,13 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.433Z",
+    "ingested_at": "2026-03-06T16:37:41.079Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "ncld-feed"
       ]
-    }
-  },
-  {
-    "id": "academic-autism-2026-41618911",
-    "source_name": "Autism",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923618/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923618/",
-    "title_original": "Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them",
-    "title_zh": "研究：Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them",
-    "summary_original": "Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cognitive development. However, research examining autistic adolescents’ friendships has tended to use methodologies inaccessible to children with complex communication and learning needs. We examined the friendship experiences of 12 autistic adolescents (aged 12–15 years) with complex communication and learning needs who attended a specialist school. Using reflexive thematic analysis, we identified two themes. Within the first theme of ‘reconceptualising friendship’, the adolescents identified friends who evoked strong emotions and connection, without distinguishing between positive or negative interactions, or the standard boundaries of friendship. ‘Friendships’ with adults were also highlighted. Within the second theme of ‘the context dependent nature of connection’, the adolescents’ descriptions of friendship communicated a preference for engagement via physical play in spaces that facilitated such interaction. Our findings underscore the importance of directly eliciting the views of autistic adolescents with complex communication and learning needs. They also highlight the value of facilitating opportunities to build social connection with peers and adults through physical play and activities that provoke strong emotions within a safe and contained context.",
-    "summary_zh": "基于学术全文自动解析：Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cog…",
-    "excerpt": "Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cognitive development. However, research examining autistic adolescents’ friendships has tended to use methodologies inaccessible to children with comple…",
-    "language": "en",
-    "published_at": "2026-01-30T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "自闭症",
-      "教育",
-      "家庭支持",
-      "神经多样性",
-      "学习困难"
-    ],
-    "audiences": [
-      "family",
-      "educator",
-      "researcher",
-      "clinician",
-      "self-advocate",
-      "employer"
-    ],
-    "conditions": [
-      "autism",
-      "learning-difficulties"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:39:04.770Z",
-    "metadata": {
-      "doi": "10.1177/13623613251414302",
-      "pmid": "41618911",
-      "authors": "Jo Halsall; Elise Robinson; Anna Cook; Adam Halsall; Laura Crane",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923618/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923618/pdf/10.1177_13623613251414302.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "autism-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them》",
-        "publication_info": "Autism，2026/1/31",
-        "authors_display": "Jo Halsall、Elise Robinson、Anna Cook、Adam Halsall、Laura Crane",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Eliciting the views of autistic adolescents attending specialist schools on what friendships mean to them",
-              "研究类型：学术研究。",
-              "核心摘要：Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cognitive development."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Laura Crane：Laura Crane, Autism Centre for Education and Research (ACER), Department of Disability, Inclusion and Special Needs (DISN), School of Education, University of Birmingham, Edgbaston, Birmingham, B15 2TT, UK.",
-              "Lay abstract：Friendship plays a key role in helping autistic young people develop: socially, emotionally and cognitively.",
-              "Participants：Purposive sampling was used to recruit participants from two campuses at Queensmill School, an autism-specific specialist school in London.",
-              "Materials：Data-collection methods were developed by the research team.",
-              "Procedure：Interviews were completed in a quiet, familiar and private room within the children’s school."
-            ]
-          }
-        ],
-        "key_findings": "Friendship has been identified as an important way to support autistic adolescents’ social, emotional and cognitive development.",
-        "research_method": "从全文结构看，文章按 Laura Crane、Lay abstract、Participants、Materials 展开。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "Laura Crane：Laura Crane, Autism Centre for Education and Research (ACER), Department of Disability, Inclusion and Special Needs (DISN), School of Education, University of Birmingham, Edgbaston, Birmingham, B15 2TT, UK.",
-          "Lay abstract：Friendship plays a key role in helping autistic young people develop: socially, emotionally and cognitively.",
-          "Participants：Purposive sampling was used to recruit participants from two campuses at Queensmill School, an autism-specific specialist school in London.",
-          "Materials：Data-collection methods were developed by the research team."
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
-        ]
-      }
     }
   },
   {
@@ -658,7 +565,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.433Z",
+    "ingested_at": "2026-03-06T16:37:41.079Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -700,194 +607,12 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：大众实用资源。",
-    "ingested_at": "2026-03-06T15:39:03.552Z",
+    "ingested_at": "2026-03-06T16:37:09.529Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
         "executive function"
       ]
-    }
-  },
-  {
-    "id": "academic-learning-difficulties-2026-41251390",
-    "source_name": "Medical Education",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12913234/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12913234/",
-    "title_original": "Journey mapping as an inclusive research tool: Capturing the learning journeys of health professions educators with dyslexia",
-    "title_zh": "研究：Journey mapping as an inclusive research tool: Capturing the learning journeys of health professions educators with dyslexia",
-    "summary_original": "The field of health professions education has seen growing emphasis on inclusive pedagogies and learner diversity. Universal Design for Learning (UDL) offers a framework for designing educational experiences that accommodate diverse learning needs. Applying this principle to research, we must consider not only what we research but also how we research. Dyslexia is one example where traditional research practices may unintentionally marginalise participant voices. Conventional research interviews—especially those relying heavily on verbal recall and heavy question–answer formats—may not be the most accessible or inclusive method for gathering rich data with participants who are dyslexic. However, recent research reports that those with dyslexia excel at visualisation, creative thinking, identifying patterns and oral communication. In response to these characteristics and challenges, we adopted journey mapping to create a more inclusive research experience.",
-    "summary_zh": "基于学术全文自动解析：The field of health professions education has seen growing emphasis on inclusive pedagogies and learner diver…",
-    "excerpt": "The field of health professions education has seen growing emphasis on inclusive pedagogies and learner diversity. Universal Design for Learning (UDL) offers a framework for designing educational experiences that accommodate diverse learning needs. Applying t…",
-    "language": "en",
-    "published_at": "2025-11-17T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "学习困难",
-      "教育",
-      "家庭支持",
-      "神经多样性",
-      "职场"
-    ],
-    "audiences": [
-      "family",
-      "educator",
-      "researcher",
-      "clinician"
-    ],
-    "conditions": [
-      "learning-difficulties"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:39:05.489Z",
-    "metadata": {
-      "doi": "10.1111/medu.70104",
-      "pmid": "41251390",
-      "authors": "Sarah McLaughlin; Asim Ali; Steve Jennings",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12913234/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12913234/pdf/MEDU-60-288.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "learning-difficulties-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Journey mapping as an inclusive research tool: Capturing the learning journeys of health professions educators with dyslexia》",
-        "publication_info": "Medical Education，2025/11/18",
-        "authors_display": "Sarah McLaughlin、Asim Ali、Steve Jennings",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Journey mapping as an inclusive research tool: Capturing the learning journeys of health professions educators with dyslexia",
-              "研究类型：质性研究。",
-              "核心摘要：The field of health professions education has seen growing emphasis on inclusive pedagogies and learner diversity."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Steve Jennings：Correspondence , Sarah McLaughlin, University of Bristol Medical School, Bristol, UK.",
-              "Introduction：The field of health professions education has seen growing emphasis on inclusive pedagogies and learner diversity.",
-              "Methods：We explored the learning journeys of health professions educators who have dyslexia.",
-              "Results：The mapping provided participants with an enjoyable, engaging, autonomous means of reflection, enabling them to structure and tell their stories in a personally meaningful way.",
-              "Discussion：Adapting research methods to ensure a more inclusive approach has the potential to create more authentic, rich data and a fun and engaging experience for participants."
-            ]
-          }
-        ],
-        "key_findings": "The field of health professions education has seen growing emphasis on inclusive pedagogies and learner diversity.",
-        "research_method": "从全文结构看，文章按 Steve Jennings、Introduction、Methods、Results 展开。",
-        "practical_significance": "Dyslexia accounts for around 80% of reported learning difficulties in the United Kingdom, with rising numbers of higher education students self‐identifying as dyslexic.",
-        "strategy_points": [
-          "Steve Jennings：Correspondence , Sarah McLaughlin, University of Bristol Medical School, Bristol, UK.",
-          "Introduction：The field of health professions education has seen growing emphasis on inclusive pedagogies and learner diversity.",
-          "Methods：We explored the learning journeys of health professions educators who have dyslexia.",
-          "Results：The mapping provided participants with an enjoyable, engaging, autonomous means of reflection, enabling them to structure and tell their stories in a personally meaningful way."
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对学习困难主题，最值得补充的是国内学校场景中的识别流程、课堂调整和家长期待管理。"
-        ]
-      }
-    }
-  },
-  {
-    "id": "academic-adhd-2026-40391564",
-    "source_name": "Journal of Learning Disabilities",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12906603/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12906603/",
-    "title_original": "High-Incidence Learning-Related Disabilities, Gender, and Educational and Employment Outcomes in Young Adulthood",
-    "title_zh": "研究：High-Incidence Learning-Related Disabilities, Gender, and Educational and Employment Outcomes in Young Adulthood",
-    "summary_original": "The transition into post-secondary education or employment presents significant challenges for youth with high-incidence disabilities affecting learning, most commonly learning disabilities and attention-deficit/hyperactivity disorder. To date, few longitudinal studies investigate this transition in youth with learning-related disorders specifically, especially while considering education and employment outcomes simultaneously. This study examined relationships between learning-related disabilities requiring an individual intervention plan (Individualized Education Program [IEP]) in high school and key transition outcomes in early twenties in Quebec ( N = 513; 61.4% with an IEP; 51.0% male). Compared with their normative peers, youth with learning-related disabilities were less likely to graduate from high school and enroll in college; more likely to be neither in education, employment, or training (NEET); and equally likely to be employed, regardless of the job type (career-related or not). Young women with disabilities were particularly likely to be NEET, and the gender gap in college enrollment favoring women narrowed among those with disabilities. Gender and disability status appear to intersect to shape critical early adulthood outcomes.",
-    "summary_zh": "基于学术全文自动解析：The transition into post-secondary education or employment presents significant challenges for youth with hig…",
-    "excerpt": "The transition into post-secondary education or employment presents significant challenges for youth with high-incidence disabilities affecting learning, most commonly learning disabilities and attention-deficit/hyperactivity disorder. To date, few longitudin…",
-    "language": "en",
-    "published_at": "2025-05-19T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "ADHD",
-      "教育",
-      "职场",
-      "神经多样性",
-      "学习困难"
-    ],
-    "audiences": [
-      "self-advocate",
-      "educator",
-      "researcher",
-      "family",
-      "employer"
-    ],
-    "conditions": [
-      "adhd",
-      "learning-difficulties"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:39:05.138Z",
-    "metadata": {
-      "doi": "10.1177/00222194251340054",
-      "pmid": "40391564",
-      "authors": "Julia Stamp; Véronique Dupéré; Mathieu Pelletier-Dumas; Jiseul Sophia Ahn; Isabelle Plante; Isabelle Archambault",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12906603/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12906603/pdf/10.1177_00222194251340054.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "adhd-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：High-Incidence Learning-Related Disabilities, Gender, and Educational and Employment Outcomes in Young Adulthood》",
-        "publication_info": "Journal of Learning Disabilities，2025/5/20",
-        "authors_display": "Julia Stamp、Véronique Dupéré、Mathieu Pelletier-Dumas、Jiseul Sophia Ahn、Isabelle Plante、Isabelle Archambault",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：High-Incidence Learning-Related Disabilities, Gender, and Educational and Employment Outcomes in Young Adulthood",
-              "研究类型：干预研究。",
-              "核心摘要：The transition into post-secondary education or employment presents significant challenges for youth with high-incidence disabilities affecting learning, most commonly learning disabilities and attention-deficit/hyperactivity disorder."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Isabelle Archambault , PhD：Véronique Dupéré, École de Psychoéducation, Université de Montréal, Local C-422, Pavillon Marie-Victorin, 90 Avenue Vincent D’Indy, Montréal, Québec, Canada H2V 2S9.",
-              "Transition Out of Compulsory Schooling and Into Education or Employment：The transition out of compulsory schooling is a significant developmental milestone for youth and involves important decisions, one such decision typically being whether to pursue continued education (e.g., college, voc…",
-              "Youth With Learning-Related Disabilities：These trends toward higher educational expectations and attainment pose challenges for youth with high-incidence disabilities, a term used to denote disabilities found among students in the education system typically in…",
-              "Learning-Related Disabilities, Compulsory Schooling, and Post-Secondary Education：Even with the implementation of IEPs, most students with high-incidence learning-related disabilities continue to experience academic delays and difficulties both during and out of compulsory schooling ( Grigorenko et a…",
-              "High-Incidence Disabilities and Participation in Employment：As an alternative to post-secondary education, many young people with high-incidence disabilities seek rapid entry into the workforce after high school ( Murray et al., 2021 )."
-            ]
-          }
-        ],
-        "key_findings": "The transition into post-secondary education or employment presents significant challenges for youth with high-incidence disabilities affecting learning, most commonly learning disabilities and attention-deficit/hyperac…",
-        "research_method": "从全文结构看，文章按 Isabelle Archambault , PhD、Transition Out of Compulsory Schooling and Into Education or Employment、Youth With Learning-Related Disabilities、Learning-Related Disabilities, Compulsory Schooling, and Post-Secondary Education 展开。",
-        "practical_significance": "This study sheds light on the continued challenges that youth with learning-related disabilities face during and after compulsory schooling, as even with the implementation of an IEP, many continue to face disadvantages…",
-        "strategy_points": [
-          "Isabelle Archambault , PhD：Véronique Dupéré, École de Psychoéducation, Université de Montréal, Local C-422, Pavillon Marie-Victorin, 90 Avenue Vincent D’Indy, Montréal, Québec, Canada H2V 2S9.",
-          "Transition Out of Compulsory Schooling and Into Education or Employment：The transition out of compulsory schooling is a significant developmental milestone for youth and involves important decisions, one such decision typically being whether to pursue continued education (e.g., college, voc…",
-          "Youth With Learning-Related Disabilities：These trends toward higher educational expectations and attainment pose challenges for youth with high-incidence disabilities, a term used to denote disabilities found among students in the education system typically in…",
-          "Learning-Related Disabilities, Compulsory Schooling, and Post-Secondary Education：Even with the implementation of IEPs, most students with high-incidence learning-related disabilities continue to experience academic delays and difficulties both during and out of compulsory schooling ( Grigorenko et a…"
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
-        ]
-      }
     }
   }
 ]

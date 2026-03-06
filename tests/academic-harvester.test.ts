@@ -54,6 +54,49 @@ const pmcHtml = `
 </html>
 `;
 
+const publisherHtml = `
+<html>
+  <head>
+    <meta name="citation_title" content="Neurodiversity-affirming support in higher education">
+    <meta name="citation_journal_title" content="Journal of Inclusive Education">
+    <meta name="citation_publication_date" content="2026 Feb 28">
+    <meta name="citation_doi" content="10.1000/example-doi">
+    <meta name="citation_author" content="Alex Chen">
+    <meta name="citation_author" content="Rui Wang">
+    <meta name="citation_pdf_url" content="https://example.org/article.pdf">
+    <meta name="description" content="This article reviews practical support for neurodivergent students in higher education.">
+    <meta property="og:url" content="https://example.org/article">
+  </head>
+  <body>
+    <section class="abstract">
+      <p>This article reviews practical support for neurodivergent students in higher education.</p>
+    </section>
+    <h2>Methods</h2>
+    <p>We conducted a scoping review of accommodation, support, and inclusion studies.</p>
+    <h2>Implications for Practice</h2>
+    <p>Universities should improve accommodation processes, advising, and student-led support.</p>
+  </body>
+</html>
+`;
+
+const pubmedWithPublisherHtml = `
+<html>
+  <head>
+    <meta name="citation_title" content="Neurodiversity-affirming support in higher education">
+    <meta name="citation_journal_title" content="Journal of Inclusive Education">
+    <meta name="citation_doi" content="10.1000/example-doi">
+  </head>
+  <body>
+    <span class="identifier doi">
+      <a class="id-link usa-link--external" href="https://doi.org/10.1000/example-doi">10.1000/example-doi</a>
+    </span>
+    <div class="full-text-links-list">
+      <a href="https://example.org/article">Full text at publisher</a>
+    </div>
+  </body>
+</html>
+`;
+
 describe("academic harvester", () => {
   it("extracts the PMCID article url from a PubMed page", () => {
     expect(academicHarvesterInternals.extractPmcUrlFromPubMed(pubmedHtml)).toBe(
@@ -83,5 +126,23 @@ describe("academic harvester", () => {
     expect(result.title).toContain("Specific Learning Disabilities");
     expect(result.abstractText).toContain("science and practice of psychology");
     expect(result.authors).toEqual(["Elena L Grigorenko", "Donald Compton"]);
+  });
+
+  it("extracts publisher full text and DOI links from PubMed HTML", () => {
+    const links = academicHarvesterInternals.extractFullTextUrlsFromPubMed(pubmedWithPublisherHtml);
+    expect(links.map((link) => link.href)).toContain("https://example.org/article");
+    expect(links.map((link) => link.href)).toContain("https://doi.org/10.1000/example-doi");
+  });
+
+  it("parses a publisher article page into structured academic fields", () => {
+    const result = academicHarvesterInternals.parseGenericAcademicDocument(
+      publisherHtml,
+      "https://example.org/article",
+    );
+    expect(result.title).toBe("Neurodiversity-affirming support in higher education");
+    expect(result.journal).toBe("Journal of Inclusive Education");
+    expect(result.authors).toEqual(["Alex Chen", "Rui Wang"]);
+    expect(result.articleUrl).toBe("https://example.org/article");
+    expect(result.sectionSummaries).toHaveLength(2);
   });
 });

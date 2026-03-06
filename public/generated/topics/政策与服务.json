@@ -1,37 +1,37 @@
 [
   {
-    "id": "page-ncld",
-    "source_name": "NCLD",
+    "id": "page-nimh",
+    "source_name": "NIMH",
     "source_type": "official",
     "source_region": "美国",
-    "source_url": "https://www.ncld.org/",
-    "canonical_url": "https://www.ncld.org/",
-    "title_original": "National Center for Learning Disabilities",
-    "title_zh": "NCLD 资源入口",
-    "summary_original": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
-    "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
-    "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "source_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+    "canonical_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+    "title_original": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+    "title_zh": "NIMH 资源入口",
+    "summary_original": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
+    "summary_zh": "ADHD 与相关精神健康主题的官方科普与治疗信息。适合通过 NIMH 进一步进入该主题的权威信息。",
+    "excerpt": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:13.290Z",
+    "published_at": "2026-03-06T16:37:39.946Z",
     "content_type": "directory",
     "topics": [
-      "学习困难",
+      "ADHD",
+      "自闭症",
       "神经多样性",
-      "职场",
-      "政策与服务",
-      "共病与支持需求"
+      "政策与服务"
     ],
     "audiences": [
       "family",
-      "educator",
-      "self-advocate"
+      "self-advocate",
+      "clinician"
     ],
     "conditions": [
-      "learning-difficulties"
+      "adhd",
+      "autism"
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:13.290Z",
+    "ingested_at": "2026-03-06T16:37:39.946Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -53,7 +53,7 @@
     "summary_zh": "英国自闭症支持、权利倡导与实务信息。适合通过 National Autistic Society 进一步进入该主题的权威信息。",
     "excerpt": "We are the UKs leading charity for autistic people and their families. Since 1962, we have been providing support, guidance and advice, as well as campaigning for improved rights, services and opportunities to help create a society that works for autistic people.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:12.496Z",
+    "published_at": "2026-03-06T16:37:36.787Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -74,12 +74,53 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:12.496Z",
+    "ingested_at": "2026-03-06T16:37:36.788Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
         "英国"
+      ]
+    }
+  },
+  {
+    "id": "page-ncld",
+    "source_name": "NCLD",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.ncld.org/",
+    "canonical_url": "https://www.ncld.org/",
+    "title_original": "National Center for Learning Disabilities",
+    "title_zh": "NCLD 资源入口",
+    "summary_original": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "summary_zh": "学习困难、学校支持、政策倡导。适合通过 NCLD 进一步进入该主题的权威信息。",
+    "excerpt": "Working to improve the lives of the 1 in 5 children and adults nationwide with learning and attention issues.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T16:37:36.560Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "神经多样性",
+      "职场",
+      "政策与服务",
+      "共病与支持需求"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "self-advocate"
+    ],
+    "conditions": [
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T16:37:36.560Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
       ]
     }
   },
@@ -96,7 +137,7 @@
     "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
     "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:11.818Z",
+    "published_at": "2026-03-06T16:37:36.464Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -119,48 +160,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:11.818Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "美国"
-      ]
-    }
-  },
-  {
-    "id": "page-nimh",
-    "source_name": "NIMH",
-    "source_type": "official",
-    "source_region": "美国",
-    "source_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
-    "canonical_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
-    "title_original": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
-    "title_zh": "NIMH 资源入口",
-    "summary_original": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
-    "summary_zh": "ADHD 与相关精神健康主题的官方科普与治疗信息。适合通过 NIMH 进一步进入该主题的权威信息。",
-    "excerpt": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T15:39:11.443Z",
-    "content_type": "directory",
-    "topics": [
-      "ADHD",
-      "自闭症",
-      "神经多样性",
-      "政策与服务"
-    ],
-    "audiences": [
-      "family",
-      "self-advocate",
-      "clinician"
-    ],
-    "conditions": [
-      "adhd",
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:11.443Z",
+    "ingested_at": "2026-03-06T16:37:36.464Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -182,7 +182,7 @@
     "summary_zh": "指南、综述和临床证据检索。适合通过 TRIP Database 进一步进入该主题的权威信息。",
     "excerpt": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:10.941Z",
+    "published_at": "2026-03-06T16:37:36.217Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -202,7 +202,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:10.941Z",
+    "ingested_at": "2026-03-06T16:37:36.217Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -224,7 +224,7 @@
     "summary_zh": "自闭症工具包、服务目录与家庭资源入口。适合通过 Autism Speaks 进一步进入该主题的权威信息。",
     "excerpt": "自闭症工具包、服务目录与家庭资源入口",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:10.449Z",
+    "published_at": "2026-03-06T16:37:35.903Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
@@ -241,7 +241,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:10.449Z",
+    "ingested_at": "2026-03-06T16:37:35.903Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -281,7 +281,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.433Z",
+    "ingested_at": "2026-03-06T16:37:41.078Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -322,104 +322,13 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.925Z",
+    "ingested_at": "2026-03-06T16:37:41.240Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "childmind-feed"
       ]
-    }
-  },
-  {
-    "id": "academic-autism-2026-41778339",
-    "source_name": "Australian Occupational Therapy Journal",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12958095/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12958095/",
-    "title_original": "Understanding health services and puberty for autistic adolescents and those with disability: A scoping review to inform occupational therapy practice",
-    "title_zh": "研究：Understanding health services and puberty for autistic adolescents and those with disability: A scoping review to inform occupational therapy practice",
-    "summary_original": "Puberty is a transitional period presenting challenges for autistic adolescents, adolescents with disabilities and their families. There are opportunities for occupational therapy to provide support to this cohort as adolescents navigate the complexity of puberty transition. However, there is a lack of published evidence and knowledge translation to guide practice. It is important to scope the literature to gain understanding of the pubertal experiences of autistic adolescents, adolescents with a disability, their families and services accessed for support. The aim of this scoping review was to determine the current role and practice of health professionals supporting autistic adolescents and/or adolescents with disability and their families through puberty, to inform occupational therapy practice.",
-    "summary_zh": "基于学术全文自动解析：Puberty is a transitional period presenting challenges for autistic adolescents, adolescents with disabilitie…",
-    "excerpt": "Puberty is a transitional period presenting challenges for autistic adolescents, adolescents with disabilities and their families. There are opportunities for occupational therapy to provide support to this cohort as adolescents navigate the complexity of pub…",
-    "language": "en",
-    "published_at": "2026-03-03T16:00:00.000Z",
-    "content_type": "review",
-    "topics": [
-      "自闭症",
-      "教育",
-      "家庭支持",
-      "神经多样性",
-      "政策与服务"
-    ],
-    "audiences": [
-      "family",
-      "educator",
-      "researcher",
-      "clinician",
-      "employer"
-    ],
-    "conditions": [
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:39:04.770Z",
-    "metadata": {
-      "doi": "10.1111/1440-1630.70079",
-      "pmid": "41778339",
-      "authors": "Sarah Hausler; Kate Sargeant; Emma George",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12958095/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12958095/pdf/AOT-73-0.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "autism-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Understanding health services and puberty for autistic adolescents and those with disability: A scoping review to inform occupational therapy practice》",
-        "publication_info": "Australian Occupational Therapy Journal，2026/3/4",
-        "authors_display": "Sarah Hausler、Kate Sargeant、Emma George",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Understanding health services and puberty for autistic adolescents and those with disability: A scoping review to inform occupational therapy practice",
-              "研究类型：综述/系统回顾。",
-              "核心摘要：Puberty is a transitional period presenting challenges for autistic adolescents, adolescents with disabilities and their families."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Emma George：Correspondence , Sarah Hausler, University of Adelaide, North Terrace, Adelaide, South Australia 5005, Australia.",
-              "Introduction：Puberty is a transitional period presenting challenges for autistic adolescents, adolescents with disabilities and their families.",
-              "Methods：A scoping review was conducted following JBI protocols.",
-              "Consumer and Community Involvement：There was no direct consumer or community involvement within this scoping review.",
-              "Findings：After screening 795 articles, 90 full texts were reviewed, and 17 were retained."
-            ]
-          }
-        ],
-        "key_findings": "Puberty is a transitional period presenting challenges for autistic adolescents, adolescents with disabilities and their families.",
-        "research_method": "从全文结构看，文章按 Emma George、Introduction、Methods、Consumer and Community Involvement 展开。",
-        "practical_significance": "The aim of this scoping review was to answer the following question:",
-        "strategy_points": [
-          "Emma George：Correspondence , Sarah Hausler, University of Adelaide, North Terrace, Adelaide, South Australia 5005, Australia.",
-          "Introduction：Puberty is a transitional period presenting challenges for autistic adolescents, adolescents with disabilities and their families.",
-          "Methods：A scoping review was conducted following JBI protocols.",
-          "Consumer and Community Involvement：There was no direct consumer or community involvement within this scoping review."
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
-        ]
-      }
     }
   },
   {
@@ -456,7 +365,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:36:48.166Z",
+    "ingested_at": "2026-03-06T16:37:10.594Z",
     "metadata": {
       "doi": "10.1136/bmjopen-2025-103303",
       "pmid": "41775479",
@@ -544,291 +453,13 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.433Z",
+    "ingested_at": "2026-03-06T16:37:41.079Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "ncld-feed"
       ]
-    }
-  },
-  {
-    "id": "academic-adhd-2026-41364631",
-    "source_name": "Epidemiology (Cambridge, Mass.)",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12824883/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12824883/",
-    "title_original": "Effect of School Reopenings on Children’s Mental Health during COVID-19: Quasi-Experimental Evidence from California",
-    "title_zh": "研究：Effect of School Reopenings on Children’s Mental Health during COVID-19: Quasi-Experimental Evidence from California",
-    "summary_original": "School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to mental health resources, raising concerns about long-term effects on childrens’ mental health. The objective was to evaluate impacts of pandemic-era school reopenings on children’s mental health and healthcare expenditures. Variation in timing of school reopenings created a unique quasi-experiment.",
-    "summary_zh": "基于学术全文自动解析：School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to men…",
-    "excerpt": "School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to mental health resources, raising concerns about long-term effects on childrens’ mental health. The objective was to evaluate impacts of pandemic-era scho…",
-    "language": "en",
-    "published_at": "2026-01-28T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "ADHD",
-      "教育",
-      "职场",
-      "神经多样性",
-      "政策与服务"
-    ],
-    "audiences": [
-      "self-advocate",
-      "educator",
-      "researcher",
-      "family",
-      "employer",
-      "clinician"
-    ],
-    "conditions": [
-      "adhd"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:39:05.138Z",
-    "metadata": {
-      "doi": "10.1097/EDE.0000000000001930",
-      "pmid": "41364631",
-      "authors": "Pelin Ozluk; Jeff Romine; Gosia Sylwestrzak; Rita Hamad",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12824883/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12824883/pdf/nihms-2132247.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "adhd-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Effect of School Reopenings on Children’s Mental Health during COVID-19: Quasi-Experimental Evidence from California》",
-        "publication_info": "Epidemiology (Cambridge, Mass.)，2026/1/29",
-        "authors_display": "Pelin Ozluk、Jeff Romine、Gosia Sylwestrzak、Rita Hamad",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Effect of School Reopenings on Children’s Mental Health during COVID-19: Quasi-Experimental Evidence from California",
-              "研究类型：学术研究。",
-              "核心摘要：School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to mental health resources, raising concerns about long-term effects on childrens’ mental health."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Rita Hamad：Address correspondence to: Pelin Ozluk, 1950 Lake Park Dr, Smyrna, GA 30080, [ pelinozluk@gmail.com ]",
-              "Background:：School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to mental health resources, raising concerns about long-term effects on childrens’ mental health.",
-              "Methods:：We used difference-in-differences analysis to examine how staggered implementation of school reopenings affected diagnoses with depression, anxiety, and attention-deficit/hyperactivity disorder, and related healthcare s…",
-              "Results:：School reopening was associated with a 1.2%-point drop in monthly prevalence of mental health diagnoses (95% CI: −1.59, −0.74), and a 10.6% (95%CI: −13.4%, −7.8%) drop in related healthcare spending.",
-              "Conclusions:：In-person learning is an important component of children’s mental health."
-            ]
-          }
-        ],
-        "key_findings": "School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to mental health resources, raising concerns about long-term effects on childrens’ mental health.",
-        "research_method": "从全文结构看，文章按 Rita Hamad、Background:、Methods:、Results: 展开。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "Rita Hamad：Address correspondence to: Pelin Ozluk, 1950 Lake Park Dr, Smyrna, GA 30080, [ pelinozluk@gmail.com ]",
-          "Background:：School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to mental health resources, raising concerns about long-term effects on childrens’ mental health.",
-          "Methods:：We used difference-in-differences analysis to examine how staggered implementation of school reopenings affected diagnoses with depression, anxiety, and attention-deficit/hyperactivity disorder, and related healthcare s…",
-          "Results:：School reopening was associated with a 1.2%-point drop in monthly prevalence of mental health diagnoses (95% CI: −1.59, −0.74), and a 10.6% (95%CI: −13.4%, −7.8%) drop in related healthcare spending."
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
-        ]
-      }
-    }
-  },
-  {
-    "id": "academic-autism-2026-41587561",
-    "source_name": "Autism",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923633/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923633/",
-    "title_original": "Community views on the assessment and diagnosis of autism: Principles to guide clinical practice",
-    "title_zh": "研究：Community views on the assessment and diagnosis of autism: Principles to guide clinical practice",
-    "summary_original": "This study aimed to identify guiding principles to underpin assessment and diagnosis of autism to improve the quality, consistency and accuracy of services provided to individuals and their families. An online survey and focus groups were used to capture community perspectives of members of the Australian autistic and autism communities. A total of 871 individuals participated across the research activities, including autistic individuals ( n = 253), parents of autistic individuals ( n = 344), practitioners ( n = 325) and members of organisations with an interest in the assessment and/or diagnosis of autism ( n = 115). Three overarching themes, encompassing 15 codes, representing the principles that should underpin practice across the assessment and diagnostic process were developed (a) placing the person at the centre of the process; (b) understanding and valuing the whole person and (c) improving quality and access. Assessment and diagnosis for autism should go beyond diagnostic decision-making to include understanding of individual needs and identifying support pathways. The principles identified serve as a first step to guiding practitioners in their approach, ensuring they work in ways that promote best practice, reflect the perspectives of autistic people and engender meaningful outcomes for individuals and families that are independent of receiving a diagnostic label.",
-    "summary_zh": "基于学术全文自动解析：This study aimed to identify guiding principles to underpin assessment and diagnosis of autism to improve the…",
-    "excerpt": "This study aimed to identify guiding principles to underpin assessment and diagnosis of autism to improve the quality, consistency and accuracy of services provided to individuals and their families. An online survey and focus groups were used to capture comm…",
-    "language": "en",
-    "published_at": "2026-01-25T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "自闭症",
-      "教育",
-      "家庭支持",
-      "神经多样性",
-      "职场",
-      "政策与服务"
-    ],
-    "audiences": [
-      "family",
-      "educator",
-      "researcher",
-      "clinician",
-      "employer"
-    ],
-    "conditions": [
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:39:04.770Z",
-    "metadata": {
-      "doi": "10.1177/13623613251406094",
-      "pmid": "41587561",
-      "authors": "Rhylee Sulek; Rachelle Wicks; Emma Hinze; Nicole Dargue; Briohny Dempsey; Emma Goodall; Libby Groves; David Trembath; Hannah Waddington; Andrew JO Whitehouse; Kandice J Varcin",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923633/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923633/pdf/10.1177_13623613251406094.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "autism-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Community views on the assessment and diagnosis of autism: Principles to guide clinical practice》",
-        "publication_info": "Autism，2026/1/26",
-        "authors_display": "Rhylee Sulek、Rachelle Wicks、Emma Hinze、Nicole Dargue、Briohny Dempsey、Emma Goodall",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Community views on the assessment and diagnosis of autism: Principles to guide clinical practice",
-              "研究类型：横断面调查。",
-              "核心摘要：This study aimed to identify guiding principles to underpin assessment and diagnosis of autism to improve the quality, consistency and accuracy of services provided to individuals and their families."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Kandice J Varcin：Rhylee Sulek, The Kids Research Institute Australia, Subiaco, WA, 6008.",
-              "Lay Abstract：This study looked to identify principles of practice that could help make autism assessments and diagnoses better for autistic people and their families.",
-              "Design：A qualitative approach employing an online survey and focus groups and the Framework method of analysis ( Gale et al., 2013 ) was used to explore community experiences, views and perspectives regarding the autism assess…",
-              "Participants：Participants were recruited primarily through an email distributed via the mailing list ( n = 25,432 recipients) of the organisation that commissioned the research (Autism CRC), with advertisements also shared on social…",
-              "Measures：The survey was developed to capture the experiences, views and preferences of members of the autistic and autism communities with an interest in the assessment and/or diagnosis of autism."
-            ]
-          }
-        ],
-        "key_findings": "This study aimed to identify guiding principles to underpin assessment and diagnosis of autism to improve the quality, consistency and accuracy of services provided to individuals and their families.",
-        "research_method": "从全文结构看，文章按 Kandice J Varcin、Lay Abstract、Design、Participants 展开。",
-        "practical_significance": "The strengths of this study lie in its large sample size and recruitment of a diverse range of stakeholders from both the autistic and autism communities.",
-        "strategy_points": [
-          "Kandice J Varcin：Rhylee Sulek, The Kids Research Institute Australia, Subiaco, WA, 6008.",
-          "Lay Abstract：This study looked to identify principles of practice that could help make autism assessments and diagnoses better for autistic people and their families.",
-          "Design：A qualitative approach employing an online survey and focus groups and the Framework method of analysis ( Gale et al., 2013 ) was used to explore community experiences, views and perspectives regarding the autism assess…",
-          "Participants：Participants were recruited primarily through an email distributed via the mailing list ( n = 25,432 recipients) of the organisation that commissioned the research (Autism CRC), with advertisements also shared on social…"
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
-        ]
-      }
-    }
-  },
-  {
-    "id": "academic-autism-2026-41474110",
-    "source_name": "Autism",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923634/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923634/",
-    "title_original": "Thinking flexibly: A cognitive remediation therapy–informed intervention for autistic youth",
-    "title_zh": "研究：Thinking flexibly: A cognitive remediation therapy–informed intervention for autistic youth",
-    "summary_original": "Autistic people are known to demonstrate greater difficulties with cognitive flexibility. These difficulties are associated with a range of poor outcomes, including elevated rates of anxiety and depression. Current intervention approaches fail to account for these specific mechanisms. In this study, we address this by piloting a new intervention which aims to specifically target cognitive inflexibility. The ‘Thinking Flexibly’ intervention has been co-designed with autistic youth based on previous work, including cognitive remediation therapy. Twenty autistic adolescents were recruited from clinical services and offered the eight-session intervention. Acceptability was assessed through participant drop-out and session completion. Participants (and their parents) also completed questionnaire measures of cognitive inflexibility, anxiety, depression and functional outcomes before and after the intervention. Our results indicated good acceptability with 19/20 participants completing the intervention and session attendance was high, with a single missed session. We found significant increases in flexibility across both parent- and self-report of a moderate effect. Participants reported significant reductions in symptoms of anxiety and depression. We conclude that ‘Thinking Flexibly’ is acceptable for use with autistic adolescents and shows promise as a standalone or adjunct therapy. Changes on outcome measures are promising and warrant further investigation in a larger trial.",
-    "summary_zh": "基于学术全文自动解析：Autistic people are known to demonstrate greater difficulties with cognitive flexibility. These difficulties…",
-    "excerpt": "Autistic people are known to demonstrate greater difficulties with cognitive flexibility. These difficulties are associated with a range of poor outcomes, including elevated rates of anxiety and depression. Current intervention approaches fail to account for…",
-    "language": "en",
-    "published_at": "2025-12-30T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "自闭症",
-      "教育",
-      "家庭支持",
-      "神经多样性",
-      "职场",
-      "政策与服务",
-      "共病与支持需求"
-    ],
-    "audiences": [
-      "family",
-      "educator",
-      "researcher",
-      "clinician",
-      "self-advocate",
-      "employer"
-    ],
-    "conditions": [
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:39:04.770Z",
-    "metadata": {
-      "doi": "10.1177/13623613251407294",
-      "pmid": "41474110",
-      "authors": "Jasmin Dipre; Lauren Burton; Kate Tchanturia; Matthew J Hollocks",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923634/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12923634/pdf/10.1177_13623613251407294.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "autism-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Thinking flexibly: A cognitive remediation therapy–informed intervention for autistic youth》",
-        "publication_info": "Autism，2025/12/31",
-        "authors_display": "Jasmin Dipre、Lauren Burton、Kate Tchanturia、Matthew J Hollocks",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Thinking flexibly: A cognitive remediation therapy–informed intervention for autistic youth",
-              "研究类型：干预研究。",
-              "核心摘要：Autistic people are known to demonstrate greater difficulties with cognitive flexibility."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Matthew J Hollocks：Matthew J Hollocks, Department of Child & Adolescent Psychiatry, King’s College London, 16 De Crespigny Park, London SE5 8AB, UK.",
-              "Lay abstract：Autistic people often have greater difficulties with flexible thinking when compared to those without autism.",
-              "Introduction：Autistic young people are at disproportionate risk for having co-occurring mental health difficulties.",
-              "Participants：Twenty autistic youth (mean age = 14 years 3 months; range = 12 years 2 months–16 years 5 months) were recruited from child and adolescent mental health services in South London.",
-              "Design：This was a single-arm intervention design."
-            ]
-          }
-        ],
-        "key_findings": "Autistic people are known to demonstrate greater difficulties with cognitive flexibility.",
-        "research_method": "从全文结构看，文章按 Matthew J Hollocks、Lay abstract、Introduction、Participants 展开。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "Matthew J Hollocks：Matthew J Hollocks, Department of Child & Adolescent Psychiatry, King’s College London, 16 De Crespigny Park, London SE5 8AB, UK.",
-          "Lay abstract：Autistic people often have greater difficulties with flexible thinking when compared to those without autism.",
-          "Introduction：Autistic young people are at disproportionate risk for having co-occurring mental health difficulties.",
-          "Participants：Twenty autistic youth (mean age = 14 years 3 months; range = 12 years 2 months–16 years 5 months) were recruited from child and adolescent mental health services in South London."
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
-        ]
-      }
     }
   },
   {
@@ -861,7 +492,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:10.979Z",
+    "ingested_at": "2026-03-06T16:37:36.300Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -904,7 +535,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:12.222Z",
+    "ingested_at": "2026-03-06T16:37:38.075Z",
     "metadata": {
       "credibility": "high",
       "tags": [

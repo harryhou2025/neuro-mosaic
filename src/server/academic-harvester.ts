@@ -30,10 +30,16 @@ type ParsedAcademicDocument = {
   parsedFrom: "html" | "pdf";
 };
 
+type LinkCandidate = {
+  href: string;
+  label: string;
+};
+
 const academicSearchConfigs: AcademicSearchConfig[] = [
   {
     id: "autism-2026",
-    query: '((autism[Title/Abstract] OR autistic[Title/Abstract]) AND (support[Title/Abstract] OR education[Title/Abstract] OR school[Title/Abstract] OR intervention[Title/Abstract] OR family[Title/Abstract]))',
+    query:
+      '((autism[Title/Abstract] OR autistic[Title/Abstract]) AND (support[Title/Abstract] OR education[Title/Abstract] OR school[Title/Abstract] OR intervention[Title/Abstract] OR family[Title/Abstract] OR assessment[Title/Abstract] OR diagnosis[Title/Abstract] OR "quality of life"[Title/Abstract]))',
     defaultTopics: ["自闭症", "教育", "家庭支持"],
     defaultAudiences: ["family", "educator", "researcher", "clinician"],
     defaultConditions: ["autism"],
@@ -41,7 +47,8 @@ const academicSearchConfigs: AcademicSearchConfig[] = [
   },
   {
     id: "adhd-2026",
-    query: '((ADHD[Title/Abstract] OR "attention-deficit/hyperactivity disorder"[Title/Abstract]) AND (support[Title/Abstract] OR education[Title/Abstract] OR school[Title/Abstract] OR workplace[Title/Abstract] OR intervention[Title/Abstract]))',
+    query:
+      '((ADHD[Title/Abstract] OR "attention-deficit/hyperactivity disorder"[Title/Abstract]) AND (support[Title/Abstract] OR education[Title/Abstract] OR school[Title/Abstract] OR workplace[Title/Abstract] OR intervention[Title/Abstract] OR classroom[Title/Abstract] OR family[Title/Abstract] OR accommodation[Title/Abstract]))',
     defaultTopics: ["ADHD", "教育", "职场"],
     defaultAudiences: ["self-advocate", "educator", "researcher", "family", "employer"],
     defaultConditions: ["adhd"],
@@ -49,7 +56,8 @@ const academicSearchConfigs: AcademicSearchConfig[] = [
   },
   {
     id: "learning-difficulties-2026",
-    query: '(("learning disability"[Title/Abstract] OR dyslexia[Title/Abstract] OR "specific learning disorder"[Title/Abstract]) AND (support[Title/Abstract] OR education[Title/Abstract] OR school[Title/Abstract] OR intervention[Title/Abstract]))',
+    query:
+      '(("learning disability"[Title/Abstract] OR dyslexia[Title/Abstract] OR "specific learning disorder"[Title/Abstract]) AND (support[Title/Abstract] OR education[Title/Abstract] OR school[Title/Abstract] OR intervention[Title/Abstract] OR assessment[Title/Abstract] OR classroom[Title/Abstract] OR employment[Title/Abstract]))',
     defaultTopics: ["学习困难", "教育", "家庭支持"],
     defaultAudiences: ["family", "educator", "researcher", "clinician"],
     defaultConditions: ["learning-difficulties"],
@@ -57,7 +65,8 @@ const academicSearchConfigs: AcademicSearchConfig[] = [
   },
   {
     id: "neurodiversity-2026",
-    query: '((neurodiversity[Title/Abstract] OR neurodivergent[Title/Abstract]) AND (support[Title/Abstract] OR higher education[Title/Abstract] OR workplace[Title/Abstract] OR inclusion[Title/Abstract]))',
+    query:
+      '((neurodiversity[Title/Abstract] OR neurodivergent[Title/Abstract]) AND (support[Title/Abstract] OR "higher education"[Title/Abstract] OR workplace[Title/Abstract] OR inclusion[Title/Abstract] OR accommodation[Title/Abstract] OR employment[Title/Abstract]))',
     defaultTopics: ["神经多样性", "教育", "职场"],
     defaultAudiences: ["self-advocate", "educator", "researcher", "employer"],
     defaultConditions: ["neurodiversity", "adhd", "autism"],
@@ -184,27 +193,40 @@ function deriveContentType(title: string, abstractText: string): ContentItem["co
   return "research";
 }
 
-function getHubRelevanceScore(title: string, abstractText: string): number {
-  const text = `${title} ${abstractText}`.toLowerCase();
-  let score = 0;
-
-  for (const pattern of [/support/, /education/, /school/, /teacher/, /family/, /intervention/, /practice/, /assessment/, /workplace/, /review/, /therapy/]) {
-    if (pattern.test(text)) {
-      score += 2;
-    }
+function getHubRelevanceScore(document: ParsedAcademicDocument): number {
+  const text = `${document.title} ${document.abstractText}`.toLowerCase();
+  const hasCoreTopic =
+    /autism|autistic|adhd|attention-deficit|neurodiversity|neurodivergent|dyslexia|learning disabilit|specific learning disorder/.test(
+      text,
+    );
+  const hasStrongBiomedicalSignal =
+    /gene|genomic|molecular|receptor|mouse|rat\b|biomarker|neuroimaging|protein|cellular|mendelian randomization|air pollution/.test(
+      text,
+    );
+  if (!hasCoreTopic || hasStrongBiomedicalSignal) {
+    return -100;
   }
 
-  for (const pattern of [/gene/, /molecular/, /receptor/, /mouse/, /rat\b/, /prenatal exposure/, /biomarker/, /neuroimaging/, /protein/, /cellular/]) {
+  let score = 0;
+  const scoringPatterns: Array<[RegExp, number]> = [
+    [/support|supported|supporting/, 3],
+    [/education|educat|school|classroom|teacher/, 3],
+    [/family|parent|caregiver|sibling/, 3],
+    [/workplace|employment|accommodation/, 3],
+    [/assessment|diagnos|screening/, 2],
+    [/intervention|therapy|treatment|training|trial/, 2],
+    [/quality of life|wellbeing|lived experience/, 2],
+    [/review|scoping review|systematic review|meta-analysis/, 2],
+    [/adolescent|adult|youth|student/, 1],
+  ];
+
+  for (const [pattern, points] of scoringPatterns) {
     if (pattern.test(text)) {
-      score -= 3;
+      score += points;
     }
   }
 
   return score;
-}
-
-function isUsefulForHub(document: ParsedAcademicDocument): boolean {
-  return getHubRelevanceScore(document.title, document.abstractText) >= 3;
 }
 
 function buildChinaInsights(item: ContentItem): string[] {
@@ -291,6 +313,40 @@ function parseSectionSummaries(html: string): Array<{ title: string; summary: st
   return summaries;
 }
 
+function parseGenericAcademicDocument(html: string, articleUrl: string): ParsedAcademicDocument {
+  const meta = parseMetaTags(html);
+  const abstractText =
+    stripTags((html.match(/<(section|div)[^>]+(?:abstract|summary)[^>]*>[\s\S]*?<p[^>]*>([\s\S]*?)<\/p>/i) ?? [])[2] ?? "") ||
+    stripTags((html.match(/<meta[^>]+name=["']dc\.description["'][^>]+content=["']([^"]*?)["']/i) ?? [])[1] ?? "") ||
+    getMetaValue(meta, "description", "og:description", "dc.description");
+  const sectionSummaries = parseSectionSummaries(html);
+  const canonicalUrl = getMetaValue(meta, "citation_fulltext_html_url", "citation_abstract_html_url", "og:url") || articleUrl;
+  const conclusion =
+    sectionSummaries.find((section) => /conclusion|discussion|implications|practice/i.test(section.title))?.summary ||
+    firstMeaningfulSentence(abstractText, 220);
+
+  return {
+    title: getMetaValue(meta, "citation_title", "og:title", "dc.title"),
+    journal: getMetaValue(meta, "citation_journal_title", "citation_publisher", "og:site_name", "dc.source"),
+    publicationDate: normalizeDate(
+      getMetaValue(meta, "citation_publication_date", "citation_online_date", "article:published_time") || new Date().toISOString(),
+    ),
+    doi: getMetaValue(meta, "citation_doi") || undefined,
+    pmid: getMetaValue(meta, "citation_pmid") || undefined,
+    authors: getMetaValues(meta, "citation_author"),
+    articleUrl: canonicalUrl,
+    pdfUrl: getMetaValue(meta, "citation_pdf_url") || undefined,
+    abstractText,
+    sectionSummaries,
+    methodsText:
+      sectionSummaries.find((section) => /method|design|materials|participants/i.test(section.title))?.summary || undefined,
+    implicationsText:
+      sectionSummaries.find((section) => /implication|practice|clinical|education/i.test(section.title))?.summary || undefined,
+    conclusionText: conclusion,
+    parsedFrom: "html",
+  };
+}
+
 function extractPmcDocument(html: string, articleUrl: string): ParsedAcademicDocument {
   const meta = parseMetaTags(html);
   const abstractText =
@@ -348,6 +404,44 @@ function extractPmcUrlFromPubMed(html: string): string | null {
 
   const fallback = html.match(/https:\/\/pmc\.ncbi\.nlm\.nih\.gov\/articles\/PMC\d+\/?/i);
   return fallback?.[0] ?? null;
+}
+
+function extractFullTextUrlsFromPubMed(html: string): LinkCandidate[] {
+  const matches = Array.from(
+    html.matchAll(/<a[^>]+href="(https?:\/\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/gi),
+  );
+  const links = matches
+    .map((match) => ({
+      href: decodeEntities(match[1]).trim(),
+      label: stripTags(match[2]),
+    }))
+    .filter((link) => /^https?:\/\//.test(link.href))
+    .filter((link) => !/pmc\.ncbi\.nlm\.nih\.gov\/articles\//i.test(link.href))
+    .filter((link) => !/pubmed\.ncbi\.nlm\.nih\.gov\//i.test(link.href))
+    .filter(
+      (link) =>
+        /doi\.org|full text|full article|publisher|article|journal|science direct|springer|wiley|sage|tandfonline|oup|nature|frontiers|biomedcentral|mdpi/i.test(
+          `${link.href} ${link.label}`,
+        ),
+    );
+
+  const unique = new Map<string, LinkCandidate>();
+  for (const link of links) {
+    if (!unique.has(link.href)) {
+      unique.set(link.href, link);
+    }
+  }
+  return Array.from(unique.values());
+}
+
+function scoreParsedDocument(document: ParsedAcademicDocument): number {
+  return (
+    document.sectionSummaries.length * 3 +
+    Math.min(document.authors.length, 5) +
+    (document.abstractText.length > 120 ? 3 : 0) +
+    (document.pdfUrl ? 1 : 0) +
+    (document.journal ? 1 : 0)
+  );
 }
 
 async function fetchText(url: string): Promise<string> {
@@ -497,10 +591,34 @@ export async function enrichAcademicItem(item: ContentItem): Promise<ContentItem
 
     if (/pubmed\.ncbi\.nlm\.nih\.gov\//.test(url)) {
       const pmcUrl = extractPmcUrlFromPubMed(landingHtml);
+      const publisherUrls = extractFullTextUrlsFromPubMed(landingHtml);
+      const doiUrl = document.doi ? { href: `https://doi.org/${document.doi}`, label: "DOI" } : null;
+      const candidates: Array<{ href: string; kind: "pmc" | "publisher" }> = [];
       if (pmcUrl) {
-        const pmcHtml = await fetchText(pmcUrl);
-        document = extractPmcDocument(pmcHtml, pmcUrl);
+        candidates.push({ href: pmcUrl, kind: "pmc" });
       }
+      candidates.push(...publisherUrls.map((link) => ({ href: link.href, kind: "publisher" as const })));
+      if (doiUrl) {
+        candidates.push({ href: doiUrl.href, kind: "publisher" });
+      }
+
+      let bestDocument = document;
+
+      for (const candidate of candidates) {
+        try {
+          const candidateHtml = await fetchText(candidate.href);
+          const parsed =
+            candidate.kind === "pmc"
+              ? extractPmcDocument(candidateHtml, candidate.href)
+              : parseGenericAcademicDocument(candidateHtml, candidate.href);
+          if (scoreParsedDocument(parsed) > scoreParsedDocument(bestDocument)) {
+            bestDocument = parsed;
+          }
+        } catch {
+          continue;
+        }
+      }
+      document = bestDocument;
     }
 
     const pdfText = document.pdfUrl ? await tryExtractPdfText(document.pdfUrl) : null;
@@ -543,29 +661,37 @@ const enriched = await Promise.all(seededItems.map((item) => enrichAcademicItem(
     .filter(
       (item) =>
         Boolean(item.metadata.analysis?.content_sections?.length || item.metadata.analysis?.key_findings) &&
-        item.source_url.includes("pmc.ncbi.nlm.nih.gov/articles/") &&
-        isUsefulForHub({
-          title: item.title_original,
-          journal: item.source_name,
-          publicationDate: item.published_at,
-          doi: item.metadata.doi,
-          pmid: item.metadata.pmid,
-          authors: item.metadata.authors?.split(";").map((author) => author.trim()).filter(Boolean) ?? [],
-          articleUrl: item.source_url,
-          pdfUrl: item.metadata.pdf_url,
-          abstractText: item.summary_original,
-          sectionSummaries: [],
-          parsedFrom: "html",
-        }),
+        new Date(item.published_at).getUTCFullYear() === new Date().getUTCFullYear(),
     )
-    .sort((a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime())
+    .map((item) => ({
+      item,
+      score: getHubRelevanceScore({
+        title: item.title_original,
+        journal: item.source_name,
+        publicationDate: item.published_at,
+        doi: item.metadata.doi,
+        pmid: item.metadata.pmid,
+        authors: item.metadata.authors?.split(";").map((author) => author.trim()).filter(Boolean) ?? [],
+        articleUrl: item.source_url,
+        pdfUrl: item.metadata.pdf_url,
+        abstractText: item.summary_original,
+        sectionSummaries: [],
+        parsedFrom: "html",
+      }),
+    }))
+    .filter((entry) => entry.score >= 0)
+    .sort((a, b) => b.score - a.score || new Date(b.item.published_at).getTime() - new Date(a.item.published_at).getTime())
+    .map((entry) => entry.item)
     .slice(0, 20);
 }
 
 export const academicHarvesterInternals = {
   extractPmcDocument,
+  parseGenericAcademicDocument,
   extractPubMedDocument,
   extractPmcUrlFromPubMed,
+  extractFullTextUrlsFromPubMed,
   parseSectionSummaries,
   parseMetaTags,
+  getHubRelevanceScore,
 };

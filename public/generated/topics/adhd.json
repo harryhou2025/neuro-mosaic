@@ -1,5 +1,119 @@
 [
   {
+    "id": "academic-adhd-2026-41558234",
+    "source_name": "Addictive behaviors",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41558234/",
+    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/41558234/",
+    "title_original": "ADHD symptoms and problematic digital media use in emerging adults: Investigating the role of cognitive deficits as mediators",
+    "title_zh": "研究：ADHD symptoms and problematic digital media use in emerging adults: Investigating the role of cognitive deficits as mediators",
+    "summary_original": "This study examined the relationship between ADHD symptoms and problematic social media use (PSMU) and problematic gaming (PG) in a community sample of emerging adults. Cognitive deficits underlying ADHD - inhibitory control deficits, reward sensitivity, and temporal processing deficits - were investigated as potential mechanisms linking ADHD symptoms to PSMU and PG. In a sample of 111 emerging adults (M age = 21.2, SD = 2.7; 84% female), ADHD symptoms, PSMU, and PG were assessed using self-report scales, while cognitive deficits were evaluated through both self-report scales and behavioural tasks. Parallel mediation analyses revealed significant positive direct effects between ADHD symptoms and both PSMU and PG, but found no significant mediating effects of the hypothesised mechanisms. Exploratory analyses suggested that inhibitory control and temporal processing deficits may play a role in linking hyperactivity/impulsivity symptoms to PSMU, and inhibitory control deficits emerged as a possible transdiagnostic factor for concurrent ADHD symptoms and PSMU. Nonetheless, the main analyses did not support mediation by cognitive deficits, indicating no evidence that they explained the associations between ADHD symptoms and problematic digital media use. Future research may explore such prospective mechanisms in longitudinal designs with representative samples to inform interventions which may reduce problematic digital media use in individuals with elevated ADHD symptoms.",
+    "summary_zh": "基于学术全文自动解析：This study examined the relationship between ADHD symptoms and problematic social media use (PSMU) and proble…",
+    "excerpt": "This study examined the relationship between ADHD symptoms and problematic social media use (PSMU) and problematic gaming (PG) in a community sample of emerging adults. Cognitive deficits underlying ADHD - inhibitory control deficits, reward sensitivity, and…",
+    "language": "en",
+    "published_at": "2026-03-31T16:00:00.000Z",
+    "content_type": "research",
+    "topics": [
+      "ADHD",
+      "教育",
+      "职场",
+      "神经多样性"
+    ],
+    "audiences": [
+      "self-advocate",
+      "educator",
+      "researcher",
+      "family",
+      "employer",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T16:37:10.988Z",
+    "metadata": {
+      "doi": "10.1016/j.addbeh.2026.108608",
+      "pmid": "41558234",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/41558234/",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "adhd-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：ADHD symptoms and problematic digital media use in emerging adults: Investigating the role of cognitive deficits as mediators》",
+        "publication_info": "Addictive behaviors，2026/4/1",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：ADHD symptoms and problematic digital media use in emerging adults: Investigating the role of cognitive deficits as mediators",
+              "研究类型：干预研究。",
+              "核心摘要：This study examined the relationship between ADHD symptoms and problematic social media use (PSMU) and problematic gaming (PG) in a community sample of emerging adults."
+            ]
+          }
+        ],
+        "key_findings": "This study examined the relationship between ADHD symptoms and problematic social media use (PSMU) and problematic gaming (PG) in a community sample of emerging adults.",
+        "research_method": "基于 干预研究 自动识别。当前优先使用 PMC 全文页 中可获取的摘要与章节结构。",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
+        "strategy_points": [],
+        "conclusion": "This study examined the relationship between ADHD symptoms and problematic social media use (PSMU) and problematic gaming (PG) in a community sample of emerging adults.",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
+        ]
+      }
+    }
+  },
+  {
+    "id": "page-nimh",
+    "source_name": "NIMH",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+    "canonical_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
+    "title_original": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+    "title_zh": "NIMH 资源入口",
+    "summary_original": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
+    "summary_zh": "ADHD 与相关精神健康主题的官方科普与治疗信息。适合通过 NIMH 进一步进入该主题的权威信息。",
+    "excerpt": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T16:37:39.946Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T16:37:39.946Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
     "id": "page-additude",
     "source_name": "ADDitude",
     "source_type": "media",
@@ -12,7 +126,7 @@
     "summary_zh": "ADHD 大众内容、学校与家庭实操。适合通过 ADDitude 进一步进入该主题的权威信息。",
     "excerpt": "ADHD symptom tests, ADD medication & treatment, behavior & discipline, school & learning essentials, organization and more information for families and individuals living with attention…",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:12.721Z",
+    "published_at": "2026-03-06T16:37:37.934Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -32,7 +146,47 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:12.721Z",
+    "ingested_at": "2026-03-06T16:37:37.934Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "page-harvest",
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-understood",
+    "source_name": "Understood",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.understood.org/",
+    "canonical_url": "https://www.understood.org/",
+    "title_original": "Understood - For learning and thinking differences",
+    "title_zh": "Understood 资源入口",
+    "summary_original": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
+    "summary_zh": "面向家长和老师的学习差异实用资源。适合通过 Understood 进一步进入该主题的权威信息。",
+    "excerpt": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T16:37:37.110Z",
+    "content_type": "directory",
+    "topics": [
+      "学习困难",
+      "ADHD",
+      "神经多样性",
+      "家庭支持"
+    ],
+    "audiences": [
+      "family",
+      "educator"
+    ],
+    "conditions": [
+      "learning-difficulties",
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T16:37:37.110Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -54,7 +208,7 @@
     "summary_zh": "精神健康与神经发育相关教育资源。适合通过 CAMH 进一步进入该主题的权威信息。",
     "excerpt": "Canada",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:12.446Z",
+    "published_at": "2026-03-06T16:37:36.772Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -73,53 +227,12 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:12.446Z",
+    "ingested_at": "2026-03-06T16:37:36.772Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
         "加拿大"
-      ]
-    }
-  },
-  {
-    "id": "page-child-mind",
-    "source_name": "Child Mind Institute",
-    "source_type": "official",
-    "source_region": "美国",
-    "source_url": "https://childmind.org/",
-    "canonical_url": "https://childmind.org/",
-    "title_original": "Child Mind Institute | Transforming Children&#039;s Lives.",
-    "title_zh": "Child Mind Institute 资源入口",
-    "summary_original": "The Child Mind Institute is an independent nonprofit dedicated to transforming the lives of children struggling with mental health and learning disorders.",
-    "summary_zh": "儿童神经发育与精神健康资源库。适合通过 Child Mind Institute 进一步进入该主题的权威信息。",
-    "excerpt": "The Child Mind Institute is an independent nonprofit dedicated to transforming the lives of children struggling with mental health and learning disorders.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T15:39:11.905Z",
-    "content_type": "directory",
-    "topics": [
-      "ADHD",
-      "自闭症",
-      "学习困难",
-      "神经多样性"
-    ],
-    "audiences": [
-      "family",
-      "clinician"
-    ],
-    "conditions": [
-      "adhd",
-      "autism",
-      "learning-difficulties"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:11.906Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "美国"
       ]
     }
   },
@@ -136,7 +249,7 @@
     "summary_zh": "循证指南、临床建议、教育与照护路径。适合通过 NICE 进一步进入该主题的权威信息。",
     "excerpt": "循证指南、临床建议、教育与照护路径",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:11.883Z",
+    "published_at": "2026-03-06T16:37:36.719Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -155,12 +268,53 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:11.883Z",
+    "ingested_at": "2026-03-06T16:37:36.720Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
         "英国"
+      ]
+    }
+  },
+  {
+    "id": "page-child-mind",
+    "source_name": "Child Mind Institute",
+    "source_type": "official",
+    "source_region": "美国",
+    "source_url": "https://childmind.org/",
+    "canonical_url": "https://childmind.org/",
+    "title_original": "Child Mind Institute | Transforming Children&#039;s Lives.",
+    "title_zh": "Child Mind Institute 资源入口",
+    "summary_original": "The Child Mind Institute is an independent nonprofit dedicated to transforming the lives of children struggling with mental health and learning disorders.",
+    "summary_zh": "儿童神经发育与精神健康资源库。适合通过 Child Mind Institute 进一步进入该主题的权威信息。",
+    "excerpt": "The Child Mind Institute is an independent nonprofit dedicated to transforming the lives of children struggling with mental health and learning disorders.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T16:37:36.564Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "自闭症",
+      "学习困难",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "clinician"
+    ],
+    "conditions": [
+      "adhd",
+      "autism",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T16:37:36.564Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "美国"
       ]
     }
   },
@@ -177,7 +331,7 @@
     "summary_zh": "特殊教育权利、学校支持与家长倡导。适合通过 Wrightslaw 进一步进入该主题的权威信息。",
     "excerpt": "Wrightslaw provides free access to articles, cases, resources and training about special education law and advocacy.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:11.818Z",
+    "published_at": "2026-03-06T16:37:36.464Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -200,131 +354,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:11.818Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "美国"
-      ]
-    }
-  },
-  {
-    "id": "page-caddac",
-    "source_name": "CADDAC",
-    "source_type": "official",
-    "source_region": "加拿大",
-    "source_url": "https://caddac.ca/",
-    "canonical_url": "https://caddac.ca/",
-    "title_original": "CADDAC: Canadian ADHD Awareness | Education | Advocacy",
-    "title_zh": "CADDAC 资源入口",
-    "summary_original": "CADDAC: Canadian ADHD Awareness, Education, Advocacy",
-    "summary_zh": "ADHD 教育、倡导、学校与职场工具。适合通过 CADDAC 进一步进入该主题的权威信息。",
-    "excerpt": "CADDAC: Canadian ADHD Awareness, Education, Advocacy",
-    "language": "bilingual",
-    "published_at": "2026-03-06T15:39:11.591Z",
-    "content_type": "directory",
-    "topics": [
-      "ADHD",
-      "神经多样性",
-      "教育",
-      "职场"
-    ],
-    "audiences": [
-      "family",
-      "educator",
-      "employer",
-      "self-advocate"
-    ],
-    "conditions": [
-      "adhd"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:11.591Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "加拿大"
-      ]
-    }
-  },
-  {
-    "id": "page-kidshealth",
-    "source_name": "Nemours KidsHealth",
-    "source_type": "official",
-    "source_region": "美国",
-    "source_url": "https://kidshealth.org/",
-    "canonical_url": "https://kidshealth.org/",
-    "title_original": "Nemours KidsHealth - the Web's most visited site about children's health",
-    "title_zh": "Nemours KidsHealth 资源入口",
-    "summary_original": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
-    "summary_zh": "儿童健康科普，自闭症与 ADHD 基础说明。适合通过 Nemours KidsHealth 进一步进入该主题的权威信息。",
-    "excerpt": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T15:39:11.550Z",
-    "content_type": "directory",
-    "topics": [
-      "自闭症",
-      "ADHD",
-      "学习困难",
-      "神经多样性",
-      "家庭支持"
-    ],
-    "audiences": [
-      "family",
-      "clinician"
-    ],
-    "conditions": [
-      "autism",
-      "adhd",
-      "learning-difficulties"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:11.550Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "美国"
-      ]
-    }
-  },
-  {
-    "id": "page-nimh",
-    "source_name": "NIMH",
-    "source_type": "official",
-    "source_region": "美国",
-    "source_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
-    "canonical_url": "https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd",
-    "title_original": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
-    "title_zh": "NIMH 资源入口",
-    "summary_original": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
-    "summary_zh": "ADHD 与相关精神健康主题的官方科普与治疗信息。适合通过 NIMH 进一步进入该主题的权威信息。",
-    "excerpt": "NIMH researches attention-deficit/hyperactivity disorder (ADHD). Find resources on the signs and symptoms of ADHD and potential treatments and therapies.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T15:39:11.443Z",
-    "content_type": "directory",
-    "topics": [
-      "ADHD",
-      "自闭症",
-      "神经多样性",
-      "政策与服务"
-    ],
-    "audiences": [
-      "family",
-      "self-advocate",
-      "clinician"
-    ],
-    "conditions": [
-      "adhd",
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:11.443Z",
+    "ingested_at": "2026-03-06T16:37:36.464Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -346,7 +376,7 @@
     "summary_zh": "ADHD 教育、家庭支持、学校与职场资源。适合通过 CHADD 进一步进入该主题的权威信息。",
     "excerpt": "Children and Adults with Attention-Deficit/Hyperactivity Disorder (CHADD) is the nation&#039;s leading nonprofit organization serving people affected by ADHD.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:11.071Z",
+    "published_at": "2026-03-06T16:37:36.463Z",
     "content_type": "directory",
     "topics": [
       "ADHD",
@@ -367,7 +397,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:11.071Z",
+    "ingested_at": "2026-03-06T16:37:36.463Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -377,42 +407,169 @@
     }
   },
   {
-    "id": "page-healthdirect",
-    "source_name": "healthdirect",
+    "id": "page-kidshealth",
+    "source_name": "Nemours KidsHealth",
     "source_type": "official",
-    "source_region": "澳大利亚",
-    "source_url": "https://www.healthdirect.gov.au/autism",
-    "canonical_url": "https://www.healthdirect.gov.au/autism",
-    "title_original": "Autism spectrum disorder (ASD)",
-    "title_zh": "healthdirect 资源入口",
-    "summary_original": "Learn about autism symptoms and management for children and adults. Read how the term Asperger’s is no longer used.",
-    "summary_zh": "澳洲健康信息入口，适合基础科普与就医导航。适合通过 healthdirect 进一步进入该主题的权威信息。",
-    "excerpt": "Learn about autism symptoms and management for children and adults. Read how the term Asperger’s is no longer used.",
+    "source_region": "美国",
+    "source_url": "https://kidshealth.org/",
+    "canonical_url": "https://kidshealth.org/",
+    "title_original": "Nemours KidsHealth - the Web's most visited site about children's health",
+    "title_zh": "Nemours KidsHealth 资源入口",
+    "summary_original": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
+    "summary_zh": "儿童健康科普，自闭症与 ADHD 基础说明。适合通过 Nemours KidsHealth 进一步进入该主题的权威信息。",
+    "excerpt": "KidsHealth is the #1 most-trusted source for physician-reviewed information and advice on children's health and parenting issues. For parents, kids, teens, and educators, in English and in Spanish.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:10.952Z",
+    "published_at": "2026-03-06T16:37:36.318Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
       "ADHD",
-      "神经多样性"
+      "学习困难",
+      "神经多样性",
+      "家庭支持"
     ],
     "audiences": [
       "family",
-      "self-advocate",
       "clinician"
     ],
     "conditions": [
       "autism",
-      "adhd"
+      "adhd",
+      "learning-difficulties"
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:10.952Z",
+    "ingested_at": "2026-03-06T16:37:36.318Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
-        "澳大利亚"
+        "美国"
+      ]
+    }
+  },
+  {
+    "id": "page-caddac",
+    "source_name": "CADDAC",
+    "source_type": "official",
+    "source_region": "加拿大",
+    "source_url": "https://caddac.ca/",
+    "canonical_url": "https://caddac.ca/",
+    "title_original": "CADDAC: Canadian ADHD Awareness | Education | Advocacy",
+    "title_zh": "CADDAC 资源入口",
+    "summary_original": "CADDAC: Canadian ADHD Awareness, Education, Advocacy",
+    "summary_zh": "ADHD 教育、倡导、学校与职场工具。适合通过 CADDAC 进一步进入该主题的权威信息。",
+    "excerpt": "CADDAC: Canadian ADHD Awareness, Education, Advocacy",
+    "language": "bilingual",
+    "published_at": "2026-03-06T16:37:36.308Z",
+    "content_type": "directory",
+    "topics": [
+      "ADHD",
+      "神经多样性",
+      "教育",
+      "职场"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "employer",
+      "self-advocate"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T16:37:36.308Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "加拿大"
+      ]
+    }
+  },
+  {
+    "id": "page-trip",
+    "source_name": "TRIP Database",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://www.tripdatabase.com/",
+    "canonical_url": "https://www.tripdatabase.com/",
+    "title_original": "Trip Medical Database",
+    "title_zh": "TRIP Database 资源入口",
+    "summary_original": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
+    "summary_zh": "指南、综述和临床证据检索。适合通过 TRIP Database 进一步进入该主题的权威信息。",
+    "excerpt": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
+    "language": "bilingual",
+    "published_at": "2026-03-06T16:37:36.217Z",
+    "content_type": "directory",
+    "topics": [
+      "自闭症",
+      "ADHD",
+      "学习困难",
+      "神经多样性",
+      "政策与服务"
+    ],
+    "audiences": [
+      "clinician",
+      "researcher"
+    ],
+    "conditions": [
+      "autism",
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T16:37:36.217Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "国际"
+      ]
+    }
+  },
+  {
+    "id": "page-pubmed",
+    "source_name": "PubMed",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
+    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/",
+    "title_original": "PubMed",
+    "title_zh": "PubMed 资源入口",
+    "summary_original": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
+    "summary_zh": "医学与健康研究论文检索。适合通过 PubMed 进一步进入该主题的权威信息。",
+    "excerpt": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
+    "language": "bilingual",
+    "published_at": "2026-03-06T16:37:35.923Z",
+    "content_type": "directory",
+    "topics": [
+      "神经多样性",
+      "自闭症",
+      "ADHD",
+      "学习困难"
+    ],
+    "audiences": [
+      "researcher",
+      "clinician"
+    ],
+    "conditions": [
+      "neurodiversity",
+      "autism",
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：白名单页面来源。",
+    "ingested_at": "2026-03-06T16:37:35.923Z",
+    "metadata": {
+      "credibility": "high",
+      "tags": [
+        "page-harvest",
+        "国际"
       ]
     }
   },
@@ -429,7 +586,7 @@
     "summary_zh": "教育干预证据和学校支持策略。适合通过 Education Endowment Foundation 进一步进入该主题的权威信息。",
     "excerpt": "The EEF is an independent charity dedicated to breaking the link between family income and educational achievement.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:10.947Z",
+    "published_at": "2026-03-06T16:37:35.733Z",
     "content_type": "directory",
     "topics": [
       "学习困难",
@@ -452,7 +609,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:10.947Z",
+    "ingested_at": "2026-03-06T16:37:35.733Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -462,126 +619,83 @@
     }
   },
   {
-    "id": "page-trip",
-    "source_name": "TRIP Database",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://www.tripdatabase.com/",
-    "canonical_url": "https://www.tripdatabase.com/",
-    "title_original": "Trip Medical Database",
-    "title_zh": "TRIP Database 资源入口",
-    "summary_original": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
-    "summary_zh": "指南、综述和临床证据检索。适合通过 TRIP Database 进一步进入该主题的权威信息。",
-    "excerpt": "Evidence-based answers for health professionals | Searching sources such as systematic reviews, clinical guidelines and RCTs",
+    "id": "page-healthdirect",
+    "source_name": "healthdirect",
+    "source_type": "official",
+    "source_region": "澳大利亚",
+    "source_url": "https://www.healthdirect.gov.au/autism",
+    "canonical_url": "https://www.healthdirect.gov.au/autism",
+    "title_original": "Autism spectrum disorder (ASD)",
+    "title_zh": "healthdirect 资源入口",
+    "summary_original": "Learn about autism symptoms and management for children and adults. Read how the term Asperger’s is no longer used.",
+    "summary_zh": "澳洲健康信息入口，适合基础科普与就医导航。适合通过 healthdirect 进一步进入该主题的权威信息。",
+    "excerpt": "Learn about autism symptoms and management for children and adults. Read how the term Asperger’s is no longer used.",
     "language": "bilingual",
-    "published_at": "2026-03-06T15:39:10.941Z",
+    "published_at": "2026-03-06T16:37:35.717Z",
     "content_type": "directory",
     "topics": [
       "自闭症",
       "ADHD",
-      "学习困难",
-      "神经多样性",
-      "政策与服务"
-    ],
-    "audiences": [
-      "clinician",
-      "researcher"
-    ],
-    "conditions": [
-      "autism",
-      "adhd",
-      "learning-difficulties"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:10.941Z",
-    "metadata": {
-      "credibility": "high",
-      "tags": [
-        "page-harvest",
-        "国际"
-      ]
-    }
-  },
-  {
-    "id": "page-understood",
-    "source_name": "Understood",
-    "source_type": "media",
-    "source_region": "美国",
-    "source_url": "https://www.understood.org/",
-    "canonical_url": "https://www.understood.org/",
-    "title_original": "Understood - For learning and thinking differences",
-    "title_zh": "Understood 资源入口",
-    "summary_original": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
-    "summary_zh": "面向家长和老师的学习差异实用资源。适合通过 Understood 进一步进入该主题的权威信息。",
-    "excerpt": "Understood.org is the leading nonprofit empowering the 70 million people with learning and thinking differences in the United States.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T15:39:10.662Z",
-    "content_type": "directory",
-    "topics": [
-      "学习困难",
-      "ADHD",
-      "神经多样性",
-      "家庭支持"
+      "神经多样性"
     ],
     "audiences": [
       "family",
-      "educator"
+      "self-advocate",
+      "clinician"
     ],
     "conditions": [
-      "learning-difficulties",
+      "autism",
       "adhd"
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:10.662Z",
-    "metadata": {
-      "credibility": "medium",
-      "tags": [
-        "page-harvest",
-        "美国"
-      ]
-    }
-  },
-  {
-    "id": "page-pubmed",
-    "source_name": "PubMed",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
-    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/",
-    "title_original": "PubMed",
-    "title_zh": "PubMed 资源入口",
-    "summary_original": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
-    "summary_zh": "医学与健康研究论文检索。适合通过 PubMed 进一步进入该主题的权威信息。",
-    "excerpt": "PubMed® comprises more than 39 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites.",
-    "language": "bilingual",
-    "published_at": "2026-03-06T15:39:10.224Z",
-    "content_type": "directory",
-    "topics": [
-      "神经多样性",
-      "自闭症",
-      "ADHD",
-      "学习困难"
-    ],
-    "audiences": [
-      "researcher",
-      "clinician"
-    ],
-    "conditions": [
-      "neurodiversity",
-      "autism",
-      "adhd",
-      "learning-difficulties"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动抓取：白名单页面来源。",
-    "ingested_at": "2026-03-06T15:39:10.224Z",
+    "ingested_at": "2026-03-06T16:37:35.717Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "page-harvest",
-        "国际"
+        "澳大利亚"
+      ]
+    }
+  },
+  {
+    "id": "feed-additude-feed-4a03712202c5",
+    "source_name": "ADDitude",
+    "source_type": "media",
+    "source_region": "美国",
+    "source_url": "https://www.additudemag.com/adhd-self-esteem-criticism-positive-messages/",
+    "canonical_url": "https://www.additudemag.com/adhd-self-esteem-criticism-positive-messages/",
+    "title_original": "“ADHD Criticisms That Shattered Us… and the Words That Healed”",
+    "title_zh": "ADDitude：“ADHD Criticisms That Shattered Us… and the Words That Healed”",
+    "summary_original": "“Worst messages: You are lazy. You are too combative. You are too loud and intimidating. You don’t know when to shut up. You are a know-it-all. Best messages: I love your honest and straightforward way. I know you won’t ever lie to me and that you always have my best interests in mind.”",
+    "summary_zh": "ADDitude 最新条目：“Worst messages: You are lazy. You are too combative. You are too loud and intimidating.…",
+    "excerpt": "“Worst messages: You are lazy. You are too combative. You are too loud and intimidating. You don’t know when to shut up. You are a know-it-all. Best messages: I love your honest and straightforward way. I know you won’t ever lie to me and that you always have my best interests i…",
+    "language": "en",
+    "published_at": "2026-03-06T16:05:16.000Z",
+    "content_type": "news",
+    "topics": [
+      "ADHD",
+      "教育",
+      "家庭支持",
+      "神经多样性"
+    ],
+    "audiences": [
+      "family",
+      "self-advocate",
+      "educator"
+    ],
+    "conditions": [
+      "adhd",
+      "learning-difficulties"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动抓取：RSS 来源。",
+    "ingested_at": "2026-03-06T16:37:41.331Z",
+    "metadata": {
+      "credibility": "medium",
+      "tags": [
+        "rss-harvest",
+        "additude-feed"
       ]
     }
   },
@@ -618,7 +732,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.635Z",
+    "ingested_at": "2026-03-06T16:37:41.331Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -659,7 +773,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.635Z",
+    "ingested_at": "2026-03-06T16:37:41.331Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -700,7 +814,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.636Z",
+    "ingested_at": "2026-03-06T16:37:41.331Z",
     "metadata": {
       "credibility": "medium",
       "tags": [
@@ -742,7 +856,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.926Z",
+    "ingested_at": "2026-03-06T16:37:41.241Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -794,26 +908,25 @@
     }
   },
   {
-    "id": "academic-adhd-2026-41759998",
-    "source_name": "Medicine",
+    "id": "academic-adhd-2026-41696840",
+    "source_name": "Medicina",
     "source_type": "academic",
     "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12956189/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12956189/",
-    "title_original": "Genomic approach to investigate air pollution’s causal impact on neurodevelopment and mental health: An extensive-scale 2-sample Mendelian randomization study",
-    "title_zh": "研究：Genomic approach to investigate air pollution’s causal impact on neurodevelopment and mental health: An extensive-scale 2-sample Mendelian randomization study",
-    "summary_original": "Air pollution is a major global public health threat associated with increased morbidity and premature mortality. Growing evidence suggests that air pollution may also adversely affect brain health, contributing to cognitive impairment and mental disorders. However, most existing studies are observational and therefore vulnerable to residual confounding and reverse causation. Mendelian randomization (MR), which uses genetic variants as instrumental variables, offers a framework to strengthen causal inference regarding the neurological effects of air pollution. We conducted a 2-sample MR study using large-scale genome-wide association study data to investigate the causal effects of air pollution on neurodevelopmental and mental health outcomes. Exposures included ambient air pollutants (PM 2.5 , PM 10 , PM 2.5–10 , NO 2 , and NO x ) and workplace-related air pollution, including self-reported “very dusty” workplace exposure, chemical or other fumes, and diesel exhaust. Neurodevelopmental and mental health outcomes comprised 17 genome-wide association studies datasets across 6 domains: cognitive function and intelligence, educational attainment, psychiatric disorders, emotional and behavioral disorders in children and adolescents, attention-deficit/hyperactivity disorder (ADHD), and neuroticism. Genetically proxied higher PM 2.5 exposure was associated with lower intelligence and cognitive performance, reduced educational attainment, and increased risks of schizophrenia, depression, panic attacks, and vulnerability during youth. Elevated NO x exposure was associated with poorer cognition, lower educational attainment, and increased risks of anxiety, panic disorder, and attention-deficit/hyperactivity disorder. Higher NO 2 levels were associated with an increased risk of schizophrenia and higher neuroticism scores. Workplace-related air pollution exposures were also associated with adverse outcomes. Self-reported “very dusty” workplace exposure was associated with poorer cognitive performance and educational attainment, while chemical fumes and diesel exhaust were linked to reduced academic achievement and increased risks of selected psychiatric outcomes. This MR study provides evidence supporting potential causal relationships between air pollution exposure and a wide range of neurodevelopmental and mental health outcomes, underscoring the importance of reducing air pollution exposure, particularly among vulnerable populations.",
-    "summary_zh": "基于学术全文自动解析：Air pollution is a major global public health threat associated with increased morbidity and premature mortal…",
-    "excerpt": "Air pollution is a major global public health threat associated with increased morbidity and premature mortality. Growing evidence suggests that air pollution may also adversely affect brain health, contributing to cognitive impairment and mental disorders. H…",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41696840/",
+    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/41696840/",
+    "title_original": "[Factors associated with ADHD medication adherence and treatment outcomes]",
+    "title_zh": "研究：[Factors associated with ADHD medication adherence and treatment outcomes]",
+    "summary_original": "Introduction: Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder that affects 5 to 8% of youth and 2.5 to 4% of adults. Pharmacological treatments are among the most effective when treating ADHD, yet adherence to medication is still sub-optimal. We reviewed the literature on clinical and socio demographic factors that may influence adherence and compared it to our clinical data.",
+    "summary_zh": "基于学术全文自动解析：Introduction: Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder that affects 5…",
+    "excerpt": "Introduction: Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder that affects 5 to 8% of youth and 2.5 to 4% of adults. Pharmacological treatments are among the most effective when treating ADHD, yet adherence to medication is st…",
     "language": "en",
-    "published_at": "2026-02-27T16:00:00.000Z",
+    "published_at": "2026-02-28T16:00:00.000Z",
     "content_type": "research",
     "topics": [
       "ADHD",
       "教育",
       "职场",
-      "神经多样性",
-      "共病与支持需求"
+      "神经多样性"
     ],
     "audiences": [
       "self-advocate",
@@ -828,13 +941,10 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:39:05.138Z",
+    "ingested_at": "2026-03-06T16:37:10.988Z",
     "metadata": {
-      "doi": "10.1097/MD.0000000000047836",
-      "pmid": "41759998",
-      "authors": "Wen Wu; Yuchao Fan",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12956189/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12956189/pdf/medi-105-e47836.pdf",
+      "pmid": "41696840",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/41696840/",
       "credibility": "high",
       "tags": [
         "academic-search",
@@ -844,39 +954,23 @@
       ],
       "analysis": {
         "template": "academic",
-        "summary_title": "《研究：Genomic approach to investigate air pollution’s causal impact on neurodevelopment and mental health: An extensive-scale 2-sample Mendelian randomization study》",
-        "publication_info": "Medicine，2026/2/28",
-        "authors_display": "Wen Wu、Yuchao Fan",
+        "summary_title": "《研究：[Factors associated with ADHD medication adherence and treatment outcomes]》",
+        "publication_info": "Medicina，2026/3/1",
         "content_sections": [
           {
             "title": "文章概览",
             "items": [
-              "原文题目：Genomic approach to investigate air pollution’s causal impact on neurodevelopment and mental health: An extensive-scale 2-sample Mendelian randomization study",
+              "原文题目：[Factors associated with ADHD medication adherence and treatment outcomes]",
               "研究类型：学术研究。",
-              "核心摘要：Air pollution is a major global public health threat associated with increased morbidity and premature mortality."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Yuchao Fan , MD：Correspondence: Yuchao Fan, Department of Anesthesiology, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, Affiliated Cancer Hospital of University of Electronic S…",
-              "1. Introduction：Air pollution is a major global public health challenge, with approximately 99% of the world’s population exposed to levels exceeding recommended thresholds.",
-              "2. Material and methods：In this study, we employed a 2-sample MR approach to investigate the potential causal relationship between air pollution and neurodevelopmental as well as mental health outcomes.",
-              "2.1. Study design：This study employed a 2-sample MR design using summary-level statistics from GWAS to investigate the potential causal effects of air pollution on neurodevelopmental and mental health outcomes.",
-              "2.2. Data source：The genetic dataset employed in this study was sourced from the IEU open GWAS project ( https://gwas.mrcieu.ac.uk/ ), an encompassing compilation of data from multiple reputable sources."
+              "核心摘要：Introduction: Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder that affects 5 to 8% of youth and 2.5 to 4% of adults."
             ]
           }
         ],
-        "key_findings": "Air pollution is a major global public health threat associated with increased morbidity and premature mortality.",
-        "research_method": "从全文结构看，文章按 Yuchao Fan , MD、1. Introduction、2. Material and methods、2.1. Study design 展开。",
+        "key_findings": "Introduction: Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder that affects 5 to 8% of youth and 2.5 to 4% of adults.",
+        "research_method": "基于 学术研究 自动识别。当前优先使用 PMC 全文页 中可获取的摘要与章节结构。",
         "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "Yuchao Fan , MD：Correspondence: Yuchao Fan, Department of Anesthesiology, Sichuan Clinical Research Center for Cancer, Sichuan Cancer Hospital & Institute, Sichuan Cancer Center, Affiliated Cancer Hospital of University of Electronic S…",
-          "1. Introduction：Air pollution is a major global public health challenge, with approximately 99% of the world’s population exposed to levels exceeding recommended thresholds.",
-          "2. Material and methods：In this study, we employed a 2-sample MR approach to investigate the potential causal relationship between air pollution and neurodevelopmental as well as mental health outcomes.",
-          "2.1. Study design：This study employed a 2-sample MR design using summary-level statistics from GWAS to investigate the potential causal effects of air pollution on neurodevelopmental and mental health outcomes."
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+        "strategy_points": [],
+        "conclusion": "Introduction: Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder that affects 5 to 8% of youth and 2.5 to 4% of adults.",
         "china_insights": [
           "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
           "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
@@ -886,17 +980,162 @@
     }
   },
   {
-    "id": "academic-adhd-2026-41773095",
-    "source_name": "Patient preference and adherence",
+    "id": "academic-adhd-2026-40701403",
+    "source_name": "Journal of the American Academy of Child and Adolescent Psychiatry",
     "source_type": "academic",
     "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12949811/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12949811/",
-    "title_original": "Supporting Medication Adherence and Patient-Centered Care for Attention-Deficit Hyperactivity Disorder in Taiwan: A Pharmacist-Oriented Perspective Informed by Targeted Evidence",
-    "title_zh": "研究：Supporting Medication Adherence and Patient-Centered Care for Attention-Deficit Hyperactivity Disorder in Taiwan: A Pharmacist-Oriented Perspective Informed by Targeted Evidence",
-    "summary_original": "Despite the broad coverage offered by Taiwan’s National Health Insurance system, attention-deficit/hyperactivity disorder (ADHD) care continues to face a critical “leaky pipeline” problem. There is a clear gap between diagnostic prevalence and long-term treatment retention. This perspective article applies the SPIDER (Sample, Phenomenon of Interest, Design, Evaluation, Research type) framework to synthesize evidence on the multidimensional factors that contribute to medication non-adherence among Taiwanese children and adolescents. The barriers are grouped into five domains. These domains include medication-related issues such as dosing complexity, child-level developmental challenges related to growing autonomy, family dynamics that reveal a distinctive “socioeconomic status paradox”, stigma within school environments, and vulnerabilities at the healthcare system level. Together, these factors demonstrate that existing hospital-centered care models alone may not sufficient to support sustained treatment engagement. To address this gap, we propose a pharmacist-driven precision approach to improving adherence in ADHD. This approach redefines the pharmacist’s role and emphasizes proactive involvement in ADHD management rather than passive medication dispensing. The proposed approach includes regimen optimization, digital tools that support adolescent self-management, and shared decision-making strategies that respond to family-specific concerns. Because community pharmacists are highly accessible, they can serve as continuity anchors across care settings and developmental stages and help strengthen treatment persistence and therapeutic outcomes.",
-    "summary_zh": "基于学术全文自动解析：Despite the broad coverage offered by Taiwan’s National Health Insurance system, attention-deficit/hyperactiv…",
-    "excerpt": "Despite the broad coverage offered by Taiwan’s National Health Insurance system, attention-deficit/hyperactivity disorder (ADHD) care continues to face a critical “leaky pipeline” problem. There is a clear gap between diagnostic prevalence and long-term treat…",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/40701403/",
+    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/40701403/",
+    "title_original": "Noninvasive Brain Stimulation in Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis of Treatment Efficacy and Targeting Strategies",
+    "title_zh": "研究：Noninvasive Brain Stimulation in Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis of Treatment Efficacy and Targeting Strategies",
+    "summary_original": "Objective: Noninvasive brain stimulation (NIBS) has emerged as a promising novel treatment for attention-deficit/hyperactivity disorder (ADHD). However, the precise effects of NIBS in ADHD as well as optimal stimulation protocols remain elusive. This systematic review and meta-analysis aimed to provide a rigorous evaluation and robust quantified evidence on the therapeutic efficacy of NIBS in ADHD.",
+    "summary_zh": "基于学术全文自动解析：Objective: Noninvasive brain stimulation (NIBS) has emerged as a promising novel treatment for attention-defi…",
+    "excerpt": "Objective: Noninvasive brain stimulation (NIBS) has emerged as a promising novel treatment for attention-deficit/hyperactivity disorder (ADHD). However, the precise effects of NIBS in ADHD as well as optimal stimulation protocols remain elusive. This systemat…",
+    "language": "en",
+    "published_at": "2026-02-28T16:00:00.000Z",
+    "content_type": "review",
+    "topics": [
+      "ADHD",
+      "教育",
+      "职场",
+      "神经多样性"
+    ],
+    "audiences": [
+      "self-advocate",
+      "educator",
+      "researcher",
+      "family",
+      "employer"
+    ],
+    "conditions": [
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T16:37:10.988Z",
+    "metadata": {
+      "doi": "10.1016/j.jaac.2025.07.009",
+      "pmid": "40701403",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/40701403/",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "adhd-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：Noninvasive Brain Stimulation in Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis of Treatment Efficacy and Targeting Strategies》",
+        "publication_info": "Journal of the American Academy of Child and Adolescent Psychiatry，2026/3/1",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：Noninvasive Brain Stimulation in Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis of Treatment Efficacy and Targeting Strategies",
+              "研究类型：综述/系统回顾。",
+              "核心摘要：Objective: Noninvasive brain stimulation (NIBS) has emerged as a promising novel treatment for attention-deficit/hyperactivity disorder (ADHD)."
+            ]
+          }
+        ],
+        "key_findings": "Objective: Noninvasive brain stimulation (NIBS) has emerged as a promising novel treatment for attention-deficit/hyperactivity disorder (ADHD).",
+        "research_method": "基于 综述/系统回顾 自动识别。当前优先使用 PMC 全文页 中可获取的摘要与章节结构。",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
+        "strategy_points": [],
+        "conclusion": "Objective: Noninvasive brain stimulation (NIBS) has emerged as a promising novel treatment for attention-deficit/hyperactivity disorder (ADHD).",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
+        ]
+      }
+    }
+  },
+  {
+    "id": "academic-autism-2026-41696839",
+    "source_name": "Medicina",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41696839/",
+    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/41696839/",
+    "title_original": "[Social skills in adults with late-onset diagnosis of ASD and ADHD]",
+    "title_zh": "研究：[Social skills in adults with late-onset diagnosis of ASD and ADHD]",
+    "summary_original": "Introduction: Social skills (SS) in individuals with Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) are typically affected.",
+    "summary_zh": "基于学术全文自动解析：Introduction: Social skills (SS) in individuals with Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyp…",
+    "excerpt": "Introduction: Social skills (SS) in individuals with Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) are typically affected.",
+    "language": "en",
+    "published_at": "2026-02-28T16:00:00.000Z",
+    "content_type": "research",
+    "topics": [
+      "自闭症",
+      "教育",
+      "家庭支持",
+      "神经多样性",
+      "ADHD"
+    ],
+    "audiences": [
+      "family",
+      "educator",
+      "researcher",
+      "clinician",
+      "self-advocate"
+    ],
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "review_status": "approved",
+    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
+    "ingested_at": "2026-03-06T16:37:10.594Z",
+    "metadata": {
+      "pmid": "41696839",
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/41696839/",
+      "credibility": "high",
+      "tags": [
+        "academic-search",
+        "autism-2026",
+        "academic-enriched",
+        "html"
+      ],
+      "analysis": {
+        "template": "academic",
+        "summary_title": "《研究：[Social skills in adults with late-onset diagnosis of ASD and ADHD]》",
+        "publication_info": "Medicina，2026/3/1",
+        "content_sections": [
+          {
+            "title": "文章概览",
+            "items": [
+              "原文题目：[Social skills in adults with late-onset diagnosis of ASD and ADHD]",
+              "研究类型：学术研究。",
+              "核心摘要：Introduction: Social skills (SS) in individuals with Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) are typically affected."
+            ]
+          }
+        ],
+        "key_findings": "Introduction: Social skills (SS) in individuals with Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) are typically affected.",
+        "research_method": "基于 学术研究 自动识别。当前优先使用 PMC 全文页 中可获取的摘要与章节结构。",
+        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
+        "strategy_points": [],
+        "conclusion": "Introduction: Social skills (SS) in individuals with Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) are typically affected.",
+        "china_insights": [
+          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
+          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
+          "对自闭症主题，建议补上发展阶段差异，以及从儿童支持过渡到成人支持的路径说明。"
+        ]
+      }
+    }
+  },
+  {
+    "id": "academic-adhd-2026-41735456",
+    "source_name": "Scientific Reports",
+    "source_type": "academic",
+    "source_region": "国际",
+    "source_url": "https://www.nature.com/articles/s41598-026-41256-1",
+    "canonical_url": "https://www.nature.com/articles/s41598-026-41256-1",
+    "title_original": "The combined ADHD profile faces the greatest risk of delay, depletion and disengagement in university students",
+    "title_zh": "研究：The combined ADHD profile faces the greatest risk of delay, depletion and disengagement in university students",
+    "summary_original": "Attention-deficit/hyperactivity disorder (ADHD) symptoms are increasingly recognized in adulthood, particularly among university students, yet their distinct psychological correlates remain underexplored. Using a cross-sectional design, this study examined Hungarian college students ( N = 1,879, aged between 18 and 35 years) who responded online to a set of questionnaires that included the Adult ADHD Self-Report Scale, Procrastination Scale, Higher Education Retention Scale and Ego-Depletion Scale. We applied k-means cluster analysis to classify students into four ADHD-related groups (Combined, Inattentive, Hyperactive-Impulsive, Low-symptom) based on symptom criteria. Consequently, we compared these clusters across six theoretically relevant self-regulatory outcomes: maladaptive and adaptive procrastination, maladaptive and adaptive perfectionism, ego depletion and dropout intention. A multivariate analysis of covariance (MANCOVA), controlling for age and biological sex, revealed significant differences among ADHD clusters on all outcomes. While the Combined group reported the highest levels of maladaptive procrastination and ego depletion, the Hyperactive-Impulsive and Low-symptom groups reported the highest adaptive procrastination scores. These findings suggest that adaptive procrastination may serve as a protective or compensatory strategy in students with certain ADHD profiles, offering constructive reconceptualization of functional delay and self-regulation in academic contexts.",
+    "summary_zh": "基于学术全文自动解析：Attention-deficit/hyperactivity disorder (ADHD) symptoms are increasingly recognized in adulthood, particular…",
+    "excerpt": "Attention-deficit/hyperactivity disorder (ADHD) symptoms are increasingly recognized in adulthood, particularly among university students, yet their distinct psychological correlates remain underexplored. Using a cross-sectional design, this study examined Hu…",
     "language": "en",
     "published_at": "2026-02-23T16:00:00.000Z",
     "content_type": "research",
@@ -904,29 +1143,27 @@
       "ADHD",
       "教育",
       "职场",
-      "神经多样性",
-      "家庭支持"
+      "神经多样性"
     ],
     "audiences": [
       "self-advocate",
       "educator",
       "researcher",
       "family",
-      "employer",
-      "clinician"
+      "employer"
     ],
     "conditions": [
       "adhd"
     ],
     "review_status": "approved",
     "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:39:05.138Z",
+    "ingested_at": "2026-03-06T16:37:10.988Z",
     "metadata": {
-      "doi": "10.2147/PPA.S589432",
-      "pmid": "41773095",
-      "authors": "Yu-Jui Chiu; Yen-Ming Huang",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12949811/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12949811/pdf/PPA-20-589432.pdf",
+      "doi": "10.1038/s41598-026-41256-1",
+      "pmid": "41735456",
+      "authors": "M&#252;ller, Vanessa; Pik&#243;, Bettina",
+      "article_url": "https://www.nature.com/articles/s41598-026-41256-1",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-41256-1.pdf",
       "credibility": "high",
       "tags": [
         "academic-search",
@@ -936,132 +1173,39 @@
       ],
       "analysis": {
         "template": "academic",
-        "summary_title": "《研究：Supporting Medication Adherence and Patient-Centered Care for Attention-Deficit Hyperactivity Disorder in Taiwan: A Pharmacist-Oriented Perspective Informed by Targeted Evidence》",
-        "publication_info": "Patient preference and adherence，2026/2/24",
-        "authors_display": "Yu-Jui Chiu、Yen-Ming Huang",
+        "summary_title": "《研究：The combined ADHD profile faces the greatest risk of delay, depletion and disengagement in university students》",
+        "publication_info": "Scientific Reports，2026/2/24",
+        "authors_display": "M&#252;ller, Vanessa、Pik&#243;, Bettina",
         "content_sections": [
           {
             "title": "文章概览",
             "items": [
-              "原文题目：Supporting Medication Adherence and Patient-Centered Care for Attention-Deficit Hyperactivity Disorder in Taiwan: A Pharmacist-Oriented Perspective Informed by Targeted Evidence",
-              "研究类型：学术研究。",
-              "核心摘要：Despite the broad coverage offered by Taiwan’s National Health Insurance system, attention-deficit/hyperactivity disorder (ADHD) care continues to face a critical “leaky pipeline” problem."
+              "原文题目：The combined ADHD profile faces the greatest risk of delay, depletion and disengagement in university students",
+              "研究类型：横断面调查。",
+              "核心摘要：Attention-deficit/hyperactivity disorder (ADHD) symptoms are increasingly recognized in adulthood, particularly among university students, yet their distinct psychological correlates remain underexplored."
             ]
           },
           {
             "title": "正文结构",
             "items": [
-              "Yen-Ming Huang：Correspondence: Yen-Ming Huang, Graduate Institute of Clinical Pharmacy, College of Medicine, National Taiwan University, Taipei City, 100025, Taiwan, Tel +886-2-3366-8784, Email yenming927@ntu.edu.tw",
-              "Introduction：Attention-deficit hyperactivity disorder (ADHD) is a common neurodevelopmental condition affecting children and adolescents worldwide, with prevalence estimates ranging from 3.4% to 14.0%.",
-              "Methods：This article presents a perspective informed by a targeted synthesis of Taiwan-based empirical evidence rather than a formal systematic review.",
-              "Results：The initial search yielded 48 records.",
-              "Table 1.：Summary of Key Evidence on Factors Influencing Attention-Deficit Hyperactivity Disorder Medication Adherence and Related Interventions in Taiwan"
+              "Data availability：The datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request.",
+              "Funding：Open access funding provided by University of Szeged.",
+              "Authors and Affiliations：Doctoral School of Education, University of Szeged, Szeged, Hungary",
+              "Contributions：VM: Conceptualization, methodology, software, validation, formal analysis, investigation, resources, data curation, visualization, writing—original draft preparation, funding acquisition.",
+              "Publisher’s note：Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
             ]
           }
         ],
-        "key_findings": "Despite the broad coverage offered by Taiwan’s National Health Insurance system, attention-deficit/hyperactivity disorder (ADHD) care continues to face a critical “leaky pipeline” problem.",
-        "research_method": "从全文结构看，文章按 Yen-Ming Huang、Introduction、Methods、Results 展开。",
+        "key_findings": "Attention-deficit/hyperactivity disorder (ADHD) symptoms are increasingly recognized in adulthood, particularly among university students, yet their distinct psychological correlates remain underexplored.",
+        "research_method": "基于 横断面调查 自动识别。当前优先使用 PMC 全文页 中可获取的摘要与章节结构。",
         "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
         "strategy_points": [
-          "Yen-Ming Huang：Correspondence: Yen-Ming Huang, Graduate Institute of Clinical Pharmacy, College of Medicine, National Taiwan University, Taipei City, 100025, Taiwan, Tel +886-2-3366-8784, Email yenming927@ntu.edu.tw",
-          "Introduction：Attention-deficit hyperactivity disorder (ADHD) is a common neurodevelopmental condition affecting children and adolescents worldwide, with prevalence estimates ranging from 3.4% to 14.0%.",
-          "Methods：This article presents a perspective informed by a targeted synthesis of Taiwan-based empirical evidence rather than a formal systematic review.",
-          "Results：The initial search yielded 48 records."
+          "Data availability：The datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request.",
+          "Funding：Open access funding provided by University of Szeged.",
+          "Authors and Affiliations：Doctoral School of Education, University of Szeged, Szeged, Hungary",
+          "Contributions：VM: Conceptualization, methodology, software, validation, formal analysis, investigation, resources, data curation, visualization, writing—original draft preparation, funding acquisition."
         ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
-        ]
-      }
-    }
-  },
-  {
-    "id": "academic-adhd-2026-41743903",
-    "source_name": "Clinical, Cosmetic and Investigational Dermatology",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12931134/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12931134/",
-    "title_original": "Steroid Sulfatase Deficiency: Clinical Manifestations and Psychological Aspects in Light of Current Evidence",
-    "title_zh": "研究：Steroid Sulfatase Deficiency: Clinical Manifestations and Psychological Aspects in Light of Current Evidence",
-    "summary_original": "Syndromic epidermal differentiation disorder associated with steroid sulfatase deficiency (STS-sEDD) is a hereditary disorder of keratinization caused by mutations or deletions in the STS gene. Although historically classified as a dermatological condition, accumulating evidence indicates that STS-sEDD represents a multisystem disorder with significant neuropsychological, endocrine, and cardiological involvement. Psychosocial consequences substantially increase disease burden, highlighting the need for integrated and multidisciplinary care. The aim of this paper is to summarize current knowledge on the biological, clinical, neuropsychological, and psychosocial aspects of STS-sEDD and to identify gaps and challenges in contemporary clinical practice. A purposive, non-systematic review of Polish- and English-language literature published between 1960 and 2025 was conducted. The analysis included articles retrieved from PubMed, Scopus, and Google Scholar databases, as well as materials produced by patient advocacy organizations. Literature selection was carried out in two stages (abstract and full-text review) by two independent reviewers, using keyword sets related to genetic, clinical, neurodevelopmental, and psychosocial domains. Available data indicate that approximately 85–90% of STS-sEDD cases result from complete deletion of the STS gene. Larger deletions within the Xp22.3 region lead to contiguous gene syndromes and are associated with additional manifestations, including attention-deficit/hyperactivity disorder, autism spectrum disorder, endocrine abnormalities, and cardiac arrhythmias. Clinically, STS-sEDD is characterized by typical cutaneous findings accompanied by subtle cognitive and neurodevelopmental deficits, which may also be observed in female carriers. Beyond its medical features, STS-sEDD is associated with stigmatization, reduced quality of life, and significant emotional distress affecting both patients and their families. Evidence suggests that therapeutic education and structured psychological support improve daily functioning and coping. STS-sEDD should therefore be recognized as a multisystem condition requiring early diagnosis and coordinated, interdisciplinary management. The implementation of comprehensive care models has the potential to substantially improve outcomes and quality of life for affected individuals.",
-    "summary_zh": "基于学术全文自动解析：Syndromic epidermal differentiation disorder associated with steroid sulfatase deficiency (STS-sEDD) is a her…",
-    "excerpt": "Syndromic epidermal differentiation disorder associated with steroid sulfatase deficiency (STS-sEDD) is a hereditary disorder of keratinization caused by mutations or deletions in the STS gene. Although historically classified as a dermatological condition, a…",
-    "language": "en",
-    "published_at": "2026-02-19T16:00:00.000Z",
-    "content_type": "review",
-    "topics": [
-      "ADHD",
-      "教育",
-      "职场",
-      "神经多样性",
-      "自闭症"
-    ],
-    "audiences": [
-      "self-advocate",
-      "educator",
-      "researcher",
-      "family",
-      "employer",
-      "clinician"
-    ],
-    "conditions": [
-      "adhd",
-      "autism"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:39:05.138Z",
-    "metadata": {
-      "doi": "10.2147/CCID.S581543",
-      "pmid": "41743903",
-      "authors": "Magdalena Fryze; Aldona Pietrzak",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12931134/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12931134/pdf/CCID-19-581543.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "adhd-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Steroid Sulfatase Deficiency: Clinical Manifestations and Psychological Aspects in Light of Current Evidence》",
-        "publication_info": "Clinical, Cosmetic and Investigational Dermatology，2026/2/20",
-        "authors_display": "Magdalena Fryze、Aldona Pietrzak",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Steroid Sulfatase Deficiency: Clinical Manifestations and Psychological Aspects in Light of Current Evidence",
-              "研究类型：综述/系统回顾。",
-              "核心摘要：Syndromic epidermal differentiation disorder associated with steroid sulfatase deficiency (STS-sEDD) is a hereditary disorder of keratinization caused by mutations or deletions in the STS gene."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Aldona Pietrzak：Correspondence: Aldona Pietrzak, Department of Dermatology, Venereology and Paediatric Dermatology, Medical University of Lublin, Staszica 11, Lublin, 20-080, Poland, Email aldonapietrzak@umlub.pl",
-              "Introduction：Syndromic epidermal differentiation disorder (STS-sEDD) is a hereditary keratinization disorder caused by mutations or deletions in the STS gene.",
-              "Material and Methods：The study was based on a purposive, non-systematic review of Polish- and English-language literature published between 1960 and 2025.",
-              "Epidemiology and Prevalence：The first epidemiological reports on STS-sEDD appeared in the 1960s, when Wells and Kerr demonstrated that it was one of the most common hereditary metabolic disorders, with a prevalence of 1 in 2000–6000 males ( Table…",
-              "Pathogenesis and Clinical Spectrum of STS-s EED (XLI)：An analysis of literature provides a better understanding of the biological basis of STS-sEDD and the mechanisms responsible for its heterogeneous clinical presentation."
-            ]
-          }
-        ],
-        "key_findings": "Syndromic epidermal differentiation disorder associated with steroid sulfatase deficiency (STS-sEDD) is a hereditary disorder of keratinization caused by mutations or deletions in the STS gene.",
-        "research_method": "从全文结构看，文章按 Aldona Pietrzak、Introduction、Material and Methods、Epidemiology and Prevalence 展开。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "Aldona Pietrzak：Correspondence: Aldona Pietrzak, Department of Dermatology, Venereology and Paediatric Dermatology, Medical University of Lublin, Staszica 11, Lublin, 20-080, Poland, Email aldonapietrzak@umlub.pl",
-          "Introduction：Syndromic epidermal differentiation disorder (STS-sEDD) is a hereditary keratinization disorder caused by mutations or deletions in the STS gene.",
-          "Material and Methods：The study was based on a purposive, non-systematic review of Polish- and English-language literature published between 1960 and 2025.",
-          "Epidemiology and Prevalence：The first epidemiological reports on STS-sEDD appeared in the 1960s, when Wells and Kerr demonstrated that it was one of the most common hereditary metabolic disorders, with a prevalence of 1 in 2000–6000 males ( Table…"
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
+        "conclusion": "Attention-deficit/hyperactivity disorder (ADHD) symptoms are increasingly recognized in adulthood, particularly among university students, yet their distinct psychological correlates remain underexplored.",
         "china_insights": [
           "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
           "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
@@ -1103,7 +1247,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.742Z",
+    "ingested_at": "2026-03-06T16:37:41.472Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1145,7 +1289,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.743Z",
+    "ingested_at": "2026-03-06T16:37:41.473Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1186,195 +1330,13 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.124Z",
+    "ingested_at": "2026-03-06T16:37:40.377Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "chadd-feed"
       ]
-    }
-  },
-  {
-    "id": "academic-adhd-2026-41364631",
-    "source_name": "Epidemiology (Cambridge, Mass.)",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12824883/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12824883/",
-    "title_original": "Effect of School Reopenings on Children’s Mental Health during COVID-19: Quasi-Experimental Evidence from California",
-    "title_zh": "研究：Effect of School Reopenings on Children’s Mental Health during COVID-19: Quasi-Experimental Evidence from California",
-    "summary_original": "School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to mental health resources, raising concerns about long-term effects on childrens’ mental health. The objective was to evaluate impacts of pandemic-era school reopenings on children’s mental health and healthcare expenditures. Variation in timing of school reopenings created a unique quasi-experiment.",
-    "summary_zh": "基于学术全文自动解析：School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to men…",
-    "excerpt": "School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to mental health resources, raising concerns about long-term effects on childrens’ mental health. The objective was to evaluate impacts of pandemic-era scho…",
-    "language": "en",
-    "published_at": "2026-01-28T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "ADHD",
-      "教育",
-      "职场",
-      "神经多样性",
-      "政策与服务"
-    ],
-    "audiences": [
-      "self-advocate",
-      "educator",
-      "researcher",
-      "family",
-      "employer",
-      "clinician"
-    ],
-    "conditions": [
-      "adhd"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:39:05.138Z",
-    "metadata": {
-      "doi": "10.1097/EDE.0000000000001930",
-      "pmid": "41364631",
-      "authors": "Pelin Ozluk; Jeff Romine; Gosia Sylwestrzak; Rita Hamad",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12824883/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12824883/pdf/nihms-2132247.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "adhd-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Effect of School Reopenings on Children’s Mental Health during COVID-19: Quasi-Experimental Evidence from California》",
-        "publication_info": "Epidemiology (Cambridge, Mass.)，2026/1/29",
-        "authors_display": "Pelin Ozluk、Jeff Romine、Gosia Sylwestrzak、Rita Hamad",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Effect of School Reopenings on Children’s Mental Health during COVID-19: Quasi-Experimental Evidence from California",
-              "研究类型：学术研究。",
-              "核心摘要：School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to mental health resources, raising concerns about long-term effects on childrens’ mental health."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Rita Hamad：Address correspondence to: Pelin Ozluk, 1950 Lake Park Dr, Smyrna, GA 30080, [ pelinozluk@gmail.com ]",
-              "Background:：School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to mental health resources, raising concerns about long-term effects on childrens’ mental health.",
-              "Methods:：We used difference-in-differences analysis to examine how staggered implementation of school reopenings affected diagnoses with depression, anxiety, and attention-deficit/hyperactivity disorder, and related healthcare s…",
-              "Results:：School reopening was associated with a 1.2%-point drop in monthly prevalence of mental health diagnoses (95% CI: −1.59, −0.74), and a 10.6% (95%CI: −13.4%, −7.8%) drop in related healthcare spending.",
-              "Conclusions:：In-person learning is an important component of children’s mental health."
-            ]
-          }
-        ],
-        "key_findings": "School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to mental health resources, raising concerns about long-term effects on childrens’ mental health.",
-        "research_method": "从全文结构看，文章按 Rita Hamad、Background:、Methods:、Results: 展开。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "Rita Hamad：Address correspondence to: Pelin Ozluk, 1950 Lake Park Dr, Smyrna, GA 30080, [ pelinozluk@gmail.com ]",
-          "Background:：School closures during the COVID-19 pandemic disrupted children’s education, socialization, and access to mental health resources, raising concerns about long-term effects on childrens’ mental health.",
-          "Methods:：We used difference-in-differences analysis to examine how staggered implementation of school reopenings affected diagnoses with depression, anxiety, and attention-deficit/hyperactivity disorder, and related healthcare s…",
-          "Results:：School reopening was associated with a 1.2%-point drop in monthly prevalence of mental health diagnoses (95% CI: −1.59, −0.74), and a 10.6% (95%CI: −13.4%, −7.8%) drop in related healthcare spending."
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
-        ]
-      }
-    }
-  },
-  {
-    "id": "academic-adhd-2026-41589403",
-    "source_name": "European Journal of Psychotraumatology",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12849807/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12849807/",
-    "title_original": "Understanding the developmental impact of psychological maltreatment through the lens of the dimensional model of adversity and psychopathology",
-    "title_zh": "研究：PubMed 41589403",
-    "summary_original": "Background: Psychological maltreatment is linked to negative developmental outcomes in adolescents. It includes psychological abuse (PA) and psychological neglect (PN), which are commonly studied as a pair. This study applied the dimensional model ...",
-    "summary_zh": "基于学术全文自动解析：Background: Psychological maltreatment is linked to negative developmental outcomes in adolescents. It includ…",
-    "excerpt": "Background: Psychological maltreatment is linked to negative developmental outcomes in adolescents. It includes psychological abuse (PA) and psychological neglect (PN), which are commonly studied as a pair. This study applied the dimensional model ...",
-    "language": "en",
-    "published_at": "2026-01-26T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "ADHD",
-      "教育",
-      "职场",
-      "神经多样性"
-    ],
-    "audiences": [
-      "self-advocate",
-      "educator",
-      "researcher",
-      "family",
-      "employer"
-    ],
-    "conditions": [
-      "adhd"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:34:16.624Z",
-    "metadata": {
-      "doi": "10.1080/20008066.2026.2616980",
-      "pmid": "41589403",
-      "authors": "Meret Sophie Wallimann; Katharina Beck; David Cyrill Lätsch",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12849807/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12849807/pdf/ZEPT_17_2616980.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "adhd-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：PubMed 41589403》",
-        "publication_info": "European Journal of Psychotraumatology，2026/1/27",
-        "authors_display": "Meret Sophie Wallimann、Katharina Beck、David Cyrill Lätsch",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Understanding the developmental impact of psychological maltreatment through the lens of the dimensional model of adversity and psychopathology",
-              "研究类型：学术研究。",
-              "核心摘要：Background: Psychological maltreatment is linked to negative developmental outcomes in adolescents."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "David Cyrill Lätsch：Meret Sophie Wallimann meretsophie.wallimann@zhaw.ch School of Social Work, Institute of Childhood, Youth and Family, Zurich University of Applied Sciences, Pfingstweidstrasse 96, Zurich 8037, Switzerland",
-              "HIGHLIGHTS：Psychological abuse and psychological neglect involve distinct pathways to psychopathology, emphasising the need for differentiated research and intervention.",
-              "1. Introduction：Psychological maltreatment during childhood and adolescence is prevalent (Stoltenborgh et al., 2015 ), and it is related to a range of negative mental health outcomes (Xiao et al., 2023 ).",
-              "2. Aims：This study examined two distinct developmental correlates of PA and PN in a large sample of adolescents from different schools.",
-              "3.1. Procedure and sample：The study, consisting of an online survey, was conducted in 98 seventh- and ninth-grade classes at 33 schools."
-            ]
-          }
-        ],
-        "key_findings": "Background: Psychological maltreatment is linked to negative developmental outcomes in adolescents.",
-        "research_method": "从全文结构看，文章按 David Cyrill Lätsch、HIGHLIGHTS、1. Introduction、2. Aims 展开。",
-        "practical_significance": "Focusing on the differential impact of PA and PN improves our understanding of their unique qualities and helps us refine distinct risk groups.",
-        "strategy_points": [
-          "David Cyrill Lätsch：Meret Sophie Wallimann meretsophie.wallimann@zhaw.ch School of Social Work, Institute of Childhood, Youth and Family, Zurich University of Applied Sciences, Pfingstweidstrasse 96, Zurich 8037, Switzerland",
-          "HIGHLIGHTS：Psychological abuse and psychological neglect involve distinct pathways to psychopathology, emphasising the need for differentiated research and intervention.",
-          "1. Introduction：Psychological maltreatment during childhood and adolescence is prevalent (Stoltenborgh et al., 2015 ), and it is related to a range of negative mental health outcomes (Xiao et al., 2023 ).",
-          "2. Aims：This study examined two distinct developmental correlates of PA and PN in a large sample of adolescents from different schools."
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
-        ]
-      }
     }
   },
   {
@@ -1406,7 +1368,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动发布：官方来源。",
-    "ingested_at": "2026-03-06T15:39:03.552Z",
+    "ingested_at": "2026-03-06T16:37:09.529Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1446,104 +1408,13 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.125Z",
+    "ingested_at": "2026-03-06T16:37:40.378Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "chadd-feed"
       ]
-    }
-  },
-  {
-    "id": "academic-adhd-2026-41518864",
-    "source_name": "Developmental Cognitive Neuroscience",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12819026/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12819026/",
-    "title_original": "The development of dynamic networks supporting attentional flexibility",
-    "title_zh": "研究：PubMed 41518864",
-    "summary_original": "Attentional flexibility is a foundational component of human cognition and develops substantially throughout childhood. Although the neural activity supporting attentional flexibility has been well-characterised in adults, its developmental trajectory during childhood and adolescence remains poorly understood. Here, we used magnetoencephalography (MEG) to study brain network dynamics underlying attentional set-shifting. MEG data were collected from 63 participants aged 4 – 19 years, including 30 with a diagnosis of attention-deficit/hyperactivity disorder (ADHD). We applied dynamic network modes (DyNeMo), a multivariate generative modelling approach that infers a dynamic mixture of spectrally resolved “modes” that generate the observed data. We related the resulting mode dynamics to task condition (non-shift, implicit shift, explicit shift), reaction time (RT), accuracy, age and ADHD diagnosis. Greater attention shifting demands were associated with increased modulation of frontal theta and posterior alpha modes. Transient lapses in attention, indexed by slower RTs or incorrect responses, were likewise characterised by heightened modulation of these modes across all task conditions. Developmentally, older children showed higher overall activity in the frontal theta mode, and stronger post-stimulus modulation of both frontal theta and posterior alpha modes. No significant effects of ADHD diagnosis were observed on either behavioural performance or mode dynamics. Together, these findings provide mechanistic insight into large-scale network dynamics that support the maturation of attentional flexibility, and point to network signatures associated with momentary lapses in attention.",
-    "summary_zh": "基于学术全文自动解析：Attentional flexibility is a foundational component of human cognition and develops substantially throughout…",
-    "excerpt": "Attentional flexibility is a foundational component of human cognition and develops substantially throughout childhood. Although the neural activity supporting attentional flexibility has been well-characterised in adults, its developmental trajectory during…",
-    "language": "en",
-    "published_at": "2026-01-03T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "ADHD",
-      "教育",
-      "职场",
-      "神经多样性"
-    ],
-    "audiences": [
-      "self-advocate",
-      "educator",
-      "researcher",
-      "family",
-      "employer",
-      "clinician"
-    ],
-    "conditions": [
-      "adhd"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:34:16.624Z",
-    "metadata": {
-      "doi": "10.1016/j.dcn.2026.101669",
-      "pmid": "41518864",
-      "authors": "Sebastian C Coleman; Natalie Rhodes; Simeon M Wong; Karim Mithani; Nebras M Warsi; Hrishikesh Suresh; Evdokia Anagnostou; Jennifer Crosbie; Russell Schachar; Jason P Lerch; Margot J Taylor; George M Ibrahim",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12819026/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12819026/pdf/main.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "adhd-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：PubMed 41518864》",
-        "publication_info": "Developmental Cognitive Neuroscience，2026/1/4",
-        "authors_display": "Sebastian C Coleman、Natalie Rhodes、Simeon M Wong、Karim Mithani、Nebras M Warsi、Hrishikesh Suresh",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：The development of dynamic networks supporting attentional flexibility",
-              "研究类型：学术研究。",
-              "核心摘要：Attentional flexibility is a foundational component of human cognition and develops substantially throughout childhood."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "George M Ibrahim：Correspondence to: The Hospital for Sick Children, 686 Bay Street, Toronto, Ontario M5G 0A4, Canada.",
-              "1. Introduction：Attentional flexibility describes the ability to redirect attention in response to evolving sensory stimuli or internal goals ( Monsell, 2003 ).",
-              "2.1. Dataset：The data used in the study were collected at the Hospital for Sick Children, Toronto, Canada, between 2013 and 2017, by the Province of Ontario Neurodevelopmental (POND) network and enabled by grants awarded to MJT by t…",
-              "2.2. MEG acquisition：MEG data were acquired using a 151 whole-head CTF MEG system (Coquitlam, Canada), at 625 Hz, using synthetic third-order gradiometers.",
-              "2.3. Paradigm：During MEG acquisition, each subject completed a set-shifting task ( Doesburg et al., 2013 , Oh et al., 2014 , Mogadam et al., 2018 , Mogadam et al., 2019 )."
-            ]
-          }
-        ],
-        "key_findings": "Attentional flexibility is a foundational component of human cognition and develops substantially throughout childhood.",
-        "research_method": "从全文结构看，文章按 George M Ibrahim、1. Introduction、2.1. Dataset、2.2. MEG acquisition 展开。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "George M Ibrahim：Correspondence to: The Hospital for Sick Children, 686 Bay Street, Toronto, Ontario M5G 0A4, Canada.",
-          "1. Introduction：Attentional flexibility describes the ability to redirect attention in response to evolving sensory stimuli or internal goals ( Monsell, 2003 ).",
-          "2.1. Dataset：The data used in the study were collected at the Hospital for Sick Children, Toronto, Canada, between 2013 and 2017, by the Province of Ontario Neurodevelopmental (POND) network and enabled by grants awarded to MJT by t…",
-          "2.2. MEG acquisition：MEG data were acquired using a 151 whole-head CTF MEG system (Coquitlam, Canada), at 625 Hz, using synthetic third-order gradiometers."
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
-        ]
-      }
     }
   },
   {
@@ -1578,7 +1449,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.125Z",
+    "ingested_at": "2026-03-06T16:37:40.378Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1619,7 +1490,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.125Z",
+    "ingested_at": "2026-03-06T16:37:40.378Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1661,7 +1532,7 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.743Z",
+    "ingested_at": "2026-03-06T16:37:41.473Z",
     "metadata": {
       "credibility": "high",
       "tags": [
@@ -1703,195 +1574,13 @@
     ],
     "review_status": "approved",
     "review_notes": "自动抓取：RSS 来源。",
-    "ingested_at": "2026-03-06T15:39:14.743Z",
+    "ingested_at": "2026-03-06T16:37:41.473Z",
     "metadata": {
       "credibility": "high",
       "tags": [
         "rss-harvest",
         "caddac-feed"
       ]
-    }
-  },
-  {
-    "id": "academic-adhd-2026-41055221",
-    "source_name": "Journal of Attention Disorders",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953683/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953683/",
-    "title_original": "Academic Outcomes in Primary and Secondary School Students Prescribed Long-Acting Stimulants for ADHD Management",
-    "title_zh": "研究：Academic Outcomes in Primary and Secondary School Students Prescribed Long-Acting Stimulants for ADHD Management",
-    "summary_original": "This study examines the impact of long-acting stimulant (LAS) pharmacotherapy for ADHD on academic outcomes among students in grades K-12 using retrospective analysis of administrative data.",
-    "summary_zh": "基于学术全文自动解析：This study examines the impact of long-acting stimulant (LAS) pharmacotherapy for ADHD on academic outcomes a…",
-    "excerpt": "This study examines the impact of long-acting stimulant (LAS) pharmacotherapy for ADHD on academic outcomes among students in grades K-12 using retrospective analysis of administrative data.",
-    "language": "en",
-    "published_at": "2025-10-06T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "ADHD",
-      "教育",
-      "职场",
-      "神经多样性"
-    ],
-    "audiences": [
-      "self-advocate",
-      "educator",
-      "researcher",
-      "family",
-      "employer"
-    ],
-    "conditions": [
-      "adhd"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:39:05.138Z",
-    "metadata": {
-      "doi": "10.1177/10870547251378169",
-      "pmid": "41055221",
-      "authors": "Chris Folkins; Chandy Somayaji; Simerpal K Gill; James Ted McDonald",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953683/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953683/pdf/10.1177_10870547251378169.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "adhd-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：Academic Outcomes in Primary and Secondary School Students Prescribed Long-Acting Stimulants for ADHD Management》",
-        "publication_info": "Journal of Attention Disorders，2025/10/7",
-        "authors_display": "Chris Folkins、Chandy Somayaji、Simerpal K Gill、James Ted McDonald",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：Academic Outcomes in Primary and Secondary School Students Prescribed Long-Acting Stimulants for ADHD Management",
-              "研究类型：学术研究。",
-              "核心摘要：This study examines the impact of long-acting stimulant (LAS) pharmacotherapy for ADHD on academic outcomes among students in grades K-12 using retrospective analysis of administrative data."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "James Ted McDonald：Chris Folkins, University of New Brunswick, Room 304 Keirstead Hall, 38 Dineen Drive, Fredericton, NB E3B 5A3, Canada.",
-              "Objective:：This study examines the impact of long-acting stimulant (LAS) pharmacotherapy for ADHD on academic outcomes among students in grades K-12 using retrospective analysis of administrative data.",
-              "Methods:：ADHD diagnosis was identified based on ADHD management plans in school records, physician notes in billing records, and/or prescription records.",
-              "Results:：ADHD was associated with lower average report card scores and provincial assessment exam scores and increased frequency of school absence among grades K-12, and decreased likelihood of high school graduation and transit…",
-              "Conclusion:：LAS pharmacotherapy is associated with improved academic performance, attendance, and likelihood of graduation and transition to post-secondary education."
-            ]
-          }
-        ],
-        "key_findings": "This study examines the impact of long-acting stimulant (LAS) pharmacotherapy for ADHD on academic outcomes among students in grades K-12 using retrospective analysis of administrative data.",
-        "research_method": "从全文结构看，文章按 James Ted McDonald、Objective:、Methods:、Results: 展开。",
-        "practical_significance": "这篇文章适合继续整理成面向教师、家庭或支持人员的行动清单，而不是只停留在学术结论层。",
-        "strategy_points": [
-          "James Ted McDonald：Chris Folkins, University of New Brunswick, Room 304 Keirstead Hall, 38 Dineen Drive, Fredericton, NB E3B 5A3, Canada.",
-          "Objective:：This study examines the impact of long-acting stimulant (LAS) pharmacotherapy for ADHD on academic outcomes among students in grades K-12 using retrospective analysis of administrative data.",
-          "Methods:：ADHD diagnosis was identified based on ADHD management plans in school records, physician notes in billing records, and/or prescription records.",
-          "Results:：ADHD was associated with lower average report card scores and provincial assessment exam scores and increased frequency of school absence among grades K-12, and decreased likelihood of high school graduation and transit…"
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
-        ]
-      }
-    }
-  },
-  {
-    "id": "academic-adhd-2026-40391564",
-    "source_name": "Journal of Learning Disabilities",
-    "source_type": "academic",
-    "source_region": "国际",
-    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12906603/",
-    "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12906603/",
-    "title_original": "High-Incidence Learning-Related Disabilities, Gender, and Educational and Employment Outcomes in Young Adulthood",
-    "title_zh": "研究：High-Incidence Learning-Related Disabilities, Gender, and Educational and Employment Outcomes in Young Adulthood",
-    "summary_original": "The transition into post-secondary education or employment presents significant challenges for youth with high-incidence disabilities affecting learning, most commonly learning disabilities and attention-deficit/hyperactivity disorder. To date, few longitudinal studies investigate this transition in youth with learning-related disorders specifically, especially while considering education and employment outcomes simultaneously. This study examined relationships between learning-related disabilities requiring an individual intervention plan (Individualized Education Program [IEP]) in high school and key transition outcomes in early twenties in Quebec ( N = 513; 61.4% with an IEP; 51.0% male). Compared with their normative peers, youth with learning-related disabilities were less likely to graduate from high school and enroll in college; more likely to be neither in education, employment, or training (NEET); and equally likely to be employed, regardless of the job type (career-related or not). Young women with disabilities were particularly likely to be NEET, and the gender gap in college enrollment favoring women narrowed among those with disabilities. Gender and disability status appear to intersect to shape critical early adulthood outcomes.",
-    "summary_zh": "基于学术全文自动解析：The transition into post-secondary education or employment presents significant challenges for youth with hig…",
-    "excerpt": "The transition into post-secondary education or employment presents significant challenges for youth with high-incidence disabilities affecting learning, most commonly learning disabilities and attention-deficit/hyperactivity disorder. To date, few longitudin…",
-    "language": "en",
-    "published_at": "2025-05-19T16:00:00.000Z",
-    "content_type": "research",
-    "topics": [
-      "ADHD",
-      "教育",
-      "职场",
-      "神经多样性",
-      "学习困难"
-    ],
-    "audiences": [
-      "self-advocate",
-      "educator",
-      "researcher",
-      "family",
-      "employer"
-    ],
-    "conditions": [
-      "adhd",
-      "learning-difficulties"
-    ],
-    "review_status": "approved",
-    "review_notes": "自动发布：学术条目，已解析 PMC/PubMed 页面。",
-    "ingested_at": "2026-03-06T15:39:05.138Z",
-    "metadata": {
-      "doi": "10.1177/00222194251340054",
-      "pmid": "40391564",
-      "authors": "Julia Stamp; Véronique Dupéré; Mathieu Pelletier-Dumas; Jiseul Sophia Ahn; Isabelle Plante; Isabelle Archambault",
-      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12906603/",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12906603/pdf/10.1177_00222194251340054.pdf",
-      "credibility": "high",
-      "tags": [
-        "academic-search",
-        "adhd-2026",
-        "academic-enriched",
-        "html"
-      ],
-      "analysis": {
-        "template": "academic",
-        "summary_title": "《研究：High-Incidence Learning-Related Disabilities, Gender, and Educational and Employment Outcomes in Young Adulthood》",
-        "publication_info": "Journal of Learning Disabilities，2025/5/20",
-        "authors_display": "Julia Stamp、Véronique Dupéré、Mathieu Pelletier-Dumas、Jiseul Sophia Ahn、Isabelle Plante、Isabelle Archambault",
-        "content_sections": [
-          {
-            "title": "文章概览",
-            "items": [
-              "原文题目：High-Incidence Learning-Related Disabilities, Gender, and Educational and Employment Outcomes in Young Adulthood",
-              "研究类型：干预研究。",
-              "核心摘要：The transition into post-secondary education or employment presents significant challenges for youth with high-incidence disabilities affecting learning, most commonly learning disabilities and attention-deficit/hyperactivity disorder."
-            ]
-          },
-          {
-            "title": "正文结构",
-            "items": [
-              "Isabelle Archambault , PhD：Véronique Dupéré, École de Psychoéducation, Université de Montréal, Local C-422, Pavillon Marie-Victorin, 90 Avenue Vincent D’Indy, Montréal, Québec, Canada H2V 2S9.",
-              "Transition Out of Compulsory Schooling and Into Education or Employment：The transition out of compulsory schooling is a significant developmental milestone for youth and involves important decisions, one such decision typically being whether to pursue continued education (e.g., college, voc…",
-              "Youth With Learning-Related Disabilities：These trends toward higher educational expectations and attainment pose challenges for youth with high-incidence disabilities, a term used to denote disabilities found among students in the education system typically in…",
-              "Learning-Related Disabilities, Compulsory Schooling, and Post-Secondary Education：Even with the implementation of IEPs, most students with high-incidence learning-related disabilities continue to experience academic delays and difficulties both during and out of compulsory schooling ( Grigorenko et a…",
-              "High-Incidence Disabilities and Participation in Employment：As an alternative to post-secondary education, many young people with high-incidence disabilities seek rapid entry into the workforce after high school ( Murray et al., 2021 )."
-            ]
-          }
-        ],
-        "key_findings": "The transition into post-secondary education or employment presents significant challenges for youth with high-incidence disabilities affecting learning, most commonly learning disabilities and attention-deficit/hyperac…",
-        "research_method": "从全文结构看，文章按 Isabelle Archambault , PhD、Transition Out of Compulsory Schooling and Into Education or Employment、Youth With Learning-Related Disabilities、Learning-Related Disabilities, Compulsory Schooling, and Post-Secondary Education 展开。",
-        "practical_significance": "This study sheds light on the continued challenges that youth with learning-related disabilities face during and after compulsory schooling, as even with the implementation of an IEP, many continue to face disadvantages…",
-        "strategy_points": [
-          "Isabelle Archambault , PhD：Véronique Dupéré, École de Psychoéducation, Université de Montréal, Local C-422, Pavillon Marie-Victorin, 90 Avenue Vincent D’Indy, Montréal, Québec, Canada H2V 2S9.",
-          "Transition Out of Compulsory Schooling and Into Education or Employment：The transition out of compulsory schooling is a significant developmental milestone for youth and involves important decisions, one such decision typically being whether to pursue continued education (e.g., college, voc…",
-          "Youth With Learning-Related Disabilities：These trends toward higher educational expectations and attainment pose challenges for youth with high-incidence disabilities, a term used to denote disabilities found among students in the education system typically in…",
-          "Learning-Related Disabilities, Compulsory Schooling, and Post-Secondary Education：Even with the implementation of IEPs, most students with high-incidence learning-related disabilities continue to experience academic delays and difficulties both during and out of compulsory schooling ( Grigorenko et a…"
-        ],
-        "conclusion": "National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894",
-        "china_insights": [
-          "把论文结论转成中文内容时，最好补上学校、医院和家庭在国内现实环境中的可执行步骤，而不只停留在概念层。",
-          "如果文章讨论的是评估、支持或干预，落地时要同时说明资源门槛、转介路径和家校协作成本。",
-          "对 ADHD 主题，中文读者通常更需要任务拆解、作息管理和学校/职场沟通的具体范例。"
-        ]
-      }
     }
   }
 ]

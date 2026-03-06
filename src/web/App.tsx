@@ -219,13 +219,12 @@ function getAcademicCoverFields(item: ContentItem): Array<{ label: string; value
   return fields;
 }
 
-function getAcademicCardFields(item: ContentItem): Array<{ label: string; value: string; href?: string }> {
-  const fields = getAcademicCoverFields(item);
-  const wantedLabels = ["原文链接", "发表信息", "核心发现", "研究方法", "实践意义", "策略要点"];
-  return wantedLabels
-    .map((label) => fields.find((field) => field.label === label))
-    .filter((field): field is { label: string; value: string; href?: string } => Boolean(field))
-    .slice(0, 6);
+function getCardPublicationInfo(item: ContentItem): string {
+  return item.metadata.analysis?.publication_info || `${item.source_name}，${formatDate(item.published_at)}`;
+}
+
+function getCardKeyFinding(item: ContentItem): string {
+  return item.metadata.analysis?.key_findings || item.summary_zh || item.summary_original || item.excerpt;
 }
 
 function getBaseText(item: ContentItem): string {
@@ -625,25 +624,23 @@ function LatestSection(props: { items: ContentItem[]; lastUpdated: string }) {
                 <div className="card__meta">
                   <span>{labels.sourceType[item.source_type]}</span>
                   <span>{item.source_region}</span>
-                  <span>{formatDate(item.published_at)}</span>
+                  <span>{labels.contentType[item.content_type]}</span>
                 </div>
                 <h3>{getDisplayTitle(item)}</h3>
-                <p className="card__original">{item.title_original}</p>
-                <p>{item.summary_zh}</p>
-                <div className="tag-row">
-                  {item.topics.slice(0, 4).map((topic) => (
-                    <span key={topic} className="tag">
-                      {topic}
-                    </span>
-                  ))}
+                <div className="academic-cover">
+                  <p className="academic-cover__line">
+                    <strong>发表信息：</strong>
+                    <span className="academic-cover__value">{getCardPublicationInfo(item)}</span>
+                  </p>
+                  <p className="academic-cover__line">
+                    <strong>核心发现：</strong>
+                    <span className="academic-cover__value">{getCardKeyFinding(item)}</span>
+                  </p>
                 </div>
                 <div className="card__actions">
                   <button className="detail-button" onClick={() => openDetail(item.id)}>
                     详情
                   </button>
-                  <a href={item.source_url} target="_blank" rel="noreferrer">
-                    查看原始来源
-                  </a>
                 </div>
               </article>
             ))}
@@ -696,30 +693,23 @@ function AcademicHighlightsSection(props: { items: ContentItem[] }) {
             <div className="card__meta">
               <span>学术精读</span>
               <span>{item.source_name}</span>
-              <span>{formatDate(item.published_at)}</span>
+              <span>{labels.contentType[item.content_type]}</span>
             </div>
             <h3>{getDisplayTitle(item)}</h3>
             <div className="academic-cover">
-              {getAcademicCardFields(item).map((field) => (
-                <p key={`${item.id}-${field.label}`} className="academic-cover__line">
-                  <strong>{field.label}：</strong>
-                  {field.href ? (
-                    <a className="academic-cover__value" href={field.href} target="_blank" rel="noreferrer">
-                      {field.value}
-                    </a>
-                  ) : (
-                    <span className="academic-cover__value">{field.value}</span>
-                  )}
-                </p>
-              ))}
+              <p className="academic-cover__line">
+                <strong>发表信息：</strong>
+                <span className="academic-cover__value">{getCardPublicationInfo(item)}</span>
+              </p>
+              <p className="academic-cover__line">
+                <strong>核心发现：</strong>
+                <span className="academic-cover__value">{getCardKeyFinding(item)}</span>
+              </p>
             </div>
             <div className="card__actions">
               <button className="detail-button" onClick={() => openDetail(item.id)}>
-                进入精读详情
+                详情
               </button>
-              <a href={item.source_url} target="_blank" rel="noreferrer">
-                查看原始来源
-              </a>
             </div>
           </article>
         ))}
@@ -1095,8 +1085,8 @@ function HomePage() {
       <section className="panel empty">
         最后更新时间（北京时间）：{lastUpdated}
       </section>
-      <AcademicHighlightsSection items={academicHighlights} />
       <LatestSection items={latestItems} lastUpdated={lastUpdated} />
+      <AcademicHighlightsSection items={academicHighlights} />
       <BrowseNav mode={browseMode} setMode={setBrowseMode} />
       <FiltersPanel filters={filters} setFilters={setFilters} />
       {loading ? <section className="panel empty">内容索引加载中…</section> : null}
